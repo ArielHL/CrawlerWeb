@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler('WC_3/Logs/log.txt'), logging.StreamHandler()]
+    handlers=[logging.FileHandler('src/WC_3/Logs/log.txt'), logging.StreamHandler()]
 )
 
 # *********************************************************************************************
