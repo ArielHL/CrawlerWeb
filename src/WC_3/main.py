@@ -1,3 +1,9 @@
+import os
+workingPAth=r'c:\Users\Ariel\OneDrive\Programacion\REPOS\CrawlerWeb'
+os.chdir(workingPAth)
+os.getcwd()
+
+
 import threading
 import queue
 from queue import Queue
@@ -26,9 +32,9 @@ DOMAIN_NAME = get_domain_name(HOMEPAGE)
 SORT_WORDS_LIST = ['BLOWERS','PRODUCTS']
 QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'
 CRAWLED_FILE = 'company/'+ PROJECT_NAME + '/crawled.json'
-NUMBER_OF_THREADS = 1
-CRAWLED_SIZE_LIMIT = 5
-LINKS_LIMIT = 1
+NUMBER_OF_THREADS = 10
+CRAWLED_SIZE_LIMIT = 50
+LINKS_LIMIT = 50
 
 # Create Queue instance
 queue = Queue()
@@ -42,9 +48,6 @@ spider=Spider(project_name=PROJECT_NAME,
               crawled_size=CRAWLED_SIZE_LIMIT,
               links_limit=LINKS_LIMIT,
              )
-
-stop_event = threading.Event()
-
 
 # *******************************************************************************************************************
 
@@ -74,11 +77,11 @@ def create_jobs():
             queue.join()
             crawl()
         except RuntimeError as e:
-            pass
+            logger.error(f'RuntimeError: {str(e)}')
     else:
         logger.info(f'crawled size is more than the limit -- limit: {spider.crawled_size} and crawled size: {len(spider.crawled)}')
-        stop_event.set()
-        sys.exit()
+        spider.queue.clear()
+        
    
 # *******************************************************************************************************************   
         
@@ -96,17 +99,13 @@ def work():
     while not stop_event.is_set() :
         
         if len(spider.crawled) >= spider.crawled_size:
-            logger.info(f'crawled size is more than the limit -- Worker {threading.current_thread().name} is stopping')
             stop_event.set()
-            spider.queue.clear()
+            
         else:   
             url = queue.get() 
             spider.crawl_page(threading.current_thread().name, url)
             queue.task_done()
    
-
-   
-
 # *******************************************************************************************************************
         
 if __name__ == '__main__':

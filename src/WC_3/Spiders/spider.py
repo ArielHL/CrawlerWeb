@@ -32,7 +32,7 @@ class Spider:
                  base_url:str,
                  domain_name:str,
                  keywords_list:List[str],
-                 links_limit:int=2,
+                 links_limit:int=10,
                  crawled_size:int = 100,
                  queue_file:str=None,
                  crawled_file:str=None):
@@ -153,7 +153,7 @@ class Spider:
 
 
     @staticmethod
-    def add_links_to_queue(links:list,links_limit:int=50):
+    def add_links_to_queue(links:list,links_limit:int) -> None:
         """_summary_
         This add the links to the queue if they are not already in the 
         queue or crawled
@@ -169,7 +169,7 @@ class Spider:
         
         # Sort temporary list
         links=Spider.sort_links(keywords=Spider.sort_keywords_list,
-                          target_list=links)
+                                target_list=links)
         
         # avoid duplication
         links=[link for link in links if link not in Spider.queue and link not in Spider.crawled]
