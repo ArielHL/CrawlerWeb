@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor
 import threading
 import queue
 from queue import Queue
@@ -34,89 +35,70 @@ LINKS_LIMIT = 1
 queue = Queue()
 stop_event = threading.Event()
 
+
+# *******************************************************************************************************************
+    
 # create spider instance
 spider=Spider(project_name=PROJECT_NAME,
-              base_url=HOMEPAGE,
-              domain_name=DOMAIN_NAME,
-              keywords_list=SORT_WORDS_LIST,
-              crawled_size=CRAWLED_SIZE_LIMIT,
-              links_limit=LINKS_LIMIT,
-             )
-
-stop_event = threading.Event()
+            base_url=HOMEPAGE,
+            domain_name=DOMAIN_NAME,
+            keywords_list=SORT_WORDS_LIST,
+            crawled_size=CRAWLED_SIZE_LIMIT,
+            links_limit=LINKS_LIMIT,
+            )
 
 
 # *******************************************************************************************************************
-
-def crawl():
-    """
-    Read queue and crawled file into memory
-    call the create jobs function
     
-    """
-
-    if len(spider.queue) > 0 and len(spider.crawled) < spider.crawled_size:
-    
-        print(str(len(spider.queue)) + ' links in the queue and ' + str(len(spider.crawled)) + ' crawled links' )
-        create_jobs()
-
-# *******************************************************************************************************************
-      
-def create_jobs():
-    """_summary_
-    Iterate over the queue set and put the links in the queue
-    """
+def create_jobs(spider, queue, stop_event):
     if len(spider.crawled) < spider.crawled_size:
         logger.info(f'crawled size is less than the limit -- limit: {spider.crawled_size} and crawled size: {len(spider.crawled)}')
         try:
-            for link in spider.queue: 
+            for link in spider.queue:
                 queue.put(link)
             queue.join()
-            crawl()
+            crawl(spider, queue, stop_event)
         except RuntimeError as e:
-            pass
+            logger.error('RuntimeError: ' + str(e))
     else:
         logger.info(f'crawled size is more than the limit -- limit: {spider.crawled_size} and crawled size: {len(spider.crawled)}')
         stop_event.set()
-        sys.exit()
-   
-# *******************************************************************************************************************   
-        
-def create_workers():
-
-    for _ in range(NUMBER_OF_THREADS):
-        t = threading.Thread(target=work,daemon=True)
-        t.start()
-
 
 # *******************************************************************************************************************
-   
+
+def crawl(spider, queue, stop_event):
+    while not stop_event.is_set():
+        if len(spider.queue) > 0 and len(spider.crawled) < spider.crawled_size:
+            logger.info(str(len(spider.queue)) + ' links in the queue and ' + str(len(spider.crawled)) + ' crawled links')
+            create_jobs(spider, queue, stop_event)
+
+
 def work():
-    
     while not stop_event.is_set() :
-        
-        if len(spider.crawled) >= spider.crawled_size:
-            logger.info(f'crawled size is more than the limit -- Worker {threading.current_thread().name} is stopping')
-            stop_event.set()
-            spider.queue.clear()
-        else:   
-            url = queue.get() 
+        try:
+            url = queue.get(timeout=5) 
             spider.crawl_page(threading.current_thread().name, url)
             queue.task_done()
-   
+        except queue.Empty:
+            pass
 
-   
+# *******************************************************************************************************************
+    
+def main():
+            
+    with concurrent.futures.ThreadPoolExecutor(max_workers=NUMBER_OF_THREADS) as executor:
+        # Initialize the worker threads
+        for _ in range(NUMBER_OF_THREADS):
+            executor.submit(work, spider, queue, stop_event)
+
+
 
 # *******************************************************************************************************************
         
 if __name__ == '__main__':
     start=time.perf_counter()
 
-    # initialize the worker threads waiting for adding links to the queue
-    create_workers()
-
-    # add links to the queue
-    crawl()
+    main()
     
     end=time.perf_counter()
     print(f' \n Processed: {len(spider.crawled)}    \n Finished in {round(end-start,2)} seconds')
