@@ -2,6 +2,7 @@ from urllib.request import urlopen, Request
 from urllib import error
 from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
+from os import path, getcwd
 
 import logging
 
@@ -34,8 +35,7 @@ class Spider:
                  keywords_list:List[str],
                  links_limit:int=10,
                  crawled_size:int = 100,
-                 queue_file:str=None,
-                 crawled_file:str=None):
+                 project_path:str=None):
         
         # defining class parameters
         Spider.project_name = project_name
@@ -43,8 +43,10 @@ class Spider:
         Spider.domain_name = domain_name
         Spider.sort_keywords_list = [word.lower() for word in keywords_list]
         Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.png','.ico','php','css','feed','xlm']
-        Spider.queue_file = queue_file if queue_file else Spider.project_name + '/queue.json'
-        Spider.crawled_file = crawled_file if crawled_file else Spider.project_name + '/crawled.json'
+        
+        Spider.project_path = project_path if project_path else os.path.join(os.getcwd(),'companies',Spider.project_name) 
+        Spider.queue_file =  Spider.project_path + '/queue.json'
+        Spider.crawled_file = Spider.project_path + '/crawled.json'
         Spider.links_limit = links_limit
         Spider.crawled_size = crawled_size
         
@@ -57,9 +59,9 @@ class Spider:
     @staticmethod    
     def boot():
         # create a project directory
-        create_project_dir(Spider.project_name)
+        create_project_dir(Spider.project_path)
         # create queue and crawled files if not created
-        create_data_files(Spider.project_name, Spider.base_url)
+        create_data_files(Spider.project_path, Spider.base_url)
         # load queue and crawled files
         Spider.queue = file_to_list(Spider.queue_file)
         Spider.crawled = file_to_list(Spider.crawled_file)

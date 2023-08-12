@@ -27,15 +27,15 @@ logging.basicConfig(
 
 sys.setrecursionlimit(2000000)
 
-PROJECT_NAME = 'VEA'
-HOMEPAGE =  'https://www.laescuelitavea.org.ar/'
+PROJECT_NAME = 'AERZEN_10'
+HOMEPAGE =  'https://www.aerzen.com/en-es.html/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
-SORT_WORDS_LIST = ['JARDIN','PRIMARIA']
+SORT_WORDS_LIST = ['BLOWERS','PRODUCTS']
 QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'
 CRAWLED_FILE = 'company/'+ PROJECT_NAME + '/crawled.json'
-NUMBER_OF_THREADS = 25
-CRAWLED_SIZE_LIMIT = 100
-LINKS_LIMIT = 25
+NUMBER_OF_THREADS = 30
+CRAWLED_SIZE_LIMIT = 20
+LINKS_LIMIT = 20
 
 # *********************************************************************************************
 
@@ -63,42 +63,47 @@ def crawl():
     call the create jobs function
     
     """
-
     while len(spider.queue) > 0:
         if not stop_event.is_set():
-                try:
-                    for link in spider.queue: 
-                        queue.put(link)
-                    queue.join()
-                   
-                except RuntimeError as e:
-                    logger.error(f'RuntimeError: {str(e)}')
+            try:
+                for link in spider.queue: 
+                    queue.put(link)
+                queue.join()
+                
+            except RuntimeError as e:
+                logger.error(f'RuntimeError: {str(e)}')
         else:
-            logger.info(f'stop_event.is_set(): {stop_event.is_set()}, Queue Left:  {len(spider.queue)} with maximum Size {CRAWLED_SIZE_LIMIT}')
-            return
-    
-
+            spider.queue.clear()
+            while not queue.empty():
+                queue.get()
+            logger.info('Queue has been cleared')
 # *******************************************************************************************************************   
         
 def create_workers():
+
+    # threads_list=[]
 
     for _ in range(NUMBER_OF_THREADS):
         t = threading.Thread(target=work,daemon=True)
         t.start()
 
+    # for thread in threads_list:
+    #     thread.join()
+    
 # *******************************************************************************************************************
    
 def work():
     
     while not stop_event.is_set() :
         if not len(spider.crawled) >= CRAWLED_SIZE_LIMIT:
-        
             url = queue.get()
             spider.crawl_page(threading.current_thread().name, url)
             queue.task_done()
         else:
             stop_event.set()
-           
+    else:
+        logger.info('Stop event is set, exiting...')
+        return 
             
 # *******************************************************************************************************************
         
