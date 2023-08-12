@@ -169,7 +169,7 @@ class Spider:
         
         # Sort temporary list
         links=Spider.sort_links(keywords=Spider.sort_keywords_list,
-                                target_list=links)
+                          target_list=links)
         
         # avoid duplication
         links=[link for link in links if link not in Spider.queue and link not in Spider.crawled]

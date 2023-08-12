@@ -5,8 +5,9 @@ os.getcwd()
 
 
 import threading
+from concurrent.futures import ThreadPoolExecutor
 import queue
-from queue import Queue
+from queue import Queue, Empty
 from Spiders.spider import Spider
 from MiddleWares.middlewares import *
 import time
@@ -26,15 +27,18 @@ logging.basicConfig(
 
 sys.setrecursionlimit(2000000)
 
-PROJECT_NAME = 'AERZEN'
-HOMEPAGE =  'https://www.aerzen.com/en-es.html'
+PROJECT_NAME = 'VEA'
+HOMEPAGE =  'https://www.laescuelitavea.org.ar/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
-SORT_WORDS_LIST = ['BLOWERS','PRODUCTS']
+SORT_WORDS_LIST = ['JARDIN','PRIMARIA']
 QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'
 CRAWLED_FILE = 'company/'+ PROJECT_NAME + '/crawled.json'
-NUMBER_OF_THREADS = 10
-CRAWLED_SIZE_LIMIT = 50
-LINKS_LIMIT = 50
+NUMBER_OF_THREADS = 5
+CRAWLED_SIZE_LIMIT = 10000
+LINKS_LIMIT = 25
+
+# *********************************************************************************************
+
 
 # Create Queue instance
 queue = Queue()
@@ -49,6 +53,8 @@ spider=Spider(project_name=PROJECT_NAME,
               links_limit=LINKS_LIMIT,
              )
 
+
+
 # *******************************************************************************************************************
 
 def crawl():
@@ -58,31 +64,20 @@ def crawl():
     
     """
 
-    if len(spider.queue) > 0 and len(spider.crawled) < spider.crawled_size:
+    while len(spider.queue) > 0:
+        if not stop_event.is_set():
+                try:
+                    for link in spider.queue: 
+                        queue.put(link)
+                    queue.join()
+                    crawl()
+                except RuntimeError as e:
+                    logger.error(f'RuntimeError: {str(e)}')
+        else:
+            logger.info(f'stop_event.is_set(): {stop_event.is_set()}, Queue Left:  {len(spider.queue)} with maximum Size {CRAWLED_SIZE_LIMIT}')
+            return
     
-        print(str(len(spider.queue)) + ' links in the queue and ' + str(len(spider.crawled)) + ' crawled links' )
-        create_jobs()
 
-# *******************************************************************************************************************
-      
-def create_jobs():
-    """_summary_
-    Iterate over the queue set and put the links in the queue
-    """
-    if len(spider.crawled) < spider.crawled_size:
-        logger.info(f'crawled size is less than the limit -- limit: {spider.crawled_size} and crawled size: {len(spider.crawled)}')
-        try:
-            for link in spider.queue: 
-                queue.put(link)
-            queue.join()
-            crawl()
-        except RuntimeError as e:
-            logger.error(f'RuntimeError: {str(e)}')
-    else:
-        logger.info(f'crawled size is more than the limit -- limit: {spider.crawled_size} and crawled size: {len(spider.crawled)}')
-        spider.queue.clear()
-        
-   
 # *******************************************************************************************************************   
         
 def create_workers():
@@ -91,21 +86,23 @@ def create_workers():
         t = threading.Thread(target=work,daemon=True)
         t.start()
 
-
 # *******************************************************************************************************************
    
 def work():
     
     while not stop_event.is_set() :
-        
-        if len(spider.crawled) >= spider.crawled_size:
-            stop_event.set()
-            
-        else:   
-            url = queue.get() 
+        if not len(spider.crawled) >= CRAWLED_SIZE_LIMIT:
+            try:
+                url = queue.get(timeout=10)
+            except Empty:
+                logger.info(f'Queue is empty')
+                break   
             spider.crawl_page(threading.current_thread().name, url)
             queue.task_done()
-   
+        else:
+            stop_event.set()
+           
+            
 # *******************************************************************************************************************
         
 if __name__ == '__main__':
@@ -119,3 +116,5 @@ if __name__ == '__main__':
     
     end=time.perf_counter()
     print(f' \n Processed: {len(spider.crawled)}    \n Finished in {round(end-start,2)} seconds')
+    print('\n')
+    print(f'stop_event.is_set(): {stop_event.is_set()}, Queue Left:  {len(spider.queue)} with maximum Size {CRAWLED_SIZE_LIMIT}')
