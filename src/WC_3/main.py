@@ -33,8 +33,8 @@ DOMAIN_NAME = get_domain_name(HOMEPAGE)
 SORT_WORDS_LIST = ['JARDIN','PRIMARIA']
 QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'
 CRAWLED_FILE = 'company/'+ PROJECT_NAME + '/crawled.json'
-NUMBER_OF_THREADS = 5
-CRAWLED_SIZE_LIMIT = 10000
+NUMBER_OF_THREADS = 25
+CRAWLED_SIZE_LIMIT = 100
 LINKS_LIMIT = 25
 
 # *********************************************************************************************
@@ -70,7 +70,7 @@ def crawl():
                     for link in spider.queue: 
                         queue.put(link)
                     queue.join()
-                    crawl()
+                   
                 except RuntimeError as e:
                     logger.error(f'RuntimeError: {str(e)}')
         else:
@@ -92,11 +92,8 @@ def work():
     
     while not stop_event.is_set() :
         if not len(spider.crawled) >= CRAWLED_SIZE_LIMIT:
-            try:
-                url = queue.get(timeout=10)
-            except Empty:
-                logger.info(f'Queue is empty')
-                break   
+        
+            url = queue.get()
             spider.crawl_page(threading.current_thread().name, url)
             queue.task_done()
         else:
@@ -117,4 +114,4 @@ if __name__ == '__main__':
     end=time.perf_counter()
     print(f' \n Processed: {len(spider.crawled)}    \n Finished in {round(end-start,2)} seconds')
     print('\n')
-    print(f'stop_event.is_set(): {stop_event.is_set()}, Queue Left:  {len(spider.queue)} with maximum Size {CRAWLED_SIZE_LIMIT}')
+    print(f'stop_event.is_set(): {stop_event.is_set()}, \nQueue Left:  {len(spider.queue)} with maximum Size {CRAWLED_SIZE_LIMIT}')
