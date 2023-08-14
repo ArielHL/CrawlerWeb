@@ -26,7 +26,7 @@ logging.basicConfig(
 # *********************************************************************************************
 # ****************************  CONFIGURATIONS  ***********************************************
 
-PROJECT_NAME = 'VEA_NEW'
+PROJECT_NAME = 'VEA_NEW_5'
 HOMEPAGE =  'https://www.laescuelitavea.org.ar/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'

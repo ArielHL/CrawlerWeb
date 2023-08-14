@@ -92,14 +92,11 @@ def list_to_file(links:list,
                 html_string:list=None,
                 html_lang:list=None) -> None:
    
- 
-    
 
-    
     if 'crawled' in file:
         
         crawler_dict={'Project':project_name,'url_base':url_base,'url':list(links),
-                     'html_string':list(html_string),'html_lang': list()}
+                     'html_string':list(html_string),'html_lang': list(html_lang)}
     
         with open(file,'w') as f:
             json.dump(crawler_dict,f)

@@ -3,6 +3,7 @@ from urllib import error
 from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
 from os import path, getcwd
+from bs4 import BeautifulSoup
 
 import logging
 
@@ -121,8 +122,10 @@ class Spider:
             response = urlopen(request)
             response_status = response.getcode()
             
+            # Checking if the response is valid
             if 200 <= response_status < 300:
                 
+                # Checking if the response is html
                 if 'text/html' in response.getheader('Content-Type'):
                     html_bytes = response.read()
                     html_string = html_bytes.decode('utf-8')
@@ -133,12 +136,28 @@ class Spider:
                 # process html_string and extract links and stores in _links
                 finder.feed(html_string)
                 
+                # add html_string to html list
                 list_add(value=html_string,my_list=Spider.html) 
+            
+            # detect the language of the html_string and add it to html_lang list   
+            language = response.getheader('Content-Language')
+            
+            if language == None:
+            
+                soup = BeautifulSoup(html_string, 'html.parser')                                                 # create a soup object
+                list_of_string = soup.text.split("\n")                                                          # get the text of the soup object
+                first_string = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]     # get only the words
+
+                max_string = max(first_string, key=len)                                                                  # get the largest sentence
+                language = detect(max_string)                                                                            # detect the language
+                    
+
+            Spider.html_lang.append(language)
 
         except Exception as e:
             # logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
             self.html_string_status = False
-            return list(),list()
+            return list()
         
         return finder.page_links()
     
@@ -205,7 +224,8 @@ class Spider:
                     file=Spider.crawled_file,
                     project_name=Spider.project_name,
                     url_base=Spider.base_url,
-                    html_string=Spider.html)
+                    html_string=Spider.html,
+                    html_lang=Spider.html_lang)
 
         
     
