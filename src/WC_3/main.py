@@ -24,17 +24,17 @@ logging.basicConfig(
 )
 
 # *********************************************************************************************
+# ****************************  CONFIGURATIONS  ***********************************************
 
-
-PROJECT_NAME = 'AERZEN_4'
-HOMEPAGE =  'https://www.aerzen.com/en-es.html/'
-# HOMEPAGE =  'https://www.laescuelitavea.com.ar/'
+PROJECT_NAME = 'PWC_ARG'
+HOMEPAGE =  'https://www.pwc.com.ar/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
-SORT_WORDS_LIST = ['BLOWERS','PRODUCTS']
 QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'
 CRAWLED_FILE = 'company/'+ PROJECT_NAME + '/crawled.json'
-NUMBER_OF_THREADS = 50
-CRAWLED_SIZE_LIMIT = 1000
+
+SORT_WORDS_LIST = ['ACCELERATION CENTER','ANALYTIC']
+NUMBER_OF_THREADS = 100
+CRAWLED_SIZE_LIMIT = 5000
 LINKS_LIMIT = 100
 
 # *********************************************************************************************
@@ -52,7 +52,6 @@ spider=Spider(project_name=PROJECT_NAME,
               crawled_size=CRAWLED_SIZE_LIMIT,
               links_limit=LINKS_LIMIT,
              )
-
 
 
 # *******************************************************************************************************************
