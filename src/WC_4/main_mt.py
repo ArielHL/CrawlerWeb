@@ -112,9 +112,9 @@ def main(project_name:str, homepage:str):
     crawl()
     
     end=time.perf_counter()
-    logger.info(f'\nProcessed: {len(spider.crawled)}    \nFinished in {round(end-start,2)} seconds')
-    logger.info('\n')
-    logger.info(f'\nQueue Left:  {len(spider.queue)} with maximum Size {CRAWLED_SIZE_LIMIT}')
+    
+    logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
+ 
 
        
 # *******************************************************************************************************************
@@ -125,9 +125,17 @@ if __name__ == '__main__':
     df=pd.read_excel(path)
     
     start=time.perf_counter()
-    for index, row in df.iterrows():
-        main(row['Company'],row['WebSite'])
+    
+    # Setting number of workers (one for company)
+    num_workers=df.shape[0]
+    
+    # Create the ThreadPoolExecutor instance
+    with ThreadPoolExecutor(max_workers=num_workers) as executor:
+        for index, row in df.iterrows():
+            executor.submit(main, row['Company'],row['WebSite'])
+  
+    
     end=time.perf_counter()
-    print(f'\nFinished in {round(end-start,2)} seconds')
+    logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
     
     
