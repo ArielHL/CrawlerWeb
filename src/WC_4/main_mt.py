@@ -5,7 +5,8 @@ os.chdir(workingPAth)
 
 import pandas as pd
 import threading
-from concurrent.futures import ThreadPoolExecutor
+
+import multiprocessing
 import queue
 from queue import Queue, Empty
 from Spiders.spider import Spider
@@ -19,12 +20,12 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler('src/WC_3/Logs/log.txt'), logging.StreamHandler()]
+    handlers=[logging.FileHandler('src/WC_4/Logs/log.txt'), logging.StreamHandler()]
 )
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['PRIMARIA','JARDIN']
+SORT_WORDS_LIST = ['PRIMARIA','JARDIN','CONTACTO','INICIAL','SECUNDARIO']
 NUMBER_OF_THREADS = 30
 CRAWLED_SIZE_LIMIT = 100
 LINKS_LIMIT = 100
@@ -79,10 +80,12 @@ def main(project_name:str, homepage:str):
         Create worker threads (will die when main exits)
         
         """
-        
+     
         for _ in range(NUMBER_OF_THREADS):
-            t = threading.Thread(target=work,daemon=True)
+            t = threading.Thread(target=work,daemon=False)
             t.start()
+            
+     
 
 
     def work():
@@ -129,12 +132,12 @@ if __name__ == '__main__':
     # Setting number of workers (one for company)
     num_workers=df.shape[0]
     
-    # Create the ThreadPoolExecutor instance
-    with ThreadPoolExecutor(max_workers=num_workers) as executor:
-        for index, row in df.iterrows():
-            executor.submit(main, row['Company'],row['WebSite'])
-  
-    
+    # Create a multiprocessing pool
+    with multiprocessing.Pool(processes=num_workers) as pool:
+        pool.starmap(main, [(row['Company'], row['WebSite']) for index, row in df.iterrows()])
+        
+
+
     end=time.perf_counter()
     logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
     

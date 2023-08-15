@@ -4,6 +4,7 @@ from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
 from os import path, getcwd
 from bs4 import BeautifulSoup
+import threading
 
 import logging
 
@@ -13,7 +14,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler('src/WC_3/Logs/log.txt'), logging.StreamHandler()]
+    handlers=[logging.FileHandler('src/WC_4/Logs/log.txt'), logging.StreamHandler()]
 )
 
 # *********************************************************************************************
@@ -51,6 +52,7 @@ class Spider:
         Spider.links_limit = links_limit
         Spider.crawled_size = crawled_size
         
+        
         # define object parameters
         self.html_string_status = False
         
@@ -85,7 +87,7 @@ class Spider:
         # check if page_url is not in crawled
         
         if page_url not in Spider.crawled:
-            logger.info(thread_name + ' now crawling ' + page_url)
+            logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} now crawling {page_url}')
             perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
             logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             # add page_url to queue and html string to html_sring
