@@ -27,7 +27,7 @@ logging.basicConfig(
 
 SORT_WORDS_LIST = ['PRIMARIA','JARDIN','CONTACTO','INICIAL','SECUNDARIO']
 NUMBER_OF_THREADS = 30
-CRAWLED_SIZE_LIMIT = 100
+CRAWLED_SIZE_LIMIT = 250
 LINKS_LIMIT = 100
 
 
@@ -84,9 +84,6 @@ def main(project_name:str, homepage:str):
         for _ in range(NUMBER_OF_THREADS):
             t = threading.Thread(target=work,daemon=False)
             t.start()
-            
-     
-
 
     def work():
         """
@@ -118,8 +115,7 @@ def main(project_name:str, homepage:str):
     
     logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
  
-
-       
+  
 # *******************************************************************************************************************
         
 if __name__ == '__main__':
@@ -136,7 +132,6 @@ if __name__ == '__main__':
     with multiprocessing.Pool(processes=num_workers) as pool:
         pool.starmap(main, [(row['Company'], row['WebSite']) for index, row in df.iterrows()])
         
-
 
     end=time.perf_counter()
     logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
