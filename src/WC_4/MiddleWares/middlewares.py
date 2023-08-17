@@ -1,5 +1,6 @@
 
 import os
+from pathlib import Path
 import concurrent.futures
 from typing import *
 import requests
@@ -21,9 +22,9 @@ def create_project_dir(directory:str) -> None:
     Args:
         directory (str): _description_
     """
-    if not os.path.exists(directory):
-        print('Creating project ' + directory)
-        os.makedirs(directory)  # create a directory
+    if not directory.exists():
+        
+        directory.mkdir(parents=True, exist_ok=True) # create a directory
 
 
 def check_url_type(page_url):
@@ -38,28 +39,32 @@ def check_url_type(page_url):
         return False
 
 
-def create_data_files(project_name:str, base_url:str):
+def create_data_files(  project_name:str,
+                        queue_file:Path,
+                        crawled_file:Path,
+                        base_url:str):
+
     """_summary_
-    create queue and crawled files if not created
+        create a queue and crawled files if not created
+        
+        args:
+        project_name (str): name of the project
+        queue_file (str): path to the queue file
+        crawled_file (str): path to the crawled file
+        base_url (str): base url of the project
+        
+    """
 
-    Args:
-        directory (str): _description_
-        base_url (str):
-"""
-
-    queue=os.path.join(project_name, 'queue.json')
-    crawled=os.path.join(project_name, 'crawled.json')
-    
     queue_dict={'Project':project_name,'url_base':base_url,'url':[base_url]}
     crawled_dict={'Project':project_name,'url_base':base_url,'url':list(),'html_string':list(),'html_lang':list()}
-    
-    
+
     # Check if the file exists
-    if not os.path.isfile(queue):
-        write_file(path=queue, data_dict=queue_dict)
+    if not queue_file.exists():
+            write_file(path=queue_file, data_dict=queue_dict)
+            
     # Check if the file exists
-    if not os.path.isfile(crawled):
-        write_file(path=crawled,data_dict=crawled_dict)
+    if not crawled_file.exists():
+            write_file(path=crawled_file,data_dict=crawled_dict)
     
     
 def write_file(data_dict:dict,path:str) -> None:
@@ -73,39 +78,39 @@ def write_file(data_dict:dict,path:str) -> None:
     """
 
     
-    with open(path,'w') as f:
+    with path.open(mode='w') as f:
         json.dump(data_dict,f)
 
 
-def file_to_list(file_name:str,dict_key:str) -> List[str]:
+def file_to_list(file_name:Path,dict_key:str) -> List[str]:
   
-    with open(file_name,'rb') as f:
+    with file_name.open(mode='rb') as f:
         json_data = json.load(f)
         
     return list(json_data[dict_key])
 
 
 def list_to_file(links:list,
-                file:str,
+                file:Path,
                 project_name:str,
                 url_base:str,
                 html_string:list=None,
                 html_lang:list=None) -> None:
    
 
-    if 'crawled' in file:
+    if 'crawled' in file.stem:
         
         crawler_dict={'Project':project_name,'url_base':url_base,'url':list(links),
                      'html_string':list(html_string),'html_lang': list(html_lang)}
     
-        with open(file,'w') as f:
+        with file.open(mode='w') as f:
             json.dump(crawler_dict,f)
             
-    if 'queue' in file:
+    if 'queue' in file.stem:
         
         queue_dict={'Project':project_name,'url_base':url_base,'url':list(links)}
 
-        with open(file,'w') as f:
+        with file.open(mode='w') as f:
             json.dump(queue_dict,f)
 
         

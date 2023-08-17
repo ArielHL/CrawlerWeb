@@ -1,11 +1,9 @@
-import os
-workingPAth=r'c:\Users\Ariel\OneDrive\Programacion\REPOS\CrawlerWeb'
-os.chdir(workingPAth)
+
 
 
 import pandas as pd
 import threading
-
+from pathlib import Path
 import multiprocessing
 import queue
 from queue import Queue, Empty
@@ -15,12 +13,21 @@ import time
 import sys
 import logging
 
+# setting the path
+
+output_path = Path(__file__).parents[2].joinpath('Output')
+logger_path = Path(__file__).parents[0].joinpath('Logs')
+logger_path.mkdir(parents=True, exist_ok=True)
+output_path.mkdir(parents=True, exist_ok=True)
+logger_file=logger_path.joinpath('log.txt')
+
+# setting the logger
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler('src/WC_4/Logs/log.txt'), logging.StreamHandler()]
+    handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
 )
 
 # **************************************************** SETTINGS ****************************************************
@@ -41,8 +48,7 @@ def main(project_name:str, homepage:str):
     PROJECT_NAME = project_name
     HOMEPAGE =  homepage
     DOMAIN_NAME = get_domain_name(HOMEPAGE)
-    QUEUE_FILE = 'company/'+ PROJECT_NAME + '/queue.json'
-    CRAWLED_FILE = 'company/'+ PROJECT_NAME + '/crawled.json'
+    PROJECT_PATH = output_path.joinpath('Companies',PROJECT_NAME)
     
 
     # Create Queue instance
@@ -55,6 +61,7 @@ def main(project_name:str, homepage:str):
                 keywords_list=SORT_WORDS_LIST,
                 crawled_size=CRAWLED_SIZE_LIMIT,
                 links_limit=LINKS_LIMIT,
+                project_path=PROJECT_PATH
                 )
 
 
@@ -120,8 +127,9 @@ def main(project_name:str, homepage:str):
         
 if __name__ == '__main__':
     
-    path=r'c:\Users\Ariel\OneDrive\Programacion\REPOS\CrawlerWeb\Source\Company_data.xlsx'
-    df=pd.read_excel(path)
+    source_path = Path(__file__).parents[2].joinpath('Source')
+    source_file = source_path.joinpath('Company_data.xlsx')
+    df=pd.read_excel(source_file)
     
     start=time.perf_counter()
     

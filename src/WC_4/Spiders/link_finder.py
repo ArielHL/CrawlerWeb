@@ -5,14 +5,21 @@ from urllib.parse import urljoin
 from urllib.request import urlopen
 import logging
 from MiddleWares.middlewares import list_add, list_remove
+from pathlib import Path
 
 # *********************************************************************************************
+
+logger_path = Path(__file__).parents[1].joinpath('Logs')
+logger_path.mkdir(parents=True, exist_ok=True)
+logger_file=logger_path.joinpath('log.txt')
+
+# setting the logger
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler('src/WC_4/Logs/log.txt'), logging.StreamHandler()]
+    handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
 )
 
 # *********************************************************************************************

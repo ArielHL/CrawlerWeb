@@ -5,17 +5,26 @@ from MiddleWares.middlewares import *
 from os import path, getcwd
 from bs4 import BeautifulSoup
 import threading
+from pathlib import Path
 
 import logging
 
 # *********************************************************************************************
 
+
+logger_path = Path(__file__).parents[1].joinpath('Logs')
+logger_path.mkdir(parents=True, exist_ok=True)
+logger_file=logger_path.joinpath('log.txt')
+
+# setting the logger
+
 logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler('src/WC_4/Logs/log.txt'), logging.StreamHandler()]
+    handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
 )
+
 
 # *********************************************************************************************
 
@@ -44,11 +53,11 @@ class Spider:
         Spider.base_url = base_url
         Spider.domain_name = domain_name
         Spider.sort_keywords_list = [word.lower() for word in keywords_list]
-        Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.png','.ico','php','css','feed','xlm']
+        Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.pdf','.png','.ico','php','css','feed','xlm','.jpg']
         
-        Spider.project_path = project_path if project_path else os.path.join(os.getcwd(),'companies',Spider.project_name) 
-        Spider.queue_file =  Spider.project_path + '/queue.json'
-        Spider.crawled_file = Spider.project_path + '/crawled.json'
+        Spider.project_path = project_path if project_path else Path(getcwd()).joinpath('Output','Companies',Spider.project_name)
+        Spider.queue_file =  Spider.project_path.joinpath('queue.json')
+        Spider.crawled_file = Spider.project_path.joinpath('crawled.json')
         Spider.links_limit = links_limit
         Spider.crawled_size = crawled_size
         
@@ -63,8 +72,13 @@ class Spider:
     def boot():
         # create a project directory
         create_project_dir(Spider.project_path)
+        
         # create queue and crawled files if not created
-        create_data_files(Spider.project_path, Spider.base_url)
+        create_data_files(project_name=Spider.project_name,
+                          queue_file=Spider.queue_file,
+                          crawled_file=Spider.crawled_file,
+                          base_url=Spider.base_url)
+        
         # load queue and crawled files
         Spider.queue = file_to_list(file_name=Spider.queue_file,dict_key='url')
         Spider.crawled = file_to_list(file_name=Spider.crawled_file,dict_key='url')
@@ -88,8 +102,8 @@ class Spider:
         
         if page_url not in Spider.crawled:
             logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} now crawling {page_url}')
-            perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
-            logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
+            # perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
+            # logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             # add page_url to queue and html string to html_sring
             Spider.add_links_to_queue(Spider.gather_links(self,page_url),links_limit=Spider.links_limit)
             # remove page_url from queue and add to crawled (cause has been crawled)
