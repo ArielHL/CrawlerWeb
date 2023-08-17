@@ -11,8 +11,9 @@ import numpy as np
 import json
 import tldextract
 from langdetect import detect
+import threading
 
-
+list_lock = threading.Lock()
 
 # create a project directory
 def create_project_dir(directory:str) -> None:
@@ -116,15 +117,15 @@ def list_to_file(links:list,
         
 def list_add(value:str,
              my_list:list) -> None:
-    
-    if value not in my_list:
-        my_list.append(value)
+    with list_lock:
+        if value not in my_list:
+            my_list.append(value)
 
 def list_remove(value:str,
                 my_list:list) -> None:
-    
-    if value in my_list:
-        my_list.remove(value)       
+    if list_lock:
+        if value in my_list:
+            my_list.remove(value)       
         
    
         
