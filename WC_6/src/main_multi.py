@@ -30,7 +30,7 @@ logging.basicConfig(
 # **************************************************** SETTINGS ****************************************************
 
 SORT_WORDS_LIST = ['PRIMARIA','JARDIN','CONTACTO','INICIAL','SECUNDARIO','INGLES']
-NUMBER_OF_THREADS = 10
+NUMBER_OF_THREADS = 1
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 100
 

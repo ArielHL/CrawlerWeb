@@ -6,7 +6,7 @@ from os import path, getcwd
 from bs4 import BeautifulSoup
 import threading
 from pathlib import Path
-
+from langdetect import detect
 import logging
 
 # *********************************************************************************************
@@ -118,7 +118,7 @@ class Spider:
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
             Spider.crawled=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.crawled)  
             
-       
+
             # update queue and crawled files
             Spider.update_files()
       
@@ -161,7 +161,7 @@ class Spider:
                 
                 # add html_string to html list
                 with Spider.List_lock:
-                    list_add(value=(page_url+'|'+html_string),my_list=Spider.html) 
+                    list_add(value=(html_string),my_list=Spider.html) 
             
             # detect the language of the html_string and add it to html_lang list   
             language = response.getheader('Content-Language')
@@ -176,7 +176,7 @@ class Spider:
                 language = detect(max_string)                                                                            
                     
             with Spider.List_lock:
-                Spider.html_lang.append((page_url+'|'+language))
+                Spider.html_lang.append(language)
 
         except Exception as e:
             # logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
