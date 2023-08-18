@@ -107,8 +107,15 @@ class Spider:
             perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
             logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             
-            # add page_url to queue and html string to html_sring
-            Spider.add_links_to_queue(Spider.gather_links(self,page_url),links_limit=Spider.links_limit)
+            # gather links from page_url
+            links,html_string = Spider.gather_links(self,page_url)
+            
+            # add links to queue
+            Spider.add_links_to_queue(links=links,links_limit=Spider.links_limit)
+            # add html_string to html list
+            Spider.add_html_string(html_string=html_string) if self.html_string_status else None
+            # add html_lang to html_lang list
+            Spider.add_html_lang(html_string=html_string) if self.html_string_status else None
 
             # remove page_url from queue and add to crawled (cause has been crawled)
             list_remove(value=page_url,my_list=Spider.queue)
@@ -118,7 +125,6 @@ class Spider:
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
             Spider.crawled=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.crawled)  
             
-
             # update queue and crawled files
             Spider.update_files()
       
@@ -159,31 +165,52 @@ class Spider:
                 # process html_string and extract links and stores in _links
                 finder.feed(html_string)
                 
-                # add html_string to html list
-                with Spider.List_lock:
-                    list_add(value=(html_string),my_list=Spider.html) 
-            
-            # detect the language of the html_string and add it to html_lang list   
-            language = response.getheader('Content-Language')
-            
-            if language == None:
-            
-                soup = BeautifulSoup(html_string, 'html.parser')                                                
-                list_of_string = soup.text.split("\n")                                                         
-                first_string = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]     
-
-                max_string = max(first_string, key=len)                                                                  
-                language = detect(max_string)                                                                            
-                    
-            with Spider.List_lock:
-                Spider.html_lang.append(language)
-
+                
         except Exception as e:
             # logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
             self.html_string_status = False
-            return list()
+            return list(),None
         
-        return finder.page_links()
+        return finder.page_links(),html_string
+    
+    @staticmethod
+    def add_html_string(html_string:str) -> None:
+        """_summary_
+        this method add html_string to the html list
+        
+        args:
+        html_string (str): html page to be process
+        """       
+        
+        if html_string:    
+     
+            with Spider.List_lock:
+                list_add(value=(html_string),my_list=Spider.html)
+                
+        else:
+            with Spider.List_lock:
+                Spider.html.append(None)
+    
+    @staticmethod
+    def add_html_lang(html_string:str) -> None:
+        
+        if html_string:
+        
+            # detect the language of the html_string and add it to html_lang list   
+            soup = BeautifulSoup(html_string, 'html.parser')                                                
+            list_of_string = soup.text.split("\n")                                                         
+            first_string = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]     
+
+            max_string = max(first_string, key=len)                                                                  
+            language = detect(max_string)                                                                            
+                
+            with Spider.List_lock:
+                Spider.html_lang.append(language)
+        else:
+            with Spider.List_lock:
+                Spider.html_lang.append(None)
+    
+    
     
     
     # Sorts the links based on specified keywords
