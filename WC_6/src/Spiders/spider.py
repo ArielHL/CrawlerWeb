@@ -112,7 +112,10 @@ class Spider:
             # gather links from page_url
             links,html_string = Spider.gather_links(self,page_url)
             
+            logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} saving: {page_url} in the Crawled List')
+            
             with list_lock:
+                
                 # add links to queue
                 Spider.add_links_to_queue(links=links,links_limit=Spider.links_limit)
                 # add html_string to html list
