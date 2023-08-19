@@ -29,9 +29,9 @@ logging.basicConfig(
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['PRIMARIA','JARDIN','CONTACTO','INICIAL','SECUNDARIO','INGLES']
-NUMBER_OF_THREADS = 10
-CRAWLED_SIZE_LIMIT = 50
+SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
+NUMBER_OF_THREADS = 24
+CRAWLED_SIZE_LIMIT = 1000
 LINKS_LIMIT = 100
 
 
@@ -79,6 +79,9 @@ def main(project_name:str, homepage:str):
                 logger.error(f'RuntimeError: {str(e)}')
        
         
+        
+        
+        
     def create_workers():
         """
         Create worker threads (will die when main exits)
@@ -125,7 +128,7 @@ def main(project_name:str, homepage:str):
 if __name__ == '__main__':
     
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('Company_data.xlsx')
+    source_file = source_path.joinpath('Company_data_2.xlsx')
     df=pd.read_excel(source_file)
     
     start=time.perf_counter()

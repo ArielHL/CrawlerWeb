@@ -25,6 +25,8 @@ logging.basicConfig(
     handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
 )
 
+list_lock=threading.Lock()
+update_lock=threading.Lock()
 
 # *********************************************************************************************
 
@@ -104,29 +106,33 @@ class Spider:
         if page_url not in Spider.crawled:
            
             logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} now crawling {page_url}')
-            perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
-            logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
+            # perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
+            # logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             
             # gather links from page_url
             links,html_string = Spider.gather_links(self,page_url)
             
-            # add links to queue
-            Spider.add_links_to_queue(links=links,links_limit=Spider.links_limit)
-            # add html_string to html list
-            Spider.add_html_string(html_string=html_string) if self.html_string_status else None
-            # add html_lang to html_lang list
-            Spider.add_html_lang(html_string=html_string) if self.html_string_status else None
+            with list_lock:
+                # add links to queue
+                Spider.add_links_to_queue(links=links,links_limit=Spider.links_limit)
+                # add html_string to html list
+                Spider.add_html_string(html_string=html_string) if self.html_string_status else None
+                # add html_lang to html_lang list
+                Spider.add_html_lang(html_string=html_string) if self.html_string_status else None
 
-            # remove page_url from queue and add to crawled (cause has been crawled)
-            list_remove(value=page_url,my_list=Spider.queue)
-            list_add(value=page_url,my_list=Spider.crawled) if self.html_string_status else None
+         
+            with list_lock:
+                # remove page_url from queue and add to crawled (cause has been crawled)
+                list_remove(value=page_url,my_list=Spider.queue)
+                list_add(value=page_url,my_list=Spider.crawled) if self.html_string_status else None
             
             # Sort the links
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
             Spider.crawled=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.crawled)  
             
-            # update queue and crawled files
-            Spider.update_files()
+            with update_lock:
+                # update queue and crawled files
+                Spider.update_files()
       
             
     
