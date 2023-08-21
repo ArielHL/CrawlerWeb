@@ -64,7 +64,6 @@ class Spider:
         # Defining files and folder elements
         Spider.project_path = project_path if project_path else Path(getcwd()).joinpath('Output','Companies',Spider.project_name)
         Spider.queue_file =  Spider.project_path.joinpath('queue.json')
-        Spider.crawled_file = Spider.project_path.joinpath('crawled.json')
         Spider.crawled_df_file = Spider.project_path.joinpath('crawled_df.parquet')
         
 
@@ -83,15 +82,11 @@ class Spider:
         # create queue and crawled files if not created
         create_data_files(project_name=Spider.project_name,
                           queue_file=Spider.queue_file,
-                          crawled_file=Spider.crawled_file,
                           crawled_df_file=Spider.crawled_df_file,
                           base_url=Spider.base_url)
         
         # load queue and crawled files
         Spider.queue = file_to_list(file_name=Spider.queue_file,dict_key='url')
-        Spider.crawled = file_to_list(file_name=Spider.crawled_file,dict_key='url')
-        Spider.html = file_to_list(file_name=Spider.crawled_file,dict_key='html_string')
-        Spider.html_lang = file_to_list(file_name=Spider.crawled_file,dict_key='html_lang')
         Spider.crawled_df = file_to_df(file_name=Spider.crawled_df_file)
         
   
@@ -123,26 +118,20 @@ class Spider:
                 
                 # add links to queue
                 Spider.add_links_to_queue(links=links,links_limit=Spider.links_limit)
-                # add html_string to html list
-                Spider.add_html_string(html_string=html_string) if self.html_string_status else None
-                # add html_lang to html_lang list
-                Spider.add_html_lang(language=language) if self.html_string_status else None
+   
+                # remove page_url from queue and add to crawled (cause has been crawled)
+                list_remove(value=page_url,my_list=Spider.queue)
+
                 # add data to df
                 Spider.add_data_to_df(  project_name=Spider.project_name,
                                         url_base=Spider.base_url,   
                                         url=page_url,
                                         html_string=html_string,
-                                        html_lang=language  ) if self.html_string_status else None
-
-         
-            with list_lock:
-                # remove page_url from queue and add to crawled (cause has been crawled)
-                list_remove(value=page_url,my_list=Spider.queue)
-                list_add(value=page_url,my_list=Spider.crawled) if self.html_string_status else None
+                                        html_lang=language  ) if self.html_string_status else None      
             
             # Sort the links
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
-            Spider.crawled=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.crawled)  
+       
             
             with update_lock:
                 # update queue and crawled files
@@ -299,13 +288,7 @@ class Spider:
                     file=Spider.queue_file,
                     project_name=Spider.project_name,
                     url_base=Spider.base_url)
-        
-        list_to_file(links=Spider.crawled,
-                    file=Spider.crawled_file,
-                    project_name=Spider.project_name,
-                    url_base=Spider.base_url,
-                    html_string=Spider.html,
-                    html_lang=Spider.html_lang)
+    
 
         df_to_file(df=Spider.crawled_df,
                     file_name=Spider.crawled_df_file)

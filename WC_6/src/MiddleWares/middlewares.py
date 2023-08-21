@@ -40,7 +40,6 @@ def check_url_type(page_url):
 
 def create_data_files(  project_name:str,
                         queue_file:Path,
-                        crawled_file:Path,
                         crawled_df_file:Path,
                         base_url:str):
 
@@ -64,10 +63,7 @@ def create_data_files(  project_name:str,
     if not queue_file.exists():
             write_file(path=queue_file, data_dict=queue_dict)
             
-    # Check if the file exists
-    if not crawled_file.exists():
-            write_file(path=crawled_file,data_dict=crawled_dict)
-    
+
     if not crawled_df_file.exists():
             crawled_df.to_parquet(crawled_df_file,index=False)
     
