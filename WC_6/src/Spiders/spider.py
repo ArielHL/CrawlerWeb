@@ -122,7 +122,8 @@ class Spider:
    
                 # remove page_url from queue and add to crawled (cause has been crawled)
                 list_remove(value=page_url,my_list=Spider.queue)
-
+                # add page_url to crawled
+                list_add(value=page_url,my_list=Spider.crawled) if self.html_string_status else None
                 # add data to df
                 Spider.add_data_to_df(  project_name=Spider.project_name,
                                         url_base=Spider.base_url,   
@@ -132,7 +133,7 @@ class Spider:
             
             # Sort the links
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
-       
+            Spider.crawled=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.crawled)
             
             with update_lock:
                 # update queue and crawled files
