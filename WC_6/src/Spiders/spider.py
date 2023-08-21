@@ -56,14 +56,18 @@ class Spider:
         Spider.domain_name = domain_name
         Spider.sort_keywords_list = [word.lower() for word in keywords_list]
         Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.pdf','.png','.ico','php','css','feed','xlm','.jpg']
-        
-        Spider.project_path = project_path if project_path else Path(getcwd()).joinpath('Output','Companies',Spider.project_name)
-        Spider.queue_file =  Spider.project_path.joinpath('queue.json')
-        Spider.crawled_file = Spider.project_path.joinpath('crawled.json')
         Spider.links_limit = links_limit
         Spider.crawled_size = crawled_size
         Spider.List_lock = threading.Lock()
         
+        
+        # Defining files and folder elements
+        Spider.project_path = project_path if project_path else Path(getcwd()).joinpath('Output','Companies',Spider.project_name)
+        Spider.queue_file =  Spider.project_path.joinpath('queue.json')
+        Spider.crawled_file = Spider.project_path.joinpath('crawled.json')
+        Spider.crawled_df_file = Spider.project_path.joinpath('crawled_df.parquet')
+        
+
         
         # define object parameters
         self.html_string_status = False
@@ -80,6 +84,7 @@ class Spider:
         create_data_files(project_name=Spider.project_name,
                           queue_file=Spider.queue_file,
                           crawled_file=Spider.crawled_file,
+                          crawled_df_file=Spider.crawled_df_file,
                           base_url=Spider.base_url)
         
         # load queue and crawled files
@@ -87,6 +92,7 @@ class Spider:
         Spider.crawled = file_to_list(file_name=Spider.crawled_file,dict_key='url')
         Spider.html = file_to_list(file_name=Spider.crawled_file,dict_key='html_string')
         Spider.html_lang = file_to_list(file_name=Spider.crawled_file,dict_key='html_lang')
+        Spider.crawled_df = file_to_df(file_name=Spider.crawled_df_file)
         
   
     def crawl_page(self,thread_name:str,page_url:str):
@@ -110,8 +116,7 @@ class Spider:
             # logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             
             # gather links from page_url
-            links,html_string = Spider.gather_links(self,page_url)
-            
+            links,html_string,language = Spider.gather_links(self,page_url)
             logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} saving: {page_url} in the Crawled List')
             
             with list_lock:
@@ -121,7 +126,13 @@ class Spider:
                 # add html_string to html list
                 Spider.add_html_string(html_string=html_string) if self.html_string_status else None
                 # add html_lang to html_lang list
-                Spider.add_html_lang(html_string=html_string) if self.html_string_status else None
+                Spider.add_html_lang(language=language) if self.html_string_status else None
+                # add data to df
+                Spider.add_data_to_df(  project_name=Spider.project_name,
+                                        url_base=Spider.base_url,   
+                                        url=page_url,
+                                        html_string=html_string,
+                                        html_lang=language  ) if self.html_string_status else None
 
          
             with list_lock:
@@ -139,7 +150,7 @@ class Spider:
       
             
     
-    def gather_links(self,page_url) -> (List[str],str):
+    def gather_links(self,page_url) -> (List[str],str,str):
         """_summary_
         this method gather links from the html page
         these links will be processed by the claw method
@@ -147,7 +158,10 @@ class Spider:
         args:
         html_string (str): html page to be process
         """        
+        
+        # Global Variables
         html_string = None
+        language = None 
         self.html_string_status = False
         
         # use link_finder to gather links from html_string
@@ -174,13 +188,23 @@ class Spider:
                 # process html_string and extract links and stores in _links
                 finder.feed(html_string)
                 
+                # detect the language of the html_string 
+                if html_string:
+                    # detect the language of the html_string and add it to html_lang list   
+                    soup = BeautifulSoup(html_string, 'html.parser')                                                
+                    list_of_string = soup.text.split("\n")                                                         
+                    first_string = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]     
+
+                    max_string = max(first_string, key=len)                                                                  
+                    language = detect(max_string)  
+                
                 
         except Exception as e:
             # logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
             self.html_string_status = False
-            return list(),None
+            return list(),None,None
         
-        return finder.page_links(),html_string
+        return finder.page_links(),html_string,language
     
     @staticmethod
     def add_html_string(html_string:str) -> None:
@@ -201,27 +225,17 @@ class Spider:
                 Spider.html.append(None)
     
     @staticmethod
-    def add_html_lang(html_string:str) -> None:
+    def add_html_lang(language:str) -> None:
         
-        if html_string:
-        
-            # detect the language of the html_string and add it to html_lang list   
-            soup = BeautifulSoup(html_string, 'html.parser')                                                
-            list_of_string = soup.text.split("\n")                                                         
-            first_string = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]     
+            if language:                                                              
+                with Spider.List_lock:
+                    Spider.html_lang.append(language)
+            
+            else:
+                with Spider.List_lock:
+                    Spider.html_lang.append(None)
+    
 
-            max_string = max(first_string, key=len)                                                                  
-            language = detect(max_string)                                                                            
-                
-            with Spider.List_lock:
-                Spider.html_lang.append(language)
-        else:
-            with Spider.List_lock:
-                Spider.html_lang.append(None)
-    
-    
-    
-    
     # Sorts the links based on specified keywords
     @staticmethod
     def sort_links(keywords:list[str],
@@ -249,9 +263,7 @@ class Spider:
         links (set): set of links obtained from the html page
         
         """
-        
-       
-        
+  
         # Sort temporary list
         links=Spider.sort_links(keywords=Spider.sort_keywords_list,
                           target_list=links)
@@ -271,7 +283,15 @@ class Spider:
             # add url to queue
             list_add(value=url,my_list=Spider.queue)
     
-            
+    
+    @staticmethod
+    def add_data_to_df (project_name:str,url_base:str,url:str,html_string:str,html_lang:str) -> None:
+        
+        new_df=pd.DataFrame({'Project':project_name,'url_base':url_base,'url':[url],'html_string':[html_string],'html_lang':[html_lang]})
+        Spider.crawled_df=pd.concat([Spider.crawled_df,new_df],ignore_index=True)
+    
+    
+    
             
     @staticmethod
     def update_files():
@@ -287,5 +307,7 @@ class Spider:
                     html_string=Spider.html,
                     html_lang=Spider.html_lang)
 
+        df_to_file(df=Spider.crawled_df,
+                    file_name=Spider.crawled_df_file)
         
     

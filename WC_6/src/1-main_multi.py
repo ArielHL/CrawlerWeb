@@ -30,8 +30,8 @@ logging.basicConfig(
 # **************************************************** SETTINGS ****************************************************
 
 SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
-NUMBER_OF_THREADS = 24
-CRAWLED_SIZE_LIMIT = 500
+NUMBER_OF_THREADS = 10
+CRAWLED_SIZE_LIMIT = 200
 LINKS_LIMIT = 100
 
 

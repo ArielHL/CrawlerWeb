@@ -41,6 +41,7 @@ def check_url_type(page_url):
 def create_data_files(  project_name:str,
                         queue_file:Path,
                         crawled_file:Path,
+                        crawled_df_file:Path,
                         base_url:str):
 
     """_summary_
@@ -56,6 +57,8 @@ def create_data_files(  project_name:str,
 
     queue_dict={'Project':project_name,'url_base':base_url,'url':[base_url]}
     crawled_dict={'Project':project_name,'url_base':base_url,'url':list(),'html_string':list(),'html_lang':list()}
+    
+    crawled_df=pd.DataFrame(crawled_dict)
 
     # Check if the file exists
     if not queue_file.exists():
@@ -65,6 +68,8 @@ def create_data_files(  project_name:str,
     if not crawled_file.exists():
             write_file(path=crawled_file,data_dict=crawled_dict)
     
+    if not crawled_df_file.exists():
+            crawled_df.to_parquet(crawled_df_file,index=False)
     
 def write_file(data_dict:dict,path:str) -> None:
     
@@ -87,6 +92,21 @@ def file_to_list(file_name:Path,dict_key:str) -> List[str]:
         json_data = json.load(f)
         
     return list(json_data[dict_key])
+
+
+
+def file_to_df(file_name:Path) -> pd.DataFrame:
+  
+    return pd.read_parquet(file_name)
+
+
+
+def df_to_file(df:pd.DataFrame,file_name:Path) -> None:
+    
+    df.to_parquet(file_name,index=False)
+    df.to_excel(file_name.with_suffix('.xlsx'),index=False)
+
+
 
 
 def list_to_file(links:list,

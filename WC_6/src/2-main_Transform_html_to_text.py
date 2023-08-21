@@ -53,6 +53,29 @@ def html_transform():
     return full_df
 
 
+def df_combiner():
+    
+    full_df = pd.DataFrame()
+
+    for company_dir in output_path.iterdir():
+        if company_dir.is_dir():
+            crawled_file = company_dir / "crawled_df.parquet"
+            if crawled_file.is_file():
+                try:
+                    df=pd.read_parquet(crawled_file)
+                    full_df = pd.concat([full_df, df], ignore_index=True)
+                except Exception as e:
+                    print(f'Error: {e}')
+    
+    full_df.dropna(inplace=True)
+    
+    return full_df
+
+
+
+
+
+
 
 def html_to_text(html: str):
     try:
@@ -70,17 +93,17 @@ def html_to_text(html: str):
     
 if __name__ == '__main__':
     
-    full_df=html_transform()   
+    full_df=df_combiner()   
     
     full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))
 
     full_df.drop(columns="html_string", inplace=True)
     
     parquet_file=results_path.joinpath('combined_file.parquet')
-    csv_file=results_path.joinpath('combined_file.xlsx')
+    excel_file=results_path.joinpath('combined_file.xlsx')
 
     full_df.to_parquet(parquet_file)
-    full_df.to_excel(csv_file,index=False)
+    full_df.to_excel(excel_file,index=False)
     
 
 
