@@ -38,8 +38,8 @@ class Spider:
     queue_file = None
     crawled_file = None
     sort_keywords_list= None
-    queue = set()
-    crawled = set()
+    queue = list()
+    crawled = list()
     
     def __init__(self,
                  project_name:str,
