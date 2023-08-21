@@ -40,8 +40,6 @@ logging.basicConfig(
 
 WORDS_TO_COUNT = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
 
-
-
 # *********************************************************************************************************************
 
 def html_transform():
@@ -100,9 +98,6 @@ def count_words_in_list(sentence_list, target_words):
     word_counts = {word: sentence_lower.count(word.lower()) for word in target_words}
     return word_counts
     
-
-
-
 
 def html_to_text(html: str):
     try:
