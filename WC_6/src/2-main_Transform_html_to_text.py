@@ -9,6 +9,7 @@ from swifter import set_defaults
 import swifter
 from tqdm import tqdm
 import logging
+from collections import Counter
 
 set_defaults(progress_bar=True,
              allow_dask_on_strings=True,
@@ -35,6 +36,13 @@ logging.basicConfig(
     handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
 )
 
+# *********************************************************************************************************************
+
+WORDS_TO_COUNT = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
+
+
+
+# *********************************************************************************************************************
 
 def html_transform():
     
@@ -86,7 +94,12 @@ def df_combiner():
     return full_df
 
 
-
+# Function to count occurrences of target words in a list
+def count_words_in_list(sentence_list, target_words):
+    sentence_lower = ' '.join(sentence_list).lower()
+    word_counts = {word: sentence_lower.count(word.lower()) for word in target_words}
+    return word_counts
+    
 
 
 
@@ -112,10 +125,13 @@ if __name__ == '__main__':
     
     logger.info(f'Converting html to text')
     full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))
-    
-
+        
     full_df.drop(columns="html_string", inplace=True)
     logger.info(f'Converting html to text completed')
+    
+    logger.info(f'Counting words in text')
+    word_count_df = full_df['text'].apply(lambda lst: count_words_in_list(lst, WORDS_TO_COUNT)).apply(pd.Series)
+    full_df = pd.concat([full_df, word_count_df], axis=1)
     
     logger.info(f'Saving results to parquet and excel files')
     parquet_file=results_path.joinpath('combined_file.parquet')

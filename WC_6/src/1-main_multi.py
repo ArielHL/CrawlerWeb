@@ -9,7 +9,7 @@ from Spiders.spider import Spider
 from MiddleWares.middlewares import *
 import time
 import logging
-from prompt_toolkit.shortcuts import ProgressBar
+from tqdm import tqdm
 # setting the path
 
 output_path = Path(__file__).parents[2].joinpath('Output')
@@ -31,7 +31,7 @@ logging.basicConfig(
 
 SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
 NUMBER_OF_THREADS = 10
-CRAWLED_SIZE_LIMIT = 50
+CRAWLED_SIZE_LIMIT = 500
 LINKS_LIMIT = 100
 
 
@@ -85,6 +85,7 @@ def main(project_name:str, homepage:str):
         Create worker threads (will die when main exits)
         
         """
+     
      
         for _ in range(NUMBER_OF_THREADS):
             t = threading.Thread(target=work,daemon=False)
