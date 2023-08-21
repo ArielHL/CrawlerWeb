@@ -88,6 +88,7 @@ class Spider:
         # load queue and crawled files
         Spider.queue = file_to_list(file_name=Spider.queue_file,dict_key='url')
         Spider.crawled_df = file_to_df(file_name=Spider.crawled_df_file)
+        Spider.crawled = Spider.crawled_df['url'].tolist()
         
   
     def crawl_page(self,thread_name:str,page_url:str):
