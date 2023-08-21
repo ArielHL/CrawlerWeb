@@ -29,9 +29,9 @@ logging.basicConfig(
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['PRIMARIA','JARDIN','CONTACTO','INICIAL','SECUNDARIO','INGLES']
+SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
 NUMBER_OF_THREADS = 10
-CRAWLED_SIZE_LIMIT = 50
+CRAWLED_SIZE_LIMIT = 200
 LINKS_LIMIT = 100
 
 
@@ -52,20 +52,20 @@ def main(project_name:str, homepage:str):
     queue = Queue()
 
     # create spider instance
-    spider=Spider(project_name=PROJECT_NAME,
-                base_url=HOMEPAGE,
-                domain_name=DOMAIN_NAME,
-                keywords_list=SORT_WORDS_LIST,
-                crawled_size=CRAWLED_SIZE_LIMIT,
-                links_limit=LINKS_LIMIT,
-                project_path=PROJECT_PATH
+    spider=Spider(  project_name=PROJECT_NAME,
+                    base_url=HOMEPAGE,
+                    domain_name=DOMAIN_NAME,
+                    keywords_list=SORT_WORDS_LIST,
+                    crawled_size=CRAWLED_SIZE_LIMIT,
+                    links_limit=LINKS_LIMIT,
+                    project_path=PROJECT_PATH
                 )
 
 
     def crawl():
         """
         Read queue and crawled file into memory
-        call the create jobs function
+     
         
         """
         while len(spider.queue) > 0 and len(spider.crawled) < CRAWLED_SIZE_LIMIT:
@@ -78,6 +78,7 @@ def main(project_name:str, homepage:str):
             except RuntimeError as e:
                 logger.error(f'RuntimeError: {str(e)}')
        
+
         
     def create_workers():
         """
@@ -125,13 +126,14 @@ def main(project_name:str, homepage:str):
 if __name__ == '__main__':
     
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('Company_data.xlsx')
+    source_file = source_path.joinpath('Company_data_2.xlsx')
     df=pd.read_excel(source_file)
     
     start=time.perf_counter()
     
     # Setting number of workers (one for company)
     num_workers=df.shape[0]
+    num_cores = multiprocessing.cpu_count()
     
     # Create a multiprocessing pool
     with multiprocessing.Pool(processes=num_workers) as pool:

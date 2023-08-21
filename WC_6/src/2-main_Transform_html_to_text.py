@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from swifter import set_defaults
 import swifter
 from tqdm import tqdm
+import logging
 
 set_defaults(progress_bar=True,
              allow_dask_on_strings=True,
@@ -20,6 +21,19 @@ output_path=Path(__file__).parents[2].joinpath('Output','Companies')
 results_path=Path(__file__).parents[2].joinpath('Output','Results')
 results_path.mkdir(parents=True, exist_ok=True)
 
+logger_path = Path(__file__).parents[0].joinpath('Logs')
+logger_path.mkdir(parents=True, exist_ok=True)
+logger_file=logger_path.joinpath('log.txt')
+
+
+# setting the logger
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
+)
 
 
 def html_transform():
@@ -53,6 +67,29 @@ def html_transform():
     return full_df
 
 
+def df_combiner():
+    
+    full_df = pd.DataFrame()
+
+    for company_dir in output_path.iterdir():
+        if company_dir.is_dir():
+            crawled_file = company_dir / "crawled_df.parquet"
+            if crawled_file.is_file():
+                try:
+                    df=pd.read_parquet(crawled_file)
+                    full_df = pd.concat([full_df, df], ignore_index=True)
+                except Exception as e:
+                    print(f'Error: {e}')
+    
+    full_df.dropna(inplace=True)
+    
+    return full_df
+
+
+
+
+
+
 
 def html_to_text(html: str):
     try:
@@ -70,17 +107,22 @@ def html_to_text(html: str):
     
 if __name__ == '__main__':
     
-    full_df=html_transform()   
+    logger.info(f'Starting process \nCombining all crawled files into one file') 
+    full_df=df_combiner()   
     
+    logger.info(f'Converting html to text')
     full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))
+    
 
     full_df.drop(columns="html_string", inplace=True)
+    logger.info(f'Converting html to text completed')
     
+    logger.info(f'Saving results to parquet and excel files')
     parquet_file=results_path.joinpath('combined_file.parquet')
-    csv_file=results_path.joinpath('combined_file.xlsx')
+    excel_file=results_path.joinpath('combined_file.xlsx')
 
     full_df.to_parquet(parquet_file)
-    full_df.to_excel(csv_file,index=False)
+    full_df.to_excel(excel_file,index=False)
     
 
 
