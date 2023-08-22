@@ -100,7 +100,7 @@ def file_to_df(file_name:Path) -> pd.DataFrame:
 def df_to_file(df:pd.DataFrame,file_name:Path) -> None:
     
     df.to_parquet(file_name,index=False)
-    df.to_excel(file_name.with_suffix('.xlsx'),index=False)
+    df.to_csv(file_name.with_suffix('.csv'))
 
 
 

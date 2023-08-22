@@ -30,7 +30,7 @@ logging.basicConfig(
 # **************************************************** SETTINGS ****************************************************
 
 SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
-NUMBER_OF_THREADS = 10
+NUMBER_OF_THREADS = 100
 CRAWLED_SIZE_LIMIT = 500
 LINKS_LIMIT = 100
 
@@ -127,7 +127,7 @@ def main(project_name:str, homepage:str):
 if __name__ == '__main__':
     
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('Company_data_2.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler.xlsx')
     df=pd.read_excel(source_file)
     
     start=time.perf_counter()
