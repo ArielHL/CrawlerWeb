@@ -29,7 +29,7 @@ logging.basicConfig(
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
+SORT_WORDS_LIST = ['COMPRESSORS','BLOWERS','CONTROL','ABOUT']
 NUMBER_OF_THREADS = 20
 CRAWLED_SIZE_LIMIT = 500
 LINKS_LIMIT = 100
