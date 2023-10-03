@@ -30,15 +30,19 @@ logging.basicConfig(
 # **************************************************** SETTINGS ****************************************************
 
 SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
-NUMBER_OF_THREADS = 100
+NUMBER_OF_THREADS = 30
 CRAWLED_SIZE_LIMIT = 500
 LINKS_LIMIT = 100
 
 
 # *******************************************************************************************************************
+
+sum_df=pd.DataFrame()
+
 # Wrapper function to iterate over the list of companies
 def main(project_name:str, homepage:str):
     
+    global sum_df
 
     start=time.perf_counter()
     
@@ -120,8 +124,10 @@ def main(project_name:str, homepage:str):
     end=time.perf_counter()
     
     logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
- 
-  
+    company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
+    df=pd.DataFrame(company_dict, index=[0])
+    sum_df=pd.concat([sum_df, df], ignore_index=True)
+    
 # *******************************************************************************************************************
         
 if __name__ == '__main__':
@@ -142,6 +148,7 @@ if __name__ == '__main__':
         
 
     end=time.perf_counter()
+    logger.info(f'\n\nTotal Processed : {sum_df.Links.sum()} links   \nFinished in {round(end-start,2)} seconds')
     logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
     
     
