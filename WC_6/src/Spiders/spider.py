@@ -114,7 +114,7 @@ class Spider:
             
             # gather links from page_url
             links,html_string,language = Spider.gather_links(self,page_url)
-            logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} saving: {page_url} in the Crawled List')
+            # logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} saving: {page_url} in the Crawled List')
             
             with list_lock:
                 

@@ -27,23 +27,23 @@ logging.basicConfig(
     handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
 )
 
+
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
-NUMBER_OF_THREADS = 30
-CRAWLED_SIZE_LIMIT = 500
-LINKS_LIMIT = 100
+SORT_WORDS_LIST = ['BLOWER','COMPRESSOR','CONTROL','ABOUT']
+NUMBER_OF_THREADS = 25
+CRAWLED_SIZE_LIMIT = 100
+LINKS_LIMIT = 50
 
 
 # *******************************************************************************************************************
 
-sum_df=pd.DataFrame()
 
 # Wrapper function to iterate over the list of companies
-def main(project_name:str, homepage:str):
+def main(project_name:str, homepage:str,sum_df_list:list,sum_df_lock:threading.Lock):
     
-    global sum_df
-
+    
+    
     start=time.perf_counter()
     
     PROJECT_NAME = project_name
@@ -124,31 +124,45 @@ def main(project_name:str, homepage:str):
     end=time.perf_counter()
     
     logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
-    company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
-    df=pd.DataFrame(company_dict, index=[0])
-    sum_df=pd.concat([sum_df, df], ignore_index=True)
-    
+
+    with sum_df_lock:
+        company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
+        sum_df_list.append(company_dict)
+        
+
 # *******************************************************************************************************************
         
 if __name__ == '__main__':
     
+    # definition of the folder for the source file
     source_path = Path(__file__).parents[1].joinpath('Source')
     source_file = source_path.joinpath('URLs_for_crawler.xlsx')
     df=pd.read_excel(source_file)
     
-    start=time.perf_counter()
+   
     
     # Setting number of workers (one for company)
     num_workers=df.shape[0]
     num_cores = multiprocessing.cpu_count()
     
-    # Create a multiprocessing pool
-    with multiprocessing.Pool(processes=num_workers) as pool:
-        pool.starmap(main, [(row['Company'], row['WebSite']) for index, row in df.iterrows()])
+    
+    with multiprocessing.Manager() as manager:
+        
+        start=time.perf_counter()
+        
+        sum_df_list = manager.list()
+        sum_df_lock = manager.Lock()
+    
+        # Create a multiprocessing pool
+        with multiprocessing.Pool(processes=num_workers) as pool:
+            pool.starmap(main, [(row['Company'], row['WebSite'],sum_df_list,sum_df_lock) for index, row in df.iterrows()])
         
 
-    end=time.perf_counter()
-    logger.info(f'\n\nTotal Processed : {sum_df.Links.sum()} links   \nFinished in {round(end-start,2)} seconds')
-    logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
+        end=time.perf_counter()
+        
+        # Convert the shared list to a DataFrame
+        sum_df = pd.DataFrame(list(sum_df_list))
+        sum_df.to_excel(output_path.joinpath('Companies','Summary.xlsx'), index=False)
+        logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
     
     
