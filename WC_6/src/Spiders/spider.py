@@ -108,7 +108,7 @@ class Spider:
         
         if page_url not in Spider.crawled:
            
-            logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} now crawling {page_url}')
+            # logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} now crawling {page_url}')
             # perct =  round(len(Spider.crawled)/(len(Spider.queue)+len(Spider.crawled)),2) if len(Spider.crawled) > 0 else 0
             # logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             
