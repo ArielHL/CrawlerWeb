@@ -32,7 +32,7 @@ logger = CustomLogger(name=__name__,
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['BLOWER','COMPRESSOR','CONTROL','ABOUT']
+SORT_WORDS_LIST = ['PARKINSON','KREBS','GESUNDHEITSPFLEGE','UM']
 NUMBER_OF_THREADS = 10
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     
@@ -163,7 +163,7 @@ if __name__ == '__main__':
         sum_df_lock = manager.Lock()
     
         # Create a multiprocessing pool
-        with multiprocessing.Pool(processes=num_cores) as pool:
+        with multiprocessing.Pool(processes=16) as pool:
             pool.starmap(main, [(row['Company'], row['WebSite'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in df.iterrows()])
         
 
