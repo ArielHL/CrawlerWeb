@@ -2,6 +2,7 @@ from urllib.request import urlopen, Request
 from urllib import error
 from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
+from MiddleWares.CustomLogger import CustomLogger
 from os import path, getcwd
 from bs4 import BeautifulSoup
 import threading
@@ -19,12 +20,11 @@ logger_file=logger_path.joinpath('log.txt')
 
 # setting the logger
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(logger_file)]
-)
+logger = CustomLogger(name=__name__, 
+                             level=logging.INFO,
+                             logger_file=logger_file)
+
+
 
 list_lock=threading.Lock()
 update_lock=threading.Lock()

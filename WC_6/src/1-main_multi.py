@@ -13,6 +13,7 @@ from tqdm import tqdm
 from Spiders.spider import Spider
 from MiddleWares.middlewares import *
 from MiddleWares.ProgressBar import CustomProgressBar 
+from MiddleWares.CustomLogger import CustomLogger
 
 # setting the path
 
@@ -24,13 +25,9 @@ logger_file=logger_path.joinpath('log.txt')
 
 # setting the logger
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(logger_file),
-              logging.StreamHandler()]
-)
+logger = CustomLogger(name=__name__, 
+                             level=logging.INFO,
+                             logger_file=logger_file)
 
 
 # **************************************************** SETTINGS ****************************************************
@@ -144,9 +141,10 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
 if __name__ == '__main__':
     
     # definition of the folder for the source file
+    logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     
@@ -156,7 +154,7 @@ if __name__ == '__main__':
     num_workers=df.shape[0]
     num_cores = multiprocessing.cpu_count()
     
-    logger.info(f'Starting Multiprocess with Number of workers: {num_workers}')
+    logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
     with multiprocessing.Manager() as manager:
         
         start=time.perf_counter()
