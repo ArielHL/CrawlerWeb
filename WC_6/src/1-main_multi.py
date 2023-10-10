@@ -144,7 +144,7 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler_v3.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     
     # Setting number of workers (one for company)
     num_workers=df.shape[0]
-    num_cores = multiprocessing.cpu_count()
+    num_cores = multiprocessing.cpu_count()*2
     
     logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
     with multiprocessing.Manager() as manager:
@@ -163,7 +163,7 @@ if __name__ == '__main__':
         sum_df_lock = manager.Lock()
     
         # Create a multiprocessing pool
-        with multiprocessing.Pool(processes=16) as pool:
+        with multiprocessing.Pool(processes=num_cores) as pool:
             pool.starmap(main, [(row['Company'], row['WebSite'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in df.iterrows()])
         
 
