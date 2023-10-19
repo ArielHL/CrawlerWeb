@@ -32,7 +32,7 @@ logger = CustomLogger(name=__name__,
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['PARKINSON','KREBS','GESUNDHEITSPFLEGE','UM']
+SORT_WORDS_LIST = ['NOSOTROS','ENERGIA','INNOVACION']
 NUMBER_OF_THREADS = 10
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
+    source_file = source_path.joinpath('Company_data_2.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     

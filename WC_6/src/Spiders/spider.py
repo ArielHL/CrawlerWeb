@@ -56,7 +56,7 @@ class Spider:
         Spider.base_url = base_url
         Spider.domain_name = domain_name
         Spider.sort_keywords_list = [word.lower() for word in keywords_list]
-        Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.pdf','.png','.ico','php','css','feed','xlm','.jpg']
+        Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.pdf','.png','.ico','php','css','feed','xlm','.jpg','twitter']
         Spider.links_limit = links_limit
         Spider.crawled_size = crawled_size
         Spider.List_lock = threading.Lock()

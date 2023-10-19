@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 # import internal libraries
 from MiddleWares.CustomLogger import CustomLogger
-from MiddleWares.Translate_v3 import Translator
+from MiddleWares.Translate_v1 import Translator
 
 # set_defaults(progress_bar=True,
 #              allow_dask_on_strings=True,
@@ -40,7 +40,7 @@ logger = CustomLogger(name=__name__,
 
 # *********************************************************************************************************************
 
-WORDS_TO_COUNT = ['PARKINSON','CANCER','INNOVATION','PEOPLE CARE']
+WORDS_TO_COUNT = ['Assisted Living','Nursing Home','Senior Care Facility','Independent Living','Memory Care']
 
 # *********************************************************************************************************************
 
@@ -74,11 +74,11 @@ def count_words_in_list(sentence, target_words):
 def html_to_text(html: str):
     try:
         soup = BeautifulSoup(html, 'html.parser')
-        text = soup.text
-        list_of_string = soup.text.split("\n")   
+        text = soup.get_text()
+        list_of_string = text.split("\n")   
         final_text = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]   
         plain_text = ' '.join(final_text)
-        plain_text = plain_text[:512]
+        
 
         return plain_text
     
@@ -104,28 +104,30 @@ if __name__ == '__main__':
     full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))
         
     full_df.drop(columns="html_string", inplace=True)
+    full_df.to_excel(results_path.joinpath('combined_file_before_translation.xlsx'),index=False)
     logger.info(f'Converting html to text completed')
+   
     
     # 3. translate to english
     logger.info(f'Translating to english')
     not_english_df = full_df[full_df['html_lang'] != 'en']
+    english_df = full_df[full_df['html_lang'] == 'en']
     
+    # initialize translator
     translator = Translator()
-    translated_df=translator.translate_df(df=not_english_df, column_name='text', new_column_name='translated_review')
-    translated_df.drop(columns=['text'], inplace=True)
-    translated_df.rename(columns={'translated_review':'text'}, inplace=True)
-    
-    full_df=full_df[full_df['html_lang'] == 'en'].reset_index(drop=True)
-    translated_df=translated_df.reset_index(drop=True)
-    
-    final_df=pd.concat([full_df, translated_df])
-    
-    print(f'Original df shape: {full_df.shape}\nTranslated df shape: {translated_df.shape}\nFinal df shape: {final_df.shape}')
-    
+    # run translation
+    tqdm.pandas()
+    not_english_df['translated_text']=not_english_df['text'].progress_apply(lambda text: translator.translate_multi(text))
+    english_df['translated_text']=english_df['text']
+    # reseting index
+    not_english_df.reset_index(drop=True, inplace=True)
+    english_df.reset_index(drop=True, inplace=True)
+    # concat dataframes
+    final_df = pd.concat([not_english_df, english_df], ignore_index=True)
 
     # 4. counting words
     logger.info(f'Counting words in text')
-    word_count_df = final_df['text'].apply(lambda lst: count_words_in_list(lst, WORDS_TO_COUNT)).apply(pd.Series)
+    word_count_df = final_df['translated_text'].apply(lambda lst: count_words_in_list(lst, WORDS_TO_COUNT)).apply(pd.Series)
     final_df = pd.concat([final_df, word_count_df], axis=1)
     final_df.reset_index(drop=True, inplace=True)
     
