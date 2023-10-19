@@ -85,44 +85,53 @@ def html_to_text(html: str):
     except Exception as e:
         logger(f"Error: {str(e)} with html: ", html)
         pass
-    
-
-    
-    
    
-
-    
 if __name__ == '__main__':
     
     logger.enable_terminal_logging()
     # 1. read all crawled files
     logger.info(f'Starting process \nCombining all crawled files into one file') 
     full_df=df_combiner()   
+   
+    # 1.1 reading keywords
+    source_path = Path(__file__).parents[1].joinpath('Source')
+    keywords_source = source_path.joinpath('Keywords List.xlsx')
+    WORDS_TO_COUNT=pd.read_excel(keywords_source)['Keywords'].tolist()
     
     # 2. convert html in text
-    logger.info(f'Converting html to text')
-    full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))
+    excel_file_path_html = results_path.joinpath('combined_file_before_translation.xlsx')
+    if not excel_file_path_html.exists():
         
-    full_df.drop(columns="html_string", inplace=True)
-    logger.info(f'Converting html to text completed')
-   
+        logger.info(f'Converting html to text')
+        full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))    
+        full_df.drop(columns="html_string", inplace=True)
+        logger.info(f'Converting html to text completed')
+        full_df.to_excel(excel_file_path_html,index=False,engine='xlsxwriter')
+    else:
+        logger.info(f'Excel file already exists. Skipping conversion.')
+    
     
     # 3. translate to english
-    logger.info(f'Translating to english')
-    not_english_df = full_df[full_df['html_lang'] != 'en']
-    english_df = full_df[full_df['html_lang'] == 'en']
-    
-    # initialize translator
-    translator = Translator()
-    # run translation
-    tqdm.pandas()
-    not_english_df['translated_text']=not_english_df['text'].progress_apply(lambda text: translator.translate_multi(text))
-    english_df['translated_text']=english_df['text']
-    # reseting index
-    not_english_df.reset_index(drop=True, inplace=True)
-    english_df.reset_index(drop=True, inplace=True)
-    # concat dataframes
-    final_df = pd.concat([not_english_df, english_df], ignore_index=True)
+    excel_file_path_translation=results_path.joinpath('combined_file_after_translation.xlsx')
+    if not excel_file_path_translation.exists():
+        
+        logger.info(f'Translating to english')
+        not_english_df = full_df[full_df['html_lang'] != 'en']
+        english_df = full_df[full_df['html_lang'] == 'en']
+        # initialize translator
+        translator = Translator()
+        # run translation
+        tqdm.pandas()
+        not_english_df['translated_text']=not_english_df['text'].progress_apply(lambda text: translator.translate_multi(text))
+        english_df['translated_text']=english_df['text']
+        # reseting index
+        not_english_df.reset_index(drop=True, inplace=True)
+        english_df.reset_index(drop=True, inplace=True)
+        # concat dataframes
+        final_df = pd.concat([not_english_df, english_df], ignore_index=True)
+        final_df.to_excel(excel_file_path_translation,index=False,engine='xlsxwriter')
+    else:
+        logger.info(f'Excel file already exists. Skipping translation.')
 
     # 4. counting words
     logger.info(f'Counting words in text')
