@@ -104,7 +104,6 @@ if __name__ == '__main__':
     full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))
         
     full_df.drop(columns="html_string", inplace=True)
-    full_df.to_excel(results_path.joinpath('combined_file_before_translation.xlsx'),index=False)
     logger.info(f'Converting html to text completed')
    
     
@@ -137,7 +136,7 @@ if __name__ == '__main__':
     excel_file=results_path.joinpath('combined_file.xlsx')
 
     final_df.to_parquet(parquet_file)
-    final_df.to_excel(excel_file,index=False)
+    final_df.to_excel(excel_file,index=False,engine='xlsxwriter')
     
 
 
