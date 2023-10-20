@@ -2,6 +2,7 @@ from urllib.request import urlopen, Request
 from urllib import error
 from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
+from MiddleWares.CustomLogger import CustomLogger
 from os import path, getcwd
 from bs4 import BeautifulSoup
 import threading
@@ -19,12 +20,11 @@ logger_file=logger_path.joinpath('log.txt')
 
 # setting the logger
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
-)
+logger = CustomLogger(name=__name__, 
+                             level=logging.INFO,
+                             logger_file=logger_file)
+
+
 
 list_lock=threading.Lock()
 update_lock=threading.Lock()
@@ -56,7 +56,7 @@ class Spider:
         Spider.base_url = base_url
         Spider.domain_name = domain_name
         Spider.sort_keywords_list = [word.lower() for word in keywords_list]
-        Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.pdf','.png','.ico','php','css','feed','xlm','.jpg']
+        Spider.exception_list = ['mailto:','json','tel:','javascript:','whatsapp:','.pdf','.png','.ico','php','css','feed','xlm','.jpg','twitter']
         Spider.links_limit = links_limit
         Spider.crawled_size = crawled_size
         Spider.List_lock = threading.Lock()
@@ -114,7 +114,6 @@ class Spider:
             
             # gather links from page_url
             links,html_string,language = Spider.gather_links(self,page_url)
-            logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} saving: {page_url} in the Crawled List')
             
             with list_lock:
                 

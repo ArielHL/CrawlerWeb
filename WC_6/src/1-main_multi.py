@@ -1,15 +1,20 @@
-
+# import external libraries
 import pandas as pd
 import threading
 from pathlib import Path
 import multiprocessing
 import queue
 from queue import Queue, Empty
-from Spiders.spider import Spider
-from MiddleWares.middlewares import *
 import time
 import logging
 from tqdm import tqdm
+
+# import internal libraries
+from Spiders.spider import Spider
+from MiddleWares.middlewares import *
+from MiddleWares.ProgressBar import CustomProgressBar 
+from MiddleWares.CustomLogger import CustomLogger
+
 # setting the path
 
 output_path = Path(__file__).parents[2].joinpath('Output')
@@ -20,29 +25,29 @@ logger_file=logger_path.joinpath('log.txt')
 
 # setting the logger
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.FileHandler(logger_file), logging.StreamHandler()]
-)
+logger = CustomLogger(name=__name__, 
+                             level=logging.INFO,
+                             logger_file=logger_file)
+
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['DATA ANALYTICS','GEN AI','M&A','DATA SCIENCE']
-NUMBER_OF_THREADS = 30
-CRAWLED_SIZE_LIMIT = 500
-LINKS_LIMIT = 100
+SORT_WORDS_LIST = ['Pflegequalität','Lebensqualität','Sicherheit','Aktivitäten und Gemeinschaft','Personalqualifikation']
+NUMBER_OF_THREADS = 10
+CRAWLED_SIZE_LIMIT = 50
+LINKS_LIMIT = 25
 
 
 # *******************************************************************************************************************
 
-sum_df=pd.DataFrame()
 
 # Wrapper function to iterate over the list of companies
-def main(project_name:str, homepage:str):
+def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, sum_df_lock: threading.Lock):
     
-    global sum_df
+    thread_id = threading.current_thread().ident  # Get the thread ID
+
+    # progress_bar = tqdm(total=total_links, leave=True, desc=f'Company: {project_name}')
+    progress_bar = CustomProgressBar(total=total_links, desc=f'Company: {project_name}',leave=True)
 
     start=time.perf_counter()
     
@@ -69,7 +74,6 @@ def main(project_name:str, homepage:str):
     def crawl():
         """
         Read queue and crawled file into memory
-     
         
         """
         while len(spider.queue) > 0 and len(spider.crawled) < CRAWLED_SIZE_LIMIT:
@@ -80,7 +84,7 @@ def main(project_name:str, homepage:str):
                 queue.join()
                 
             except RuntimeError as e:
-                logger.error(f'RuntimeError: {str(e)}')
+                logger.error(f'RuntimeError: {str(e)}')    
        
 
         
@@ -113,7 +117,8 @@ def main(project_name:str, homepage:str):
             url = queue.get()    
             spider.crawl_page(threading.current_thread().name, url)
             queue.task_done()
-
+            
+            progress_bar.update(1)  # Update the progress bar
 
     # initialize the worker threads waiting for adding links to the queue
     create_workers()
@@ -123,32 +128,50 @@ def main(project_name:str, homepage:str):
     
     end=time.perf_counter()
     
-    logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
-    company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
-    df=pd.DataFrame(company_dict, index=[0])
-    sum_df=pd.concat([sum_df, df], ignore_index=True)
-    
+    # logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
+
+    with sum_df_lock:
+        company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
+        sum_df_list.append(company_dict)
+    progress_bar.close()
+        
+
 # *******************************************************************************************************************
         
 if __name__ == '__main__':
     
+    # definition of the folder for the source file
+    logger.enable_terminal_logging()
+    logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler_v4.xlsx')
+    logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     
-    start=time.perf_counter()
+   
     
     # Setting number of workers (one for company)
     num_workers=df.shape[0]
-    num_cores = multiprocessing.cpu_count()
+    num_cores = multiprocessing.cpu_count()*2
     
-    # Create a multiprocessing pool
-    with multiprocessing.Pool(processes=num_workers) as pool:
-        pool.starmap(main, [(row['Company'], row['WebSite']) for index, row in df.iterrows()])
+    logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
+    with multiprocessing.Manager() as manager:
+        
+        start=time.perf_counter()
+        
+        sum_df_list = manager.list()
+        sum_df_lock = manager.Lock()
+    
+        # Create a multiprocessing pool
+        with multiprocessing.Pool(processes=num_cores) as pool:
+            pool.starmap(main, [(row['Company'], row['WebSite'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in df.iterrows()])
         
 
-    end=time.perf_counter()
-    logger.info(f'\n\nTotal Processed : {sum_df.Links.sum()} links   \nFinished in {round(end-start,2)} seconds')
-    logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
+        end=time.perf_counter()
+        
+        # Convert the shared list to a DataFrame
+        sum_df = pd.DataFrame(list(sum_df_list))
+        sum_df.to_excel(output_path.joinpath('Companies','Summary.xlsx'), index=False)
+        logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
     
     
