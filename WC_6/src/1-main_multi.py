@@ -32,7 +32,7 @@ logger = CustomLogger(name=__name__,
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['Pflegequalität','Lebensqualität','Sicherheit','Aktivitäten und Gemeinschaft','Personalqualifikation']
+SORT_WORDS_LIST = []
 NUMBER_OF_THREADS = 10
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
@@ -144,7 +144,7 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v4.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     
     # Setting number of workers (one for company)
     num_workers=df.shape[0]
-    num_cores = multiprocessing.cpu_count()*2
+    num_cores = multiprocessing.cpu_count()
     
     logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
     with multiprocessing.Manager() as manager:
