@@ -2,10 +2,7 @@
 # import external libraries
 from pathlib import Path
 import pandas as pd
-import numpy as np
-import regex as re
 from bs4 import BeautifulSoup
-import swifter
 from tqdm import tqdm
 import logging
 from collections import Counter
@@ -16,10 +13,7 @@ warnings.filterwarnings("ignore")
 from MiddleWares.CustomLogger import CustomLogger
 from MiddleWares.Translate_v1 import Translator
 
-# set_defaults(progress_bar=True,
-#              allow_dask_on_strings=True,
-#              force_parallel=True,
-#              npartitions=64)
+
 tqdm.pandas()
 
 
@@ -89,49 +83,60 @@ def html_to_text(html: str):
 if __name__ == '__main__':
     
     logger.enable_terminal_logging()
-    # 1. read all crawled files
-    logger.info(f'Starting process \nCombining all crawled files into one file') 
-    full_df=df_combiner()   
+ 
    
     # 1.1 reading keywords
     source_path = Path(__file__).parents[1].joinpath('Source')
     keywords_source = source_path.joinpath('Keywords List.xlsx')
     WORDS_TO_COUNT=pd.read_excel(keywords_source)['Keywords'].tolist()
     
-    # 2. convert html in text
-    excel_file_path_html = results_path.joinpath('combined_file_before_translation.xlsx')
-    if not excel_file_path_html.exists():
+    
+    logger.info(f'Starting process \nCombaining all crawled files into one file') 
+    
+ 
+    parquet_file_path_html = results_path.joinpath('combined_file_before_translation.parquet')
+    if not parquet_file_path_html.exists():
         
+        # 1. read all crawled files
+        full_df=df_combiner()   
+        # 2. convert html in text
         logger.info(f'Converting html to text')
-        full_df["text"] = full_df.html_string.swifter.apply(lambda html: html_to_text(html))    
+        tqdm.pandas()
+        full_df["text"] = full_df["html_string"].progress_apply(lambda html: html_to_text(html))   
         full_df.drop(columns="html_string", inplace=True)
         logger.info(f'Converting html to text completed')
-        full_df.to_excel(excel_file_path_html,index=False,engine='xlsxwriter')
+        full_df.to_parquet(parquet_file_path_html)
     else:
         logger.info(f'Excel file already exists. Skipping conversion.')
+        full_df=pd.read_parquet(parquet_file_path_html)
     
     
     # 3. translate to english
-    excel_file_path_translation=results_path.joinpath('combined_file_after_translation.xlsx')
-    if not excel_file_path_translation.exists():
+    parquet_file_path_translation=results_path.joinpath('combined_file_after_translation.parquet')
+    if not parquet_file_path_translation.exists():
         
         logger.info(f'Translating to english')
+        full_df.reset_index(inplace=True)
         not_english_df = full_df[full_df['html_lang'] != 'en']
         english_df = full_df[full_df['html_lang'] == 'en']
+        
         # initialize translator
         translator = Translator()
+        
         # run translation
-        tqdm.pandas()
-        not_english_df['translated_text']=not_english_df['text'].progress_apply(lambda text: translator.translate_multi(text))
-        english_df['translated_text']=english_df['text']
+        not_english_df['translated_text'] = not_english_df['text'].progress_apply(lambda text: translator.translate_text_short(text))
+        english_df['translated_text'] = english_df['text']
+
         # reseting index
         not_english_df.reset_index(drop=True, inplace=True)
         english_df.reset_index(drop=True, inplace=True)
+        
         # concat dataframes
         final_df = pd.concat([not_english_df, english_df], ignore_index=True)
-        final_df.to_excel(excel_file_path_translation,index=False,engine='xlsxwriter')
+        final_df.to_parquet(parquet_file_path_translation,index=False,engine='xlsxwriter')
     else:
         logger.info(f'Excel file already exists. Skipping translation.')
+        final_df=pd.read_parquet(parquet_file_path_translation)
 
     # 4. counting words
     logger.info(f'Counting words in text')

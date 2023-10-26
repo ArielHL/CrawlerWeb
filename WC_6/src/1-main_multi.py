@@ -33,10 +33,10 @@ logger = CustomLogger(name=__name__,
 # **************************************************** SETTINGS ****************************************************
 
 SORT_WORDS_LIST = ['Pflegequalität','Lebensqualität','Sicherheit','Aktivitäten und Gemeinschaft','Personalqualifikation']
-NUMBER_OF_THREADS = 10
+NUMBER_OF_THREADS = 5
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
-
+CHUNK_SIZE = 25
 
 # *******************************************************************************************************************
 
@@ -144,15 +144,15 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v4.xlsx')
+    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
     
    
     
     # Setting number of workers (one for company)
-    num_workers=df.shape[0]
-    num_cores = multiprocessing.cpu_count()*2
+    
+    num_cores = multiprocessing.cpu_count()
     
     logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
     with multiprocessing.Manager() as manager:
@@ -161,10 +161,18 @@ if __name__ == '__main__':
         
         sum_df_list = manager.list()
         sum_df_lock = manager.Lock()
+        
+        # Split the DataFrame into chunks based on CHUNK_SIZE
+        num_chunks = len(df) // CHUNK_SIZE + (len(df) % CHUNK_SIZE != 0)
+        for i in range(num_chunks):
+            logger.info(f'Starting Chunk: {i+1} of {num_chunks}')
+            start_idx = i * CHUNK_SIZE
+            end_idx = (i + 1) * CHUNK_SIZE
+            chunk_df = df[start_idx:end_idx]
     
-        # Create a multiprocessing pool
-        with multiprocessing.Pool(processes=num_cores) as pool:
-            pool.starmap(main, [(row['Company'], row['WebSite'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in df.iterrows()])
+            # Create a multiprocessing pool
+            with multiprocessing.Pool(processes=num_cores) as pool:
+                pool.starmap(main, [(row['Company'], row['WebSite'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in chunk_df.iterrows()])
         
 
         end=time.perf_counter()
