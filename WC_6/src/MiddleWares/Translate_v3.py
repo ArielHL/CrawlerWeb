@@ -31,6 +31,17 @@ class Translator:
 
 
     @staticmethod
+    def translate_text_short(sentence):
+        
+        if len(sentence) > 4500:
+            sentence = sentence[:4500]
+        translated_text = Translator.model.translate(sentence, dest='en').text
+        return translated_text 
+
+
+
+
+    @staticmethod
     def translate_dataframe(df:pd.DataFrame,
                             column_name:str,
                             num_workers:int=4):

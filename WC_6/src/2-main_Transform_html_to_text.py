@@ -124,10 +124,8 @@ if __name__ == '__main__':
         translator = Translator()
         
         # run translation
-        tqdm.pandas()
-   
-        not_english_df = translator.translate_dataframe(df=not_english_df, column_name='text',num_workers=2)
-        english_df['indexed_text']=english_df.index.astype(str)+'_'+english_df['text']
+        not_english_df['translated_text'] = not_english_df['text'].progress_apply(lambda text: translator.translate_text_short(text))
+        english_df['translated_text'] = english_df['text']
 
         # reseting index
         not_english_df.reset_index(drop=True, inplace=True)
