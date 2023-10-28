@@ -1,5 +1,6 @@
 from urllib.request import urlopen, Request
 from urllib import error
+import socket
 from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
 from MiddleWares.CustomLogger import CustomLogger
@@ -162,7 +163,7 @@ class Spider:
         
         try:
             request = Request(page_url,headers=header)
-            response = urlopen(request)
+            response = urlopen(request,timeout=5)
             response_status = response.getcode()
             
             # Checking if the response is valid
@@ -188,10 +189,18 @@ class Spider:
 
                     max_string = max(first_string, key=len)                                                                  
                     language = detect(max_string)  
-                
+                    
+        except error.HTTPError as e:
+             logger.error(f"HTTP Error: {e.code} - {e.reason}")
+             
+        except error.URLError as e:
+            if isinstance(e.reason, socket.timeout):
+                logger.error("Request timed out.")
+            else:
+                logger.error(f"URL Error: {e.reason}")        
                 
         except Exception as e:
-            # logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
+            logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
             self.html_string_status = False
             return list(),None,None
         

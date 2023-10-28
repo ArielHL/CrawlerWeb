@@ -11,6 +11,7 @@ import numpy as np
 import json
 import tldextract
 import threading
+import re
 
 
 # create a project directory
@@ -92,8 +93,9 @@ def file_to_list(file_name:Path,dict_key:str) -> List[str]:
 
 
 def file_to_df(file_name:Path) -> pd.DataFrame:
-  
-    return pd.read_parquet(file_name)
+        
+        return pd.read_parquet(file_name)
+   
 
 
 
@@ -182,3 +184,11 @@ def check_url(url_list):
             new_list.append(url)
 
     return new_list
+
+def remove_special_characters(input_string):
+    # Use regular expression to remove special characters, excluding spaces
+    cleaned_string = re.sub(r'[^a-zA-Z\s]', '', input_string)
+    cleaned_string = cleaned_string.strip()
+    cleaned_string = cleaned_string.encode('utf-8')
+    cleaned_string = cleaned_string.decode('utf-8', 'ignore')
+    return cleaned_string

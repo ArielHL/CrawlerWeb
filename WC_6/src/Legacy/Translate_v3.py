@@ -1,52 +1,78 @@
 import pandas as pd
-from deep_translator import GoogleTranslator
+from googletrans import Translator
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
+import time
+import random
 
 class Translator:
-    
-    # Defining Model
-    translator_model=GoogleTranslator(source='auto', target='en')
-    
-    def __init__(self, translate_model:object=translator_model):
-        Translator.translate_model = translate_model
 
+          
+    model = Translator()
+    
+    @staticmethod
+    def translate_text(sentence):
+        
+        # Split the sentence into chunks of 500 words each
+        words = sentence.split()
+        chunks = [words[i:i+490] for i in range(0, len(words), 490)]
+        
+        # Translate each chunk and join them back into a single sentence
+        translated_chunks = []
+        for chunk in chunks:
+            chunk_sentence = ' '.join(chunk)
+            translated_chunk = Translator.model.translate(chunk_sentence, dest='en').text
+            translated_chunks.append(translated_chunk)
+            time.sleep(random.random()*2)
+        
+        # Join the translated chunks into a single sentence
+        translated_text = ' '.join(translated_chunks)
+        return translated_text
 
- 
 
     @staticmethod
-    def translate_multi(sentence,index):
-        if len(sentence) > 500:
-            sentence = sentence[:500]
-        translated_text = Translator.translate_model.translate(sentence)
-        return translated_text,index
+    def translate_text_short(sentence):
+        
+        if len(sentence) > 4500:
+            sentence = sentence[:4500]
+        translated_text = Translator.model.translate(sentence, dest='en').text
+        return translated_text 
 
 
-    def translate_df(self, 
-                     df: pd.DataFrame, 
-                     column_name: str = 'plain_text', 
-                     new_column_name: str = 'translated_review',
-                     max_workers: int = 30):
+
+
+    @staticmethod
+    def translate_dataframe(df:pd.DataFrame,
+                            column_name:str,
+                            num_workers:int=4):
         
-        translated_dict = {}
-        with ThreadPoolExecutor(max_workers=max_workers) as executor, tqdm(total=len(df)) as pbar:
-            for translated_review, index in tqdm(executor.map(self.translate_multi, df[column_name], df.index), total=len(df)):
-                translated_dict[index] = translated_review
-                pbar.update(1)
+        df['indexed_text']=df.index.astype(str)+'_'+df[column_name]
         
-        # Sort the dictionary based on keys (indices)
-        sorted_translations = [translated_dict[index] for index in sorted(translated_dict.keys())]
-        control=pd.DataFrame(sorted_translations)
-        control.to_excel('control.xlsx')
-        # Update the DataFrame column with sorted translated texts
-        df[new_column_name] = sorted_translations
+        # Convert the DataFrame to a list of dictionaries for executor.map
+        rows_as_dicts = df.to_dict(orient='records')
+
+        def translate_row(row):
+            translated_text = Translator.translate_text(row['indexed_text'])
+            return row['index'], translated_text
+    
+
+        # Use multithreading to translate rows concurrently while preserving order
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            translated_results = list(tqdm(executor.map(translate_row, rows_as_dicts), total=len(df)))
+            
+         # Reorder the translated results based on the original index
+        translated_results.sort(key=lambda x: x[0])
+        
+        # Extract the translated texts from the results
+        translated_texts = [text for index, text in translated_results]
+
+        df['translated_text'] = translated_texts
         return df
 
+        
 
 
 
 
-    
-    
 
 

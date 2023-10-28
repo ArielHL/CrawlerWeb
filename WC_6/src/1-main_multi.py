@@ -32,11 +32,11 @@ logger = CustomLogger(name=__name__,
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['Pflegequalität','Lebensqualität','Sicherheit','Aktivitäten und Gemeinschaft','Personalqualifikation']
-NUMBER_OF_THREADS = 5
+SORT_WORDS_LIST = []
+NUMBER_OF_THREADS = 10
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
-CHUNK_SIZE = 25
+CHUNK_SIZE = 200
 
 # *******************************************************************************************************************
 
@@ -93,8 +93,7 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
         Create worker threads (will die when main exits)
         
         """
-     
-     
+
         for _ in range(NUMBER_OF_THREADS):
             t = threading.Thread(target=work,daemon=False)
             t.start()
@@ -144,15 +143,15 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
+    source_file = source_path.joinpath('Url_to_Crawl.xlsx')
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
-    
+    df['Company']=df['Company'].apply(lambda text: remove_special_characters(text))
    
     
     # Setting number of workers (one for company)
     
-    num_cores = multiprocessing.cpu_count()
+    num_cores = multiprocessing.cpu_count()*2
     
     logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
     with multiprocessing.Manager() as manager:
