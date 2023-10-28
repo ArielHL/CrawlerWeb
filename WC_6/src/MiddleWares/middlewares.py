@@ -12,6 +12,7 @@ import json
 import tldextract
 import threading
 import re
+from bs4 import BeautifulSoup
 
 
 # create a project directory
@@ -192,3 +193,43 @@ def remove_special_characters(input_string):
     cleaned_string = cleaned_string.encode('utf-8')
     cleaned_string = cleaned_string.decode('utf-8', 'ignore')
     return cleaned_string
+
+def df_combiner(output_path:Path) -> pd.DataFrame:
+    
+    full_df = pd.DataFrame()
+
+    for company_dir in output_path.iterdir():
+        if company_dir.is_dir():
+            crawled_file = company_dir / "crawled_df.parquet"
+            if crawled_file.is_file():
+                try:
+                    df=pd.read_parquet(crawled_file)
+                    full_df = pd.concat([full_df, df], ignore_index=True)
+                except Exception as e:
+                    print(f'Error: {e}')
+    
+    full_df.dropna(inplace=True)
+    
+    return full_df
+
+# Function to count occurrences of target words in a list
+def count_words_in_list(sentence, target_words):
+    sentence_lower = sentence.lower()
+    word_counts = {word: sentence_lower.count(word.lower()) for word in target_words}
+    return word_counts
+    
+
+def html_to_text(html: str,logger:Callable):
+    try:
+        soup = BeautifulSoup(html, 'html.parser')
+        text = soup.get_text()
+        list_of_string = text.split("\n")   
+        final_text = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]   
+        plain_text = ' '.join(final_text)
+        
+
+        return plain_text
+    
+    except Exception as e:
+        logger(f"Error: {str(e)} with html: ", html)
+        pass

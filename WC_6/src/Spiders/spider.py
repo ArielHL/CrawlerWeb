@@ -123,14 +123,17 @@ class Spider:
    
                 # remove page_url from queue and add to crawled (cause has been crawled)
                 list_remove(value=page_url,my_list=Spider.queue)
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} removing from queue: page: {page_url}')
                 # add page_url to crawled
                 list_add(value=page_url,my_list=Spider.crawled) if self.html_string_status else None
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} adding to crawled: page: {page_url}')
                 # add data to df
                 Spider.add_data_to_df(  project_name=Spider.project_name,
                                         url_base=Spider.base_url,   
                                         url=page_url,
                                         html_string=html_string,
-                                        html_lang=language  ) if self.html_string_status else None      
+                                        html_lang=language  ) if self.html_string_status else None 
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} adding to df: page: {page_url}')     
             
             # Sort the links
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
@@ -139,6 +142,7 @@ class Spider:
             with update_lock:
                 # update queue and crawled files
                 Spider.update_files()
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} updating files: page: {page_url}')
       
             
     

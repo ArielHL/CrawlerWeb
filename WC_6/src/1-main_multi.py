@@ -36,7 +36,7 @@ SORT_WORDS_LIST = []
 NUMBER_OF_THREADS = 10
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
-CHUNK_SIZE = 50
+CHUNK_SIZE = 500
 
 # *******************************************************************************************************************
 
@@ -69,8 +69,7 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
                     links_limit=LINKS_LIMIT,
                     project_path=PROJECT_PATH
                 )
-
-
+    
     def crawl():
         """
         Read queue and crawled file into memory
@@ -85,9 +84,7 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
                 
             except RuntimeError as e:
                 logger.error(f'RuntimeError: {str(e)}')    
-       
 
-        
     def create_workers():
         """
         Create worker threads (will die when main exits)
@@ -130,7 +127,7 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
     # logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
 
     with sum_df_lock:
-        company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
+        company_dict={'Company':PROJECT_NAME,'url_base':{HOMEPAGE},'Links':len(spider.crawled),'Time':round(end-start,2)}
         sum_df_list.append(company_dict)
     progress_bar.close()
         
