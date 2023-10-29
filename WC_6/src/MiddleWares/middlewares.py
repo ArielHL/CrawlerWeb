@@ -13,6 +13,7 @@ import tldextract
 import threading
 import re
 from bs4 import BeautifulSoup
+from tqdm import tqdm
 
 
 # create a project directory
@@ -233,3 +234,13 @@ def html_to_text(html: str,logger:Callable):
     except Exception as e:
         logger(f"Error: {str(e)} with html: ", html)
         pass
+    
+def neo_html_to_text(html_strings: str, logger: Callable):
+    for html in tqdm(html_strings):
+        try:
+            soup = BeautifulSoup(html, 'html.parser')
+            text = soup.get_text(separator=' ', strip=True)
+            yield text
+        except (AttributeError, TypeError) as e:
+            logger(f"Error: {str(e)} with html: {html}")
+            pass
