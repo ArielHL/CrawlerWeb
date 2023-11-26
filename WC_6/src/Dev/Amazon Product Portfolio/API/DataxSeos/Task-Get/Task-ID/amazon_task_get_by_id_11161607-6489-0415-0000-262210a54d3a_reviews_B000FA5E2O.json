@@ -1,0 +1,958 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0783 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11161607-6489-0415-0000-262210a54d3a",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0210 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11161607-6489-0415-0000-262210a54d3a"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B000FA5E2O",
+                "asin": "B000FA5E2O",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B000FA5E2O",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B000FA5E2O?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-16 14:08:13 +00:00",
+                    "spell": null,
+                    "title": "Lamy Vista 012 Fountain Pen, Popular Youth Fountain Pen in a...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Lamy Vista 012 Fountain Pen, Popular Youth Fountain Pen in a Transparent Version with Ergonomic Handle, Nib Thickness M",
+                        "url": "https://amazon.de/-/en/Fountain-Popular-Transparent-Ergonomic-Thickness/dp/B000FA5E2O/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41VSIgsovTL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.8",
+                        "votes_count": 4247,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 1187,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ireen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGTYYP24P5VBCCIOSYVFI7IHOIRA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy F\u00fcller \ud83d\udd8b\ufe0f",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1F8VLK4HX45IX/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Lamy ist und bleibt einfach gut. \u263a\ufe0f mein Sohn kann damit sehr gut schreiben",
+                            "publication_date": "2023-11-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Maria",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGKAT6QL3QN7PFQCQPGRCGGYOFOA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Good quality",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R10HEEU9QEWQP1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Very nice quality for a very good price",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lukas",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGVB7ZU32GRFSCZWBXH5THPCTMQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klare Empfehlung!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RTTEDWX8FBH9G/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ich habe mir den Lamy in Transparent wegen dem Design geholt und weil LAMY bisher immer sehr gute Qualit\u00e4t hatte. Inzwischen ist es mein vierter LAMY F\u00fcller (verschiedene Feder-Ausf\u00fchrungen). Prim\u00e4r benutze ich ihn zum zeichnen und bin sehr zufrieden. Der Tintenfluss ist genau richtig, selbst wenn man mal schnelle Striche zieht. Immer wieder gerne!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Didi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFVTS5CFJOLS3PWCWEMXNTAXHD5A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr Gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1SUB1T435Q77/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Habe ich f\u00fcr meine Schwester gekauft\nSie ist super zufrieden damit, ist\nTop und auch handlich.",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mari",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHQ5ZEIRHDHHKDPMXHFGMUV46O6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "LAMY vista F\u00fcllhalter 012",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2N8WCKJQ1RJ8U/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "ein super sch\u00f6ner F\u00fcller  nur musste ich ihn zur\u00fcck schicken ,weil meine Enkelin einen anderen haben wollte",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hummel81",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHBLBTEO4HD534YIXJLH65XGPYQA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Schnelle Lieferung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R181FU4H40OHEB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Den F\u00fcller gab es zu einem wirklich guten Preis. Die Lieferung war schnell und im gepolsterten Umschlag, so dass alles heil ankam.\nIch w\u00fcrde dort wieder bestellen.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Y.B.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGUUEV3WQBEHFY5EZOFL2S7NMIIA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mega cooler F\u00fcller",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2JVBAMOUBG2NP/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Mein Sohn ist begeistert, mal was anderes",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF5I2Q45KOOTAQ2QOKODDGT4NRCA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ich liebe es",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RQ2FWVAZTPV9J/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ist f\u00fcr mein Sohn , er ist beeindruckt von dem F\u00fcller. Beste F\u00fcller ich liebe Lamy",
+                            "publication_date": "2023-08-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Murat",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/f5dfa0c2-d031-4244-a1ed-f42921c7b8a1._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFLZSLXEZPVLI2FEX2FGZD3OJPNA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RRB1QYA1KGLJ7/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Es l\u00e4sst sich sehr gut schreiben und er sitz auch sehr gut an der Hand",
+                            "publication_date": "2023-07-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Julia",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH4RXIFAAC3MV7SOTORVPJ3Q63GA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter F\u00fcller",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RTQYAHIJ0FCJA/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Gute Qualit\u00e4t - daf\u00fcr stand Lamy schon immer",
+                            "publication_date": "2023-07-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dominique Krug",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHENWVPTZDI6ECCVZUPN2DB6M4ZA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6ner F\u00fcller",
+                            "url": "https://amazon.de/gp/customer-reviews/R23WHAS5F3400N/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Habe einen f\u00fcr meine Tochter im Laden gekauft.... als mein Sohn ihn gesehen hat wollte er unbedingt auch einen. Dann habe ih ihn bestellt. Er kam sogar mit Lamy Patrone. Im Laden war er teurer und ohne Patrone.\nMeine Kinder sind sehr zufrieden und benutzen ihn sehr gerne",
+                            "publication_date": "2023-04-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 December 2022",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "gweep",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHXNHA4IOOLGPDI7LOPHJH5RMHRQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis Leistung passt",
+                            "url": "https://amazon.de/gp/customer-reviews/R2GRRMYJ3X7OTN/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ich habe aktuell 7 verschiedene Lamy F\u00fcllhalter/F\u00fcllfedern wovon 6 davon M sind und eine F (die kratzt). Sind alle OK, komischerweise ist aber jeder von der Feder her anders. Es sind also definitiv nicht alle Federn gleich.\nIch verwende die F nicht mehr, eine M die sehr dick schreibt mit der original Tinte, die anderen sind mit Z28 Konverter ausgestattet, so das ich die Tinte aufziehen kann, die ich m\u00f6chte. Aktuell sind das Pelikan Edelstein Tinten.\nAlle M schreiben gut, keine davon kratzt, es kommt auch bei allen gut die Tinte raus. Bin allgemein zufrieden damit.",
+                            "publication_date": "2022-12-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Caroline",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHFLFNOLGDPFE4XRMEWOFWKUE7UQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wirklich gutes Scheibger\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/RDKCA0RH01AMT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Guter grip, Feder perfekt!",
+                            "publication_date": "2023-06-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Saskia Ortmann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AES5IB6OYXCQ6DMAZESURWHWLDUA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Cooles Design",
+                            "url": "https://amazon.de/gp/customer-reviews/R1X3EP0GLP39EX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Sieht spitze aus, liegt gut in der Hand. Tolles Geschenk f\u00fcr meine Tochter.",
+                            "publication_date": "2023-05-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon-Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHGFACV7TRKK5OAJUTG4UTYPFPJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R3VCZICPOW976P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ok",
+                            "publication_date": "2023-04-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Wess",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG2MD7ZGJE2KLGOQ5TSGCJKDFPVA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die beste!",
+                            "url": "https://amazon.de/gp/customer-reviews/R17EF18GPUSU8T/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Die beste F\u00fcllhalter!",
+                            "publication_date": "2023-05-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Patty",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGX43BEVFEUIDIYNUEDZX7LPVBFA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcller",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ZQOM8201O8UY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Toller F\u00fcller, sch\u00f6nes Design, schreibt gut. Hat meine Erwartungen voll erf\u00fcllt.",
+                            "publication_date": "2023-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 March 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFXHD5HKBZPKHRVAQJYPXTRGQQSQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super F\u00fcller",
+                            "url": "https://amazon.de/gp/customer-reviews/RJ8ZQWDPZ4MF3/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Der F\u00fcller ist gut zum halten sehr leicht, und mein Sohn schreibt super gerne. Die Schrift hat sich auch verbessert.",
+                            "publication_date": "2023-03-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alan A.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/667b9a64-0361-49ca-bab1-7ca239afa8c4._CR83,0,333,333_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGGMHSNRIBK4KMPONJOCHX2EP3NA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R3SJSHVEY5XSUM/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Gut",
+                            "publication_date": "2023-02-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Oberadener_1976",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/a63e309e-9975-44a2-9f17-f69cb3f2b41e._CR0,0,206,206_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFO22BEXZBNPFQK2ICRG3U2CEW2A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gewohnt hohe Lamy Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R37JUNPT2LXTXF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Gewohnt gute Lamy Qualit\u00e4t. Verarbeitung super, Feder kratzt nicht. Alles bestens.",
+                            "publication_date": "2023-04-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dafina Osmani",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGRDPVS5ML26ZT3WDKHBYLWDSYKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ist in sehr empfehlenswert wert",
+                            "url": "https://amazon.de/gp/customer-reviews/R33SKDPOSQSDF2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Der F\u00fcller l\u00e4uft aus h\u00e4tte gerne ein neues Lg",
+                            "publication_date": "2023-04-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 March 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "nely",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFLU7JHTY6TKHPCSACUITSMRJM4Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Leicht und rutschfest",
+                            "url": "https://amazon.de/gp/customer-reviews/R2EN7SG2S0XE2S/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Sehr angenehme Haptik, leicht, liegt trotzdem stabil in der Hand. Empfehlenswert besonders beim langen schreiben.",
+                            "publication_date": "2023-03-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michelle",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEA2PYVFDGFDGMMGQDZGATJHXG7A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Just as expected",
+                            "url": "https://amazon.de/gp/customer-reviews/R2I2NDMHXJVIOE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Nice first/workhorse fountain pen. Good weight. Love the demonstration model in particular because the transparency of the barrel allows you to see the inner workings and the flow of the ink.",
+                            "publication_date": "2023-01-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 October 2019",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lukas R.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGSNICNPFLPUP3BRYD2YP32W2IJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr den Preis ein guter F\u00fcller",
+                            "url": "https://amazon.de/gp/customer-reviews/R1YEHV0W9ZKCKX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ich habe den Lamy Vista vor einigen Monaten mit B-Feder erworben. Der F\u00fcller sieht aus wie auf den Fotos abgebildet und macht als Demonstrator schon etwas her. Die Feder selbst ist ziemlich rigide und erlaubt kaum Linienvariation. Mit 13 cm L\u00e4nge ohne Kappe und 16,5 cm L\u00e4nge mit hinten aufgesteckter Kappe ist der F\u00fcller wahrscheinlich f\u00fcr jede Handgr\u00f6\u00dfe etwas. Er ist allerdings sehr leicht, was mir aber nichts ausgemacht hat.\nPositiv aufgefallen ist mir folgendes:\n- Die B-Feder schreibt auch wirklich breit und zwar mit verschiedenen Tinten und Papieren.\n- Der Tintenfluss ist satt, aber nicht zu nass, und konsistent ohne gro\u00dfe Anschreibschwierigkeiten oder Aussetzer.\n- Die Verarbeitung ist f\u00fcr einen F\u00fcller dieses Preises anstandslos.\n- Der Clip ist gut und funktional.\nNegative Punkte sind:\n- Die Feder ist leicht kratzig, was an minimal unterschiedlichen L\u00e4ngen der Federschenkel liegt.\n- Die Feder ist kein Hingucker.\nAlles in allem ein F\u00fcller, der gut seine Arbeit tut und angenehm in der Hand liegt. Aufgrund des Preises ist die leichte Kratzigkeit der Feder zu verkraften und auch das eher standardm\u00e4\u00dfige und vielleicht etwas langweilige Design ist kein gro\u00dfes Problem.",
+                            "publication_date": "2019-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 October 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M. S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6f777830-e902-4dd4-a8e4-a54768fc838d._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH4BZPQYDLNURO6SC7F3LVNZ5ZDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "So schick",
+                            "url": "https://amazon.de/gp/customer-reviews/R15EJK8FUOWBU/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Habe ihn f\u00fcr meinen Sohn (7. Klasse) bestellt. Sohnemann hat sich gefreut und meinte sieht der Cool aus.\nTop Produkt und schnelle Lieferung.",
+                            "publication_date": "2022-10-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 May 2020",
+                            "helpful_votes": 10,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike Ziemer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AER7BI3OELSMT4MO7LF2HDAKF27Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "So wie ich den F\u00fcller in Erinnerung hatte!",
+                            "url": "https://amazon.de/gp/customer-reviews/RQHG57R68O3XC/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Vor gut 25 Jahren hatte ich einen Lamy F\u00fcller f\u00fcr die Schule. Leider ist er mir damals durch eigenes Ungeschick kaputt gegangen und seither, auch nach der Schulzeit, habe ich dann immer das genommen, was gerade so da war. Kugelschreiber, Bleistift etc. Dann habe ich f\u00fcr den sagenhaften Preis von knapp 20 \u20ac den Lamy wieder entdeckt und kaufte ihn. Er ist genauso wie vor Jahrzehnten und liegt perfekt in der Hand und schreibt auch einfach super. Da kann man nicht viel falsch machen! Wer also wieder \"ordentlich\" schreiben will, ist mit dem originalen Lamy perfekt bedient. Ich nehme ihn auch mit auf die Arbeit und schreibe alles, was man nicht digital speichern will, schnell und perfekt. Damit kann ich sogar meine Handschrift wieder lesen ;) . Klare Kaufempfehlung. In der Farbe \"Durchsichtig\" isser tats\u00e4chlich biller! Fr\u00fcher hatte ich einen in Schwarz. Die Farbe war mir eh egal. Es geht ja um die klassische Feder. Sch\u00f6n, dass es noch ein Produkt gibt, dass sogar nach Jahren an Qualit\u00e4t nichts verloren hat!",
+                            "publication_date": "2020-05-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 April 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "MN",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGJFAHFPVODUJYUUW7ICUWDO2UYQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy halt",
+                            "url": "https://amazon.de/gp/customer-reviews/R19LVFV5X9PPTR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ich habe meinen alten Lamy seit \u00fcber 30Jahren. Er hat mich noch nie entt\u00e4uscht. Da lag es sehr Nahe, meinem Sohn auch einen zu kaufen, nachdem er in seinen 5 Jahren Schule bereits unmengen an F\u00fcller anderer Marken entt\u00e4uscht weggeworfen hat, weil sie ausliefen. Das Design ist gestern wie heute einzigartig. Man erkennt einen Lamy sofort und die Qualit\u00e4t ist top. Ich denke in 30 Jahren wird mein Sohn auch noch damit schreiben.",
+                            "publication_date": "2022-04-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 October 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "David",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHHWLACI4FCS3M63GNFMXT2QPMOQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sieht super aus und schreibt bequem",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BJF4G8UFX013/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Ich benutze den F\u00fcller sehr gerne in der Schule man sieht wegen dem transparenten Desing direkt wie viel Tinte noch da ist. Auch ist er sehr bequem und schreibt gut und breit.",
+                            "publication_date": "2022-10-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 December 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Heike Begoin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF7TR7B4BSBK74WI2JMS6BBWZ3QA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles super",
+                            "url": "https://amazon.de/gp/customer-reviews/R1J7EAYZMQR9SF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Genau wie man einen Lamy-F\u00fcller erwartet.  Alles top von der Lieferung bis zur Qualit\u00e4t.  Das Design ist echt toll.",
+                            "publication_date": "2022-12-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 July 2021",
+                            "helpful_votes": 7,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/91g3pL-KThL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/A1i044lg-HL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Thorsten Mueller",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/152b22f5-0a68-4851-bd50-285e833ae87b._CR0,0,388,388_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFPTPESKUQTBEBALBVX3K3YSXZTA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter stabiler F\u00fcller Klassiker",
+                            "url": "https://amazon.de/gp/customer-reviews/R37H3XYLZME0Y0/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000FA5E2O",
+                            "review_text": "Dieser F\u00fcller ist ein Klassiker. Allerdings ist er in transparent gleich noch genial. Unser Sohn hat sich riesig gefreut: kann man hier genau sehen wie der F\u00fcller funktioniert. Mitsamt Kapillarkr\u00e4ften und Tintenwegen. Herrlich.\nDie Feder ist relativ schmal, kratzt aber \u00fcberhaupt nicht. Mit der Feder A ( welche in Anf\u00e4ngerf\u00fcllern steckt) k\u00f6nnte man seine schlimme Schrift kaum entziffern. Mit dieser Feder M ist der Strich feiner und kleine Kracckelschriften sind akzentuierter erkennbar.\nDurch die Transparenz sieht man auch sofort wievielt Tinte noch in der Patrone ist.\nUns fehlt lediglich eine etwas griffiger gummierte Fingermulde. Wir rutschen aber nicht.\nF\u00fcr uns der richtige F\u00fcller!",
+                            "publication_date": "2021-07-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

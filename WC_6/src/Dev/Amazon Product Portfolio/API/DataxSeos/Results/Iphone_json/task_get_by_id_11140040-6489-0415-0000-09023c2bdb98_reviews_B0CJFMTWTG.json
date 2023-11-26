@@ -1,0 +1,945 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0429 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-09023c2bdb98",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0233 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-09023c2bdb98"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CJFMTWTG",
+                "asin": "B0CJFMTWTG",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CJFMTWTG",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CJFMTWTG?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:46:04 +00:00",
+                    "spell": null,
+                    "title": "JUESHITUO Defender Series for iPhone 15 Case for MagSafe (with...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "JUESHITUO Defender Series for iPhone 15 Case for MagSafe (with Integrated Camera Protection) [TOP N56 Strong Magnets] Shockproof Scratch-Resistant Matte Mobile Phone Case iPhone 15 Case Titanium Black",
+                        "url": "https://amazon.de/-/en/iPhone-15-Integrated-Protection-Scratch-Resistant-black/dp/B0CJFMTWTG/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/510f5bUoFvL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.4",
+                        "votes_count": 637,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 150,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Timo Griesel, Annett Griesel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEOSYU4DUZIN6MLQWECXIT5OBF2Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter Value for Money",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2D8LOOTJ2DNRS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Gutes Produkt, v.a. der Kameraschutz ist super. Passt sehr gut, sieht gut aus, lediglich die Fingerabdr\u00fccke sieht man. Insgesamt aber wirklich value for money!",
+                            "publication_date": "2023-10-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ich",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/842e651a-f003-4776-a1aa-df1c88cb4910._CR77,0,346,346_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGC42TJDRLLHW6HCEF3IS2HFFJQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Beste H\u00fclle f\u00fcrs iPhone 15 Pro",
+                            "url": "https://amazon.de/gp/customer-reviews/RBDMGLU3XON46/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Ich hatte mir zuerst eine H\u00fclle von Torras gekauft, aber diese konnte mich leider nicht \u00fcberzeugen.\nSomit entschied ich mich f\u00fcr diese H\u00fclle, die Passgenauigkeit ist 1a Qualitativ f\u00fchlt sich die H\u00fclle hochwertig an.\nWas mir besonders gut gef\u00e4llt ist wie die Kamera gesch\u00fctzt wird.\nJede Linse sch\u00f6n eingefasst, was auch den Vorteil mitbringt das hier Staub nicht eindringen kann.\nL\u00e4sst sich so auch einfach reinigen was bei anderen H\u00fcllen nicht so funktioniert.\nDie Magnetkraft ist auch v\u00f6llig ausreichend, wenn ich \u00fcberhaupt etwas bem\u00e4ngeln m\u00f6chte dann ist es das die H\u00fclle etwas glatt ist. Aber das ist wirklich nicht der Rede wert, liegt immer noch sehr gut in der Hand.\nPreis/Leistung ist \u00fcberragend zumal eine Schutzfolie auch noch enthalten ist, diese habe ich aber nicht angebracht.\nKlare Kaufempfehlung und volle 5 Sterne wert.",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 October 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Silvio W.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE2ABVN6MVIO3H3U623BLPJQJT4Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut, mit Manko!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R38E5NZBJ67KBG/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Diese H\u00fclle ist eigentlich nicht schlecht. Passt sehr gut, seieht gut aus und f\u00fchlt sich auch gut an!\nAber, jetzt kommt was mich st\u00f6rt, diese H\u00fclle ist sehr glatt am Rand, etwas samtig, aber zu glatt. Rutscht sehr schnell beim greifen.\nF\u00fcr jeden den es nicht st\u00f6rt ist die H\u00fclle klasse!",
+                            "publication_date": "2023-10-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "R.B.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGPGWV3MFLQYQXANOSP2CZHXOKCQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Qualit\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1QFX9VBMHEZX2/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Ich muss sagen, ich bin sehr von der Qualit\u00e4t dieser H\u00fclle sowie auch von der Qualit\u00e4t der mitgelieferten Panzerglasscheibe \u00fcberzeugt. Die Panzerglasscheibe explizit lie\u00df sich leichter anbringen und saugte sich regelrecht an als manche Produkte die schon probiert hatte, die den gleichen Preis nur f\u00fcr die Scheibe aufgerufen haben zu der H\u00fclle als solches kann ich leider noch nicht so viel sagen, da ich sie gerade erst installiert habe. Sie macht allerdings einen sehr wertigen Eindruck. Ich muss sagen F\u00fcr den Preis habe ich eigentlich mit einer viel viel schlechteren Qualit\u00e4t gerechnet. Ich kann dieses Produkt bis jetzt empfehlen.",
+                            "publication_date": "2023-10-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mohsen Haghgoo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/076d0d84-221a-4575-9f7f-520634c40fa5._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHT5JH3VSTHWLHFZ2ZODNL5FJ4GA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1AIF7DOMFJ665/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Insgesamt war es zufriedenstellend",
+                            "publication_date": "2023-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mesut Kahya",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/5740aca8-a193-46ab-b77d-db612a3d4c50._CR0,51.0,230,230_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF6KI6M4ASLD6O455ESXX4YKRYEA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bu fiyata de\u011fer bence",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R34ZGV8V54JIR5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Beklentimin \u00fczerinde \u015farj\u0131 1 hafta gidiyor bu benim i\u00e7in \u00e7ok iyi",
+                            "publication_date": "2023-10-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tobias Stenz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGM4GA2T2H6QCPUUCJRGVTDXX5EA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die BESTE H\u00fclle die ich je hatte!!!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1WH21K0FF1YA3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Habe heute das Packet, wie immer bei Prime, p\u00fcnktlich erhalten. Ausgepackt und war sofort begeistert von dieser H\u00fclle. Qualitativ sehr hochwertiges Case, mir pers\u00f6nlich gef\u00e4llt die etwas glattere Oberfl\u00e4che der H\u00fclle. Bei meiner Bestellung war noch ein Screenprotector ( Glas) dabei. Auch dieser ist sehr hochwertig und die Aufbringung des Glases auf dem Display war ohne Probleme m\u00f6glich.\nAlles in allem bin ich sehr begeistert!!",
+                            "publication_date": "2023-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Porto",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG5756C3QZBEWE3E57J6O4RLYFRQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3B4JHOAPFXVGQ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Echt coole H\u00fclle, macht richtig was her",
+                            "publication_date": "2023-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hendrik Rehbeck",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF3DBMQ36PPMGNGRG22PTA5T62VQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bin bis jetzt mit der H\u00fclle sehr zufrieden",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R313KX6ME9GU36/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Sieht sehr gut aus und scheint auch solide verarbeitet. Wie erfolgreich sie mein Handy sch\u00fctzt ist abzuwarten. Das mitgelieferte Panzerglas k\u00f6nnte minimal gr\u00f6\u00dfer sein",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Svizzo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEMNVG7P2IO4IYPZ5XWEE2ABKP3A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "MiniMax gibts doch",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3N64N5ZDSPFHD/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Minimaler Preis, maximaler Nutzen, hiermit m\u00f6glich.",
+                            "publication_date": "2023-10-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Blue-wulf951",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/d7044b51-bef9-4a5d-87dc-b3fd6fcfc96e._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AENI3AR2CB5FSJJ4KLURNWX44OVA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis Leistung stimmt",
+                            "url": "https://amazon.de/gp/customer-reviews/R3S9PAVTN145B4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Die H\u00fclle ist gut und sicher angekommen\nMacht einen guten Eindruck und passt zu 100%\nTasten lassen sich angenehm dr\u00fccken das laden geht auch ohne Probleme\nDie H\u00fclle sieht hinten echt sch\u00f6n aus der rote Rand und die Schrift Sehne echt sch\u00f6n aus\nDas einzige was ich bem\u00e4ngeln m\u00f6chte das die H\u00fclle echt was glatt ist . Aber das ist meckern auf hohen Niveau \ud83d\udc4d",
+                            "publication_date": "2023-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEMPC4K7XIHFR7DYJTOFGZSYKZVA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R3M2UK4FMUFXM0/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Perfekte Lieferung, alle Komponenten dabei. Passform sehr gut!!",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pam",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFF3PWLJY5NDGSELDNKY6B36F5WQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Total dch\u00f6n",
+                            "url": "https://amazon.de/gp/customer-reviews/R108RE5WCC8IJI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "F\u00e4sser sich gut an und ist einfach zu montieren..",
+                            "publication_date": "2023-11-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "VK",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHRCBKHLGA7XKDYTAXMK4RMYAMRA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles Teil",
+                            "url": "https://amazon.de/gp/customer-reviews/RTYKYCRQLFGR1/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Passt perfekt sehr sch\u00f6ne H\u00fclle",
+                            "publication_date": "2023-11-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dieter Senk",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/5de1ceba-5f7a-41bf-bd8e-d27ad5ddf5a8._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFGGTYYA3BU4HWOUJHLHO42N4VKQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6ne Handyh\u00fclle",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BR98Z3X8TLKI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Die H\u00fclle sieht sehr sch\u00f6n aus und passt perfekt.",
+                            "publication_date": "2023-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFE6M6SWWRTXFSOEJDAI76ZIHAHA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles Super",
+                            "url": "https://amazon.de/gp/customer-reviews/R2QE3HDK9EXCYB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Gute Qualit\u00e4t",
+                            "publication_date": "2023-11-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "daggedstyle",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/2fb04d2c-ec58-4815-84ad-ba3786b51dbe._CR0,0,334,334_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHNNOBLLIISB6EOIFT4XPZBN4PNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gute Qualit\u00e4t !",
+                            "url": "https://amazon.de/gp/customer-reviews/RZ7DT5X5FIA7E/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Schreibe auch selten Rezensionen, dennoch muss ich sagen , dass die H\u00fclle und das Panzerglas wirklich klasse Qualit\u00e4t haben.",
+                            "publication_date": "2023-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sabrina",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHGSITG3ANP3UESKGNUFZ7YU55WA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R2SQG5TM60GG2T/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Wie Beschreibung",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Martino Onofrio",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/58a9772a-1b0b-476a-857a-1440879ac474._CR0,41.0,441,441_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGDUBACBX5HVVSU2ACCPKKTGTXNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Okay",
+                            "url": "https://amazon.de/gp/customer-reviews/RYROYLNLT25AP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Super",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tobias W.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG5RPNGFF52IQNBCTMUJFC6EAS6Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "1a Tip Top",
+                            "url": "https://amazon.de/gp/customer-reviews/R1JLIGXPENF4BV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Gute Optik und macht was her\u2026",
+                            "publication_date": "2023-10-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 September 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Denis S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFZC7A7BHDWIA254O3QVNUBTDWNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Echt geile H\u00fclle.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2RDXRKE3W9TRG/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Ich schreibe nie Rezensionen aber hier m\u00fcsste ich. Passt perfekt, f\u00fchlt sich richtig gut an die Bearbeitung ist Mega. Ein Panzerglas ist auch mit dabei. Also f\u00fcr knapp 18\u20ac ist es mehr als gut. Ich \u00fcberlege noch eine zu kaufen als Ersatz. Top Top Top",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEWETQGCHTJFPPV562TA3YUPNWWQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt wie es soll und sieht gut aus.",
+                            "url": "https://amazon.de/gp/customer-reviews/R13HTREUUDUYGC/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Alles super. Gute Qualit\u00e4t. Gerne wieder.",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEQ5ME3NQROMAQ7ADGT7R7PAPVTA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super ich bin sehr zufrieden",
+                            "url": "https://amazon.de/gp/customer-reviews/R2INKX641TDK1Z/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Nach lange Suche endlich mal was gescheites gefunden",
+                            "publication_date": "2023-10-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Customer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEWZHHOSWZOGRKXOAV3SHX477T7A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Iphone 15 pro hulle",
+                            "url": "https://amazon.de/gp/customer-reviews/R1IILU1YJ3FC2Z/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Perfekt",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Daniel Strunz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHFQWIW6QT3GENNQP37TW4HYUPMA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt sehr gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R1HVOCABGWU7KL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Qualit\u00e4t ist gut, passgenauigkeit auch.\nDas die Tasten zu leicht zu dr\u00fccken sind kann ich nicht best\u00e4tigen. Tasten haben einen wirklich guten Druckpunkt\nPreis/Leistung ist top",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Boschu",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH2DGNR25FOQHIH5KUDC2VXLTPSA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R3C10GNCGWA4SS/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Sehr schnell verschickt, super Qualit\u00e4t",
+                            "publication_date": "2023-10-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christian Sontag",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/2a4443ca-453c-4db3-9a83-057acbdbbaf1._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE6XTOM4KW2BEZYEBGYT6ZLJKEXA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "iPhone 13 Pro",
+                            "url": "https://amazon.de/gp/customer-reviews/R3B0V191TNZV7B/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Top passt super zum Pro",
+                            "publication_date": "2023-10-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF4SG4JWRQSAAJWB6Z43NGY3ANDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passgenau und gute Verarbeitung.",
+                            "url": "https://amazon.de/gp/customer-reviews/RWDBKTD5148VR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Die H\u00fclle f\u00fcr das iPhone 15 Pro ist passgenau und sehr gut verarbeitet. Sie liegt gut in der Hand und ist sehr griffig.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "NT",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFL3FGONHFUVNCMJ2ORDXRIHZ6RA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt! :)",
+                            "url": "https://amazon.de/gp/customer-reviews/R18I8RM1OZC8OR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Passt perfekt und h\u00e4lt super.\nLiegt au\u00dferdem sehr gut in der Hand und sieht dazu noch richtig cool aus!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jan Kr\u00fccker",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF5RLVCBQDN2FNWGEGA2PEKNJZKQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "H\u00fclle top, Ffolie flop",
+                            "url": "https://amazon.de/gp/customer-reviews/R18I1ZPQ4A872Q/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJFMTWTG",
+                            "review_text": "Hallo zusammen,\nAls aller erstes muss ich sagen, die H\u00fclle ist absolut super. Tolle Verarbeitung tolle Farben tolle Optik !! Hier habe ich nichts zu bem\u00e4ngeln und m\u00fcsste 5 Sterne geben, was ich auch gerne tun w\u00fcrde.\nDann habe ich die zugef\u00fcgte  Folie (Glas) ausgepackt und dachte \u201ewow\u201c das sieht aus wirken absolutes Premium Produkt. Toll verpackt in schwarz Gold Matt und super haptik.\nMeine Frau reinigte den Display des iPhone und legt die Folie mehr als ordentlich auf das Handy. (Deswegen macht es auch meine Frau)\nSchwupp keine Blasen alles top ich total happy :)\nUnd dann\u2026 die Folie hat beim Auspacken bereits zwei tiefe Kratzer von ca. 3mm L\u00e4nge\u2026\nDa ich hier das gesamt gelieferte Produkt bewerten muss, nurnoch zwei Sterne\u2026 tut mir echt leid",
+                            "publication_date": "2023-10-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

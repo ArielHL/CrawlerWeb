@@ -1,0 +1,33 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 1,
+    "tasks": [
+        {
+            "id": "11132041-6489-0210-0000-219c9691b95b",
+            "status_code": 40202,
+            "status_message": "The rates limit per minute has been exceeded: 20 >= 20 (6, 210).",
+            "time": "0 sec.",
+            "cost": 0,
+            "result_count": 0,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "products",
+                "tasks_ready"
+            ],
+            "data": {
+                "se_type": "organic",
+                "se": "amazon",
+                "api": "merchant",
+                "function": "products"
+            },
+            "result": null
+        }
+    ]
+}

@@ -1,0 +1,1036 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0384 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-4690a30c8d80",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0225 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-4690a30c8d80"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B08SW67BHP",
+                "asin": "B08SW67BHP",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B08SW67BHP",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B08SW67BHP?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:11 +00:00",
+                    "spell": null,
+                    "title": "Samsung 32 Inch LED - Odyssey G5 C32G55TQWR",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung 32 Inch LED - Odyssey G5 C32G55TQWR",
+                        "url": "https://amazon.de/-/en/Samsung-32-Inch-LED-C32G55TQWR/dp/B08SW67BHP/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41e-5HhcbCL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.4",
+                        "votes_count": 354,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 68,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 December 2021",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/714n51N8f4L._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71jnJNCNKVL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81A6xRSKRoL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Customer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFLZAF6HUMA2SAXWSZHWQVFKULKA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ist: Neulieferung, war: Gebraucht und defekt geliefert.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RXSEW34Z1LLTU/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B08SW67BHP",
+                            "review_text": "Samstag kam das Austauschger\u00e4t, diesmal neu und funktionsf\u00e4hig. Ist ein gutes gro\u00dfes Display, der Preis ist okay.\nLeider k\u00f6nnen keine Bildeinstellungen pro Eingang festgelegt werden und die Anzahl der Anschl\u00fcsse ist gering (das wusste ich aber vorher).\nAlles in allem ein zufriedenstellendes Ger\u00e4t.\n\u2014-\nDas Produkt kam gebraucht und defekt an, daher kann ich es technisch nicht bewerten.\nWenn Fingerabdr\u00fccke auf dem Display sind und das Zubeh\u00f6r bereits ge\u00f6ffnet ist wird es vermutlich immer defekt sein.",
+                            "publication_date": "2021-12-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lynkiting",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "En promo un must",
+                            "url": null,
+                            "review_text": "Excellent ecran...attendre une promo \u00e0 moins de 300 euros et vous ferez une affaire.",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 18 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Nks",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/da725020-5e87-4b13-8e3b-2c32c27ac123._CR0,0,499,499_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Incroyable cette \u00e9cran !",
+                            "url": null,
+                            "review_text": "Apr\u00e8s de long mois de r\u00e9flexion et ayant envie de go\u00fbter \u00e0 la QHD, j'ai profit\u00e9 d'une offre canon, et je dois bien avouer que je ne suis pas d\u00e9\u00e7u, la qualit\u00e9 est clairement au rdv, c'\u00e9tait d\u00e9j\u00e0 beau avec une GTX 1060\u2026 mais avec une RTX 3060 Ti, le combo est juste parfait !",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 24 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "I\u00f1igo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Est\u00e1 bastante bien",
+                            "url": null,
+                            "review_text": "Es un muy buen monitor en relaci\u00f3n calidad/precio, buena tasa de refresco, 2K, curvo, solo tengo un peque\u00f1o pero y es que mi unidad a veces se le \"va la olla\" y tengo que hacerle cambiar entre puertos de entrada de imagen porque se me queda en negro al encender el pc, por suerte es algo que pasa en muy raras ocasiones y se soluciona de forma sencilla.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 4 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sandrine",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Magnifique \u00e9cran",
+                            "url": null,
+                            "review_text": "Qualit\u00e9 de dalle exceptionnelle. L'\u00e9cran a la taille id\u00e9ale, un arrondi parfait \u00e9galement pour un usage bureautique et surtout gaming. A la hauteur de la marque. Le set up de mon conjoint est d\u00e9sormais parfait.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 27 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Redcloud",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Super \u00e9cran",
+                            "url": null,
+                            "review_text": "Super \u00e9cran, la seule chose il arrive en langue Allemande et pour trouver ou aller pour le mettre en Fran\u00e7ais il faut \u00eatre bidouilleur comme moi pour y arriver, en d\u00e9finitive \u00e0 l'arriv\u00e9e c'est un super \u00e9cran et en HDR encore plus, on se croirait \u00e0 la NASA. je recommande.",
+                            "publication_date": "2023-07-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 14 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Arthur Rondard",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Tr\u00e8s content",
+                            "url": null,
+                            "review_text": "Il faut juste avoir un bureau asser profond, tr\u00e8s bonne qualit\u00e9 rien a redire. Tr\u00e8s fluide en jeux personnels je l'ai mis sur un support d'\u00e9cran.",
+                            "publication_date": "2023-08-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 23 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Clara Ruiz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "parfait",
+                            "url": null,
+                            "review_text": "taille parfaite, tr\u00e8s bonne qualit\u00e9. rien \u00e0 dire au top",
+                            "publication_date": "2023-08-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 7 October 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61+Qk7j21RL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Romain",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "A FUIR DANS L'ABSOLU !!!!! Je ne plaisante pas",
+                            "url": null,
+                            "review_text": "PRODUIT MIS EN RETOUR APRES 17 mois.\nENORME d\u00e9ception, encore une fois Samsung \u00e0 l'art de d\u00e9cevoir.\nLa qualit\u00e9 des produits chez eux est de pire en pire \u00e0 chaque ann\u00e9e et \u00e7a co\u00fbte cher en plus.\nAchet\u00e9 sur amazon en janvier 2022, la dalle de l'\u00e9cran s'est mise \u00e0 se d\u00e9coll\u00e9e d\u00e8s le mois de mai 2023, \u00e0 peine un an et demie apr\u00e8s son achat.\nLa proposition de Samsung SAV \u00e9tait (apr\u00e8s un retard de r\u00e9ponse) de faire recoller la dalle. Or, chose \u00e0 savoir, beaucoup ont d\u00e9j\u00e0 fait cette d\u00e9marche qui a conduit, sans surprise, un nouveau d\u00e9tachement de la dalle, vous savez, juste histoire que la garantie d\u00e9passe \u00e0 ce moment-l\u00e0 et que \u00e7a soit pour nous les r\u00e9parations...\nHeureusement que la plateforme amazon est tr\u00e8s r\u00e9glo sur les retours car j'ai bien cru que je m'\u00e9tais fait pigeonner par Samsung encore une fois. D\u00e8s que je d\u00e9cide de leur faire confiance une nouvelle fois, je me fais avoir. Mais aujourd'hui, Samsung, c'est termin\u00e9 !!!!!!\nJ'ai remplac\u00e9 l'\u00e9cran par un mod\u00e8le AOC (de bien meilleure qualit\u00e9, au m\u00eame prix et \u00e0 165hz)\nDernier conseil... Si vendeur tiers sur ce produit, n'achetez pas !!! Amazon ne vend plus cet \u00e9cran pour cette raison (trop de retours)",
+                            "publication_date": "2023-10-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 31 July 2022",
+                            "helpful_votes": 7,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/41MlFgKEOHL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51FCxD6-6fL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51wv+tqtVML._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jerome (Essonne)",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Excellent \u00e9cran 32\" \u00e0 prix raisonnable",
+                            "url": null,
+                            "review_text": "Utilis\u00e9 en remplacement d'un ViewSonic 24 pouces 21/9, l'\u00e9cran est magnifique et offre une image \u00e0 la fois grande et pr\u00e9cise. C'est mon premier \u00e9cran incurv\u00e9, j'ai longtemps h\u00e9sit\u00e9 avec la version 27\", me demandant 32\" ne serait pas trop grand mais on s'y fait tr\u00e8s vite. L'\u00e9cran est toutefois moins lumineux que mon ancien mais au final ce n'est pas plus mal pour les yeux. Je l'ai install\u00e9 sur mon (petit !) bureau (seulement 65cm de profondeur) gr\u00e2ce \u00e0 un bras et le r\u00e9sultat est super. Tr\u00e8s immersif pour les films et les jeux (Elden Ring, Apex, Lol) et tr\u00e8s pratique pour le travail (j'affiche 2 docs Word, 1 doc Excel et 1 doc Powerpoint en m\u00eame temps). Un c\u00e2ble HDMI \u00e9tait fourni avec l'\u00e9cran mais j'ai pr\u00e9f\u00e8re passer par le DualPort. J'ai r\u00e9gl\u00e9 mon G5 en 120Hz, aucun souci de ghosting constat\u00e9. Pay\u00e9 280\u20ac, je suis vraiment ravi de mon achat :-)",
+                            "publication_date": "2022-07-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 15 September 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "cyril c.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Bel \u00e9cran",
+                            "url": null,
+                            "review_text": "Je limite ma note \u00e0 4 \u00e9toiles car le pied en plastique fait le boulot mais reste un peu trop flex \u00e0 mon go\u00fbt et ne respire pas la robustesse. Rien \u00e0 dire sur la qualit\u00e9 de l'image qui est au rendez-vous. Le backlight bleeding est pr\u00e9sent mais ne me d\u00e9range pas lors de mes sessions de jeux. C\u00f4t\u00e9 connectique il y a juste ce qu'il faut pour brancher une Xbox et des hauts parleurs.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 22 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Le Goff Gerard",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "g5",
+                            "url": null,
+                            "review_text": "bel \u00e9cran, qualit\u00e9 prix ok , le pied un peu souple interface facile .",
+                            "publication_date": "2023-01-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 27 April 2021",
+                            "helpful_votes": 26,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81QLSluaU3L._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Emmanuel Kaioh",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/a69fbc97-e954-4a9a-9201-3f2c5de96696._CR83,0,333,333_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Du gaming, mais pas que !!",
+                            "url": null,
+                            "review_text": "Acheter en remplacement de mon Acer 27\", cet Odyssey G5 32\", une fois calibr\u00e9 correctement, \u00e0 juste une image impressionnante  (Pensez \u00e0 baisser la couleur verte, pour moi \u00e0 8,  dans le menu de l'\u00e9cran et mettre en mode FPS)\nContrairement \u00e0 ce que j'ai pu lire ici ou l\u00e0, la luminosit\u00e9 est suffisante, j'ai m\u00eame du la baisser l\u00e9g\u00e8rement.\nPour les jeux, forcement, c'est le top. L'immersion est total mais comme je le dis dans le titre cet \u00e9cran n'est pas limit\u00e9 au gaming. Pour la bureautique c'est juste top (Excel est immense !!!) mais \u00e9galement pour mes mod\u00e9lisations 3d, les vid\u00e9os (prime vid\u00e9o ;)  ou autre) et aussi (je vais en faire bondir quelque un) la retouche photo. Je fais principalement de l'astrophotographie et franchement \u00e7a marche bien, enfin pour mon niveau amateur.\nPour le c\u00f4t\u00e9 incurv\u00e9, on s'habitue tr\u00e8s facilement, et avec un recul de 1m je suis super confortable\nBref il est tr\u00e8s polyvalent et je le recommande sans h\u00e9sit\u00e9, mais surtout ne n\u00e9gligez pas la calibration c'est super important",
+                            "publication_date": "2021-04-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 28 September 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Cauchois luka",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "\u00c9cran pc",
+                            "url": null,
+                            "review_text": "Acheter d\u00e9but 2021 l\u2019\u00e9cran \u00e9tait jusqu\u2019\u00e0 pr\u00e9sent nickel rien a signifier un design \u00e9pur\u00e9 mais au bout d\u2019un an l\u2019\u00e9cran c\u2019est fissur\u00e9 sans que person\u00e9 i touche en plein millieu heureusement qu\u2019il y\u2019a une garantie mais ces le probl\u00e8me d\u00e9s \u00e9cran incurv\u00e9",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 12 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "isabelle gonet",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "tres bon article",
+                            "url": null,
+                            "review_text": "tres bon article",
+                            "publication_date": "2023-01-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 7 September 2022",
+                            "helpful_votes": 8,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/21C9Y2DkzZL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Arthur RUCQUOIS",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Tr\u00e8s bon \u00e9cran mais d\u00e9faut de la dalle",
+                            "url": null,
+                            "review_text": "Tr\u00e8s bon \u00e9cran, pr\u00e9cis, color\u00e9 et lumineux.\nLe taux de rafra\u00eechissement et temps de r\u00e9ponse sont nickels.\nIl a cependant un probl\u00e8me (r\u00e9current d'apr\u00e8s des posts sur le SAV de Samsung) de la dalle de l'\u00e9cran qui se \"d\u00e9curve\" et se d\u00e9colle du cadre, principalement sur le dessus.\nPour l'instant le d\u00e9collement est mineur donc \u00e7a ne me pose pas de soucis mais j'ai vu des utilisateurs avec des gaps d'1cm au dessus entre la dalle et le cadre.\nPeut-\u00eatre est-ce d\u00fb \u00e0 une manipulation un peu brutale mais je l'ai chouchout\u00e9 et j'ai pourtant le probl\u00e8me donc il faut \u00eatre vigilant.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 3 November 2021",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "makhtoumi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Beau et grand mais..",
+                            "url": null,
+                            "review_text": "L'\u00e9cran est immense mais \u00e0 quelques d\u00e9fauts compar\u00e9 \u00e0 mon ancien \u00e9cran qui a co\u00fbter moins ch\u00e8re.\nLes couleurs sont froide, on voit comme un film dessus ce qui le rend moins net, la luminosit\u00e9 est tr\u00e8s faible m\u00eame au max\nPour ce qui est du 2k je suis \u00e0 moiti\u00e9 convaincu \u00e0 cause des soucis soulign\u00e9 au dessus qui m'emp\u00eache de profiter pleinement de l'\u00e9cran.\nLe pied ne peut pas boug\u00e9 mais bien qu'\u00e9tant imposant il entre parfaitement sur un petit bureau d'angle.\nLivraison rapide et emballage correct qui prot\u00e8ge bien l'\u00e9cran.",
+                            "publication_date": "2021-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 12 May 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61xkbjCwOoL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ritter",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Odyss\u00e9e G5",
+                            "url": null,
+                            "review_text": "Tr\u00e8s bon produit, l\u2019\u00e9cran fonctionne super bien.",
+                            "publication_date": "2023-05-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 8 November 2021",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pico",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Bien mais sans plus",
+                            "url": null,
+                            "review_text": "Dejas possesseur d'un g7 32 pouce jais voulut acheter le g5 car moiti\u00e9e moin cher.mais la qualit\u00e9 d image par rapport au g7 et comme le prix.moitie moins bonne.l image et sombre m\u00eame avec la luminosit\u00e9 a fond les blanc sont pas blanc mais tir\u00e9 sur le jaune.bref un peut d\u00e9\u00e7u mais pour une personne qui veut un \u00e9cran 2 k pas cher il feras tr\u00e8s bien l affaire.",
+                            "publication_date": "2021-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 1 February 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Elian Llerena",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/506dceb7-6d3e-43e9-92fa-292e7cabedf6._CR0,0,500,500_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Bien, pero limitado. HDR malo, y VRR y Freesync limitado",
+                            "url": null,
+                            "review_text": "El monitor est\u00e1 bien, aunque requiere cierta adaptaci\u00f3n a una curva m\u00e1s pronunciada de lo normal. Esa curva es problem\u00e1tica para su uso en tareas que no sean gaming, dado que deforma la imagen. Adem\u00e1s, no s\u00e9 si es cuesti\u00f3n de mi unidad pero vi\u00f1etea en los extremos y es muy desagradable. Adem\u00e1s, e insisto si no s\u00e9 si es cuesti\u00f3n de mi unidad, tiene algunas fugas de luz. La imagen de buena, pero no espectacular, pues se siente una baja densidad de pixeles.\nCuando no da problemas el freesync en gaming es maravilloso, suave y fluido. Cuando lo conectas a una Xbox Series X para disfrutar de todas sus caracter\u00edsticas, sin embargo, viene lo malo: u optas por el HDR u optas por el Freesync Premium, los dos, lo que es un problema e un monitor de estos precios.\nUn dineral en un monitor con el que siempre te quedas con ganas de m\u00e1s y la sensaci\u00f3n de tener que pagar m\u00e1s para eliminar esos errores.",
+                            "publication_date": "2022-02-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 13 October 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ranka",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/657d062f-f734-4542-b375-8cac9b45af56._CR0,0,375,375_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Super pour les jeux dps et autre celui ci et d\u00e9j\u00e0 mon deuxi\u00e8me G5 achet\u00e9 bonne qualit\u00e9",
+                            "url": null,
+                            "review_text": "Qualit\u00e9 prix reasonable surtout pour un \u00e9cran moniteur",
+                            "publication_date": "2022-10-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 26 July 2021",
+                            "helpful_votes": 10,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pierre",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Attention au pied",
+                            "url": null,
+                            "review_text": "Tr\u00e8s bon \u00e9cran rapport qualit\u00e9 prix, l'image est bonne, le temps de r\u00e9ponse est bon, le seul probl\u00e8me chez moi a \u00e9t\u00e9 le pied, en effet il ne supportais pas le poids de l'\u00e9cran qui \u00e9tait toujours vers le bas. le service client du revendeur (que je remercie), ma propos\u00e9 un \u00e9change, mais l'\u00e9cran \u00e9tant parfait (0 pixel mort et un retro \u00e9clairage top) j'ai acheter un pied r\u00e9glable en hauteur et en inclinaison.",
+                            "publication_date": "2021-07-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 28 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "patou mail",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0bbbe419-1103-4901-85ff-5fd4d5c04af8._CR0,0,366,366_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "tr\u00e9s bien",
+                            "url": null,
+                            "review_text": "tr\u00e9s bel \u00e9cran",
+                            "publication_date": "2023-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 29 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Domenico Esposito",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Ottimo gameming monitor",
+                            "url": null,
+                            "review_text": "Grande risoluzione e performante",
+                            "publication_date": "2023-06-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 19 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alexandre",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "un \u00e9cran au top",
+                            "url": null,
+                            "review_text": "tr\u00e8s bon \u00e9cran pour gamer et plus\ndommage que j'ai eu un tr\u00e8s gros retard de livraison",
+                            "publication_date": "2023-02-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 17 June 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Julien HELLE",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "bien",
+                            "url": null,
+                            "review_text": "tout est parfait sur cette \u00e9cran a part le pied qui n'est pas du tout solide et qui penche sinon parfait",
+                            "publication_date": "2022-06-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 19 December 2021",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike Karolo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Excellent rapport qualit\u00e9/prix :)",
+                            "url": null,
+                            "review_text": "La qualit\u00e9 est plut\u00f4t bonne par rapport au prix. Il y a des fuites de lumi\u00e8re sur les bords de l'\u00e9cran mais c'est assez courrant sur ce type de dalle et ca ne me d\u00e9range pas. Du 2k/144hz \u00e0 un prix raisonnable.",
+                            "publication_date": "2021-12-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 3 September 2022",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "patricia mantilla",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/3fb32c1c-ca20-4bbd-9042-dfa785027b9b._CR0,45.0,243,243_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "buen monitor calidad precio",
+                            "url": null,
+                            "review_text": "No me voy a enrollar, por el precio que tiene es un monitor buenisismo, si no estas acostumbrado a la curva como es mi caso al princpio es un poco extra\u00f1o pero en unos dias te haces a el y es una maravilla, luego estan los iluminados que dan puntuacion negrativa comparandaolo con gamas que rondan los 1000 euros, nos ha jodido!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 28 July 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/712vdZsS2ZL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71851qChECL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71JN98JMOiL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71XX+scBNaL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "jean-pierre lequeux",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Demande de remboursement sur ce produit avec vice cach\u00e9",
+                            "url": null,
+                            "review_text": "scintillement de l'\u00e9cran avec la dalle d\u00e9coll\u00e9e ce coupe 2 ou 3 secondes (voir photos ) puis ce rallume en jeux par exemple et interf\u00e9rences gr\u00e9sillement des mon kit son quand cela ce produit dalle d\u00e9coll\u00e9e probl\u00e8me connu pas Samsung (voir divers postes sur le web \u00e0 ce sujet ,donc probl\u00e8me connu pas Samsung mais continue \u00e0 vendre ce produit sur le march\u00e9 je pr\u00e9f\u00e8re mettre un peu plus cher pour avoir un vrai \u00e9cran de qualit\u00e9 .....",
+                            "publication_date": "2023-07-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 13 January 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "DAVID",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Odyssey 32\"",
+                            "url": null,
+                            "review_text": "No tiene altavoces. El monitor est\u00e1 muy bien pero, al menos, podr\u00edan indicar que no lleva altavoces integrados. Contiene puerto usb, hdmi y Jack para conectar el equipo de sonido que m\u00e1s te guste. Por lo dem\u00e1s, es una perfecta elecci\u00f3n para echarle horas jugan... digo, trabajando. :-)",
+                            "publication_date": "2022-01-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1008 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0594 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-097385ac42ca",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0268 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-097385ac42ca"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B082DJTBNF",
+                "asin": "B082DJTBNF",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B082DJTBNF",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B082DJTBNF?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:41:11 +00:00",
+                    "spell": null,
+                    "title": "Apple iPhone 11 Pro 256GB Space Grau (General\u00fcberholt)",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Apple iPhone 11 Pro 256GB Space Grau (General\u00fcberholt)",
+                        "url": "https://amazon.de/-/en/11421/dp/B082DJTBNF/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41ZfEDNPNUL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.1",
+                        "votes_count": 681,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 227,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Thomas Ahrens",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGGG7T3NSADIUHO2UKIPNK5MQOEQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Eins A Qualit\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3V0LGMKKP239F/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Alles top",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 April 2022",
+                            "helpful_votes": 8,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51NPG5As4KL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51nmfmp+FgL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51xALlR7DtL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/610fmsplOoL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kurze",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFNDWJ2UGKYH2APR4TQI4UU4SOOQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Muss man scheinbar etwas Gl\u00fcck haben",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1WBEEJE3K3PQP/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Hatte hier 2x bestellt, das erste Handy hatte Probleme mit dem Lautsprecher zum Telefonieren am Ohr (super leise trotz voller Lautst\u00e4rke) und beim Aufladen.\nWollte es dann repariert bekommen, bekam dann das Geld zur\u00fcck, wahrscheinlich ging es nicht zu reparieren.\nBestellte es dann neu.\nBekam diesmal ein technisch bisher einwandfreies Handy, daf\u00fcr hat es im Gegensatz zum ersten deutlich mehr Kratzer! Daf\u00fcr das in der Beschreibung deutlich steht das es einen NEUWERTIGEN Zustand haben soll. Gerade \u00e4u\u00dferlich.\nEs kam ohne Original Verpackung diesmal was auch mehr als entt\u00e4uschend ist wenn man sp\u00e4ter weiterverkaufen m\u00f6chte .\nDaf\u00fcr bekommt man immer ein Ladekabel dazu, was wohl bei den neusten IPhones aus dem direkten Applestore nicht mehr bekommt.\nWenn man Gl\u00fcck hat bekommt man hier tats\u00e4chlich ein eigentlich neuwertiges Handy.\nTrotzdem ist der Preis hoch und ich erwarte da eigentlich wirklich ein \u201eneues\u201c Handy.\nMega Kamera, einwandfreies handling.. iPhone selbst w\u00fcrd ich immer wieder w\u00e4hlen!",
+                            "publication_date": "2022-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 May 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lui",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF7VSF4C7474RG534M5DFD4HK2IQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "IPhone 11pro",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2D6W5PQLD7Z8T/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Zuverl\u00e4ssige Lieferung und top Zustand",
+                            "publication_date": "2023-05-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 January 2023",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ann-Kathrin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEIEAAOT5VQDHNQM2JQTPPFRCUMA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Beste Entscheidung meines Lebens",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1I0FXTW4V97ZC/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Ich habe mir das iPhone 11 Pro im Ausgezeichneten Zustand bestellt und kann mich nicht beschweren. Es wurde genau das geliefert, was mir auch versprochen wurde. Das Geh\u00e4use weist keinen einzigen Kratzer auf, nur auf dem Bildschirm sind zwei kleine Kratzer zu erkennen. Aber auch erst bei bestimmten Lichteinfall, Winkel etc. also kaum von Belangen. Die Akkuleistung liegt mit guten 87% weit \u00fcber den versprochenen 80%. Wenn man bedenkt, dass ich ein praktisch komplett neues iPhone erhalten habe ist der Preis mehr als angemessen. Denn obwohl dieses Handy schon ein paar Jahre alt ist hat es immer noch seinen Preis. Wer sich mal danach erkundigt wird sehen, dass der Preis f\u00fcr ein neues derzeit weit \u00fcber 1.000\u20ac liegt. Dieses iPhone tut also sowohl meinem Geldbeutel als auch der Umwelt gut. Klare Empfehlung meinerseits.",
+                            "publication_date": "2023-01-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 May 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "U.K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHFB6S4IWT27C4DLWI2FTZMGWUWA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zugesicherte Eigenschaften leider nicht gehalten",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2JYHRSGAPQJ6F/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Leider lag die Restkapazit\u00e4t des Akku deutlich unterhalb der garantierten Schwelle.\nEin Akkutausch wurde nicht angeboten. Der vorgeschlagene Preisnachlass war l\u00e4cherlich niedrig.\nDaher war die R\u00fcckabwicklung die einzig sinnvolle Ma\u00dfnahme.\nEs war entt\u00e4uschend.",
+                            "publication_date": "2023-05-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 April 2023",
+                            "helpful_votes": 10,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/715n6rrUTJL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81v1pWqyLBL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81xbNLSjylL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Felix Jungen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEDFZQTTE76H7MH4KMIO6TBPXQPA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Beste Entscheidung, wirklich super",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1EZMABK6N6IW9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Ich habe mein iPhone 11 Pro vor knapp 3 Wochen hier gebraucht und general\u00fcberholt gekauft. Es war eine gute Entscheidung. Das Handy wurde z\u00fcgig geliefert und ist in einem sehr guten Zustand, wie neu. Es sind keinerlei Kratzer vorhanden und der Akku hat eine Kapazit\u00e4t von 100%. Wurde scheinbar auch vor Verkauf gewechselt. Der Akku h\u00e4lt sehr lange.\nAlso ich kann ein general\u00fcberholtes Handy in hervorragendem Zustand sehr weiterempfehlen.",
+                            "publication_date": "2023-04-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 January 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "\u03a3\u03c4\u03c5\u03bb\u03b9\u03b1\u03bd\u03cc\u03c2 \u03a0\u03b1\u03c0\u03b1\u03b4\u03cc\u03b3\u03b9\u03b1\u03bd\u03bd\u03b7\u03c2",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHCOIZJY3SYDUBOWJK6FPLAJT2KA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Few problems but decent.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1LNEDSN1N7EHR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Phone has been having some issues since i purchased it on the 8th of December. The SIM card keeps disconnecting, the battery is acting up (last night it jumped from 49% up to 63% without plugging it on the charger). Speaking of chargers, the charger that was included in the box never worked unfortunately so i had to stay without a phone for couple of days until i got a new charger. Overall value, 6/10.",
+                            "publication_date": "2023-01-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter Constroffer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGPWU5MOPQI43HCENGFZHETONIOA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Innen ein Tr\u00fcmmerfeld",
+                            "url": "https://amazon.de/gp/customer-reviews/RKJYK43W9B68W/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Das Handy sahr optisch gut aus jedoch nach 3 Wochen lie\u00df es sich nicht mehr laden. Also ab zur Reparatur\n1. Diagnose AKKU defekt nach 3 Wochen !\n2. Handy ge\u00f6ffnet das ganze Handy voller wei\u00dfen Pulver vermutlich aus dem Ausgeplatzem Akku. Akku wurde mit original Appel Ladeger\u00e4t und Kabel geladen. Markierungspunkte auf dem Display zeigen wasser an. Restliche Handy jedoch nicht. Ich h\u00e4tte es nochmal zur\u00fcckgesendet wenn es nicht dringend gebraucht w\u00fcrde.\nAlso Optisch hui innen Pfui! Nie wieder von desem H\u00e4ndler !",
+                            "publication_date": "2023-10-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 December 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Al Ex",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFXVEZCGB4YR4NSS37IRODIYG7JQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Entt\u00e4uscht",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RGQ94PH2HCW26/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Ich habe das Iphone11pro mit dem Gedanken der Nachhaltigkeit bestellt. Die Lieferung erfolgt sehr schnell. Der Akku hatte leider nur noch 76% und der H\u00f6rerlautsprecher f\u00fcr die Telefonie hatte einen Defekt und war nicht zu gebrauchen. Grunds\u00e4tzlich ist das IPhone11pro immer noch ein gutes Ger\u00e4t. Das Exemplar hier als \u201eRe-New\u201cwar leider Schrott.",
+                            "publication_date": "2022-12-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 December 2022",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Athanasios T.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGWYWHGCTTKMSDXZZIKNYWSIHHAQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "(fast) alles wie erwartet",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1L2S39EOPPKGA/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Zun\u00e4chst hatte ich meine Bedenken ein refurbished-Ger\u00e4t f\u00fcr mehrere 100\u20ac zu kaufen. Telefon wurde in ausgezeichneter Qualit\u00e4t bestellt. \u00c4u\u00dferlich Top-Zustand! Allerdings hatte die Batterie statt mindestens 80% Restkapazit\u00e4t nur leider 76%. Alles kein Problem, ein kurzer Anruf im Helpcenter und der Verk\u00e4ufer bot an den Akku auf seine Kosten austauschen zu lassen! Gesagt getan, habe nun 100% Batterieleistung und ein top-refurbished Handy! Super Service! Klare Kaufempfehlung, meine Bedenken waren unbegr\u00fcndet.",
+                            "publication_date": "2022-12-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 June 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Siebold",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH4W464WP22GQ42K4MLVFNVSUNUQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lange unsicher, total \u00fcberrascht, mega \u00fcberzeugt! Empfehlenswert! Trotz schnell kaputtem ladekabel",
+                            "url": "https://amazon.de/gp/customer-reviews/R3YDGXFOR83EJ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Anfangs total skeptisch, und habe auch lange Zeit gebraucht um es zu riskieren. Auch wen das Ladeger\u00e4t leider nach 7 Tagen kaputt ging. Aber bin echt mega zufrieden. Akku Laufzeit war bei 91% und optisch wirklich sehr sehr sehr klein Kratzer oder Dellen. Nahezu nichts zu sehen. Kann ich nur empfehlen.",
+                            "publication_date": "2022-06-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 January 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Leseratte",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGZWWLKYR4PZH22D22CS7GKAXHGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super schnelle Lieferung, sehr guter Zustand",
+                            "url": "https://amazon.de/gp/customer-reviews/R3LL9TFFXGYR39/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Ich hab das Phone schneller erhalten als angek\u00fcndigt. Das Produkt ist in einem sehr ordentlichen Zustand. Ich war nat\u00fcrlich interessiert, wie sich \u201egeneral\u00fcberholt\u201c konkret darstellt; und mir ist auch klar, dass man das nicht verallgemeinern kann. Ich kann nur sagen, dass das mir gelieferte Phone kaum erkennbare Gebrauchsspuren hat; ich spekuliere mal, dass das ein allenfalls wenig genutztes Ausstellungsst\u00fcck ist. Bin jedenfalls sehr zufrieden.\nZum Thema iPhone muss ich nicht viel sagen, bin langj\u00e4hriger \u201e\u00dcberzeugungst\u00e4ter\u201c. Ich war konkret an diesem Modell interessiert als preisg\u00fcnstiger Einstieg in ein Phone mit qualitativ guter (nat\u00fcrlich nicht high-end) 3-Objektive Kamera. Das Modell13 pro habe ich bewusst nicht ins Auge gefasst, weil ich eine Vollformat-Kamera habe und auch weiter nutzen will.",
+                            "publication_date": "2022-01-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 October 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61+dlzcB9qL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61UcjDUSG7L._SY88.jpg"
+                                }
+                            ],
+                            "videos": [
+                                {
+                                    "type": "video_element",
+                                    "source": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8408e3bb-dbeb-49a2-bd46-bc494a54c5f5/default.vertical.jobtemplate.hls.m3u8",
+                                    "preview": "https://m.media-amazon.com/images/I/41C7KtisRJL._SY256._SY256.jpg"
+                                }
+                            ],
+                            "user_profile": {
+                                "name": "Funktioniert gar nicht gib\u2019s ga keine M\u00f6glichkeit mit Handy zusammen arbeiten",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGEPN3J7BQZCI4G7FCLVWY5CYX2Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Funktioniert gar nicht",
+                            "url": "https://amazon.de/gp/customer-reviews/R3TPX7HQRMWR2T/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Dieses Telefon wurde als neu zum Verkauf angeboten, wir haben es in einer seltsamen, nicht originalen Verpackung erhalten und absolut nicht funktionsf\u00e4hig",
+                            "publication_date": "2023-10-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 April 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFAF2PRQKSLMXP7K46MR42IWY7WQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super preis Leistung",
+                            "url": "https://amazon.de/gp/customer-reviews/R10NIFLC39O8BI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Habe mich f\u00fcr das 11 pro mit 256gb entschieden in einem akzeptabelen Zustand !\nWas soll ich sagen meine Vorstellung ist \u00fcbertroffen worden !!\nW\u00fcrde es nochmal kaufen top",
+                            "publication_date": "2023-04-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Zaphod Beeblebrox",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHBR2TYZFIDUEHN5DWEF4YMUFSWA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut, Handy von Bell-IT",
+                            "url": "https://amazon.de/gp/customer-reviews/RGWWKAHAD0N5Y/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Handy kam innerhalb 24 Stunden per DHL.\nNeutrale Verpackung.\nNeues 20W Schnellladeger\u00e4t.\nNeues, echt gutes, Kabel.\nHandy im Neuzustand, keinerlei Gebrauchsspuren.\nUpdate auf iOS 16.2 musste erstmal gemacht werden.\nAlles ingesamt perfekt, zu einem angemessenen Preis (519\u20ac)\nJederzeit wieder!",
+                            "publication_date": "2023-01-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Holly",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE7PFD4Y6U42HJ76QIEPP6EGPVRQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Really good quality like brand new, face recognition works even when dark.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2NPNTBAWUO1R5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Phone works great and is as good as new. Took me a while to figure out how to switch it off as you press both volume buttons and the power button at the same time, only as I was used to my older phones. Cameras are good and face recognition is great. Definitely recommend this phone to anyone wanting to upgrade from an older phone.",
+                            "publication_date": "2022-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 September 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEDLRO3V5W47OENUJJYAOHSHUZWQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zustand \u201cIn Ordnung\u201d passt eher",
+                            "url": "https://amazon.de/gp/customer-reviews/R3H164Q4H9YV9I/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Der Zustand \u201cAusgezeichnet\u201d ist leider etwas \u00fcbertrieben. Das Display hat einige kleine Kratzer und die Batterie nur noch eine Kapazit\u00e4t von 82%. Da wird wohl bald ein Batterietausch anstehen m\u00fcssen.\nF\u00fcr den Preis schade!\nAnsonsten ist das Ger\u00e4t in Ordnung.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Daniel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGL5IL5SY3BNCXHLAPJWTI53XTUA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Leider f\u00fcr mich zu klein aber Top Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R2Q5YETGDI3EJQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Leider hat es sich als zu klein herausgestellt, aber Qualit\u00e4t war super, makellos.\nNur die Akku Leistung wird nicht angegeben, kann aber auch an Apple liegen, da wahrscheinlich kein original Akku.",
+                            "publication_date": "2023-01-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 October 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Roland Blunck",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFQ4DU2JDTP5KZRFRCSWGJAVPRDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Apple iPhone 11 Pro",
+                            "url": "https://amazon.de/gp/customer-reviews/R22HG8RZ26Z9PQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Ware ist einwandfrei und wie beschrieben. Absendung war schnell, allerdengs \u00fcber DHL. DHL stelle Postst\u00fccke bei uns leider nur selten und wenn \u00fcberhaupt zu. Ich habe erst im Zustellstatus erfahren, dass das Paket zugestellt worden sein soll und keiner angetroffen worden sein soll - was definitiv nicht stimmt.. Dies rechne ich jedoch nicht d3em Absender zu.",
+                            "publication_date": "2022-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 March 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "michael st.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFZYM6PL5FAHFZDFDB2T36PEMDKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sieht aus und funktioniert wie neu",
+                            "url": "https://amazon.de/gp/customer-reviews/R18W46FYK9W0VZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Super schneller Versand (24h von Bestellung bis Ankunft, ohne Aufpreis). Beide bestellten iPhones sehen aus und funktionieren wie neu.  Nur die Ladekabel ist nicht original, aber Davon hat man(n) ja mehr als genug von dem/n Vorg\u00e4nger Handys. \ud83d\ude43\nAbsolut empfehlenswert und eine super alternative zum Apple- store kauf .\nF\u00fcr das Gewissen auch noch die Wiederverwertung  und substainability.\nDein Konto wird dir auch danken \u263a\ufe0f.\nBravo",
+                            "publication_date": "2022-03-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 April 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marco Zander",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFH4G6SK57HHIUXTX7YHSWPQT7SA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Eigentlich w\u00fcrde ich 4 Sterne geben aber wegen der fehlenden Originalverpackung nur 3",
+                            "url": "https://amazon.de/gp/customer-reviews/RNZV7SYO61BKF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Leider war das Produkt nicht in einer Originalverpackung wie bei einem anderen Anbieter wo ich schon einmal ein vergleichbares Produkt gekauft hatte. Das Produkt ist aber wirklich in einem sehr guten Zustand und die Lieferung war extrem schnell.",
+                            "publication_date": "2022-04-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 June 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Orlando Martinez",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEMR5VDWOQHXFKVAWRRHFC2GJQSQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "More than what I expected",
+                            "url": "https://amazon.de/gp/customer-reviews/R2BU7LJOKGAY51/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "After reading reviews of people saying that the screen was scratched and the battery was not good, I was afraid. But I received the phone and it was in excellent conditions. No scratches, looks like new. Battery health is at 100%. I'm so happy with this purchase.\nOf course, as noted in the product, it does not come with original charger, headphones or box, but the iPhone is in perfect conditions.",
+                            "publication_date": "2021-06-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 December 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Karl Herz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/82c7e180-9c23-4cc8-a2bc-8a9bcf9f5027._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHWWEFQNPTJ3YZRPK62XVMROKYHQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Akku nur 88%",
+                            "url": "https://amazon.de/gp/customer-reviews/RZ8SSGKBC20FH/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Der Akku zeigt nur 88% Leistung an. Bei einem general\u00fcberholten Handy setze ich einen 100% Akku voraus. Somit kann man zum Kaufpreis ca. 70\u20ac f\u00fcr neuen Akku hinzurechnen.\nGenerell ist das Handy rein optisch top!",
+                            "publication_date": "2021-12-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 December 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0db357b7-8071-4ba3-9cdc-7d098203cb8f._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEIWR6BPEYKJHYFWMUNXVHCVKKDA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Smartphone",
+                            "url": "https://amazon.de/gp/customer-reviews/RAQLOSNSEAGBE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "1 Punkt Abzug gib es da bei 560\u20ac ruhig ein neues Akku verbaut werden kann.",
+                            "publication_date": "2022-12-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 December 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "B",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFWWDHTJWL2J74GPZQE5QHJW7PNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Das iPhone 11 Pro funktioniert tadellos",
+                            "url": "https://amazon.de/gp/customer-reviews/R236APTTVLRYKB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Das iPhone 11 Pro funktioniert tadellos. Es wurde als \"Zustand sehr gut\" angeboten, und das trifft auch genau zu. Ein paar minimale Gebrauchsspuren sind zu sehen, aber das darf ja auch sein. Ich kaufe schon seit Jahren immer general\u00fcberholte iPhones aufgrund der Nachhaltigkeit, habe es auch noch nie bereut.",
+                            "publication_date": "2021-12-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 August 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Holger Hall",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMUBP763MNU24G3A6HXSU6C76RQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "W\u00fcrde ich wieder kaufen",
+                            "url": "https://amazon.de/gp/customer-reviews/RWAJU1XL0NBBZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "iphone ist wie neu kann nicht klagen, alles I.O.\nHab bei loop-mobile gekauft,  w\u00fcrde ich sofort wieder.\niphone ist tip top\nNur zum empfehlen",
+                            "publication_date": "2022-08-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 November 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "L.T.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFQIBW3EDAVXLLMXH76K7VO7X47A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Macht was es soll",
+                            "url": "https://amazon.de/gp/customer-reviews/R158NJ5MZ7QXCX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Sch\u00f6nes Handy. Bin sehr zufrieden.",
+                            "publication_date": "2022-11-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 May 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHQTVUPBVOFPAEH3ZOAR5JKQGYJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hat sich gelohnt.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2VE6SKABVPAR6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Alles super - kann mich nicht beklagen. Das Telefon kam innerhalb von zwei Tagen. Keine M\u00e4ngel, funktioniert alles einwandfrei. Ein Ladekabel war auch dabei.",
+                            "publication_date": "2022-05-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 March 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M-E H",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFW7FUULXRQXS3LUJ4S2FJ7PTNTA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "fehlender Lieferumfang",
+                            "url": "https://amazon.de/gp/customer-reviews/R1CT5VSXD54XM8/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Das Ger\u00e4t ist ok. Der weitere Lieferumfang ist falsch bzw. irref\u00fchrend beschrieben. Einmal mit und einmal ohne Kopfh\u00f6rer. Leider will weder der Verk\u00e4ufer noch Amazon nach langem Schriftverkehr einen Ersatz schicken oder den Preis mindern.",
+                            "publication_date": "2022-03-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 November 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Erik  Zirnstein",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEI4QP5RQJYEWJ72AS5PB4CJMP6A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles super",
+                            "url": "https://amazon.de/gp/customer-reviews/R3QQKFQV9ZFTZJ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B082DJTBNF",
+                            "review_text": "Das iPhone ist in einem super Zustand und die Verpackung passte auch soweit",
+                            "publication_date": "2020-11-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

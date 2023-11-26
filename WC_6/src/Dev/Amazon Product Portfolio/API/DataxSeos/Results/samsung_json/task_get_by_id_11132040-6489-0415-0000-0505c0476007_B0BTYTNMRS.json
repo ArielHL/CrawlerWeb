@@ -1,0 +1,278 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0529 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132040-6489-0415-0000-0505c0476007",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0201 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132040-6489-0415-0000-0505c0476007"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0BTYTNMRS",
+                "asin": "B0BTYTNMRS",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0BTYTNMRS",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0BTYTNMRS?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 18:41:01 +00:00",
+                    "spell": null,
+                    "title": "Samsung galaxy s23 plus 256gb black",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung galaxy s23 plus 256gb black",
+                        "url": "https://amazon.de/-/en/Samsung-galaxy-plus-256gb-black/dp/B0BTYTNMRS/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31ggSdDqVjL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.2",
+                        "votes_count": 17,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 7,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 7,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHF6FATX2YKRWZJLWZZLD7YSYJAQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1M0WCKHHZRU4Y/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BTYTNMRS",
+                            "review_text": "Kann ich nur empfehlen.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "KS",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/7812e0bd-1c8e-4ab8-a760-e9b56fc3f9e5._CR0,0,1488,1488_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH766RYWZYAQAPOQEI6KOM6QHERQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Abwarten",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RJUGVTVTWSJAR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BTYTNMRS",
+                            "review_text": "Kamera schlecht,\nUnscharf ob Documente oder Fotos\nRauschen in Fotos",
+                            "publication_date": "2023-08-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGT57LRJVERTNAAFVNPGLPBUTMGA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung Galaxy S23",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3FNRDATSLIS5W/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BTYTNMRS",
+                            "review_text": "gutes Ger\u00e4t, fairer Preis, schnelle Lieferung",
+                            "publication_date": "2023-07-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "thomas thumm",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFC7YEPS2H6I5D2OYGX4VRX5QQVA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kein Deutsches Ger\u00e4t!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1UOBRF7D97ICZ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BTYTNMRS",
+                            "review_text": "Es steht zwar nirgends dran aber das Ger\u00e4t ist kein Deutsches Ger\u00e4t also kein EUB Ger\u00e4t sondern EUX weshalb viele Apps nicht richtig funktionieren",
+                            "publication_date": "2023-10-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 8 August 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rudi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/11ff7143-7f85-4f02-b4e2-70a9c011b257._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHFNHCNPJDUSGE4NF6HFMIY2G57Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes Ger\u00e4t mit f\u00fcr diese Preisklasse unm\u00f6glichen M\u00e4ngeln",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3G3WCPZQBZBOK/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BTYTNMRS",
+                            "review_text": "Also mein Galaxy s23 plus ist ein tolles Ger\u00e4t aber es hat M\u00e4ngel, die sind in dieser Preisklasse unentschuldbar und das sind die biometrischen Entsperrmethoden, also wenn ich es mit meinem 3,5 Jahre alten Oneplus 8 vergleiche dann muss ich sagen die Gesichtsentsperrung bekommt die Note 6 gegen\u00fcber dem Oneplus, Note 1 und der viel gepriesene Ultraschall Fingerabdrucksensor Note 4 gegen\u00fcber dem normalen Fingerabdrucksensor vom Oneplus Note 2.  Da m\u00fcsste man mit Softwareupdates noch kr\u00e4ftig nachbessern.",
+                            "publication_date": "2023-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 7 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Violante De Fazio",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/aeb7609a-5f71-4f17-af31-0251a212b996._CR62,0,375,375_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Ottimo android",
+                            "url": null,
+                            "review_text": "Preso per mio Marito consiglio vivamente il venditore \u00e8 arrivato tutto perfettamente imballato e protetto. Il cellulare ha ottime prestazioni superiori ad apple e costa decisamente meno",
+                            "publication_date": "2023-08-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 14 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Luca",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "S23 plus",
+                            "url": null,
+                            "review_text": "Consigliatio",
+                            "publication_date": "2023-08-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

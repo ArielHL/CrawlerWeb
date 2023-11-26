@@ -1,0 +1,307 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0438 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-b6359ce6ac6b",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0222 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-b6359ce6ac6b"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CHYGHBQW",
+                "asin": "B0CHYGHBQW",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CHYGHBQW",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CHYGHBQW?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:40:33 +00:00",
+                    "spell": null,
+                    "title": "Solo Pelle Leather Case Compatible with iPhone 15 Pro in 6.1 Inch...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Solo Pelle Leather Case Compatible with iPhone 15 Pro in 6.1 Inch Removable Case (2-in-1) with Card Slots for the Original Apple iPhone 15 Pro (Stone Grey)",
+                        "url": "https://amazon.de/-/en/Leather-Compatible-iPhone-Removable-Original-stone-grey/dp/B0CHYGHBQW/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41DvA2ytL2L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.7",
+                        "votes_count": 11,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 8,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 8,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marion Heggemann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/4fa216e9-acd0-4429-9126-86fd26f050ba._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG66A24C4O3WXIKNKJH567TKFO6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr mich perfekt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1VZDBE89H5RZ0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Ich bin mit dieser H\u00fclle mehr als zufrieden. F\u00fcnf Karten und ein paar Geldscheine haben bequem Platz gefunden. Der Magnet h\u00e4lt die Handyschale sicher. MagSafe funktioniert, wenn das \u00e4u\u00dfere Wallet abgenommen ist. Das Handy liegt auch mit Wallet, im aufgeklappten Zustand, gut in der Hand. Das Leder f\u00fchlt sich gut an und gef\u00e4llt mir sehr gut. Ich habe nichts auszusetzen.",
+                            "publication_date": "2023-10-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "LF2009",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/ca9bc7a8-2e72-4e1d-b351-da0156428264._CR60,0,380,380_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHQDWKTVJ65NY4YQ6N6U36MHXA4A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Qualit\u00e4t, echtes Leder, sehr flexibel",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RMNZL898P20JN/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Ich bin von der Lederh\u00fclle begeistert. Sie ist sehr gut verarbeitet, man riecht das Leder. Besonders praktisch finde ich die M\u00f6glichkeit, das iPhone auch separat ohne Kartenteil zu nutzen. Insbesondere bei Fotos oder l\u00e4ngeren Telefonaten ist dies sehr angenehm. Kombiniert mit den Kartenf\u00e4chern spart man sich das Portemonnaie, ein Schein, Ausweis und Girocard plus KK passen problemlos hinein. Rundum gelungen, auch wenn das tolle Feeling des \u201enackten\u201c iPhone nicht mehr da ist, es ist jetzt \u201egut riechend gesch\u00fctzt\u201c \ud83d\ude00\ud83d\ude00\ud83d\ude00",
+                            "publication_date": "2023-10-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Carsten",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEFIMI6VNMOY5K2OKIZN334A2CRA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wiederholungskauf",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2R9QHDRM4BHEV/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Ich habe das Produkt schon mehrfach f\u00fcr verschiedene Handymodelle gekauft. Sehr robust, gute Verarbeitung und top Preis / Leistungsverh\u00e4ltnis.",
+                            "publication_date": "2023-11-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Markus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE5EOFODP6J2ZZ7RJV26OAZHY52Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt und ist schick",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1OJJHO3CUF99V/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Hatte den Vorg\u00e4nger, auch hier alles gut!\nBeim n\u00e4chsten Handywechsel wieder!",
+                            "publication_date": "2023-11-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ulrich Schittek",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AECQG7UFVPIHQ72RABMERPDGDO5A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ist meine 3. H\u00fclle",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RMW9SLO7INP7A/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Die ersten 2 waren f\u00fcr das iPhone X, die haben > 2a gehalten, hoffe die f\u00fcr das 15 er h\u00e4lt auch so lange",
+                            "publication_date": "2023-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Torben Goldboom",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFCW2E5VT42NIJUBJVARMPR4TGQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sch\u00f6ne und passgenaue Echtledertasche",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RX5KAN16BTEZU/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Ich hatte schon f\u00fcr ein Vorg\u00e4nger-iPhone eine Solo Pelle Tasche gekauft. Die letzte Tasche hat mich mehrere Jahre begleitet und dies wird hier auch der Fall sein.",
+                            "publication_date": "2023-10-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Harald  Markus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/cc3e58b6-0627-4bb4-84f7-52c032177bb0._CR0,0,258,258_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHAVFHZHEDBVHTTJRCUS5C5HNR4Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Case, ich kann dieses Case nur empf\u00e4hlen.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RF4VP1AKKU010/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Nach dem ich mir dieses Case f\u00fcr mein iPhone 13 Pro Max bestellt habe und ich es super Finde, dass das Case aus zwei Teile besteht. Zum Fotografieren habe nur das Teil ohne den Teil mit den Karten benutzt.\nDarum habe ich mir das gleiche Case jetzt f\u00fcr mein iPhone 15 Pro bestellt und innerhalb von 2 Tagen per Post erhalten.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEA6XIASPDPJD444PSII4ZCDKK7Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "passt genau und gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RH1ITRVL11NR1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHYGHBQW",
+                            "review_text": "Gute Verarbeitung und passgenau , gutes Preis- Leistungsverh\u00e4ltnis",
+                            "publication_date": "2023-10-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,971 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0443 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-6f3e25c55ce1",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0254 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-6f3e25c55ce1"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09D7BMYHF",
+                "asin": "B09D7BMYHF",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09D7BMYHF",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09D7BMYHF?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:45 +00:00",
+                    "spell": null,
+                    "title": "SoundPEATS Bluetooth 5.1 Headphones Free2 Classic Wireless Earphones...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "SoundPEATS Bluetooth 5.1 Headphones Free2 Classic Wireless Earphones with 30 Hours Playtime IPX5 Waterproof for Sports Stereo In-Ear Earphones Built-in Microphone for Clear Calls",
+                        "url": "https://amazon.de/-/en/SoundPEATS-Headphones-Free2-Waterproof-Microphone-black/dp/B09D7BMYHF/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41C4xmG+5ML._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.3",
+                        "votes_count": 2084,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 627,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Conny",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFYGUNZTIUNW5AZVSUM6FF3NHTCA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter halt und guter Sound",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R8TXP8S0BV0I1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ich finde diese in Ear wireless Kopfh\u00f6rer echt super. Der Klang (Sound Test mit Techno) ist echt super und ich pers\u00f6nlich finde auch dass die einen sch\u00f6neren Sound als die AirPods haben. Auch war ich es von den AirPods gew\u00f6hnt dass diese immer raus fliegen Vorallem beim Sport. Aber diese Kopfh\u00f6rer halten bombenfest. Achtung was jetzt kommt ist meckern auf dem hohen Niveau: das lade case ist aus Plastik und ich finde pers\u00f6nlich man merkt das es nicht hochwertig ist. F\u00fcr den Preis, den halt und dem Klang darf man \u00fcber sowas nicht meckern. Ich werde sie weiter empfehlen daher 5 Sterne!",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHRWHIA4TITU5ALDNB2LB6UNENRQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1ALCUE7NHKTZ6/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Habe sie jetzt \u00fcber ein Jahr im Gebrauch, meist abends im Bett oder bei Hausarbeiten um h\u00f6rb\u00fccher und Musik zu h\u00f6ren.\nDie Akkulaufzeit ist gut und da ich immer nur einen verwende und dann wechsel wenn er leer ist habe ich nie probleme.\nLade sie einmal die woche.\nBin mit dem Klang absolut zufrieden.",
+                            "publication_date": "2023-10-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Meredith",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFMSN4JK52GNQVE5AFOS4CGLZU3Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Love them",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3JMAEYSGVMDLZ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Love them so far! It's early days, but they feel not cheap, they have great sound quality and they lasted for a very long time with the initial charge. I got easily annoyed with other branded ear buds before due to the very sensitive touch area, where me adjusting them already slightly would skip music already. These ones I can adjust and they do not take it as a touch input. Couldn't be happier with my purchase!",
+                            "publication_date": "2023-08-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ta",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEKG44GWMLZDNF7PS3JQPAYUPKYA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3TXNTH5NDUYM0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Gute Kopfh\u00f6rer, mit gutem Klang im Vergleich zu anderen, die ich habe, habe in letzter Zeit mehrere gekauft. Sitzen mehr oder weniger fest im Ohr, selten f\u00e4llt einer raus.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "josy",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFGHTIE4EGAPVOPSX6SATZKPLGLA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R21ANBGHJMNM55/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Superschnelle Lieferung. Ich h\u00f6re viele H\u00f6rb\u00fccher und der Klang der Kopfh\u00f6rer ist perfekt. Preis Leistung passt!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 July 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71d4sNuzqlL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christian K\u00d6RNER",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHH7PNOD5O5YV3YUXTLD6VHWU2MA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gef\u00e4llt mir sehr \ud83d\udc4d",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3BS56UQLA5LO/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Der erste Eindruck war gleich richtig gut. Was ich an den Sound PEATS Free2 Classic Earbuds gut finde. Sie sind passend f\u00fcr meine Freizeit\nAktivit\u00e4ten. Die Klangqualit\u00e4t ist wirklich sehr gut und kraftvoll. Mit dem Design bin ich zufrieden. Da diese Earbuds wasserdicht sind denke ich, das man lange seine Freude damit hat. Au\u00dferdem finde ich es spitze wie schnell sie wieder aufgeladen sind.",
+                            "publication_date": "2023-07-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Katharina Bacher",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/f1cc077c-cd22-4eb2-8b02-6911ee2a4d64._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHC4PWU3MQVDG54JRIKXZZSDUBCQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Soundwise good but wearwise not so comfortable.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3SHDZ74Z8CVHW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "The sound was amazing and very loud but if you wear it for too long it hurts your ear.",
+                            "publication_date": "2023-08-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 June 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "S. Stach",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFIYGTV3NUFLEHKKW6NEYOKZHWZQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super teile, f\u00fcr wenig Kohle - aber mit Verbindungsproblemen",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1M51JIUMWI38D/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Brauchte Ersatz f\u00fcr meine Realme Buds Q2, die seit Monaten bei der Reparatur sind. Die SoundPeats bzw. die Marke wurde mir von einem Arbeitkollegen empfohlen.\nTaugen diese Teile f\u00fcr unter 30 Euro was? Aber ja. Zwar wird die SoundPeats g\u00fcnstig und unterst\u00fctzen die SoundPeats App nicht, aber sie sind so ausgewogen dass man die App nicht wirklich braucht. B\u00e4sse k\u00f6nnten etwas ausgepr\u00e4gter sein, allerdings ist das geschmackssache. H\u00f6hen sind in Ordnung. Laufzeit hatte ich mindestens 6 Stunden.\nAlles in allem. Zu empfehlen, wenn man wenig Kohle ausgeben m\u00f6chte.\nAbwertung: von 4 auf 3 Sterne. Der Support von Amazon ist genauso wie der von Soundpeats katastrophal. Amazon nimmt die Dinger nicht mehr zur\u00fcck und verweist auf den Hersteller, der sich nicht meldet. Seit Wochen versuche ich die austauschen zu lassen, da nach 1 Woche die Teile anfingen Probleme zu machen. Laut Amazon sollte ich noch 4 Wochen testen, dann k\u00f6nnte ich die aber problemlos zur\u00fcck geben. Am Arsch ist finster: Nach 4 Wochen kannst du bei Amazon so gut wie nix mehr zur\u00fcck geben. Und Soundpeats m\u00f6chte deine Mail und meldet sich dann angeblich laut Homepage. Das ist schon Wochen her - und im Online-Chat ist zu Morgens, mittags oder abends niemand. Anschreiben n\u00fctzt auch nichts - also einfach andere Produkte nehmen. Finger weg von Soundpeats, auch wenn die Teile anfangs guten Klang brachten.\nNach etlichen nachhaken hat man die Headsets getauscht. Das ist ok. Aber: die ausgetauschten haben das gleiche Problem. Ist eventuell dem Preis geschuldet....",
+                            "publication_date": "2023-06-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 July 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Blumi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/aa895f99-34b7-4396-bdd1-0ae416b82008._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGYHMDB53VUIR3QEJTYQEV6IIJOQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "beste In-Ears f\u00fcr das Geld\ud83d\udc4c\ud83c\udffb",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RDE7CXF2C5VJ3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Besitze jetzt schon 2 Paar davon weil super zufrieden mit dem Klang bin. Hab schon dieverse durchgetestet von bis 100\u20ac, bin aber bei den Teilen f\u00fcr 20\u20ac h\u00e4ngen geblieben. Equalizer find ich braucht man nicht, entweder die klingen gut oder schei\u00dfe, auf Anc leg ich auch keinen Wert. Die Free Buds 2 klingen einfach gut, B\u00e4sse, Mitten, H\u00f6hen gefallen mir richtig gut, Klangbild sehr angenehm. Einziges kleines Minus ist wenn der Bass kommt wird der Rest dezent unterdr\u00fcckt, h\u00f6rt man aber nur wenn man drauf achtet. Laufzeit ist gef\u00fchlt ewig.. Ton beim YT/Twitch schauen ist synchron, war mir wichtig. Tragekomfort auch super, hab die mir in die Ohren gesteckt und haben gleich gepasst auch beim Sport noch nix rausgefallen\ud83d\udc4d\ud83c\udffb",
+                            "publication_date": "2023-07-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ren\u00e9 Merensky",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/3df2cd46-2c3a-4c74-b59a-36b1ba117316._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFB2MSQV4F3UH3BBYFWFAUJD7QGA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut \ud83d\udc4d",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2WQ919CZ5UCMH/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Gute Verarbeitung\nAuch einzelln zu benutzen, da ich sie Beruflich brauche .\nSehr unauff\u00e4llig, kein st\u00f6rendes geblinke der Leucht LED's.\nPreisleistng Sehr gut.\nKlang f\u00fcr normale Lautst\u00e4rken ebenfalls gut .\nMit freundlichen Gr\u00fc\u00dfen\nREN\u00c9 MERENSKY",
+                            "publication_date": "2023-08-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 March 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marco Cuccu",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/1bf4d3c4-c41d-485a-9f71-7bd4132a92a8._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGNZPXEPSIHCHLYTCGDIFHOK4I3Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klanglich absolut Top!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1ORBQ3MDA5IN6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ich habe diese als Ersatz gekauft, weil ich dachte, ich h\u00e4tte meine Remi Buds 3 verloren.  Klanglich sind die Soundpeatsa absolut empfehlenswert. Optisch sehen sie ansprechend aus. Sie sind leicht und sitzen recht angenehm, auch nach l\u00e4ngerem tragen. Einzig die Verbindung, wen man sich einige Meter entfernt, ist nicht gut umgesetzt. Ich habe sie im Fitnesscenter getragen, nach ca. 3 Metern waren bereits Abbr\u00fcche h\u00f6rbar und ein wenig weiter verlor es die Verbindung zum Smartphone. Daher sind sie f\u00fcr mich nicht optimal verwendbar, die Redmi Buds bleiben auch nach 8-10 Metern noch aktiv, zum Gl\u00fcck sind sie wieder aufgetaucht. F\u00fcr den Alltag sind die Soundpeats und was den g\u00fcnstigen Preis betrifft auf jeden Fall das Geld wert!!",
+                            "publication_date": "2023-03-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Oliver",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHUCKNTY7YV7UXRXJY5SHRZNDOFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gute Kopfh\u00f6rer mit hervorragendem Klang",
+                            "url": "https://amazon.de/gp/customer-reviews/R2DFIP896YWEHE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Die Kopfh\u00f6rer haben mir sehr gut gefallen, vor allem wegen des guten Klangs beim H\u00f6ren von Audio sowie beim Sprechen.  Die Konnektivit\u00e4t ist auch super und ich hatte eine Verbindung bis ca. 20-25 Meter vom Handy entfernt. Eine gro\u00dfe Entt\u00e4uschung war die Akkulaufzeit, statt der angegebenen 8 Stunden hielt der Akku etwa 5 Stunden beim Musikh\u00f6ren und Sprechen bei mittlerer Lautst\u00e4rke.\nWem die Akkulaufzeit nicht so wichtig ist, f\u00fcr den sind diese Kopfh\u00f6rer die richtige Wahl, vor allem im Vergleich zum Preis.",
+                            "publication_date": "2023-05-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kevin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/9717c08f-1535-4bfb-aeda-254a9d20a7c3._CR0,20.0,292,292_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFZK4EHF34535UN3U3UWA5MRU6YQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Unschlagbar f\u00fcr den Preis",
+                            "url": "https://amazon.de/gp/customer-reviews/R38IULIIFCCMID/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Die Kopfh\u00f6rer sind die besten die ich jemals in dieser Preisklasse gesehen habe. Sie \u00fcberzeugen mit der langen Akkuzeit sowie mit der sehr soliden Klangbild. Nur empfehlungswertig",
+                            "publication_date": "2023-08-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M.  Merkel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH77DJLVR43XFI55DEIVHRZK5WXA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R1ISMSDKD0UL83/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ein sehr guter Artikel.\nEinen Stern Abzug gibt es aber trotzdem.\nNachdem die Kopfh\u00f6rer f\u00fcr sehr gut befunden worden wollten wir uns ein zweites Paar bestellen. Also ab in den Warenkorb und noch etwas gest\u00f6bert und schon stieg der Preis im Warenkorb um satte 12 Euro.\nEcht schade.\nDann mu\u00df man sich doch andere kaufen.",
+                            "publication_date": "2023-05-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 August 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "SSA",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG7B7A4YQX6KCS26HTPCBBHONIGA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Will exceed your expectations for the price given.",
+                            "url": "https://amazon.de/gp/customer-reviews/R32RZ9UZV8LYU0/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "The Classic Free2 wireless earbuds are an incredible addition to anyone's daily routine! I was blown away by the innovative design, featuring a laser-engraved leather structure combined with metal elements that provide an exquisite look and comfort. The earbuds are incredibly lightweight, making them perfect for all-day wear without any discomfort.\nOne of the best features of these earbuds is the long battery life, with 8 hours of playing time per charge and another 2.8 charges through the charging case, extending the total playing time to 30 hours! And charging is a breeze with the convenient USB-C charging feature, which only takes 1-2 hours to fully charge the earphones and the charging case.\nBut what truly sets these earbuds apart is the superior sound quality and reliable transmission, thanks to the dynamic 6mm driver and Bluetooth 5.1 technology. The bass is strong, the mids are soft, and the vocals are crystal clear, providing an immersive audio experience that you'll love for your daily workouts and leisure time.\nMaking and taking calls is effortless with the microphones equipped with a dust-proof metal grille, reducing wind noise interruptions and ensuring clear and smooth communication. The touch control feature is intuitive, providing easy access to volume control, switching songs, pausing/answering calls, and activating voice assistants.\nAdditionally, the Classic Free2 earbuds are rated IPX5, providing protection against water and sweat, making them perfect for daily light workouts. I was also impressed with the seamless connection between single and twin mode, allowing me to use either one earphone or both together with ease.\nOverall, I highly recommend the Classic Free2 wireless earbuds for anyone looking for exceptional sound quality, comfortable design, and long battery life. These earbuds are a must-have for anyone looking to upgrade their audio experience!",
+                            "publication_date": "2022-08-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 April 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH32P47GSFUQKHQ2JB4GQZVX2ITQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sound gut, Reichweite mies",
+                            "url": "https://amazon.de/gp/customer-reviews/R10ID6VM8J2XJO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Wenn man einmal raushat, wie man die Dinger richtig einsetzt, ist der Sound vor allem f\u00fcr diesen Preis ganz anst\u00e4ndig. Die Bluetooth-Reichweite ist allerdings ein Witz. Schon der Gang ins Nebenzimmer unterbricht die Verbindung. Auch habe ich noch nicht raus, wie man am Ohrst\u00f6psel die Lautst\u00e4rke ver\u00e4ndert. Das passiert idR unbeabsichtigt, wenn ich den Sitz korrigieren m\u00f6chte und l\u00e4sst sich von mir nicht willentlich steuern.",
+                            "publication_date": "2023-04-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andrea Kliche",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AERSB6VGB4WGQKYAS3TI6KM5OUMA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "In ear kopfh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/R2184TD0DLWZ0W/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "F\u00fcr diesen Preis unschlagbar.bass und Sound gut.guter halt bei sportlichen aktivit\u00e4ten(kraftsport und fittness).",
+                            "publication_date": "2023-08-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Herthagott",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/81ed2df8-98b8-4d93-a2b5-30521b5cab68._CR71,0,358,358_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGQ5EFSURGXSOZ3DZ263JMV22TXA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Leicht, bequem, fantastischer Sound f\u00fcr 14,87\u20ac",
+                            "url": "https://amazon.de/gp/customer-reviews/R2XJX87IFV34EX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Mit Abstand die besten Kopfh\u00f6rer f\u00fcr das Kleingeld die ich jemals besessen habe.\nFederleicht und bequem mit einem Weltklasse Sound.\nGebraucht wie neu, 14,87\u20ac \ud83d\udc4c\ud83c\udffb\ud83d\udc4c\ud83c\udffb\n1000 Dank an denjenigen, der sie zur\u00fcck geschickt hat, noble Geste \ud83d\ude01\ud83d\ude01\ud83d\ude01",
+                            "publication_date": "2023-08-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "J.K",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF64FVTAA2TJALITY2NLLQ6SVZIQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kann man echt weiter empfehlen.",
+                            "url": "https://amazon.de/gp/customer-reviews/RW4TNUXWROER4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Hatte auch Buds von Samsung. Aber die g\u00fcnstigen k\u00f6nnen auch echt daran schnuppern. Klang echt in Ordnung. Auch der Bass ist echt sauber & klasse. Also mein Fazit : Kann man echt kaufen \ud83d\udc4c\ud83d\udc4d",
+                            "publication_date": "2023-08-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 December 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFPR27WOHVLH5GAVJETEXJGC7CAA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Absolut empfehlenswert",
+                            "url": "https://amazon.de/gp/customer-reviews/RJXO04DN1LYSH/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ich w\u00fcrde diese Kopfh\u00f6rer jederzeit wieder kaufen.\nAls Bluetooth-Inears auf den Markt gekommen sind, war ich erstmal jahrelang skeptisch und bin bei meinen 10\u20ac Schnurkopfh\u00f6rern geblieben. Ich dachte, ich w\u00fcrde bestimmt irgendwann einen der beiden Kopfh\u00f6rer verlieren, das Aufladen w\u00e4re bestimmt l\u00e4stig wenn man sie oft verwendet, oder die Kopplung mit dem Handy oder anderen Ger\u00e4ten w\u00e4re zu langsam/m\u00fchsam.\nDiese Kopfh\u00f6rer haben mich in allen Punkten vom Gegenteil \u00fcberzeugt:\n-Das Ladecase ist mit Magneten ausgestattet, die den Kopfh\u00f6rer problemlos in seinen Platz ziehen sobald er in der N\u00e4he ist, wodurch auch der Verlust eines Kopfh\u00f6rers unwahrscheinlicher wird.\n-Ich h\u00f6re fast t\u00e4glich ungef\u00e4hr 1-2 Stunden Musik/Videos mit den Kopfh\u00f6reren und musste sie bisher (innerhalb 2-3 Monate) nur 2 mal aufladen, der Akku h\u00e4lt also sehr lange.\n-Die Bluetoothverbindung ist extrem schnell aufgebaut und absolut nicht empfindlich: man kann zB auch nur einen Inear aus dem case holen und nur diesem mit dem Handy koppeln. Es entstehen absolut keine Komplikationen.\nIn Summe ein sehr sehr gutes Produkt.",
+                            "publication_date": "2022-12-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Wanda",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFINY4XP6OY23DTMXYGVO4QQH4EQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis-Leistung nicht zu schlagen, f\u00fcr Anrufe unterwegs aber ungeeignet!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3647B7DMEFGNE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Die Kopfh\u00f6rer sind so m\u00e4\u00dfig bequem, aber das halte ich f\u00fcr ein allgemeines Problem von in-ears. Die Sound-Qualit\u00e4t ist f\u00fcr nicht-geschulte Ohren vollkommen in Ordnung und man kann alles gut verstehen, auch die Lautst\u00e4rke ist mehr als ausreichend einstellbar. Die Einstellm\u00f6glichkeiten an den Kopfh\u00f6rern sind sehr praktisch, wenn man mal das Handy nicht direkt zur Hand hat und die Bluetooth-Verbindung ist stabil. Die Verarbeitung ist ok, aber alles aus Plastik. Der Akku h\u00e4lt im Alltag scheinbar ewig.\nEinzige Nachteile sind, dass man sich immer erst von einem Ger\u00e4t trennen muss, um sich mit einem anderen zu verbinden und dass die Mikrophone wirklich alle Umgebungsger\u00e4usche sehr laut aufnehmen und wenn man unterwegs ist das telefonieren dadurch f\u00fcr den Gespr\u00e4chspartner sehr ablenkend sein kann.\nInsgesamt kann man f\u00fcr den Preis aber wirklich nicht mehr erwarten.",
+                            "publication_date": "2023-05-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEJJ4RLNXKT56IBRESTYHRRHVWSQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gro\u00dfartig",
+                            "url": "https://amazon.de/gp/customer-reviews/R2PR0CYNYF04UK/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Die Kopfh\u00f6rer passen perfekt zu meinen Ohren und der Sound macht Konkurrenz mit den teuren Marken. Da macht Musikh\u00f6ren wieder Spa\u00df. Der Akku h\u00e4lt sehr lange. Ich bin zufrieden",
+                            "publication_date": "2023-08-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Nadine",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEKY3ELYB3QTAOBKGIE3WAYSVBAA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle Kopfh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/RITWBAR3ONHJZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ich habe diese Kopfh\u00f6rer schon seit einiger Zeit in Gebrauch. Meistens beim Sport. Sie verbinden sich sofort. Der Klang ist einwandfrei. Die Bedienung super leicht. Und sie tun in meinen kleinen Ohren nicht weh.",
+                            "publication_date": "2023-07-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 September 2022",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61FJovMF+7L._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61PsLevUOhL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61gvVLxaKXL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Juan",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHSGAV7S2MTN3C74LYM3QJ7U4P5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Good value for money. Good battery and microphone quality.",
+                            "url": "https://amazon.de/gp/customer-reviews/R132Z3ZXTGONQG/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Good for a daily basis if you don't want to spend a fortune.\nNot the most comfortable ones when it comes for sport but they work. They go a bit outside the ear, but so far have been working good and didn't fall a single time\nI am very happy with the touch controls, they work pretty well and battery lasts quite some time. Had it for more than 2 weeks and with intermittent usage (1-2 hour per day) didn't have the need to recharge the \"capsule\"/box that contains them.\nI mainly use them almost daily to listen to the radio while I go to work (by bike) and talk on the phone (call quality very acceptable).",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGFATU7HTZDK4DWHBTGWHZC3YTGA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ist nicht schlecht aber auch nicht das beste",
+                            "url": "https://amazon.de/gp/customer-reviews/R2P52OB5I84KU6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Kann nicht viel dazu sagen da es ein Geschenk f\u00fcr jemanden war. Aber die f\u00fchlen sich nicht unbedingt gut an. Sound ist in Ordnung. Sitzen aber im Ohr nicht so gut wie andere Kopfh\u00f6rer",
+                            "publication_date": "2023-08-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 September 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "R. Reitbauer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH545FG6DGN55RQ3SOKS4BSTJH6Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gute In Ears ohne SchnickSchnack",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ODCMXSRKX1JR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ein Wahnsinn, der Sound ist excellent f\u00fcr diesen Preis.\nKlanglich kommen Sie fast an die Sennheiser Momentus TW3 ran. Die kosten aber 200Eur und mehr.\nVerglichen mit den Soundcore P2 mini, sind die Soundpeats klar besser. Da helfen auch nicht die 3 verschiedenen Equalizer Settings des Soundcore.\nSchlechter als die Teufel Airy True Wireless, die es aktuell auch im Angebot um 79Eur gibt. (direkt bei teufel.de)\nVergleich Teufel Airy mit Sennheiser MTW3:\nBei den Sennheiser sind die H\u00f6hen mehr herausgearbeitet,  aber das ist mir zu schrill. Die Teufel sind etwas dumpfer abgestimmt aber insgesamt in allen Musikrichtungen meiner Meinung nach etwas stimmiger als die Sennheiser.\nDie Teufel werden sehr selten getestet, sind aber klanglich meiner Meinung aktuell die Besten. (Die Teufel sind auch schon relativ lange am Markt)\nDie Teufel Real Blue TWS hab ich leider nicht getestet, diese sind ja laut diversen Websiten keine echten Teufel sondern aus China zugekauft.\nIch vergleiche hier immer nur den Klang, alles andere ben\u00f6tige ich nicht.\nMehr Klangdetailgeschw\u00e4tze will ich hier nicht vermitteln, da ich der Meinung bin dass nur selber h\u00f6ren letztendlich entscheidet.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sven Dolfen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHAUXJAMKGJOGAVCP4XPNBGCKB2A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Qualitaet mit schnellen starken Maengeln",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ME9DKJLLUL11/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Ich mag diese In-Ear Kopfhoerer eigentlich, jedoch muss ich eine 1/5 geben. Warum?\nAus Folgenden Gruenden hab ich mich dazu entschieden nach Monatelanger Faulheit eine Bewertung zu schreiben. Ich schreibe eigentlich keine.\n-1 Stern: Ich habe mir diese Kopfhoerer bestellt als sie on Sale waren, jedoch war die erste Bestellung einfach nur eine Leere verpackung. Versiegelt ungeoeffnet aber Leer. Da war nur der Schaumstoff drin mit Luft.\n-1 Stern: Die Ton Qualitaet ist meiner meinung nach fuer den Preis Gut, jedoch hatte ich nach 2 Monaten schon 90% Soundverlust auf der Linken-Seite. Hoere also sogut wie Alles ueber die rechte Seite.\n-1 Stern: Ich habe einen Starken Tinnitus und nutze daher sehr oft Kopfhoerer fuer Musik. Daher bemerkte ich sehr schnell das die genannten 30 Stunden immer weniger werden. Ich muss meine \"Box\" alle 2-3 Tage wieder aufladen und ich nutze die Kopfhoerer vllt 5-6 Stunden am Tag. Do the Maths.\n-1 Stern: In letzter Zeit spackt die Bluetooth Verbindung sehr stark. Ich habe die In Ears im Ohr, das handy in der Hosentasche -> Wenn ich also zu Fuss zur Arbeit gehe habe ich sehr oft alle 5sekunden Verbindungsverlust wodurch die Musik immer wieder haengt/aufhoert. Selbst wenn ich das Handy direkt vor meinem Gesicht halte spinnt die Verbindung zum Handy. Dies war sowohl bei meinem Alten Handy als auch bei einem frisch gekauften Handy.\nFuer zwischendurch sind diese Kopfhoerer definitiv den Preis wert. Aber fuer mich war das eher rausgeschmissenes Geld (habe mir sogar 2x die Garantie verlaengerung gekauft..)",
+                            "publication_date": "2023-08-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marcus Wei\u00df",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/763348d6-9381-4096-899c-9154ae9f7442._CR322,0,1932,1932_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHAIPZSFG2EWXNH2BIKJOGRM4KDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Preis- Leistung",
+                            "url": "https://amazon.de/gp/customer-reviews/R3CGD6GLYBF3IJ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Habe bereits den Vorg\u00e4nger der Marke vor Jahren gekauft und war stets zufrieden.\nAuch dieses Modell erf\u00fcllt all meine Erwartungen und W\u00fcnsche. Angenehmer Tragekomfort und durch die mitgelieferten Aufs\u00e4tze easy anzupassen.\nAuch das verbinden mit dem Smartphone oder Laptop funktionierte einwandfrei und unkompliziert.\nAuf jeden Fall w\u00fcrde ich diese Kopfh\u00f6rer wieder kaufen.",
+                            "publication_date": "2023-06-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 May 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Werner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHTRZJ5OZXKY7T5PMRG2RNEC4UAA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mega Sound \ud83d\udc4d",
+                            "url": "https://amazon.de/gp/customer-reviews/R1CZB24HARUJQW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "Akku Leistung bin ich noch am testen aber bin voll zufrieden\nSitzen angenehm Sound ist sehr gut auch Bass technisch ob nun Club music oder Rock ich find's gut\nHandling muss man sich drann gew\u00f6hnen die k\u00f6nnen schnell mal aus den Fingern rutschen also aufpassen ich wei\u00df nicht wie sturzempfindlich die sind ich hab den rechten Grad noch so gegangen wer wei\u00df was passiert \ud83d\ude28  aus dem Ohr rutschen sie nicht einfach so Mann sollte damit nicht poggen\ud83e\udd2a",
+                            "publication_date": "2023-05-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tom",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFS63T6TKOGI6DAK2NQ6WXW6LUXQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "schlechter Sound Update",
+                            "url": "https://amazon.de/gp/customer-reviews/RC98Q503NOF3X/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09D7BMYHF",
+                            "review_text": "leider fallen mir in letzter Zeit die hohen T\u00f6ne auf die Nerven. Ob die Kopfh\u00f6rer \u00fcbersteuert sind in den Hocht\u00f6nen. Ich bin nicht anspruchsvoll, ich nutze diese zum Radio h\u00f6ren.\nDie \u00fcbersteuerten T\u00f6ne liegen nicht an den Kopfh\u00f6rer,sondern an der App. Andere Musik App haben dieses Problem nicht. Der Kundenservice hat mir sehr gut gefallen und mit ihren R\u00fcckfragen das Problem gel\u00f6st.",
+                            "publication_date": "2023-02-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

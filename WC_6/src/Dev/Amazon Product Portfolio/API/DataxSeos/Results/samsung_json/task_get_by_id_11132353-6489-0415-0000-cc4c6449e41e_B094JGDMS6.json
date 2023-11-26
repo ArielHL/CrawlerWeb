@@ -1,0 +1,939 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0564 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-cc4c6449e41e",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0219 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-cc4c6449e41e"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B094JGDMS6",
+                "asin": "B094JGDMS6",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B094JGDMS6",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B094JGDMS6?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:35 +00:00",
+                    "spell": null,
+                    "title": "Samsung Full HD TV 32 Inch (GU32T5379CUXZG, German Model), HDR,...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Full HD TV 32 Inch (GU32T5379CUXZG, German Model), HDR, PurColor, PQI 1000, Smart TV [2021]",
+                        "url": "https://amazon.de/-/en/Samsung-GU32T5379CUXZG-German-Model-PurColor/dp/B094JGDMS6/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/51fdZ+dtoCS._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.2",
+                        "votes_count": 643,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 129,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Frank Axel Claussner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGYQXRUMCWS337IHAXTJYH3MBAOQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "SUPER TV",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1YU2XYWL23787/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "L\u00c4UFT ALLES WIE ES SOLL:::TOLLES BILD",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "RoterBaron",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AED5CEALGZXWHJD4SQZACD4LLB6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter TV",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R138VNFEMTZEZP/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Habe insgesamt 3 x diesen Fernseher gekauft.\nBin zufrieden damit.\nPreis/Leistung Ok.",
+                            "publication_date": "2023-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 July 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Samsung T5379CD 32 Zoll LED-Fernseher - Preisg\u00fcnstiger Smart-TV im Kleinformat",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3BUDHNSEHJ6QV/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Der \"Samsung T5379CD 32 Zoll LED-Fernseher\" (Made in Slowakia) wird in Originalverpackung ohne \u00fcberfl\u00fcssigen Verpackungsaufwand geliefert. Darin ist das Ger\u00e4t mit 2 Polystyrol-Blistern und Folie auf dem Bildschirm optimal gesichert. In einer zus\u00e4tzlichen Folie befinden sich Fernbedienung (inclusive der ben\u00f6tigten 2 AAA-Batterien), Standf\u00fc\u00dfe (inclusive der 4 Kreuzschrauben) sowie Bedienungsanleitung (Deutsch, Englisch u.a.) und Garantie-Urkunde.\nDie Aufstellung des leichtgewichtigen Ger\u00e4tes ist von einer Person problemlos zu bewerkstelligen. Ben\u00f6tigt wird nur ein Kreuzschraubendreher zur Befestigung der Standf\u00fc\u00dfe. Nach Antennen-Anschluss und Anschluss des Blu-ray-Players (Antennenkabel und HDMI-Kabel werden ben\u00f6tigt) kann der Power-Button der handlichen Fernbedienung gedr\u00fcckt werden - und die Inbetriebnahme beginnt. Praktischerweise ist Deutschland als gew\u00fcnschtes Land bereits vorausgew\u00e4hlt. F\u00fcr den Sendersuchlauf ist gewissenhaft die Quelle (Kabel oder Satellit) auszuw\u00e4hlen. Dann folgt die Eingabe der heimischen WLAN-Kennung, um das Ger\u00e4t auch als Smart-TV betriebsf\u00e4hig zu machen. Alternativ steht dazu auch ein Ethernet-Anschluss zur Verf\u00fcgung. Ebenso gibt es f\u00fcr weitere m\u00f6gliche Ger\u00e4te noch einen zweiten HDMI-ARC-Anschluss. Das notwendige Sortieren der Sender nach pers\u00f6nlichen Bed\u00fcrfnissen ist leider reicht aufw\u00e4ndig und gewiss nicht selbsterkl\u00e4rend. In der Bedienungsanleitung sind auch keine Hinweise daf\u00fcr enthalten.\nDer mit unter 300\u20ac sehr preisg\u00fcnstige 32 Zoll Smart-TV mit den Erwartungen entsprechender Bild- und Tonqualit\u00e4t ist f\u00fcr kleine Wohnungen und als Zweitger\u00e4t uneingeschr\u00e4nkt zu empfehlen.",
+                            "publication_date": "2023-07-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andrey Tsonev",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGTE6PQXQBO24PTKQUW2RZTRUHJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\ud83d\udc4d\ud83c\udffb",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RNUG4PGGUAQXY/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Super\u2026",
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dr. Manfred Classen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGDEF55PDAQWGZEPLNU3LUPWUDXQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung T5379CD 32 Zoll LED-Fernseher, kleiner Preis und gutes Bild.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RBDGS1I0FJUR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Als Zweitger\u00e4t im Schlafzimmer sehr gut. Mit der Saundbar von Bose perfekt.",
+                            "publication_date": "2023-10-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 August 2022",
+                            "helpful_votes": 91,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike501",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFJKT4YVZZM6GCPOILZZCHRI2L3A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zwar kein 4K, aber was soll das bringen bei 32\"?",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RBUV536PBLZS1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Erstmal sollte allgemein bekannt sein, dass bei Amazon teilweise fehlerhafte Produktdetails eingepflegt sind. \u00dcber die Eigenschaften eines Ger\u00e4ts informiert man sich daher nicht bei Amazon, sondern beim Hersteller oder bei verl\u00e4sslichen Quellen.\nZweitens, ja, er hat nur FullHD und kein 4K, aber bei 32\" und den \u00fcblichen Sitzabst\u00e4nden br\u00e4chte 4K eh absolut Null. 4K-Aufl\u00f6sung ist dazu da, um bei hinreichend gro\u00dfen Diagonalen (ab 49\", 55\"...) n\u00e4her dransitzen zu k\u00f6nnen, damit der TV mehr vom Blickfeld ausf\u00fcllt, oder dass man sich einen gr\u00f6\u00dferen TV bei gleichbleibendem Sitzabstand hinstellen kann. Also um eine bessere Immersion zu erreichen. UHD-Inhalte immer vorausgesetzt nat\u00fcrlich! Bei kleinen Diagonalen bringt das aber so gut wie nichts, die reine UHD-Aufl\u00f6sung \"verpufft\" dort oft je nach Sitzabstand, wenn man zu weit weg sitzt.\nZumal wie gesagt, man muss auch erstmal 4K/UHD zuspielen. \u00dcber normales TV kommt normalerweise h\u00f6chstens HD rein, d.h. nur per UHD-Streaming, 4K-Gaming oder UHD Blu-ray h\u00e4tte man \u00fcberhaupt die Chance auf einen kleinen Vorteil. Daf\u00fcr m\u00fcsste man bei 32\" aber so nah davor sitzen wie bei einem PC-Monitor!\nF\u00fcr den richtigen Rundumschlag w\u00e4re die reine 4K-Aufl\u00f6sung sowieso nicht genug. Erst die Kombination UHD + HDR + erweiterter Farbraum, also dem, was bei der UHD Blu-ray, UHD-Streaming-Inhalten sowie den neuen Spielekonsolen vorzufinden ist, bringt den vollen Aha-Effekt, und das muss das Ger\u00e4t auch alles vern\u00fcnftig darstellen k\u00f6nnen. Mit HDR wurde ja zum ersten Mal seit der R\u00f6hrenfernseher-Zeit der Dynamikumfang erweitert (also die Spanne zwischen Schwarzwert und maximaler Helligkeit). Bei den UHD-Einstiegsmodellen wie diesem hier hapert es aber an den HDR-F\u00e4higkeiten des Ger\u00e4ts, das ist bei allen Herstellern so. Die Hintergrundbeleuchtung ist nicht potent genug und es fehlt ein Local Dimming. Diese UHD-Einstiegsmodelle sind daher nicht auf den f\u00fcr HDR w\u00fcnschenswerten Dynamikumfang vorbereitet, so dass man am Ende h\u00f6chstens ein \"HDR Light\" erh\u00e4lt. Ein HDR-Effekt, der bei weitem nicht so gut ist wie bei den teureren Modellen, die extra auf HDR ausgelegt wurden. Wir reden hier von h\u00f6chstens 250-400 cd/m\u00b2 (Candela, entspricht Nits) Spitzenleuchtkraft der UHD-Einstiegsmodelle, verglichen mit \u00fcber 1000 cd/m\u00b2 der \"echten\" HDR-Modelle, die auch noch Bildbereiche intelligent dimmen k\u00f6nnen. Es kann dann sogar sein, dass die HDR-Fassung schlechter aussieht als die herk\u00f6mmliche Fassung des Inhalts, weil dem TV komplett die Reserven in der Leuchtkraft fehlen.\nZudem hat man bei allen UHD-Einstiegsmodellen - egal welcher Hersteller - nur 50 Hz-Panels verbaut, was gerne durch unterschiedlich hochgerechnete Fantasiezahlen verschleiert wird (bei Samsung ist es der PQI-Wert). Technisch vorteilhafte 100 Hz-Panels bekommt man dann mit den UHD-Modellen ab der Mittelklasse. 100 Hz bedeuten verbesserte Bewegungsaufl\u00f6sung (also wie scharf das Bild bei Bewegungen/Kameraschwenks bleibt). Das Bewegtbild bleibt dann ann\u00e4hernd so scharf wie ein Standbild. Weniger penible Naturen k\u00f6nnen sich auch mit der 50-Hz-Darstellung anfreunden, wer aber ein Auge f\u00fcr sowas hat und das maximal scharfe Bild bei Bewegungen braucht, sollte auf 100 Hz Wert legen. Wird leider nur selten im Klartext angegeben, aber f\u00fcr Samsung gilt die obige Aussage. Man sieht es daran, dass die TVs mit 50 Hz-Panel kein Motion Plus mit \"Unsch\u00e4rfeminderung\" haben. \u00dcbrigens erkl\u00e4re ich die Samsung-Bildeinstellungen in einem eigenen Thread, mal \"samsung bildeinstellungen hifi\" googeln.\nDen erweiterten Farbraum der UHD Blu-ray und UHD-Streams k\u00f6nnen auch erst die h\u00f6heren Modelle darstellen. Ansonsten sieht man nur den bisherigen konventionellen Farbraum, egal was zugespielt wird. Wenn man den TV mit Blick auf UHD-Inhalte kauft, sollte man ein Modell bevorzugen, was sowohl HDR als auch den erweiterten Farbraum vern\u00fcnftig darstellen kann. Dann ist so ein Einstiegsmodell wie dieses hier eh komplett unterdimensioniert, nicht nur von der Diagonale, sondern auch von den Eigenschaften her.\nZu diesem Ger\u00e4t: Das Bild ist Standardkost, ist halt LCD-basierte Einstiegstechnik ohne Local Dimming, war zu erwarten. Ton ist unterdurchschnittlich (mangels Geh\u00e4usevolumen f\u00fcr die winzigen Lautsprecher). Alles kein Beinbruch, es wird keiner Kinoton erwartet haben. Es lohnt sich auch nicht, bei 32\" ein teureres Modell zu holen nur wegen besserem Ton. Der integrierte TV-Ton ist meist nur ein Notbehelf, streng genommen muss man den Ton seperat vom Bild betrachten, und wer da was Besseres haben will, holt sich eine Soundbar (HDMI mit ARC, damit man sie \u00fcber die TV-Fernbedienung steuern kann).\nBedienung ist ok, Umschaltzeiten sind im Rahmen, die wichtigsten Apps sind dabei und laufen. Viel mehr kann man in diesem Preissegment nicht gro\u00df erwarten. Der TV wird keine Tests gewinnen, aber er ist im Grunde das, was von einem Markenhersteller zu diesem Preis (zum Kaufzeitpunkt ca. 236 \u20ac) erh\u00e4ltlich ist.",
+                            "publication_date": "2022-08-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M. G",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEA7XHYVVJDTN7J3XYABRRG7GJVA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3DNZW0CFIQTD8/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Guter Fernseher \ud83d\udcfa au\u00dfer die sleep timer Einstellung ist? extrem fragw\u00fcrdig gemacht, man muss ins Men\u00fc einsteigen um diese zu aktivieren. Das etwas st\u00f6rend f\u00fcr mich. Sonst top Produkt. Preis Leistung in Ordnung.",
+                            "publication_date": "2023-08-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Juergen Postler",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG2U7VP3CX5Z5AFZ7Q5E2EJQRETQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung 32 Zoll TV",
+                            "url": "https://amazon.de/gp/customer-reviews/R1U4C7H7HORZRM/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Umschaltung auf Sender\u00fcbersicht dauert sehr lange",
+                            "publication_date": "2023-08-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 August 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Burgenl\u00e4nderin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGNIGT7NT6PEOLHQPRAA75TDYPIA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Prima kleiner SmartTV",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2M16NRYXDPQEN/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "F\u00fcr Produktbeschreibung-Preis-Bestellvorgang-Lieferung-Verpackung bis Aufstellung und Installation gibt es von mir volle Sternenbewertung.\nBild-und Tonqualit\u00e4t sind \u00fcber einfache Men\u00fcf\u00fchrung leicht an den eigenen Geschmack anpassbar und dann recht gut f\u00fcr einen SmartTV in dieser Gr\u00f6\u00dfe.\nHandliche Fernbedienung, mit der die Installation und Steuerung der Programme flott und problemlos erfolgt.\nDie gew\u00fcnschten Anschl\u00fcsse werden rasch angenommen.\nMan braucht nur den Anweisungen am Bildschirm zu folgen und schon  l\u00e4uft der kleine SmartTV im handumdrehen.\nDa bei mir bisher alle Samsung Ger\u00e4te eine lange Lebensdauer haben bzw hatten, freue ich mich auf eine gute gemeinsame Zeit.\nF\u00fcr mich ein rundum Zufriedenpaket.",
+                            "publication_date": "2023-08-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 August 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHPLTJEPYNMCQG4M66T6HCBDG45A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr guter Fernseher f\u00fcrs Jugend-/ B\u00fcgelzimmer oder Hobbyraum",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3ODPXC23BWLEG/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Als Zweitfernseher ist es ein guter Fernseher f\u00fcr kleines Geld. Sicherlich ist der Fernseher auch gut f\u00fcr kleinere Wohnzimmer geeignet, oder wenn man kurze Abst\u00e4nde zum Ger\u00e4t hat.",
+                            "publication_date": "2023-08-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Josef Alfred Gutmann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH5V2Z7RDAAQZJYPR364LNP2WNTQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bild",
+                            "url": "https://amazon.de/gp/customer-reviews/RDJZV5BT0SL2G/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Kein gutes Bild zu dunkel",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sonnenschein",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH247R3RJC3I4NNRFUCNMFBEWTLA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr den Preis okay",
+                            "url": "https://amazon.de/gp/customer-reviews/R3IHWYAZN6MD2H/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "F\u00fcr diesen Preis und der Gr\u00f6\u00dfe des Ger\u00e4ts kann man wahrscheinlich nicht mehr erwarten.\nDer wirklich einzige Vorteil ist, da\u00df Samsung sich bei der Installation selbst erkl\u00e4rt.",
+                            "publication_date": "2023-05-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Margit Fuess",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH2OZCZ25N26L2ICPRWYMMS7GVLQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung 32 Zoll tv",
+                            "url": "https://amazon.de/gp/customer-reviews/R3URCO16717ZYJ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Einfache Installation und Einrichtung, perfekt f\u00fcr kleinere Wohnung , gute Bildqualit\u00e4t",
+                            "publication_date": "2023-08-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 April 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "B. Ma",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF6CPA4BBRIV47EW6RO3RWRDL44Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gutes Bild",
+                            "url": "https://amazon.de/gp/customer-reviews/R2POLRUQLQF9Q4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Sehr schnelle Lieferung, die Einstellung des TV ist selbst erkl\u00e4rend,auch der Ton ist gut.\nIch bin sehr zufrieden !",
+                            "publication_date": "2023-04-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGN4HCE7JI3LFVIPJI7UMS2RY4EQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "klein aber oho",
+                            "url": "https://amazon.de/gp/customer-reviews/RJ6P8CCBKLDF5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Preis-Leistung  ok,",
+                            "publication_date": "2023-05-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 June 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Gro\u00df-Umstadt Ost",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AERDMEB65L57GMQBGXBM7XFDMY5Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die Tonqualit\u00e4t ist sehr d\u00fcnn",
+                            "url": "https://amazon.de/gp/customer-reviews/R31D7FBR1NMULF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "auch wenn das Ger\u00e4t nat\u00fcrlich nicht so gro\u00df ist wie ein 60 Z\u00f6ller, m\u00fcsste die Tonqualit\u00e4t doch besser sein. das ist ja fast Laptop-Ton.\nDa m\u00fcsste mehr Bass, mehr Tiefe sein.\nDas Ger\u00e4t ist ansonsten gut, da kann man nicht meckern.\ndie bescheidene Ton-Qualit\u00e4t f\u00fchrt zur Abwertung.\nin dem Geh\u00e4use ist immer noch Platz f\u00fcr ein paar ordentliche Lautsprecher.",
+                            "publication_date": "2023-06-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Aleksandr Buktschin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEYJQ6QO5TRA6M6CF3YZPECYATKQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Einige  Macken, kein Kabel Empfang",
+                            "url": "https://amazon.de/gp/customer-reviews/R26SNZ9WXNI4BV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Gesucht wurde ein g\u00fcnstiges Ger\u00e4t f\u00fcr einen kleinen Raum. Er sollte ganz banales Fernsehprogramm anbieten, Youtube , Amazon und Weckerfunktion .Schon bei Ersteinruchung entstand ein negatives Eindruck. Die Standf\u00fc\u00dfe wackeln. Fernbedienung wirkt sehr billig und das Ger\u00e4t reagiert tr\u00e4ge. Bedienung ist unkomfortabel.  Kabelsignal nicht erkannt, nur terrestisches Empfang. Ein anderes Ger\u00e4t lief auf dieselben Anschluss vor kurzem problemlos. Wecker entweder nicht vorhanden oder ist so versteckt dass ich ihn nicht gefunden habe. Die Oberfl\u00e4che der OS gef\u00e4llt mir nicht. Zur\u00fcck.",
+                            "publication_date": "2023-08-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2022",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Customer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEXTYHFP4V2ADEUEN5X3YELNK54A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Einfacher Fernseher",
+                            "url": "https://amazon.de/gp/customer-reviews/R3HZCSEITYESDT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Das Bild ist gut,der Ton klingt blechern ich habe mir noch eine Soundbar von Samsung besorgt jetzt h\u00f6rt es sich der Ton vern\u00fcftig an.Die Fernbedienung reagiert am Anfang etwas tr\u00e4ge wird aber nach l\u00e4ngeren Gebrauch (~1 Woche)besser.Anschl\u00fc\u00dfe sind spartanisch.Clinchanschlu\u00df f\u00fcr Ton ist nur f\u00fcr Eingang und keinen Ausgang.Der Fernseher hat kein Bluetooth.F\u00fcr nicht sehr Anspruchsvolle gut genug.Wie gesagt eine Soundbar w\u00fcrde ich unbedingt dazunehmen die Tonquallit\u00e4t ist dann wie Tag und Nacht",
+                            "publication_date": "2022-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Timo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFSDDSSCOEKFZM5N4PDZPSTOWS2A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Toller Fernseher",
+                            "url": "https://amazon.de/gp/customer-reviews/R1JWYTEJP2PBH1/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Gute App und Men\u00fcf\u00fchrung , sehr gutes Bild, Top",
+                            "publication_date": "2023-07-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 November 2022",
+                            "helpful_votes": 13,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "christian b",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/2dcbe858-7076-4c71-b3d9-419ca37369ab._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEM5BAEOUY267GABE65MMVJCHNUA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die kleine 32\u201c sind alle langsam",
+                            "url": "https://amazon.de/gp/customer-reviews/R1AWMBI6ICI037/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Der TV ist wirklich zu empfehlen. Habe nun bestimmt schon den 5 TV in 32 Zoll gekauft (Party H\u00fctte, Schlafzimmer, f\u00fcr die Mama \ud83d\ude09) und ja davon war auch mal ein Hersteller kaputt und einer wurde altersbedingt getauscht, aber alle hatten einen langsamen Auftritt und d\u00fcnnen Ton!(Marken unabh\u00e4ngig) Wenn ich hier die Rezession teilweise lese denke ich Bretter Gymnasium oder so? Was erwarten einige ? Ein TV in der Gr\u00f6\u00dfe mit dem Volumen, was soll da an klang denn raus kommen bitte ??? Zur\u00fcck zum TV, er schaltet Verh\u00e4ltnis m\u00e4\u00dfig schnell das Bild ist sehr sehr gut Men\u00fc F\u00fchrung auch selbsterkl\u00e4rend und somit voll zu empfehlen. Als Tipp noch f\u00fcr die SKY Kunden die SKY Q App l\u00e4sst sich installieren und somit nicht nur Prime und Netflix sondern auch SKY nutzen also einfach spitze.",
+                            "publication_date": "2022-11-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 March 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lutci",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFJFNJHLOJXF2DJ4XXAAIEKRACJQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Fernseher mit klasse Ausstattung!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3F69JQZJJOP31/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Der Fernseher ist schnell aufgebaut und l\u00e4sst sich sehr einfach einrichten. Das Bild in 1080p (Full-HD) ist top und die Farben sehr stark! Er besitzt 3x HDMI-Anschl\u00fcsse und sogar die M\u00f6glichkeit Ger\u00e4te \u00fcber Composite oder Component anzuschlie\u00dfen. Damit lassen sich sogar alte Spielekonsolen wie die Playstation 2 oder eine Xbox Classic anschlie\u00dfen. HDR10 funktioniert \u00fcber die Playstation 4 auch super! Auch USB-Anschl\u00fcsse sind vorhanden. Das Smart-TV-Men\u00fc ist sehr \u00fcbersichtlich und bedient sich gut. Der TV kann per LAN oder WLAN mit dem Internet verbunden werden. Es war auch sofort ein Update f\u00fcr den TV verf\u00fcgbar. Von Haus aus sind Apps wie Netflix, Amazon Prime, Joyn, Disney+, Magenta und Apple TV, YouTube, ARD-Mediathek und und und..... verf\u00fcgbar und vorinstalliert. Auf der Fernbedienung sind Schnellstarttasten f\u00fcr Netflix und Prime vorhanden, aber leider auch f\u00fcr RakutenTV (wer auch immer das nutzt :P ). Leider lassen sich diese nicht mit anderen Apps programmieren. Auch von Haus aus im TV intergriert ist Samsung TV Plus, die kostenlose Livesender-Bibliothek von Samsung \u00fcber's Internet. Alles in allem kann ich den TV nur empfehlen. Super Preis-Leistung!",
+                            "publication_date": "2022-03-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 March 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christian",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEDNOO3FLGTIXR4KE6M5NPHFM2UA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sch\u00f6ner TV f\u00fcr die K\u00fcche",
+                            "url": "https://amazon.de/gp/customer-reviews/R1OH9540KO55T4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Wolle auch Sky Ticket in der K\u00fcche schauen, deswegen musste ein kleiner Smart TV her. WLAN empfang ist einwandfrei. Gute Bildqualit\u00e4t \u00fcber Kabel. Einrichtung u.  Sendersortierung ist leicht.\nAber jetzt kommt ein Stern Abzug:\nIch musste platzbedingt den TV auf einen ebenfalls gekauften TV St\u00e4nder anbringen. VESA-100 ist zwar beim TV beschrieben, jedoch werden die Schrauben  nicht mitgeliefert. Die Schrauben vom St\u00e4nder passten ebenfalls nicht, weil zu kurz. Aus der Bedienungsanleitung des TV ging ebenfalls nix hervor. Die Gewinde auf der R\u00fcckseite des TV sind soweit drin und so klein, dass man diese nur erahnen kann. Insgesamt war ich dann 2xMal im Baumarkt, bis ich die passende Schraubengr\u00f6\u00dfe hatte: M4, L\u00e4nge 30mm, metrisches Gewinde. Letztlich hat die Montage doch noch geklappt.",
+                            "publication_date": "2022-03-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 June 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "zyrrus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEH2FIS2PARWB6YVNQI2EIELE3VQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1CJG4ICYMSNT4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Der Artikel entspricht genau der Beschreibung. Funktionalit\u00e4t, Handling, Lieferung und Verpackung sind ohne Fehl und Tadel. Auf jeden Fall eine Empfehlung wert.",
+                            "publication_date": "2023-06-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 May 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "JeSo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF2UGYJHU2O237I6DKHDQ256I7KQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kleiner TV mit allen Optionen",
+                            "url": "https://amazon.de/gp/customer-reviews/R182CNG5ORF7SE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Wir haben uns den Fernseher als neues Ger\u00e4t f\u00fcr das Schlafzimmer angeschafft, um auf mehr Streamingoptionen zur\u00fcckgreifen zu k\u00f6nnen. Daf\u00fcr ist der TV wirklich optimal. Preis-Leistungsverh\u00e4ltnis stimmt \ud83d\udc4d\ud83c\udffb",
+                            "publication_date": "2023-05-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "LocoLolo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/dee31907-1c82-4198-9ffc-e7923a9195ed._CR504,0,3024,3024_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHDTWKDGAQOWHJ3NF2THMDEMTIGA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung aber...",
+                            "url": "https://amazon.de/gp/customer-reviews/R189YHWOZMBQB4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Tja wie soll ich das r\u00fcber bringen wie entt\u00e4uscht ich bin von diesem Samsung Smart TV, kurz, Bild ist gut Ton sowas von grottenschlecht das mir kein Vergleich einfallen will, Blechern, leer, vollkommen ohne B\u00e4sse, nun das Gewicht h\u00e4tte mich warnen k\u00f6nnen 4 Kilo meine olle Bassbox am PC hat 6 Kilo.....Standfu\u00df 15cm, bei einer H\u00f6he von 74cm, nicht besonders Standfest das Teil, das geht bei der Fernsteuerung weiter, Batterien rein und schon hat sich das Gewicht verdoppelt. Wertigkeit also nirgends zu finden au\u00dfer im Bild, \u00fcberdenkt man das, ist der wirklich viel, viel zu teuer ....na hoffentlich h\u00e4lt er wenigstens lange, mein letzter Samsung immerhin 10 Jahre..",
+                            "publication_date": "2022-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 August 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "CM",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGNL3SZJNT63STGLEFLFBU5B264Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt f\u00fcr mein Apartment",
+                            "url": "https://amazon.de/gp/customer-reviews/RV5NA4K6WF62P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Bewusst wollte ich einen 32\u201c TV damit er noch gut transportabel ist.\nSmartTV und das Men\u00fc lassen sich sehr gut bedienen. Toll finde ich, dass ich dich meine PS5 mit dem TV mit einschaltet und sich \u00fcber die Fernbedienung steuern l\u00e4sst.\nAuch sehr sehr gut ist die Ein- und Ausschaltanimation. Also das sich das Bild horizontal schlie\u00dft oder \u00f6ffnet. Sehr angenehm.\nDer Rahmen k\u00f6nnte noch etwas schmaler sein und die F\u00fc\u00dfe aus Metall\u2026 aber das ist okay f\u00fcr mich.\nTrotzdem finde ich die Preis-/Leistung nicht gut. Davon sind aber alle 32\u201c TV betroffen. Dieser hier hat zumindest FullHD (Kaufgrund!)\nF\u00fcr wenig mehr Geld bekommt man Fernseher ab 42 Zoll ggfs. mit 4K.\nInsgesamt bin ich aber sehr zufrieden.",
+                            "publication_date": "2022-08-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 September 2022",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andre",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF6CLE3V24CJVCCPNG5VFIFRYENQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter fernsehr",
+                            "url": "https://amazon.de/gp/customer-reviews/R1CKHSV1676WOV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Ein guter fernsehr f\u00fcrs schlafzimmer ..Bildqwalit\u00e4t gut ..Allerdings l\u00e4sst er sich nicht mit mein Wlan verbinden und findet mein Wlan nicht.. Musste ein Lan Kabel vom wohnzimmer ins schlafzimmer ziehen ...ton ist angemessen",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tom_T",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHOFETPYUNRPJJLNSEMJFX5FEUVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Netter TV mit grosser Schw\u00e4chen beim WLAN",
+                            "url": "https://amazon.de/gp/customer-reviews/R31WLDJ5Y1679L/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Der Fernseher ist leicht zu montieren. Die Fernbedienung funktioniert gut und ist nicht so riesig.\nDas Bild ist gut, Ton auch. Grossess Manko an diesem Fernsehr (daher auch nur 3 Sterne) ist die WLAN Verbindung. 5Ghz Frequenz  WLAN geht gar nicht, da wird die SSID nichtmal gefunden. Im 2.4 GHz Frequenz WLAN findet das Ger\u00e4t zwar die SSID, verbindet sich aber nicht. Als einziges Ger\u00e4t im ganzen Haushalt ist der Fernseher nicht auf die Frequenz zu kriegen. Lediglich mit dem freien G\u00e4ste WLAN verbindet sich das Ger\u00e4t. F\u00fcr das teuerste Ger\u00e4t dieser Klasse bei Amazon eine Entt\u00e4uschung.",
+                            "publication_date": "2022-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Henning",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/38cf558d-797e-41de-85a9-e475cef32034._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGZD4PGDKAXNI5LFTIJSH3EFOR4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ton absoluter Flop",
+                            "url": "https://amazon.de/gp/customer-reviews/R15H50WS65H9GD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Dieses Ger\u00e4t hat einen derma\u00dfen schlechten Ton, dass er nur mit externen Lautsprechern zu gebrauchen ist.\nAllerdings kommt bei der Box, die mit einem optischen Kabel verbunden ist, nur starkes Rauschen an.",
+                            "publication_date": "2023-07-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 June 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "JP77S",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AETO4IDR5HR44TKWLQIVSIDTL2GA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Umst\u00e4ndlich und fehlerhaft",
+                            "url": "https://amazon.de/gp/customer-reviews/R3ENPOJV4C3CPZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B094JGDMS6",
+                            "review_text": "Die Men\u00fcf\u00fchrung ist im Detail sehr umst\u00e4ndlich. In der App taucht das Ger\u00e4t gar nicht auf. Nach ca. einem Jahr tauchen die ersten Tunerprobleme auf, die sich immer mehr vergr\u00f6\u00dfern.  Ist wohl generell ein Problem der kleineren Samsung TV. Ger\u00e4t nicht empfehlenswert.",
+                            "publication_date": "2023-06-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

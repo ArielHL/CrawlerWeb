@@ -1,0 +1,966 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0576 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-c19c1050a07f",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0220 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-c19c1050a07f"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CJC8LG4V",
+                "asin": "B0CJC8LG4V",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CJC8LG4V",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CJC8LG4V?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:41:39 +00:00",
+                    "spell": null,
+                    "title": "Fixerman LCD Display for iPhone 11 LCD Replacement Screen 6.1 Inch 3D...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Fixerman LCD Display for iPhone 11 LCD Replacement Screen 6.1 Inch 3D Touch iPhone 11 Display Digitizer Assembly with Repair Tools, Compatible with Model A2111, A2223, A2221",
+                        "url": "https://amazon.de/-/en/iPhone-11-Replacement-Digitizer-Compatible/dp/B0CJC8LG4V/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/51FgBVv2H3L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.3",
+                        "votes_count": 4116,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 1780,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kai",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG5IYIQBHTNNIDTAOUCBFH5TII6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr das Geld Genial",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RWPCB11WI3JLW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Habe mir dieses Display f\u00fcr ein IPhone XR bestellt und muss sagen bin super zufrieden.\nDie Qualit\u00e4t hat mich \u00fcberzeugt, das Display ist Blickfest und ausreichend Hell.\nDer Einbau ist beim XR etwas fummelig aber machbar.\nWenn jetzt noch die Lebensdauer passt ist das Preis/Leistungs Verh\u00e4ltnis Unschalgbar.\nIch kann es f\u00fcr den Preis definitiv empfehlen.",
+                            "publication_date": "2023-10-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 October 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61aSUZhfTQL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "harald steinkellner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGEHWAOFSR2VOLNILUAT7IILXOYQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Leuchtstarkes Display",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R7KA4LQ0I5NT9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": null,
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Schwarzw\u00e4ldchen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/5e2a631f-21b4-4980-8d86-334152f3f822._CR109,0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFGNPRHTHBRCYEIZ6NJE2RH4FG5A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handy geht nun wieder",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R11PGW0IR4AHE3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Also f\u00fcr das iPhone xr hat es super gepasst. Habe fl\u00fcssigkleber(handykleber) benutzt da ich doppelseitiges Band nicht wirklich empfehlen kann. Es wird sich nach einer Zeit l\u00f6sen.\nHandy funktioniert seit dem Einbau einwandfrei. Schutzh\u00fclle gekauft, panzerglas und nun kann nicht so schnell was passieren.\nKlare empfehlung.\nPS. Wenn ihr euch selbst ran traut, guckt bitte vorher you tube Videos.\nIch musste bei mir n\u00e4mlich vom alten Display die Ohrmuschel zerst\u00f6ren damit ich an das Mikrofon und die cam ran konnte um sie umzubauen. Mit den flexkabeln schon ziemlich heikel und kann schnell nach hinten losgehen.",
+                            "publication_date": "2023-10-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Qais",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGL6MB6CGEISG5IW6OJLGZRJFW3A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Good",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1IA61ZI75JXBL/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "The product is good and also the quality.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tom",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEJMZZ3KRZJTOMWJ6XQAVNY36WJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein beeindruckendes Display",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2HLRVYXZGSLWJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Ein wirklich perfekter Ersatz-Display f\u00fcr das iPhone XR\nIch war sehr skeptisch ob da alles passt und ob man die Reparatur selbst hinbekommt, aber es war total einfach mit der Anleitung und den beigef\u00fcgten Werkzeug.\nMein iPhone sieht aus wie neu und auch bei der Touchfunktion merkt man keinen Unterschied.\nEinfach TOP, bin echt begeistert.",
+                            "publication_date": "2023-10-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGVR7CPSBLRRWH3XDKSHUDXKSWRA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis/Leistung ist gut.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3G9R0P9JYHQUG/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Der Einbau hat einwandfrei funktioniert. Und die Qualit\u00e4t scheint auch in Ordnung zu sein. Bis jetzt alles bestens",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "K\u00e4ufer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHVAR3GHGMMJ5TDWQ3QH7TLYROFA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Geeignetes Austauschdisplay zu fairem Preis",
+                            "url": "https://amazon.de/gp/customer-reviews/R5DBXXZEZJAI3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Der Einbau ist mit etwas Geschick und Erfahrung machbar. Die Displayqualit\u00e4t ist auch im direkten Vergleich mit einem Originaldisplay v\u00f6llig in Ordnung. Eine leichte, aber irrelevante Farbabweichung ist vorhanden. Die Helligkeit ist mit dem Original vergleichbar. Beim Touch habe ich keine Probleme feststellen k\u00f6nnen.\nAls Tipp: Die Batterie erst ganz am Schluss wieder anklemmen. Wird das Display angeschlossen, w\u00e4hrend die Batterie noch mit dem Motherboard verbunden ist, so l\u00e4sst sich das Display nicht einschalten.",
+                            "publication_date": "2023-10-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Steve",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGW5BGDVA53NOCOB3K34ZZH7IXQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Fragiles Display",
+                            "url": "https://amazon.de/gp/customer-reviews/R2964ATAQGOKBO/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Die Verpackung und die Verarbeitung hat mich schon staunen lassen. Alles hat auch wunderbar funktioniert bis mir das IPhone mit H\u00fclle vom Sofa gefallen ist. Mit dem Glas vorne ist \u00fcberhaupt nichts, das Display selbst hat einen Sprung. Ich kann nicht sagen ob das bei mir ein Einzelfall war. Jedenfalls hat das Display nicht mal 2 Monate gehalten.\nUnd bez\u00fcglich der allgemeinen Nutzung:\nFunktionen wie Truetone funktionieren nicht mehr, macht ja auch sinn weil kein Originalteil. In den Einstellungen hat man die ganze zeit den Hinweis das man kein Originaldisplay verwendet. FaceID funktioniert ganz normal, Helligkeitseinstellung irgendwie nur so semi und die Aufl\u00f6sung ist geringer allerdings habe ich die Aufl\u00f6sung nach ein paar Tagen gar nicht mehr gesehen. Wenn die Displayhelligkeit auf die Dunkelste Stufe gestellt ist verblassen die Farben und schwarz wird zu einem dunklem Braun.\nFazit: Macht was es soll und ist g\u00fcnstiger als Apples Repair-Service. Allerdings ist das Display selbst (Nicht das Glas auf dem man rumtoucht) zumindest im meinem Fall sehr schnell gesprungen. Ich sch\u00e4tze wenn man darauf aufpasst sollte dies kein Problem sein. (Naja in der Regel ist man aber auf der suche nach einem neuen Display eben weil man unvorsichtig war...)",
+                            "publication_date": "2023-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "johnlo228",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/30479912-7ad7-4d13-a54c-291e6bef24f7._CR109,0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGKMKLJU5IZB2SVI5DWN3ZWQBMHQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Einwandfrei",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2TX31D8FQ1IAZ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "In jeder Hinsicht top, gleiche Bildsch\u00e4rfe, passgenau & bei dem Preis unschlagbar.\nGerne wieder, aber nach M\u00f6glichkeit nicht:D\ud83d\ude01!",
+                            "publication_date": "2023-11-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stefanie Neumeyer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHYBRIWAYURTWHPOFN5UYTHY62FQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Display",
+                            "url": "https://amazon.de/gp/customer-reviews/R34KC3K1UTX12B/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Sehr gutes Display! Einbau war unkompliziert und funktionierte auf Anhieb. Sehr zu empfehlen.",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "G- man",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/e0f52d10-1561-4bd0-a6b7-6a04045bd425._CR0,0,960,960_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGRENKDAJUMKJVFADVAGXMYFYN6Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Verarbeitung hochwertig",
+                            "url": "https://amazon.de/gp/customer-reviews/R1SMHWQ3S69KHB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Sehr gut einzubauen, qualitativ sehr hochwertig funktioniert alles einwandfrei. Ich bin sehr zufrieden und kann es nur weiter empfehlen.",
+                            "publication_date": "2023-11-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stefan S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHBBDHCAZOMNFAOHEGVQBPAP7AMA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Komplettpaket",
+                            "url": "https://amazon.de/gp/customer-reviews/R2EKLTPTGIWISQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Sehr gute Qualit\u00e4t. Werkzeug und neuer Kleber sind dabei.",
+                            "publication_date": "2023-11-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Iris",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEOO2P3BQEQAPHBFYSDMVZQRRKFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt",
+                            "url": "https://amazon.de/gp/customer-reviews/RLPHJFWQ0DN3W/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Perfektes Produkt, pass genaue Verarbeitung, einfache Handhabung. Sehr zu empfehlen",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Franziska Fr\u00f6hmer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/8379ff5b-1b36-4c3c-8c31-6482df043902._CR0,32.0,269,269_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFWWEINKLY7CF3V4LJE3THENE2EQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super easy",
+                            "url": "https://amazon.de/gp/customer-reviews/RXBLAYUSDCIL4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Einfache Schritt f\u00fcr Schritt Anleitung mit allen n\u00f6tigen Werkzeugen. Schnelle Lieferung und wirklich einfache Installation dank video und bebilderter Anleitung",
+                            "publication_date": "2023-10-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Donit",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHXIBDZ2LUFB6CEPGDVMU2UV2JNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Beeindruckend",
+                            "url": "https://amazon.de/gp/customer-reviews/RF6IK82LB2KIW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Sehr zufrieden, Top \ud83d\udc4c",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jan Wichmann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH775OJ42D2QE4ZJUN5RQZKJZS5Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hier und da verbesserungen",
+                            "url": "https://amazon.de/gp/customer-reviews/R3J600AJ0L3IWQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Also das OLED top allerdings l\u00e4sst die Helligkeit zu w\u00fcnschen \u00fcbrig und ich finde es nicht sooo smooth wie das originale Display etwas besser also da h\u00e4tte ein normales LED oder LCD display auch getan..\nAber an sich ein top display das h\u00e4lt was es verspricht nur mit dem Preis bin ich nicht zu 100% zufrieden...",
+                            "publication_date": "2023-10-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "S. Samp",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEY7HV2CWOC4XZRHGOHCJXIAHEBQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "p\u00fcnktliche Lieferung, das Handy funktioniert wieder! Vielen Dank!",
+                            "url": "https://amazon.de/gp/customer-reviews/RNCP2YVNARPPW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "heute habe ich mein Display bekommen! Und das Handy funktioniert wieder einwandfrei! Eine bessere Beurteilung kann ich nicht geben! Denn genau das war das Ziel! Ich bin sehr zufrieden! Jederzeit gerne wieder!",
+                            "publication_date": "2023-10-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marc Verlage",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGNMP5HDHBXJ36HMGR3ATBATSAHA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Erstaunlich gut !",
+                            "url": "https://amazon.de/gp/customer-reviews/R1GZMQR6SXMQ4V/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Ich habe knapp ein Jahr lang ein kaputtes Glas gehabt und konnte meine Face ID nicht benutzen.\nViele waren skeptisch bei diesem Kauf doch hinterher waren alle \u00fcberzeugt!\nMontage lief echt gut mit viel Nervosit\u00e4t, doch ich kann nun wieder meine Face ID benutzen und habe einen wundersch\u00f6nen Bildschirm.\nFarben sind leicht blasser als beim originalen Display aber es st\u00f6rt mich pers\u00f6nlich nicht.\nSuper Preis Leistung! Kann ich nur empfehlen !",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "T. Bastian",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/39a0afc2-4ac7-452d-80e3-afd4c66875b9._CR0,2.0,329,329_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AETIMK34AO6MICAOY6ZDMZGHLHWQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes Display + fairer Preis!",
+                            "url": "https://amazon.de/gp/customer-reviews/R348SEW74Q3SJ0/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Der Einbau gelang beim ersten Mal.\n\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\nHandy l\u00e4uft.\nAlles funktioniert.\nIch bin happy.",
+                            "publication_date": "2023-10-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Daniel Vogel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGDFQ3NHUMC3CFV2UIMPRU5H65ZQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Ware",
+                            "url": "https://amazon.de/gp/customer-reviews/RU62C3Q2WGS2X/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Meine Tochter (12) hat es gewechselt und ist zufrieden, ein Kinderspiel ;)",
+                            "publication_date": "2023-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike Schneider",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGJKQ5ZPZIIKT55GNQD4K6IRO57A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Display iPhone XR",
+                            "url": "https://amazon.de/gp/customer-reviews/R2K229GSUWWZL4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Schnell und einfach - Das Produkt funktioniert wie es beworben wurde.\nIch merke keinen Unterschied zum Originaldisplay.",
+                            "publication_date": "2023-10-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Albin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFEHSLRQ4YUB6SRQRUTXRUMMZYGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Display",
+                            "url": "https://amazon.de/gp/customer-reviews/R1KM8PNWU2RDF2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Hatte keine Probleme beim anbringen und funkioniert auch einwandfrei. \ud83d\udc4d\ud83c\udffc",
+                            "publication_date": "2023-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 October 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51hY9VKfqnL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tamara stauch",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHJFYUICFYUGWW5HFWWXGUTBHQGA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "XR Bildschirm",
+                            "url": "https://amazon.de/gp/customer-reviews/R3NEID52O1SG0V/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Ist ein mega Produkt war sehr zufrieden und habe alles hin bekommen kann ich nur weiter empfehlen.",
+                            "publication_date": "2023-10-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Admir Orman",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFC5KWK6RBKT4ICCURBA4QGLHREQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Empfehlung",
+                            "url": "https://amazon.de/gp/customer-reviews/R2P7R7BBYGB051/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Top Produkt Empfehlung hoch 10  (Y)",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Biljana Tomic",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHDAT72SISL6J3HE7Q5UC3EUXK3Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Past sich gut an",
+                            "url": "https://amazon.de/gp/customer-reviews/R6OID8W12Y3TW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Leicht umzutauschen",
+                            "publication_date": "2023-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rachel Ginschel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGWVZ2XYX3IAPGN2WUIA3JPRYB5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt zur Reparatur \u263a\ufe0f",
+                            "url": "https://amazon.de/gp/customer-reviews/R13VF5TSGPQVPE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Schnelle Lieferung und einfach Handhabung beim Wechseln. Alles an Zubeh\u00f6r ist dabei. Sehr zufrieden. Habe es mir schon 2 mal gekauft.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Yves Geyger",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHE4ZP42D3UE5SAQ55ZY5VQUOPIA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bisher komplett zufrieden",
+                            "url": "https://amazon.de/gp/customer-reviews/RN9TDZFM8J9IW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Bis jetzt funktioniert das Display tadellos. Alles an Werkzeug ist dabei, man ben\u00f6tigt lediglich einen Haartrockner. Die Schraubendreher sind zum Gl\u00fcck auch sehr magnetisch, ohne w\u00e4re der Austausch wohl nicht m\u00f6glich gewesen. Die deutsche Anleitung ist leider an der einigen Stellen nicht ganz genau oder sogar falsch. Besser auf das YouTube Video verlassen und vielleicht auch mal noch ein zus\u00e4tzliches schauen.",
+                            "publication_date": "2023-08-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tamer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGXNDO7Z3M2YNJHWTVCTNN4VKWEA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hat alles funktioniert.",
+                            "url": "https://amazon.de/gp/customer-reviews/RK0QHUHLV8TSO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Die Bestellung lief einwandfrei ab. Die Reparatur war ebenfalls m\u00f6glich, man kann hier nichts bem\u00e4ngeln.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Moritz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFI2QGMSY26YJBDZWFV5I2NLS76Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R1USH58WY0LH7P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Mir hat das Produkt sehr gut gefallen!!! Einbau war leicht und gut verst\u00e4ndlich. Zudem war die Qualit\u00e4t herausragend.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 September 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51a4iiZoMeL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alhasan",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGHAVXPVQU4MWE5F2I5Q256LVK3Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut wie geschrieben",
+                            "url": "https://amazon.de/gp/customer-reviews/R34285RZ8E7NYF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CJC8LG4V",
+                            "review_text": "Einfach wie original sehr gut Qualit\u00e4t Touch Beleuchtung und schnell Lieferung . Ich empfehle die Leute sie zu kaufen.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

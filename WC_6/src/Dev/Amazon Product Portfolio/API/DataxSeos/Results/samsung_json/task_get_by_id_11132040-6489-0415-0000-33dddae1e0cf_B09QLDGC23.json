@@ -1,0 +1,162 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0435 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132040-6489-0415-0000-33dddae1e0cf",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0272 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132040-6489-0415-0000-33dddae1e0cf"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09QLDGC23",
+                "asin": "B09QLDGC23",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09QLDGC23",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09QLDGC23?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 18:41:19 +00:00",
+                    "spell": null,
+                    "title": "SAMSUNG Galaxy S22 Ultra 256GB Mobile Phone, White, Phantom White,...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "SAMSUNG Galaxy S22 Ultra 256GB Mobile Phone, White, Phantom White, Android 12",
+                        "url": "https://amazon.de/-/en/SAMSUNG-Galaxy-Mobile-Phantom-Android/dp/B09QLDGC23/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/513aJlE2r9L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "3.7",
+                        "votes_count": 21,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 3,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 3,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 25 January 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "markus pomikal",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFF6SMR2HP2VKIDGWFINVLEEPOEQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "nicht leicht zu erkl\u00e4ren",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R22QCF0NEOH7QM/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09QLDGC23",
+                            "review_text": "ich hab vom S21 ultra 5g aufs 22er ultra gewechselt und vergleich das mal.\nkamera ist beim s22 ein wenig besser\nakku h\u00e4lt beim s21 allerdings viel viel viel l\u00e4nger ! mein s22 muss ich 2 mal am tag aufladen also muss ich immer ein ladeger\u00e4t dabei haben. das s21 hab ich manchmal 4 tage  nicht geladen und ging noch.\nich kann das s22 zwar nutzen aber die einrichtung wird nicht abgeschlo\u00dfen weil ich dem telefon nicht erlaube meine privaten daten rund um die welt zu schicken und apps zu laden ohne meine erlaubnis ( man wird sogar darauf hingewiesen das dabei kosten entstehen k\u00f6nnen, mein handy l\u00e4dt also ohne meine erlaubnis etwas das mich dann geld kostet, kann ich nicht erlauben ! )\nalso man sollte genau wissen was man will....\nschlimmster punkt ist das der akku nicht lange h\u00e4lt",
+                            "publication_date": "2023-01-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alexander Walter",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGPUV2R5BS3X556FMXS57N6MFWOA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "War alles ok",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RDVPQN2458C5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09QLDGC23",
+                            "review_text": "War alles ok",
+                            "publication_date": "2023-02-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 31 October 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lola",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "picture quality so good. very clear and takes pics of items so far away",
+                            "url": null,
+                            "review_text": "just what i wanted to replace my galaxy s21",
+                            "publication_date": "2022-10-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

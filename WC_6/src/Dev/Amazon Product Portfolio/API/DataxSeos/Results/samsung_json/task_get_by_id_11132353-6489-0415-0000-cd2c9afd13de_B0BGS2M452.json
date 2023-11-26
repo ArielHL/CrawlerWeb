@@ -1,0 +1,424 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0944 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-cd2c9afd13de",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0297 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-cd2c9afd13de"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0BGS2M452",
+                "asin": "B0BGS2M452",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0BGS2M452",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0BGS2M452?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:53:52 +00:00",
+                    "spell": null,
+                    "title": "SAMSUNG Galaxy Watch 5 (44 mm) Bluetooth Smartwatch Blue",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "SAMSUNG Galaxy Watch 5 (44 mm) Bluetooth Smartwatch Blue",
+                        "url": "https://amazon.de/-/en/SAMSUNG-Galaxy-Watch-Bluetooth-Smartwatch/dp/B0BGS2M452/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31LKg6ziCoL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.6",
+                        "votes_count": 33,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 11,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 12,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Willi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHQQWIZHDGQNYVAUSQ5EF5NHZPZA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter Preis",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R308GZE0FSIZY7/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BGS2M452",
+                            "review_text": "Geschenk",
+                            "publication_date": "2023-11-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Samsung watch 5",
+                            "url": "https://amazon.de/gp/customer-reviews/R16HJE6SCU1ZLD/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BGS2M452",
+                            "review_text": "Ist einfach eine super Uhr nicht nur f\u00fcr Sport sondern auch wichtige Gesundheitsbereiche betr. HERZ UND CO. Sehr wichtig auch der Sturzerkennungsmodus und die M\u00f6glichkeit s.o.s. Nachrichten zu senden. Schade das die Batterielaufzeit nach wie vor \u00e4usserst knapp bemessen ist..warum auch immer. Trotz alledem oder auch deshalb f\u00fcr mich die Top Uhr die zudem optisch top ist.",
+                            "publication_date": "2023-08-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "J\u00fcrgen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFRNX3PURV4WSGXUOFSH7CBWR3PA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6ne uhr",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1WCYOS78WFC7R/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BGS2M452",
+                            "review_text": "Uhr hat meine Erwartungen erf\u00fcllt",
+                            "publication_date": "2023-08-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Fuenfteelemnt",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGJMKWV5ZQ4MUKFNQRN5H5R7QUCQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Unterst\u00fctzung bei Gewichtsabnahme",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1I90XR40Y7L6T/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BGS2M452",
+                            "review_text": "Mir gef\u00e4llt die einfache Bedienung  und die vielen M\u00f6glichkeiten Trainingsprogramme aufzunehmen.",
+                            "publication_date": "2023-07-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 December 2022",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81QsPSJMGFL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sigrid Schneider",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFXUVMMCUPNH2XBD7GLVHULOKITQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Es wurde das falsche Modell geliefert.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3DMELU5W1AVOK/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BGS2M452",
+                            "review_text": "Da dieses Modell auch gef\u00e4llt, wurde die Uhr nicht zur\u00fcck gesendet.  Preis gleich wie eigentlich bestelltes Modell?",
+                            "publication_date": "2022-12-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 14 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "RICHAR SALGADO",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/745dc07e-a397-4123-84bb-3fc69df373ea._CR62,0,375,375_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Elegante y f\u00e1cil uso",
+                            "url": null,
+                            "review_text": "Fue un regalo y mi padre ah quedado encantado con el le ah gustado mucho y es elegante el dise\u00f1o y buen precio",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 26 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ana",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/84a17f34-ac6d-4b54-a45b-0a5111f47cdf._CR0,55.0,223,223_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Una maravilla",
+                            "url": null,
+                            "review_text": "Reloj super completo, con todo tipo de caracter\u00edsticas desde llamar y recibir llamadas, sms, WhatsApp, app de salud todas las que quieras, GPS para salir en bici o a correr, osea todo!! Ha sido un regalo y le ha encantado, el tama\u00f1o de esfera perfecto para hombre corpulento. Y por \u00faltimo, aunque en u principio parec\u00eda que iba a ser \"dif\u00edcil\" que lo utilizar\u00e1 todo, le ha cogido el tranquillo y ya lo usa perfectamente en todos los aspectos",
+                            "publication_date": "2023-06-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 8 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dani recui",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/063a1857-ff60-4ec3-aba8-714912cfa032._CR5,0,489,489_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Da la hora",
+                            "url": null,
+                            "review_text": "Pues si se\u00f1ores acojonante da la hora , eso s\u00ed ten\u00e9is que configurarlo con m\u00f3vil antes si no os da la hora de la atl\u00e1ntida, despu\u00e9s si da la hora bien pero vamos los relojes de los chinos tienen m\u00e1s opciones , gracias Samsung por volver a los 90",
+                            "publication_date": "2023-07-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 23 June 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "MANUEL",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Buena marca",
+                            "url": null,
+                            "review_text": "Buen reloj. Todo de el est\u00e1 bien. Te ayuda en el deporte,en las compras, lo usas como tel\u00e9fono., Sin embargo la bater\u00eda dura poco.",
+                            "publication_date": "2023-06-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the Netherlands on 11 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ramonda",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "NL"
+                            },
+                            "title": "Fijn horloge",
+                            "url": null,
+                            "review_text": "Prijs-kwaliteit perfect. Vele mogelijkheden.",
+                            "publication_date": "2023-10-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 26 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kiriakos Lazaridis",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6f4307a6-aff5-4e8f-b17f-1a6da124dafb._CR187,0,1125,1125_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Very good",
+                            "url": null,
+                            "review_text": "Nice product",
+                            "publication_date": "2023-04-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 26 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kiriakos Lazaridis",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6f4307a6-aff5-4e8f-b17f-1a6da124dafb._CR187,0,1125,1125_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Very good",
+                            "url": null,
+                            "review_text": "Nice product",
+                            "publication_date": "2023-04-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

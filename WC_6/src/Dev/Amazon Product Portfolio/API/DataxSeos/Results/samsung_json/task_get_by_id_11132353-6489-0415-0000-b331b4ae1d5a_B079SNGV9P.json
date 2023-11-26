@@ -1,0 +1,933 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0445 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-b331b4ae1d5a",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0253 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-b331b4ae1d5a"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B079SNGV9P",
+                "asin": "B079SNGV9P",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B079SNGV9P",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B079SNGV9P?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:05 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy S9+ Smartphone (6,2 Zoll Touch-Display, 64GB internal...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy S9+ Smartphone (6,2 Zoll Touch-Display, 64GB internal memory, Android, Dual SIM) Midnight Black \u2013 German Version",
+                        "url": "https://amazon.de/-/en/Samsung-Smartphone-Touch-Display-internal-Midnight-Black/dp/B079SNGV9P/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/319QaoxV0fL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.4",
+                        "votes_count": 2554,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 1083,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 March 2018",
+                            "helpful_votes": 116,
+                            "images": null,
+                            "videos": [
+                                {
+                                    "type": "video_element",
+                                    "source": "https://m.media-amazon.com/images/I/C1burMCFnhS.mp4",
+                                    "preview": "https://m.media-amazon.com/images/I/B1Lt0FPujsS._SY256.png"
+                                }
+                            ],
+                            "user_profile": {
+                                "name": "die Andrea",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHR3DLPG2CDNRJV6CMOLKXOKD34A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "4,5 *... muss ja auch noch Luft nach oben sein.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RZ2RGDIN5ZQEC/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Das S9+ ist nun mein 2. Smartphone (tats\u00e4chlich) und ich passe somit nicht in die Kategorie \"immer gleich das neueste kaufen muss\". Tats\u00e4chlich lag mein Fokus auf der Super- Slowmotion Funktion und der Kamera, ansonsten h\u00e4tte ich bereits das S8+ geordert (einfach, weil mein altes Ger\u00e4t mittlerweile kaum noch unterst\u00fctzt wird...). Zu den technischen Details gibt es ausreichend Informationen, die sich auf dem derzeit erh\u00e4ltlichen Markt zum Teil in kaum wahrnehmbaren Millisekundenbruchteilen abspielen, daher hier ausschlie\u00dflich meine pers\u00f6nlichen Beweggr\u00fcnde und ob das S9+ diesen gerecht wird:\n1. Super- Slowmotion (im folgenden kurz SSM): Eine Aufnahme in SSM ist relativ einfach und unkompliziert m\u00f6glich. Bei dem Video handelt es sich um meinen 2., noch nicht perfekter Versuch (entstanden innerhalb von insgesamt ca. 30 Minuten inkl. Auf- und Abbau). In geschlossenen R\u00e4umen sollte unbedingt auf eine ausreichende Beleuchtung geachtet werden und obschon die Bedienung sehr intuitiv ist, lohnt ein Blick in die Bedienungsanleitung. F\u00fcr meine k\u00fcnftigen Zwecke (Naturaufnahmen) wird die SSM mehr als ausreichend sein und die eingeschr\u00e4nkte Zeit von 0,2 sec. ist alleine deshalb schon v\u00f6llig in Ordnung, weil es mir voraussichtlich eine Menge Zeit im Videoschnitt und beim rendern spart. Der \"Bewegungsmelder\" (ich nenne den Ausl\u00f6ser jetzt mal so) reagiert sauber und wider Erwarten schnell und zuverl\u00e4ssig. Ein Stativ macht bei solchen Aufnahmen immer Sinn, sonst kommt schnell Frust auf. Die SSM macht in jedem Fall Spa\u00df und er\u00f6ffnet mir neue M\u00f6glichkeiten f\u00fcr zum Teil schicke, vielleicht auch spektakul\u00e4re Aufnahmen- allerdings immer mit dem Hintergrund, dass zwischen Aufnahme und endg\u00fcltigem Ergebnis auch eine gewisse Postproduktion liegt, um das Ergebnis zu perfektionieren. Die Aufnahme im Video ist minimal nachbearbeitet. Spontane SSMs sind m\u00f6glich, f\u00fcr excellente Ergebnisse macht eine gute Vorplanung Sinn.\n2. Kamera: Ich fotografiere viel, in der Regel mit einer Olympus OMD EM5 Mark2 und lichtstarken Objektiven und da kann eine Smartphone- Kamera immer noch nicht mithalten. Die S9+ Kamera wird meine \"Notkamera\" sein, die ich nutze, wenn ich meine Hauptkamera nicht dabei habe. Allerdings muss man sagen, dass die Entwicklung der Smartphone- Kameras sehr positiv ist und mit der S9+ Kamera ziemlich gute Aufnahmen m\u00f6glich sind. Sie ersetzt mindestens eine gute Kompakt- Kamera und kann es mit dem ein- oder anderen lichtschwachen Objektiv aufnehmen.\n3. Fingerabdrucksensor: Ist ein nettes Gimmick, welches f\u00fcr meine Bewertung eher neutral daher kommt.\n4. AR- Avatare/ Emoticons: Siehe 3.... ist ganz witzig, aber f\u00fcr mich ebenfalls nicht bewertungsrelevant. Ansonsten w\u00fcrde es bei mir noch zur Abwertung f\u00fchren, weil die Mimiken noch nicht ausgereift erfasst werden (bis auf hochgezogene Augenbrauen, das ist schon beeindruckend). Auch ist das Bundle an Avatar- Gestaltungsfeatures eher im Minus- Bereich. Es gibt viel zu wenig individuelle Gestaltungsm\u00f6glichkeiten, da geht noch mehr und dann kann es auch Spa\u00df machen.\n5. Bedienung: Die Bedienung empfinde ich als intuitiv und praktisch, habe aber kaum einen Vergleich (2. Smartphone, wie erw\u00e4hnt).\n6. Abwertung um einen halben Stern: keine Ahnung, ob ich da jetzt pingelig bin, ob Samsung daf\u00fcr verantwortlich ist oder die Produzenten von Schutzh\u00fcllen: Ja, es ist toll, dass jederzeit ein Zugriff auf die Kamera m\u00f6glich ist, aber: Eine kleine Schiebeabdeckung oder eine Art Panzerfolie f\u00fcr die Kamera machen Sinn, die Fl\u00e4che betr\u00e4gt immerhin 4x 2,5 cm- da ist meiner Meinung nach kein ausreichender Schutz durch die Vertiefung, die durch eine R\u00fcckh\u00fclle vorhanden ist, gew\u00e4hrleistet. Ich hoffe, da wird bald ein entsprechendes Schutzprodukt verf\u00fcgbar sein. In meiner Tasche herrscht manchmal das Chaos und so ein kleines St\u00fcck Folie k\u00f6nnte sich zu meiner Beruhigung gerne zwischen Kameralinse und Schl\u00fcssel befinden.\n6.1 Akkulaufzeit: Ich habe versucht, alle Einstellungen so vorzunehmen, dass die Akkulaufzeit im Vergleich zu meinen Bed\u00fcrfnissen in einem akzeptablen Bereich liegt. Das funktioniert so einigerma\u00dfen. Allerdings w\u00fcrde ich mir w\u00fcnschen, dass ein Akku auch bei intensiver Nutzung wenigstens 12- 16h durchh\u00e4lt. Jammern auf hohem Niveau vom jetzigen Entwicklungsstand her betrachtet- aber es soll ja auch noch Luft nach oben sein.\nFazit: Meine Erwartungen an das Smartphone wurden in den mir wichtigen Bereichen nicht entt\u00e4uscht- die SSM ist toll, f\u00fcr Fotos zwar in meinem Fall eine Notl\u00f6sung, aber f\u00fcr die Bildschirmgr\u00f6\u00dfe eines Handys und auch f\u00fcr Ausdrucke in einem guten bis fast perfekten Bereich. Ich finde es \u00fcbrigens toll, dass man damit auch telefonieren kann ;)",
+                            "publication_date": "2018-03-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 March 2018",
+                            "helpful_votes": 34,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christian K\u00e4stner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/e5fe633f-ee86-4034-bc6b-082831b47407._CR0,41.0,250,250_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHKCCG6KLADCQFPNX3J26HAPC4IQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Spitzenprodukt mit echtem Mehrwert, nicht einfach nur ein Flagship",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R193LJ70UDQ5JR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ich bin jetzt schon eine ganze Weile bei Samsung h\u00e4ngengeblieben, auch wenn mir die viele Software, die man nicht deinstalieren kann, lange nicht behagt hat, aber deaktivieren erf\u00fcllt auch seinen Zweck.\nWer das absolute Spitzenprodukt sucht: Galaxy S9+ (hier bei Amazon unter folgendem Link zu finden: http://amzn.to/2ImuRSY) Beim neuen S9+ hat man schon beim Hochheben das Gef\u00fchl Qualit\u00e4t in der Hand zu haben, es ist angenehm schwer, leider ist es noch immer aus Glas, ich h\u00e4tte mir stabiles Aluminium gew\u00fcnscht, aber das macht ja jetzt leider jeder so, also kein wirkliches Argument mehr gegen das S9+, ganz im Gegenteil sind die Ecken ein wenig stabiler geworden, also eher ein Pro f\u00fcr das S9+. Ich h\u00e4tte auch gerne mehr Gewicht in Kauf genommen, wenn daf\u00fcr noch mehr Akku-Kapazit\u00e4t drin gewesen, aber das S9+ ist auch so bei der Laufzeit noch ganz oben dabei, was wirklich beeindruckt, wenn man die Rechenleistung bedenkt. Alles in allem k\u00f6nnte man sagen, ein Spitzenmodell unter vielen, das ist aber zu Oberfl\u00e4chlich betrachtet, denn hier stimmt einfach alles, es ist in jedem Detail absolute Spitze. Die Unterschiede zu g\u00fcnstigeren Modellen sp\u00fcrt man im Einzelnen, es sind die vielen Dinge des t\u00e4glichen Lebens, die das Telefon zu einem Ger\u00e4t machen, das man nicht mehr missen m\u00f6chte, das beginnt schon mit den Kleinigkeiten: Da ein Klinkenstecker vorhanden ist, muss ich mir Abends keine Gedanken machen, ob ich nun das Telefon laden m\u00f6chte, oder lieber noch Musik h\u00f6ren, oder doch die Bluetooth St\u00f6psel? Eine nervige Sache, die Samsung, Gott sei Dank, nicht mitmacht, hoffen wir, dass es so bleibt. Eine wirklich gigantische Besserung sind die Lautsprecher, endlich einmal etwas, womit man auch die Nachbarn unterhalten kann. Nat\u00fcrlich k\u00f6nnte man auch noch Bluetooth Lautsprecher mit herumschleppen, aber wozu bei dem Klang? Eines der vielen kleinen Dinge die den Alltag vers\u00fc\u00dfen. Die Kamera scheint auf den ersten Blick kein wirklicher Grund f\u00fcr den Umstieg zu sein, aber auch das t\u00e4uscht, wenn man die Bilder am PC, oder an der DeX in 24 Zoll anschaut, kommt man nicht um das Staunen herum. Die Sch\u00e4rfe ist einfach nur beeindruckend, man liest ja oft von \u00fcbertriebenen Farben bei Samsung, aber mir gefallen die Farben sehr gut, auch wenn sie vielleicht ein wenig \u00fcbertrieben sind. Weitere gro\u00dfe Pro\u2018s sind die vielen Spielereien die Samsung drum herum auf den Markt wirft.\nEs gibt Bluetooth Kopfh\u00f6rer mit einem wunderbaren Klang, die perfekt harmonieren (hier bei Amazon unter folgendem Link zu finden:  http://amzn.to/2Gh461A)\nEs gibt eine Brille, mit der das Smartphone zu einem VR-Erlebnis mutiert (hier bei Amazon unter folgendem Link zu finden: http://amzn.to/2Ihwt02). Wer das noch nicht erlebt hat, hat etwas verpasst. Es gibt einige Apps, die einem ein wohliges Kribbeln in den Bauch zaubern, zum Beispiel 3D in spinnenverseuchten Kellern herumzustolpern ;-), es gibt Youtube Videos, die ein Wahnsinns-Erlebnis vermitteln. Ein Muss f\u00fcr jeden! Probiert es aus, ihr werdet nie wieder Filme anders schauen wollen, als in einem ruhigen, riesigem Kinosaal mit der eigenen 17 Meter gro\u00dfen Leinwand. Es gibt zahllose Beispiele, wo hier ein tats\u00e4chlicher Mehrwert zu anderen Smartphones existiert. Nicht zuletzt die DeX Station (hier bei Amazon unter http://amzn.to/2Gomfus zu finden), womit man einen Leistungsstarken PC-Ersatz in der Tasche hat. Wozu werden sich einige fragen, aber es sind wieder die kleinen Dinge des Alltags, die den Mehrwert ausmachen. Ein Beispiel aus meiner j\u00fcngsten Vergangenheit: Wir hatten einen unangenehmen Krankenhausaufenthalt und meine Frau blieb bei meiner Tochter. Bildschirme gibt es reichlich, aber die kosten 50 Euro f\u00fcr 14 Tage mit einer DeX laufen die aber auch fantastisch. Das Geld kann ich nun anders ausgeben. Ein weiteres Beispiel ist der Datenaustausch mit anderen Smartphones. Ich wei\u00df nicht warum aber die meisten Bluetooth Verbindungen f\u00fcr das Verschicken von Dateien versagen bei mir. Mit dem kleinen Helferlein ist das kein Problem mehr, die Verbindung funktioniert immer fantastisch.\nSamsung hat f\u00fcr mich hier das perfekte Produkt abgeliefert. Ich bin sehr zufrieden.\nF\u00fcr Alle, die nicht ganz so viel ausgeben wollen, ist das S8+ immer noch um einen Blick wert: http://amzn.to/2GfQMdE",
+                            "publication_date": "2018-03-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 February 2019",
+                            "helpful_votes": 7,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kaspi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/514b32b8-f959-4e96-93ee-794d4df4e47f._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHA37JXZ5HRKZLX5HOVU65LZHKKQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes Smartphone / Preisleistung k\u00f6nnte besser sein",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RPIBP6FS5JIB0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Habe mir extra Zeit gelassen mit dem Kauf des neuen Samsung Galaxy S9+ und manchmal sollte man tats\u00e4chlich sich noch Zeit lassen. Jedoch m\u00f6chte ich nach \u00fcber 3 Monaten noch eine Bewertung abgeben.\nBis jetzt hatte ich viel Zeit es ausgiebig zu testen da jeden Tag viel in Gebrauch. Viel Privat mit Musik und einigen Spiele.\nDer Erste Eindruck:\nWundersch\u00f6n, Hochwertig, liegt gut in der Hand, sieht wie jedes neue Handy fantastisch aus. Ich finde es ist bisschen Gr\u00f6\u00dfer als mein Samsung Galaxy S7\nJedoch durch Freunde die im Besitz eines S8 sind, findet man vom ersten Eindruck keinen Unterschied. Ger\u00e4t sieht eigentlich identisch aus. Also f\u00fcr keine Experten.\nDas S9+ passt leider nicht in jede Hosentasche, dann braucht man entweder einer andere Hose oder das Telefon einfach in einer Jacke verstauen.\nDie Technik / Bedienung / Sisplay & Akku:\nInnovationen der Technik kann man kaum erkennen. Einige Highlights sind dabei (Gesichtserkennung etc.) Die Kamera macht echt coole Fotos, jedoch beim Ausdrucken sind die immer iwie verpixxelt. Entweder ich habe eine falsche Einstellung oder es ist tats\u00e4chlich so.\nDie Gesichtserkennung finde ich in der Kalten Jahreszeit echt gut, dann braucht man nicht st\u00e4ndig seine Handschuhe ausziehen f\u00fcr den Fingerabdruck.\nIm Gro\u00dfen und Ganzen finde ich das der Preis leider zu \u00fcberteuert war. H\u00e4tte mind. 100 Euro weniger kosten k\u00f6nne, aber gut ich habs nun und bin trotzdem zufrieden.\nDer Klang an Musik ist echt sehr gut, besser als alle bisherigen Handys die ich hatte.\nDie neue Bixby Taste nervt echt und man braucht eine extra App dazu damit man diese deaktivieren kann. Finde es nicht gut, dass man dies nicht einfach ausschalten kann. Kann gerne abgeschafft werden.\nAu\u00dferdem finde ich es auch gut, dass man entweder eine zweite Simkarte hinzuf\u00fcgen kann oder eine externe Speicherkarte. Das ist der Hauptgrund warum ich mich f\u00fcr Samsung entschieden habe und nicht f\u00fcr Apple.\nDas Display ist gro\u00dfartig und man merkt zum S7 echt ein mega Unterschied. Hierzu kann ich nur positives erw\u00e4hnen.\nLaut Hersteller soll der Akku l\u00e4nger halten, leider ist dies nicht der Fall, er l\u00e4sst sich schneller laden aber mehr auch nicht. Ein zus\u00e4tzlicher Akku w\u00e4re an manchen Tagen echt gut. Oder man nimmt einfach sein Ladeger\u00e4t mit und bei einer freien Steckdose l\u00e4dt man das Telefon einfach auf.\nEnde f\u00fcr alle:\nGute Bedienung, leichte Handhabung und ein gutes Design. Kann es empfehlen. Hoffe ich konnte mit meiner Bewertung den oder die eine davon \u00fcberzeugen.",
+                            "publication_date": "2019-02-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 December 2018",
+                            "helpful_votes": 30,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Wertig, aber die Software hat schon beim Einrichten Macken/Einschr\u00e4nkungen",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1VS7TRYLMOECR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ich hatte eine deutsche Version bestellt und scheinbar - trotz Aufklebers der eine \"deutsche Version\" konstatierte - eine italienische geliefert bekommen (Dokumentation, sowie diverse Aufkleber _unter_ der Folie in die die Packung eingeschwei\u00dft war, waren schon auf Italienisch (so auch jener Aufkleber der als Siegel dient). Kein Beinbruch, denn die Sprache kann schon beim Einrichten gewechselt werden. Aber seltsam allemal. Verk\u00e4ufer in meinem Fall: Smart Tech Electronics. Daf\u00fcr gibt's aber keinen Abzug, da die relevante Dokumentation auch in anderen Sprachen leicht auffindbar ist und sich w\u00e4hrend der Einrichtung leicht (und vor allem intuitiv) umstellen l\u00e4\u00dft.\nBeim Einrichten gelangte ich nach einer Weile zum Absichern des Telefons wo mir verschiedene Optionen angeboten wurden. Da ich den Fingerabdrucksensor zwar in Zukunft auch benutzen will, aber vor allem eine PIN wollte, entschied ich mich f\u00fcr die Auswahl PIN. Und was mu\u00dfte ich feststellen? Ich wollte meine bisherige 36-stellige PIN eingeben und bekam nach 17 Ziffern einen Fehler angezeigt, da\u00df eine PIN maximal 16 Ziffern lang sein darf. Was ist das denn f\u00fcr eine willk\u00fcrliche Beschr\u00e4nkung? Man meint die Snowden-Leaks w\u00e4ren nie passiert.\nAlso dachte ich mir, dann gibst du halt die PIN (also nur Ziffern) als Pa\u00dfwort ein. Und siehe da, auch Pa\u00dfw\u00f6rter d\u00fcrfen nicht l\u00e4nger als 16 Zeichen sein und nach wenigen Zeichen macht mich der Dialog darauf aufmerksam, da\u00df ich auch Buchstaben zu verwenden habe ...?\nSagt mal Samsung, habt geht's noch? Ich bin vom iPhone 5 auf ein Android-Ger\u00e4t umgestiegen um _mehr_ Freiheit zu bekommen, nicht weniger! Wenn es mir nicht AUCH um andere Freiheiten ginge die ich bei einem Android erwarten darf (ist nicht mein erstes Android-Ger\u00e4t/-Telefon), sowie um die exzellente Kamera, w\u00fcrde ich das Ger\u00e4t direkt wieder zur\u00fcckschicken. Ich empfinde diese Bevormundung bei PIN- und Pa\u00dfwortl\u00e4nge zumindest als einen gravierenden Mangel den ich in zuk\u00fcnftigen Versionen auch gern behoben s\u00e4he. Im Moment hoffe ich, da\u00df dies vielleicht nur eine Einschr\u00e4nkung bei der Einrichtung ist und man sp\u00e4ter ein ordentliches Pa\u00dfwort (bzw. eine ordentliche PIN) vergeben kann.\nDer erste Eindruck ist dementsprechend aber getr\u00fcbt. Au\u00dfer in der Firma wo Pa\u00dfworte z.T. mit anderen Leuten geteilt werden, lasse ich mich nur ungern zwingen ein Pa\u00dfwort (bzw. eine PIN) unter 16 Zeichen anlegen. F\u00fcr diese ziemlich relevante Einschr\u00e4nkung gibt es bei mir einen Abzug. Leider kann man ja die Kategorie \"Software\" nicht separat bewerten. Ansonsten h\u00e4tte es da die Abz\u00fcge gegeben.\nInsgesamt ist das Telefon sehr wertig, aber auch relativ gro\u00df wenn man, wie ich, vom iPhone 5 umsteigt. Die abgerundeten Kanten finde ich (noch!) gew\u00f6hnungsbed\u00fcrftig, aber irgendwie auch ziemlich cool. Das Telefon liegt dennoch gut in der Hand und die Position des Fingerabdrucksensors pa\u00dft.\nMittlerweile habe ich das Produkt auch vollst\u00e4ndig in Betrieb genommen. Dadurch hat sich herausgestellt, da\u00df diese willk\u00fcrlichen L\u00e4ngenbeschr\u00e4nkungen bei PIN und Pa\u00dfwort in der Tat nicht nur w\u00e4hrend der Einrichtung bestehen.\nAu\u00dferdem will einen die Software an allen Ecken und Enden (Bixby, Themes, Game Launcher) \u00fcberzeugen ein Konto bei Samsung anzulegen. Bixby Home vom Bildschirmkarussell zu verbannen war noch recht einfach, aber da h\u00f6rt es dann schon fast auf (langer Druck auf freie Fl\u00e4che auf dem Homescreen und dort ganz linkes Feld namens \"Bixby Home\" deaktivieren). Bixby anderweitig zu deaktivieren geht ironischerweise nicht ohne zuvor ein Samsungkonto anzulegen und sich mit diesem anzumelden. Bizarr.\nStartet man ein Spiel so l\u00e4uft dies scheinbar in jedem Fall \u00fcber den Game Launcher und dieser will - na was wohl? - einen \u00fcberzeugen doch bitte ein Samsungkonto anzulegen. Penetrant und privatsph\u00e4reunfreundlich.\nSehr ansprechend fand ich die Funktion mit der man einen eingehenden Anruf stummschalten kann. Dazu kann man wahlweise seine Hand fl\u00e4chendeckend auf den Bildschirm legen oder das Telefon umdrehen, so da\u00df es mit dem Bildschirm nach unten liegt.\nWerde erst einmal weitere Aspekte des Produkts ausprobieren und dann hier weitere Erkenntnisse anf\u00fcgen und die Bewertung ggf. anpassen.\nNB: Wenn ich mir Rezensionen anschaue, gucke ich oft zuerst auf die negativen. Wenn die sich nicht gerade um Versandabwicklung drehen, sondern um das Produkt und wenn sie nicht von Fans eines Konkurrenzprodukts geschrieben sind, sind die oft aussagekr\u00e4ftiger als durchweg positive Lobhudeleien. Und das hei\u00dft ja nicht, da\u00df andere Kunden diese Einschr\u00e4nkung in Sachen PIN/Pa\u00dfwort als ebenso gravierend betrachten m\u00fcssen wie das bei mir der Fall ist. Aber ich finde das sehr einschr\u00e4nkend und kenne das von anderen Android-Ger\u00e4ten anderer Hersteller (inkl. Google) so nicht.",
+                            "publication_date": "2018-12-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marzenus694",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGU7XSNNSSKKJFDT6LSIT5YYO3XA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Polecam",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R11SBRL41FE6L6/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Bardzo szybko i sprawnie przebiegl zakuo, zgodnie z opisem (korzysta\u0142am z kontaktu ze sprzedawca, rowniez pozytywnie). Telefon ma miesiac wiec nie wiem jak sprawdzi sie dalej). Znam ten model. Wrocilam do niego po niezadowalajacym przetestowaniu innego wyzszego modelu). Polecam.",
+                            "publication_date": "2023-08-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "TM",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEKLMQGADTJH6CC46IOTANOFGIMA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung Galaxy S9+ Smartphone Bundle (6,2 Zoll (15,7cm)",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R470IOX70CHTO/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Lieferung innhalb 1 Tag, Ger\u00e4t ist sehr gut nur nicht f\u00fcr meinen Zweck geeignet. Ich musste es leider zur\u00fccksenden da die gelieferte Ausf\u00fchrung nur f\u00fcr Europa gilt, das bedeutet f\u00fcr mich ausserhalb Europa kann ich es nicht verwenden sehr Schade.",
+                            "publication_date": "2023-07-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "markus s",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG4JZAKFFV5MTFIR6NG4GSQMWKSQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "toll , habe damit ein super Geschenk",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3SVK879FLH10P/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Super Preis-leistungsverh\u00e4ltnis",
+                            "publication_date": "2023-06-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hummel07",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/326bef7e-0ca8-45f3-8b8b-160406a63360._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGO6MAU7F746TUJIAOPPSVVG7UDA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Galaxy S9+",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1FWEJC1PVJLOS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Super Handy, liegt gut in der Hand. Nur das Akku h\u00e4lt leider nicht lang. Sonnst alles super",
+                            "publication_date": "2023-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 March 2018",
+                            "helpful_votes": 16,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Schneider F.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHB3655COYZ5WH3LN4FXFMAZFZIA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "abenteuerliche Bedienung der Kamera",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3HXJNEM0DKRFW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Hab mir das Teil wegen der Kamera gekauft.\nVieles daran ist gut bis sehr gut:\n-> ansehliche Bildqualit\u00e4t, auch bei low light\n-> klasse Makro\n-> Bokeh Effekt (Live Focus) sehr brauchbar\n-> Panorama-Funktion beeindruckend.\n-> 2 fach Zoom\nManches wirkt aufgesetzt:\n-> Ob die Welt jetzt auf die Superzeitlupe f\u00fcr 0,2 sec gewartet hat wage ich zu bezweifeln. Spielerei halt.\n-> Der HDR-Effekt ist marginal. Ich weiss nicht wie er zustande kommt. Mehrere unterschiedliche Bilder\n scheinen dazu nicht zum Einsatz zu kommen und so sieht dann auch das Ergebnis aus.\n-> die Emoji-Funktion k\u00f6nnte, insbesonder Kinder, begeistern, wenn es denn eine nennenswerte \u00c4hnlichkeit\n des erstellten Emojis mit der fotografierten Person geben w\u00fcrde. Die gibt es aber nur mit viel Phantasie\n Setzen: 4- !\nWirklich nicht gelungen ist die Bedienbarkeit des Kameramen\u00fcs.:\nIch habe schon manche Touchsreen-Kamera bedient, aber so nervig wie das der S9+ war noch keine:\nBeim Setzen des Focus kommt es immer wieder unbeabsichtigt zu Wechseln der Kameramen\u00fcs:\nMan will eben noch ein Bild im Modus \"automatisch\" aufnehmen und schon gelangt man durch einen winzigen\nWischer auf der Touchscreen-Oberfl\u00e4che beispielsweise ins Men\u00fc \"Super-Slow-Mo\" oder auch in zur Selfie-Kamera\nDas ist einfach nur \u00e4tzend!\nZur\u00fcck im Men\u00fc \"Automatisch\" wird (wie auch im Men\u00fc \"Pro\") der Versuch die Helligkeit des Bildes\nmanuell anzupassen zum Geduldspiel: Ich kann nicht die Helligkeit von vornerein einstellen und dann das\nBild machen. Vielmehr habe ich nach Setzen des Fokus f\u00fcr wenige Sekunden Zeit die Helligkeit auf einer\nSchiebeleiste anzupassen. Dabei w\u00e4re es allerdings \"t\u00f6dlich\" wenn ich in dieser Zeit einen unbeabsichtigten\nHorizontal bzw. Vertikalwischer produziere (siehe oben) oder wenn ich die Kamera etwas verziehe: Dann wird\nn\u00e4mlich die Helligkeitskorrektur wieder zur\u00fcckgesetzt. Wie gesagt: sehr nervig.\nEigentlich ist das mehr als ein Punkt Abzug...\nMich interessiert jetzt echt ob es anderen Nutzern des G9+ genauso geht wie mir. Aus diesem Grund bitte ich\num ehrliche und kritische Kommentare zu meiner Rezession.",
+                            "publication_date": "2018-03-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "DUCI 17",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/d56c7ec0-26e0-410d-9dd9-3e84d5e99db2._CR8,0,484,484_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH3ZGK4HMF3ZKXNST2QBCSXKAQEQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\ud83d\udc4d\ud83c\udffb",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RGFBGSV20AP9X/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Clevertronic ist die f\u00fcr mich eine der besten Firmen f\u00fcr gebrauchte Smartphones, wenn nicht die beste! Ich habe \u00fcber die Jahre schon mehrere Handys bei dieser Firma gekauft und alle waren top!!!",
+                            "publication_date": "2023-07-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 March 2018",
+                            "helpful_votes": 25,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Claus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFHJSOGBZZULI3BPJCQM3S6WADAQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mein bestes Handy bisher!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2XU7WEL7VXRZQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ich besitze das S9 Plus jetzt seit 8 Tagen. Von der Bauweise bin ich begeistert. In meinen kleinen M\u00e4nner H\u00e4nden liegt das gro\u00dfe Phone super dank dem neuen Form Faktor. Ein Case sollte aber Pflicht sein wegen dem Haupt Material Glas. Das Display ist spitze. Die extra angeschaffte Panzerglas Abdeckung habe ich wieder runter genommen. Sie hatte zuviel gespiegelt und zog Fett Finger magisch an. Ich hatte Bedenken wegen der abgerundeten Seiten vom Display bez\u00fcglich Video gucken aber die st\u00f6ren dabei nicht. Man kann entscheiden ob man die Videos auf herk\u00f6mmliche Weise schauen m\u00f6chte oder sie auf ganze Display Gr\u00f6\u00dfe zieht. Das gef\u00e4llt mir gut. Alle Kn\u00f6pfe lassen sich super dr\u00fccken. Nat\u00fcrlich ist der Bixby Button nutzlos und verhindert das die Lautst\u00e4rke Taste weiter nach unten gekommen ist aber das wei\u00df man vor dem Kauf. Ich kann damit gut leben. Der Akku hat einige Tage gebraucht bis er richtig durchgestartet ist. Jetzt l\u00e4uft er aber gut. Ich komme locker \u00fcber den Tag bei durchschnittlicher Nutzung. Zeitung lesen morgens und abends, WhatsApp, telefonieren an der Arbeit, Emails bearbeiten, mit Kalender und todo Listen arbeiten und Fotos machen. Von 6.30 bis 22.00 bleiben mir ca. 40 Prozent Strom \u00fcbrig. Die Kamera ist sehr gut. Ich hatte durch die Werbung jedoch noch mehr erwartet. Die Bilder sind bei Tageslicht absolut top. Auch bei starker Dunkelheit werden sie sehr hell. Man kann viel darauf erkennen. Wenn man die Bilder jedoch aufzieht rauschen sie wie alle anderen Kameras auch. Die Bilder im D\u00e4mmerlicht h\u00e4tte ich st\u00e4rker erwartet. Ich sage mal so abends vor dem Fernseher auf der Couch. Da hat mein U11 als Vorg\u00e4nger die gleiche Leistung abgeliefert. Jetzt aber nicht falsch verstehen. Kamera raus, Foto machen und auf dem Handy anschauen und auch doppel tippen um sie zu vergr\u00f6\u00dfern funktioniert super. Da seht ihr spitzen Bilder. Zieht ihr die Bilder jedoch auf, ist die Leistung nicht besser als bei anderen spitzen Phones auch. Die Portrait und Selfie Funktion ist gut, kommt aber nicht an das Pixel 2 ran. Daf\u00fcr haben mich die Lautsprecher sehr beeindruckt. Die besten die ich bisher geh\u00f6rt habe. Die mitgelieferten Kopfh\u00f6rer sind ebenfalls sehr gut. Die Performance ist bei mir bis jetzt absolut top. Da kann ich nicht meckern. Ich bin mit dem gesamten Paket sehr zufrieden und kann es nur empfehlen. Als Vorg\u00e4nger hatte ich Galaxy S2, Galaxy S3, Galaxy S5, Galaxy S7, Lumia 920, Huawei Mate 8, LG G6 und HTC U11.",
+                            "publication_date": "2018-03-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 July 2018",
+                            "helpful_votes": 8,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "BJ0815",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH5U25GLMY6BECH6YB6KD4XISBGA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kein w\u00fcrdiger Nachfolger zum S7 Edge - aber \u00fcberzeugend",
+                            "url": "https://amazon.de/gp/customer-reviews/R4FW7LRLBECWI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ja, wie die \u00dcberschrift andeutet hatte ich bislang das S7 Edge und daher muss sich das S9+ nun einem Vergleich mit diesem stellen. Das Handy allein betrachtet ist schon gewohnt gut. Leider deutlich schwerer und klobiger als das S7 und - das \u00e4rgert mich etwas - was die Fotooptionen angeht deutlich eingeschr\u00e4nkter als das S7... Da gerade dieser Schwerpunkt beworben wird, war das sehr \u00fcberraschend! Es gibt nicht mehr die M\u00f6glichkeit die Fotoapp um zus\u00e4tzliche Effekte aus dem Download zu erweitern. Ja, Farbeffekte weiterhin m\u00f6glich. Aber eine sehr oft genutzte Dualkameraeinstellung die Vorder- und R\u00fcckkamera gleichzeitig kombiniert im Bild, gibt es nicht und l\u00e4sst sich anders als beim S7 auch nicht downloaden. Nun denkt man sich vielleicht technisch nicht mehr machbar durch zwei Linsen in der Hauptkamera. Nein, weit gefehlt. Die offizielle Begr\u00fcndung ist: Vom Kunden nicht gew\u00fcnscht und nicht genutzt. Liebe Samsungentwickler: Das stimmt schlichtweg nicht und ist in vielen Foren nachvollziehbar... Erfreulicherweise habe ich von Drittanbietern eine App gefunden, die das in etwa wie gewohnt und zufriedenstellend leistet! Daher ist das gew\u00fcnscht und technisch umsetzbar. Leider nur nicht im Hause Samsung. Schade. Da ich als Kunde erwarte im Nachfolger durchaus zum Alten Bew\u00e4hrten dann das Neue zu bekommen und nicht auf gewohntes verzichten zu m\u00fcssen, war ich schon etwas entt\u00e4uscht. Insgesamt trotzdem ein \u00fcberzeugendes Ger\u00e4t - welches ohne den Vergleich zum aus meiner Sicht perfekten S7-Edge trotzdem 5 Sterne bek\u00e4m...",
+                            "publication_date": "2018-07-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 September 2018",
+                            "helpful_votes": 61,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "S9+",
+                            "url": "https://amazon.de/gp/customer-reviews/R1VFIMRJAUSVEV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ich habe vom Galaxy S7 edge auf das S9+ gewechselt. Design/Verarbeitung Das Design ist mir schon bei der Vorstellung beim MWC aufgefallen. Klar, es ist fast das gleiche Design wie das S8+ , aber dennoch konnte ich nicht wegschauen. Vor allem in schwarz sieht es sehr elegant aus. Die Verarbeitung ist typisch Samsung top und die Einrichtung des Handys hat hervorragend funktioniert. Mit der neuen Software hat das S9+ wieder einiges mehr auf Lager. Unglaublich, was man heute alles einstellen kann. Viele Nutzer \u00fcbersehen diese Vielf\u00e4ltigkeit. Wie gesagt kann man sehr viele Kleinigkeiten beliebig personalisieren wie z.B das Seitenlicht, wenn man eine Benachrichtigung erh\u00e4lt oder die Personalisierung des \\\"Always on Display\\\". Jetzt kommt f\u00fcr mich der Teil, was f\u00fcr mich pers\u00f6nlich am wichtigsten ist. Leistung. Wenn man schon so viel f\u00fcr ein Handy bezahlt, dann sollte es auch etwas leisten k\u00f6nnen. Der neue Prozessor ist schnell. Im Vergleich mit dem S7 edge sind das Welten. Die \u00dcberg\u00e4nge sind fl\u00fcssig und es macht Spass mit dem Handy zwischen den Apps usw. hin und her zu wechseln. Die 6GB RAM unterst\u00fctzen die schnellen Prozessoren, so hat man keine Probleme bei der Geschwindigkeit. All diese Features brauchen Strom Was mich pers\u00f6nlich jedoch sehr st\u00f6rt, ist der Akku. \u00dcberlegt euch folgendes Der S7 edge hat ein Akku von 3600mAh. Der S8+ hatte ein 3500mAh - Akku. Und der S9+? Obwohl beim S8+ der Akku kritisiert wurde? Immer noch ein 3500er - Akku? Das ist ein No-Go! Seit 3 Generationen nahezu der gleiche Akku. Der Prozessor, die Kamera, die Software alles verbessert sich, und der Akku? Warum ist der Akku nicht gr\u00f6sser/effizienter? Schade, dass der Akku gleich geblieben ist. Da h\u00e4tte ich wirklich mehr erwartet von Samsung. Ich habe mindestens ein 3800er oder sogar einen 4000er- Akku erwartet. Das man eine Dual-Kamera hat, sieht man sofort. Man kann bessere Fotos schiessen, allerdings ist das keine grosse Verbesserung im Vergleich zur Konkurrenz.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 April 2019",
+                            "helpful_votes": 45,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "GG62",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AETPRI6S4O6CACMMJSSZJ73SQJDA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Nervende, nicht abschaltbare BIXBY-Taste, die kaum einer wirklich haben will",
+                            "url": "https://amazon.de/gp/customer-reviews/RFY16CSH5P6G9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Obwohl das Ger\u00e4t technisch eigentlich sehr \u00fcberzeugt - besonders die Kamera ist wirklich f\u00fcr ein Smartphone sehr gut - gibt es zwei Punkte, die daf\u00fcr sorgen, dass ich demn\u00e4chst - wie auch meine Kollegen, die das ebenfalls extrem st\u00f6rt - solange kein Samsung Smartphone mehr kaufen werde:\n1.) Die Bixby-Funktionstaste und die unerw\u00fcnschte Bixby-Software\nDiese ist so ung\u00fcnstig an dem ohnehin vielzu ungriffigen Ger\u00e4t (zu glitschig wegen der vielen Rundungen), angebracht, dass diese st\u00e4ndig ungewollt aktiviert wird. Man kann diese Taste, leider auch nicht wirklich deaktivieren - ebenso wenig, wie den Dienst \"Bixby Voice Wake-Up\", der st\u00e4ndig mith\u00f6rt sowie andere Bixby-Dienste! Man kann die ganze Bixby-Software auch nicht deinstallieren oder deaktivieren. Man kann nur die Art, wie man Bixby mit dieser Taste aktiviert \u00e4ndern; mehr ist nicht vorgesehen.\nEin Zwangsstopp \u00fcber den App-Manager geht zwar, aber der h\u00e4lt nur tempor\u00e4r, weil es nach einiger Zeit wieder eingeschaltet ist.\nSch\u00f6n w\u00e4re es, wenn man diese nervende Taste mit anderen Funktionen als Bixby belegen k\u00f6nnte. Dann h\u00e4tte man wenigstens etwas davon, weil man sie ja letztlich auch beim Kauf mit bezahlen musste.\n2.) Der nervige Entsperrmechanismus, wenn man einfach nur die Biometrie verwenden m\u00f6chte\nF\u00fcr alle, die als Nicht-Doppelnull-Agenten ohne erh\u00f6hte Sicherheitsanspr\u00fcche damit zufrieden sind, wenn sie ihr Smartphone wahlweise mit Biometrie oder Passwort entsperren k\u00f6nnen, sollte Samsung den Zwang dazu, sein Smartphone sporadisch per Passwort entsperren zu m\u00fcssen, abschaltbar machen.\nIch verstehe es voll, dass f\u00fcr manche Einsatzf\u00e4lle diese Sicherheit sinnvoll ist. Aber wenn man sein Smartphone einfach nur als wahres Hilfsmittel ben\u00f6tigt, dann ist es einfach nur nervig und manchmal auch \u00fcbel, wenn man zu einem oft unpassenden Zeitpunkt gezwungen wird, sein Passwort einzugeben. Es ist bei mir schon oft vorgekommen, dass ich deshalb mein Smartphone nicht rechtzeitig benutzen konnte, weil ich z.B. mangels Brille das Passwort nicht rechtzeitig eingeben konnte - dort wo die Biometrie mir ansonsten geholfen h\u00e4tte!\nMan wird so gezwungen, ein einfacheres Passwort zu verwenden, um dann doch schnell sein Smartphone entsperren zu k\u00f6nnen. Das ist aber gerade nicht Sinn der Sache.\nVielleicht sollte Samsung hier erst das Passwort nach einer frei w\u00e4hlbaren Anzahl von biometrischen Fehlversuchen verlangen. Das reicht f\u00fcr alle, die ihre eigenen Daten als nicht hochsensibel einstufen v\u00f6llig aus.\nAnsonsten:\nDie Haptik des Ger\u00e4ts ist anders als bei meinem Vorg\u00e4nger, dem S7, deutlich schlechter geworden. Mit dem Anbringen des Fingersensors auf der R\u00fcckseite, um mehr Platz f\u00fcr Display zu haben, bin ich nicht zufrieden. Oft liegt das Smartphone auf dem Tisch und ich muss es deshalb immer erst anheben, um es mittels Biometrie zu entsperren. Das war beim S7 gelungener: Es konnte einfach auf dem Tisch liegen bleiben.\nDa das Smartphone wegen der vielen Runden zudem auch recht ungriffig ist und man Acht geben muss, dass es einen nicht aus der Hand flufft, ist das besonders \u00e4rgerlich.\n\u00dcbel ist auch, dass die empfindlichen Seitenkanten einem z.B. beim Fotografieren oft ungewollt ins Handwerk pfuschen, weil irgendwas unbeabsichtigt aktiviert wird. Dadurch habe ich schon \u00f6fters einen avisierten Schnappschuss versaut.\nWeiterhin ist es schade, dass Samsung auch hier die eigentlich vorgesehene M\u00f6glichkeit IP-Telefonie (SIP-Client) mit der Standard-Telefon-Software zu betreiben, nicht verf\u00fcgbar gemacht hat. Bei meinem Samsung S4 ging das noch.\nAuf diese Weise konnte ich auch unterwegs bei bestehender Datenverbindung mit meiner Heimtelefonnummer telefonieren und erreichbar sein. Jetzt ist man gezwungen, daf\u00fcr eine extra App zu erwerben.\nFazit:\nTechnisch gesehen ist das Ger\u00e4t eigentlich der Hammer. Aber da das Ger\u00e4t mittlerweile mehr macht, als Samsung will und weniger das, was ich will, hat man schnell den Spa\u00df an diesem eigentlich technischen Meisterwerk verloren.\nSchlie\u00dflich machen nicht die tollen technischen Daten den Nutzen aus, sondern nur das, was man auch in seinem Sinne wirklich praktisch verwenden kann.\nBisweilen habe ich noch keinen gefunden, der Bixby und andere Zwangs-Software wirklich haben m\u00f6chte. Unter Kollegen wird viel \u00fcber solche Dinge diskutiert. Hoffentlich wird Samsung hier einmal umdenken; \"es\" wird ansonsten das gleiche Schicksal wie das iPhone erleiden, n\u00e4mlich einen drastischen Umsatzr\u00fcckgang!",
+                            "publication_date": "2019-04-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 December 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "OLI",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/a4fe4290-e014-4f57-8248-905cc52b46d8._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFMD5W6B46LQFKHZIBV3DFGXNXOQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "DAS PRODUKT",
+                            "url": "https://amazon.de/gp/customer-reviews/R2RR1CK68BD3MS/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "ICH BIN MIT DIESEM PRODUKT ZUFRIEDEN",
+                            "publication_date": "2022-12-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "D. Mark",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFQ6EPF4IV27CTJMBRRRRD2WV7UQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mangelhafte Haltbarkeit",
+                            "url": "https://amazon.de/gp/customer-reviews/R1O2NPNE4B69FT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ich war war mit der Qualit\u00e4t des Handys sehr zufrieden und habe es auch weiterempfohlen.\nLeider hat es nur 3Jahre und 5 Monate gedauert,  bis der Bildschirm den Geist aufgegeben hat und Sprachnachrichten nicht mehr abrufbar waren.\nEin Handy f\u00fcr den Preis sollte wohl l\u00e4nger funktionieren!\nGanz schwache Leistung von Samsung, ich werde wohl auf einen Hersteller umsteigen.",
+                            "publication_date": "2023-06-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 October 2018",
+                            "helpful_votes": 14,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christian",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH6XKCACKLXTZZY5AI2V7OGC72BA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klasse Smartphone ABER............ daher nur 3 Sterne !",
+                            "url": "https://amazon.de/gp/customer-reviews/RQHZMMZQDX43G/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Hallo,\nich habe mir das erste Samsung Galaxy Handy seit Jahren mal wieder gekauft, nach vielen Jahren iPhone! Mein letztes iPhone war das iPhone 6 und nach 4 Jahren iPhone 6 bin ich nun auf das Samsung Galaxy S9+ umgestiegen, weil ich diese Preispolitik von Apple nicht mitmache! Ich gebe nicht \u00fcber 1000\u20ac f\u00fcr ein Handy aus !!\nDieses Handy kann all das was auch ein \u00fcber 1000\u20ac iPhone kann. Ich habe dieses S9+ bei Amazon f\u00fcr knapp 670\u20ac bekommen. Das ist ein absolut Hammerpreis und danke an Amazon f\u00fcr diese schnelle Lieferung!!\nJetzt fragen sich bestimmt einige wenn doch so ein super Handy warum nur 3 Sterne ?!\nIch gehe jetzt nicht auf die ganzen technischen Details ein. Was mir nicht gef\u00e4llt und das wurde ja schon 1000x gesagt ist der BIXBI-Knopf....ok das wusste ich und ich dr\u00fccke diesen immernoch unbewusst, weil ich denke das ist die Taste zum leiser machen....egal!\nWas viel schlimmer ist, ist das man sich auf der Samsung Tastatur egal ob nun Whatsapp oder sonst was, man vertippt sich sehr oft!! Das macht auf dem Handy absolut keinen Spa\u00df!! Man hat schon eine gro\u00dfe Tastatur beim S9+  aber wenn man mit 2 Handen tippt, kann man sagen, fast jedes 3 oder 4 Wort hat einen Fehler!! Obwohl ich der Meinung bin ich habe den Buchstaben nicht so gedr\u00fcckt!! Wirklich absolut \u00e4rgerlich und frustet doch schon sehr !\nIch habe auch dieses Samsung Galaxy f\u00fcr meine Frau gekauft aber das 9\u00e9r. Auch Sie hat diese Probleme mit der Tastatur!! Das liegt also nicht nur an mir und ich denke das Problem haben noch viele andere, die ein S9+ oder S9 haben!\nDas hat man beim iPhone nicht so gehabt! Die Tastatur reagiert bei Samsung viel zu sensibel und wenn man auch alles anders einstellt, bringt das nix!!! W\u00e4re Super wenn Samsung das mal fixen k\u00f6nnte mit einem Update, denn das ist echt nervig!!\nDaher meine 3 Sterne...sonst w\u00e4ren das f\u00fcr dieses Handy ohne Bixbi und ohne die andauernden Tippfehler 5 Sterne.",
+                            "publication_date": "2018-10-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 January 2019",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "hkq",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE4ZD6XRBISXZPYRSSD667A34TGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\u00dcberragend!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3DJ8MPU1D6A2F/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Das Handy wirkt schon auf den ersten Blick extrem hochwertig verarbeitet. Die Haptik ist gar nicht mit den Modellen zu vergleichen, die ich bislang hatte. Durch die eher langgezogene Form und die abgerundeten Kanten (nicht nur an den Seiten vorne) liegt es wirklich sehr gut in der Hand. Ich ringe noch mit mir selbst, ob ich ein Case bestelle, weil es fast zu schade um die Optik und Haptik w\u00e4re. Mal pr\u00fcfen ob die Glasversicherung im Fall der F\u00e4lle auch f\u00fcr Handydisplay greift ;-)\nDie Einrichtung ist zwar relativ einfach. Allerdings wird die Daten\u00fcbertragung per SamsungSwitch durchgeleitet. Von meinem Honor-Vorg\u00e4nger lief das leider aber irgendwie nicht. Ob das jetzt am S9+ oder am Honor liegt wei\u00df ich nicht. Ist aber in jedem Fall etwas nervig.\nAnsonsten ist die Einrichtung schnell erledigt. Samsungtelefone hatte ich seit ein paar Generationen nicht mehr, sodass ich von den Neuerungen doch etwas \u00fcberrascht war. Aber man findet sich extrem schnell zu Recht.\nDie f\u00fcr mich gr\u00f6\u00dften Pluspunkte waren 1. die \u00fcberragende Geschwindigkeit und 2. die Fotos, die absolut nicht mit denen eines Honor zu vergleichen sind. Das war zwar der Grund, warum ich auf dieses Mordsteil umsteigen wollte. Der Sprung eines Unter- zu diesem Oberklassehandy hat mich aber ungemein \u00fcberrascht!\nIch bin sehr zufrieden mit meiner Wahl!",
+                            "publication_date": "2019-01-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 August 2019",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Das war ein Geschenk und jetzt habe ich auch eins",
+                            "url": "https://amazon.de/gp/customer-reviews/RFYOOKUQJOHSF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "F\u00fcr die Oberklasse ist das S9+ im Vergleich zum S10 sicherlich nicht so viel schlechter.\nDesign ist mit dem schwarzen Rand oben und unten f\u00fcr Kamera und Mikro meinem Geschmack netter gel\u00f6st, als ein Loch (Notch) im Bild. Das h\u00e4tte mich so gest\u00f6rt, dass ich es gleich von Anfang an mit einem schwarzen Balken ausgeblendet h\u00e4tte. Die 6GB Arbeitsspeicher haben mich zur PLUS Variante greifen lassen.\nEigentlich h\u00e4tte ich auch vom Design her lieber die A Klasse gekauft, aber da die Technik so schnell veraltet und das S9+ gerade mal g\u00fcnstiger als ein A80 war, konnte ich nicht anders. Letztendlich ist es doch eine Preis-/Leistungs Sache...zumindest bei mir.\nPro:\n+ noch recht flott (f\u00fcr Aug2019)\n+ 6GB Arbeitsspeicher (allerdings nur S9+)\n+ Edge Design f\u00fchlt sich nett an\n+ \"gute\" Kamera vor allem im Nachtmodus!\nContra:\n- Schutzfolien sind schwer aufzutragen\n- Anzeige scheint an den R\u00e4ndern komisch verbogen\n- Gesichtserkennung scheint bei mir nicht so gut zu funktionieren",
+                            "publication_date": "2019-08-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Coolman Roberto",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/d0a04228-9674-4896-b3d3-cc8213233a74._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG44T3XWVEMZM4HRBUARTUCX4MDA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super",
+                            "url": "https://amazon.de/gp/customer-reviews/R2OZWLC7T4JS4C/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "L\u00e4uft wie 1 A .\nOriginal Qulit\u00e4t",
+                            "publication_date": "2023-04-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 February 2021",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kerstin.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH3EQM36I6YSMULDZDGHIQHZXTRQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Prima Handy - aber...",
+                            "url": "https://amazon.de/gp/customer-reviews/R13M3JF48ZEO0U/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ein Samsung eben. Bin sehr zufrieden. Akku l\u00e4uft auch sehr gut. Nat\u00fcrlich abh\u00e4ngig von der Belastung.\nTestberichte lesen und Handys vergleichen. Dann erwischt eigentlich jeder was er m\u00f6chte. Die Klangqualit\u00e4t ist prima. Fotos werden klasse. Selbst Nachtbilder. Kompatibel mit Garmin VivoAktiv 3.\nIch bin rundum happy.\nDanke.\nUpdate: bin vor 2 Tagen in den Regen gekommen. Wasser im Ger\u00e4t. Iris Erkennung geht nicht mehr. Verk\u00e4ufer kontaktiert, Reparatur kann wegen Prime Bestellung nicht angeboten werden. Handy darf kostenfrei zur\u00fcck gesendet werden und ein Neues darf bestellt werden. Zu dem damaligen Preis nicht mehr erh\u00e4ltlich.\nSamsung gibt IP 68 an. Da darf ein bissl Regen nicht machen. War mit dem S8 nie ein Thema.\nSchade.\nUpdate zum 3.3. R\u00fcckversand hat prima geklappt, konnte den Zeitpunkt via DHL link selbst koordinieren. R\u00fcckmeldung kam sehr schnell und freundlich. Geld ist bereits gut geschrieben. Vielen Dank hierf\u00fcr.",
+                            "publication_date": "2021-02-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Klaus Schaer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFLUVIZJ7SJWLKNHWCC232EJJTNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Naja f\u00fcr den Preis",
+                            "url": "https://amazon.de/gp/customer-reviews/R15NPTSAD8WOOH/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Auf Display sind Kratzer vorhanden, Zubeh\u00f6r war komplett vorhanden. Werde mich mit dem Kratzer arangieren.",
+                            "publication_date": "2023-06-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 March 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andrea Bittner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGJMJD7SNN2UESKG6JCTG36OVUIQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein gutes Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/R321GGXUF7LWI6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Die Kamera ist nicht so gut wie erhofft. Ansonsten bin ich zufrieden",
+                            "publication_date": "2023-03-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 March 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Katja",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHMG2MS2OVVHZJIG5OEPUP67K26A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung Galaxy S9+ Smartphone",
+                            "url": "https://amazon.de/gp/customer-reviews/RCSW8IB5R5NBF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Bestes Telefon aller Zeiten, die alten sind besser als die neuen !!!",
+                            "publication_date": "2023-03-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 June 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M.L.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFHD57XPRJJP7MGDJ7OMVGWWQHFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "gutes Smartphone",
+                            "url": "https://amazon.de/gp/customer-reviews/R139QHNMV2I9EL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "\u00dcberraschend schnell geliefert, sehr zuverl\u00e4ssig, funktioniert soweit sehr gut, sieht wirklich aus wie neu, Lautst\u00e4rkeregler an der Seite des Smartphones macht Probleme. Sobald man laut oder leise machen will, hakt der Knopf. Das ist so auffallend, dass es vor dem Verkauf bekannt gewesen sein muss. H\u00e4tte man auf jeden Fall in der Beschreibung erw\u00e4hnen k\u00f6nnen, da es sich hier um ein gebrauchtes und runderneuertes Model handelt, ist bei dem Preis nicht viel zu meckern. Da nehme ich es so hin. W\u00fcrde bei dem H\u00e4ndler aber nicht mehr kaufen, weil dieser Mangel verschwiegen wurde.",
+                            "publication_date": "2020-06-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 April 2018",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "m1keySAN",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars/7a983d4b-ccbe-4716-8be5-c9854d64e25d._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AESAITIKLIM3Z74YMGSBYJRQM76A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wechsel von OnePlus 5 auf S9+",
+                            "url": "https://amazon.de/gp/customer-reviews/R2Y5US08MH1FFD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ich bin wirklich begeistert, ich wollte wegen der Kamera (ben\u00f6tige \u00f6fters eine gute Qualit\u00e4t) wechseln.\nDas S9+ ist wirklich in diesem Bereich TOP, auch wenn ich auf das Huawei P20 Pro gewartet habe, wurde es doch das S9+.\nIch hatte noch kein QI, und das war auch ein Grund f\u00fcr das S9+ und gegen das P20 Pro.\nDas einzige was mir noch ein wenig nervt ist doch der Fingerabdrucksensor, da bin ich vorne beim OP5 schneller gewesen, aber da ich Smart Lock aktiviert habe wenn ich meine Android Watch anhabe, funktioniert das.\nDa es neben meinem Samsung S2 Tab 8.0 das erste Samsung Smartphone ist, bin ich zufrieden die Samsung Oberfl\u00e4che (Samsung Expirience) habe ich sofort durch meinen Nova Launcher gewechselt, mit den Passenden Samsung Icons schaut alles Original aus.\nWas aber zu sagen ist, das Fast Charging (= Qualcomm Quickcharge 2.0) ist viel Langsamer als das DashCharge von OnePlus.\nAuch muss ich doch \u00f6fters ans Kabel als gedacht.",
+                            "publication_date": "2018-04-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 October 2018",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rohit",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AELKJIGTZG2VHHTH3RZQ6YTCQA7Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "A superb phone with an even better seller",
+                            "url": "https://amazon.de/gp/customer-reviews/R53QNNG3PBI40/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "This phone has exceeded most of my expectations. It's got a stellar build quality, sound and a top notch display.... most importantly without any \"notch\"!! The battery life could be better but I am averaging 1.5 days of battery life with moderate usage, with around 5.5-6 hours of screen-on-time.\nA special mention about the seller Sediva Deutschland.... The phone was exactly as described \"wie neu\". No signs of any usage or scratches or anything. Even the protective layer of plastic was also there! Also got a valid bill, so worries about guarantee either. Was really a \"tolles Angebot\" for around 550 Euros!",
+                            "publication_date": "2018-10-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 December 2018",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lev",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHEUE7KKMUKX2FUGNOYKTWLDCXBQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handhabung, Akku und Kamera",
+                            "url": "https://amazon.de/gp/customer-reviews/R301X95ECI000Q/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Als langj\u00e4hriger Galaxy-Reihe Kunde m\u00f6chte ich die pro und contras auff\u00fchren. Top Smartphone mit einer sehr bequemen und schnellen Handhabung. Akku l\u00e4dt sehr schnell, die Kapazit\u00e4t l\u00e4sst etwas zu w\u00fcnschen \u00fcbrig da man im Alltag schon das Handy fast dauernd benutzt und man hier mehrmals laden muss (Vergleich: hatte vorher das S7 edge und es hatte sogar 100mA mehr Akkukapazit\u00e4t), wobei f\u00fcr den durschnittlichen Nutzer es in Ordnung w\u00e4re. Kamera sehr scharf und schnell, jedoch die Versprechungen, es w\u00fcrde ebenso bei Dunkelheit gute Bilder schie\u00dfen, da h\u00e4tte man mehr erwartet (Vergleich die neuen iPhones keine Probleme damit). Der live-Fokus l\u00e4uft ebenso bei Dunkelheit nicht optimal. Frontkamera macht bei wenig Licht keine scharfen Bilder mehr, zumindest wie man es sich vorstellen w\u00fcrde, da daf\u00fcr extrem geworben w\u00fcrde. An sich Preis-Leistungsverh\u00e4ltnis top und im gro\u00dfen und ganzen dennoch zufrieden.",
+                            "publication_date": "2018-12-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 June 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Norbert",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFHJVNLRMIMSTBU4YJLMJ4QKWZIA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekter Einkauf",
+                            "url": "https://amazon.de/gp/customer-reviews/R2TCXSGMECSOU1/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Ger\u00e4t wie vom H\u00e4ndler beschrieben.  Habe das Samsung Galaxy S9 plus nun f\u00fcr meine Frau gekauft. Ich selbst habe das S9 schon seit zwei Jahre in Benutzung.  Und wenn ich es heute noch immer weiter empfehle, so wird das schon ein gutes Handy sein. Preisleistung einfach top.",
+                            "publication_date": "2022-06-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 March 2019",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Boffi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG3MTJR5VSWOU4ZMCUS5WSKJTGZQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gutes Handy mit nicht passenden AKG Kopfh\u00f6rern",
+                            "url": "https://amazon.de/gp/customer-reviews/R29R9IZK6SVPAF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B079SNGV9P",
+                            "review_text": "Das S9+ gef\u00e4llt mir sehr gut. Die Fotos sind sehr gut und das Display auch. Es ist allerdings ein wenig schwer. Dass es keine Unterst\u00fctzung von rSAP (SIM-Access-Profile) mehr gibt, finde ich sehr bedauerlich. Mir passen die beigelegten Ohrh\u00f6rer von AKG \u00fcberhaupt nicht. Egal welche St\u00f6psel ich benutze - sie halten nicht. Und solange die nicht vern\u00fcnftig im Ohr anliegen, ist auch der Klang nicht gut. Das ist mir bei den bisherigen Samsung Kopfh\u00f6rern noch nie passiert. Ich habe mir jetzt Anker SoundBuds Flow bestellt, die hervorragend passen und klingen.",
+                            "publication_date": "2019-03-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

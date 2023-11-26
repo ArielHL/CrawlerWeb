@@ -1,0 +1,959 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0568 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-053a439576c8",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0232 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-053a439576c8"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0BYNSPWLS",
+                "asin": "B0BYNSPWLS",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0BYNSPWLS",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0BYNSPWLS?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:53 +00:00",
+                    "spell": null,
+                    "title": "USB C Headphones, In-Ear Headphones with Cable USB C for Samsung...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "USB C Headphones, In-Ear Headphones with Cable USB C for Samsung Galaxy S23 Ultra S22 S21 FE A53 A54, Earphones with Microphone Stereo Headphones USB C Connection for iPad Pro 2022/202, Pixel 7/6/5",
+                        "url": "https://amazon.de/-/en/Headphones-Samsung-Earphones-Microphone-Connection-black/dp/B0BYNSPWLS/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41uo60aen0L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.3",
+                        "votes_count": 310,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 195,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jonas K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEEJKPSGLUFSR57BPE3LEGE5WGQA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Technisch gut, unregelm\u00e4\u00dfig abgemischt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RL5BUKUJOMQ6N/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Die Kopfh\u00f6rer kommen mit gr\u00f6\u00dferen und kleineren Ohrst\u00fccken f\u00fcr bessere Passform sowie einem USB-C zu USB-C-Kabel (nicht notwendig) und einem Schoner f\u00fcr den USB-Anschluss (praktisch, wenn die Kopfh\u00f6rer wie bei mir den Tag in der Hosentasche verbringen). Die H\u00f6rer h\u00e4ngen magnetisch aneinander, was vielleicht manchen Kabelsalat vermeidet, aber doch eher nur ein netter Effekt ist. Das verwendete Metall macht einen hochwertigen Eindruck und w\u00e4hrend das Kabel recht d\u00fcnn ist, sind alle Stellen, wo man ein Abknicken bef\u00fcrchten w\u00fcrde, zus\u00e4tzlich verst\u00e4rkt.\nSoweit, so gut, allerdings muss klar gesagt werden, dass die Kopfh\u00f6rer enorm basslastig sind. Selbst mit entgegengesetzt eingestelltem Equalizer wummert es in den tiefen Lagen doch ziemlich. Muss man m\u00f6gen bzw. muss f\u00fcr den pers\u00f6nlichen Musikgeschmack passen.",
+                            "publication_date": "2023-08-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Moonlight",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF2VFHAYJW3XSIAOFX3OZ645RVQA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "alles top!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1O1KK05F3L36/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Die sind ja mal richtig cool. Ich bin tats\u00e4chlich gegeistert!\nNat\u00fcrlich habe ich hier keine Spitzenkopfh\u00f6rer. Da m\u00fcsste ich schon viel tiefer in die Tasche greifen und dann h\u00e4tte ich aber auch keine In-Ear-Kopfh\u00f6rer gew\u00e4hlt.\nDas war auch gar nicht die Intension hinter diesem Kauf.\nIch brauchte kleine In-Ears, die ich mal eben in die Tasche stecken kann. Oder die ich mal gut im Liegen f\u00fcr Meditationen nutzen kann. Sie sollten Halt haben und nicht rausfallen, wie das meine Buds st\u00e4ndig machen, wenn ich mich zuviel bewege. Zeitgleich mag ich nicht st\u00e4ndig Bluetooth nutzen m\u00fcssen, vor allem nicht, wenn ich nachts noch was h\u00f6ren will. Klein und unauff\u00e4llig. Handlich. Und bitte, bitte, besser, als diese fr\u00fcher mit jedem Handy mitgelieferten 0815 Dinger.\nF\u00fcr das einzigartige Klangerlebnis und f\u00fcrs Klavierspielen nutze ich meine hochwertigen, gepolsterten On-Ears. Damit liegt es sich allerdings sehr ungem\u00fctlich. Lach.\nUnd was soll ich sagen?\nIch war mehr als positiv \u00fcberrascht!!!\nDie Kopfh\u00f6rer sind wirklich --- sch\u00f6n!\nDas Kabel ist wertig, die Ohrstecker aus schickem Metall und magnetisch. Dadurch verknoten sie sich beim Lagern nicht so wild. Auch der Lautst\u00e4rke\"regler\" ist aus Metall. Der Kopfh\u00f6rer ist f\u00fcr so ein g\u00fcnstiges Teil richtig schick. Und der Klang kann sich echt sehen - \u00e4h - h\u00f6ren lassen. Ein sch\u00f6ner, satter Klang und ein angenehmer Bass, ohne Scheppern, Kratzen.\nUnd das alles zu einem richtig fairen Preis!\nDankesch\u00f6n :)",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ella",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AETBGPWRO74HWQ5U74TI3TQ4MYWA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lautst\u00e4rke super, beim telefonieren f\u00fcr beide Gespr\u00e4chspartner klar und deutlich",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2LCSO1CUTKLNW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Ich brauche die Kopfh\u00f6rer nicht zum Musik \ud83c\udfb6 h\u00f6ren.\nEs war mir wichtig das ich gut damit telefonieren kann. Der Gespr\u00e4chspartner hat kein rauschen oder knacken...\nAlles klar und deutlich  selbst wenn ich Auto fahre,  keine Nebenger\u00e4usche.\nDie Lautst\u00e4rke ist sehr gut regulier bar.\nHabe sie f\u00fcr eine Freundin bestellt,  da sie als mein Gespr\u00e4chspartner am Telefon begeistert war vom beschriebenen.",
+                            "publication_date": "2023-10-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Nordisch",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGRKBJI5TKU5UFCQHW6KNWG2WZBQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zu viel Bass",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3R97RXSOQ1NPY/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Sie funktionieren allerdings sind sie f\u00fcr mich zu basslastig. Mir fehlen hier und da dann doch ein paar H\u00f6hen. F\u00fcr den Preis aber noch iO.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH634RZZB4257TUGLHNTSDD5Z6CQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr zufrieden.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R36AFP739ABR91/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Sehr gute Qualit\u00e4t. W\u00fcrde ich wieder kaufe.",
+                            "publication_date": "2023-11-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Veljko",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AERPBZFYYZQGEAT65XA4AOWXHCKA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles OK",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2NCTEON9A7WE2/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "OK",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 October 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71mCIVW39DL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marca Fina",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/b1c1d12e-1a73-47bb-a529-82e910b63adf._CR0,0,354,354_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFXJEL7IWYKI4SXB6NBCNIE6JA5Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wow",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RVJA4TPUBFEPJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Ich bin schwer beeindruckt von den Kopfh\u00f6rern. Verarbeitung top, sitzen gut im Ohr und der Klang ist \u00fcberragend gut. F\u00fcr den Preis absolut zu empfehlen.",
+                            "publication_date": "2023-10-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Anonym",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGYNWIPWULCQHXTIUIGWZRQP6FDQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Qualit\u00e4t und einfache Funktion",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3PUCHS5LTERLD/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Alles funktioniert wie beschrieben. Vichy nutze es inzwischen sehr oft, in der Bahn und an anderen Orten.",
+                            "publication_date": "2023-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christine",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFLCQSE3CQKR26F5NRPENMTDHZSA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Liegt gut im Ohr, hat einen guten Klang",
+                            "url": "https://amazon.de/gp/customer-reviews/R17TO12BWO52JZ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Liegt sehr gut im Ohr. Klang sehr gut.\nW\u00fcrde ich wieder kaufen.",
+                            "publication_date": "2023-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Schmidt",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHW7IL52S5X5MX2IPW2IKOYAAQRQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "W\u00fcrde ich wieder bestellen",
+                            "url": "https://amazon.de/gp/customer-reviews/R3EU7AU9YYLDDK/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Hab mir zwei verschiedene Kopfh\u00f6rer mit Kabel bestellt und muss sagen, dass die einen viel besseren Klang haben als die Samsung.\nIch hoffe, sie halten auch gut ;)",
+                            "publication_date": "2023-10-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Aleksei Berezkin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFHC6NIESPONYHNNBVOWD72I4LWQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Good phones for these money",
+                            "url": "https://amazon.de/gp/customer-reviews/R1MWMEOKTR3DSQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Good sound quality, but please note is has boosted bass. Comfortable in ear. Nice bag.",
+                            "publication_date": "2023-10-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hauke",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGEVH3E2YFKAACJNHDZRBMKATX2Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr den Preis gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R2MI0811V8JX1T/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Funktioniert",
+                            "publication_date": "2023-10-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lucas Alex  Irchin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGX26DAOAJI67ZEBYJFKDJKKUYXQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gute Kopfh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/R19T2SCKBBLCO2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Ich habe in letzter Zeit viel ausprobiert. Gr\u00f6\u00dftenteils wireless Kopfh\u00f6rer. Die haben aber alle nicht gepasst und sind immer rausgefallen.\nDiese Kopfh\u00f6rer sitzen sehr gut. Zudem kann man ja zus\u00e4tzlich das Kabel um die Ohren machen. Die Kopfh\u00f6rer sehen gut aus und der Sound hat einen guten Bass. Gef\u00e4llt mir. Das man die Kopfh\u00f6rer auch magnetisch aneinander kleben kann, macht das Wegstecken sch\u00f6n einfach.\nNur zu empfehlen. :D",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 October 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "pb",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFQUFK554ZGJ7URMLWDR3ENEJPDA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Klang!!!",
+                            "url": "https://amazon.de/gp/customer-reviews/R34UGYUHDY88G7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Sehr hochwertig, super Klang, auch die B\u00e4sse! Klare Kaufempfehlung",
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "wk",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEZANBPC5J33GO3VAXIAZHY4R46A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bin sehr zufrieden. Preis/Leistung top!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2E16SQCTZLGJY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Bin sehr zufrieden. Preis/Leistung top!",
+                            "publication_date": "2023-10-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Yasar",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/fbebf9ab-fe85-4d5c-bc18-52a0d2df313f._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFNWCZCCUDR7POZUN6MMF7EB43EA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "super",
+                            "url": "https://amazon.de/gp/customer-reviews/RO59D2XKR2B49/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "super",
+                            "publication_date": "2023-10-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mr. David Vasey",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/8e0785c3-0e94-4e0d-b77c-d7a2cd0c2ce0._CR0,0,382,382_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEAL7N6CGWKK3MEWJDXQYBA3TX4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Notch Sound quality",
+                            "url": "https://amazon.de/gp/customer-reviews/R9VWPJGAW3LBP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "I didn't have high hopes with this basd on the price. I only got for work being lightweight etc. However, after customising a graphic equaliser setting across 32 bands the sound quality at this price really really impressed me. Solid deep bass and a good high end no distortion, clear vocals.  I would definitely buy these again. And very comfortable to wear. Highly recommended\ud83d\ude09\ud83d\ude00",
+                            "publication_date": "2023-08-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFLGQ556XBWAFYPFM2IO3U2L7DKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Topqualit\u00e4t f\u00fcr einen diesen Preis",
+                            "url": "https://amazon.de/gp/customer-reviews/R1U4YVAG7FTSAD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Ich hatte schon mehrfach Kopfh\u00f6rer in diesem Preissegment. Anfangs war ich skeptisch wie wohl die Qualit\u00e4t von diesen sein wird. Positiv \u00fcberrascht hat mich dann bereits die Verpackung, noch mehr das kleine Zusatzgeschenk mit einer netten Geschenkkarte. Absolut \u00fcberzeugt hat mich aber dann die Qualit\u00e4t. Sowohl was die Hardware aber besonders die Tonqualit\u00e4t betrifft. Bin begeistert und kann das Produkt nur empfehlen.",
+                            "publication_date": "2023-08-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "HH",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE5HKX6PKFUPJ3KRZP7GSGVT2QRA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "W\u00fcrde ich wieder kaufen",
+                            "url": "https://amazon.de/gp/customer-reviews/RUEE1LWMX6RO2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Kurz und B\u00fcndig, f\u00fcr diesen Preis einen sehr gute Leistung von der Verarbeitung bis zu dem sehr guten Klangbild wo  Andere richtig zulangen.\nW\u00fcrde ich jederzeit wieder kaufen.",
+                            "publication_date": "2023-08-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 August 2023",
+                            "helpful_votes": 2,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81RfFFV6tJL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Carina F.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGBIFR5DLJWTQ7QZYSISTS5XUCJQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr zufriedenstellend!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3J8JP2WE6D6UI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Lieferung ging super schnell. Spezifisch wurde nochmal angefragt,  ob ich denn f\u00fcr das richtige Ger\u00e4t bestelle um unn\u00f6tiges zur\u00fcckschicken zu vermeiden. Fand ich pers\u00f6nlich, sehr positiv! Zudem ist der Klang der Kopfh\u00f6rer und des Mikrofons sehr gut! Kopfh\u00f6rer sind auch magnetisch. Positiv beeindruckt hat mich auch die Verpackung und das Zubeh\u00f6r.  Vielen Dank f\u00fcr die s\u00fc\u00dfe Karte \ud83d\ude00.\nHoffe, die Kopfh\u00f6rer werden einige Zeit halten.",
+                            "publication_date": "2023-08-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dosierpumpen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEJ6P42ZV5Y37CF2FOHKOZW3FTSA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kopfh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/R3NZ1YDY5UBPNB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Sehr guter Klang und Qualit\u00e4t. W\u00fcrde ich wieder kaufen und weiter empfehlen",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter Hecht",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH2UDRAL5EX35AQLAOVRU73RHWFA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R2AVM28OMQYAT5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Gut",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Maike Fischer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGOUDZYO7G35DUYS563CPIBLYKCQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Toll",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BGI8MYIX0NKP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Gutes Preis- Leistungs-Verh\u00e4ltnis. Wir verwenden es im Wohnwagen, um den Partner nicht zu st\u00f6ren",
+                            "publication_date": "2023-08-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Customer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG7TGVAOVXP5KX7YFRWIT3YF2TNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Empfehlenswert",
+                            "url": "https://amazon.de/gp/customer-reviews/R3K6BQL9RDIBGE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "F\u00fcr diesen Preis wirklich gro\u00dfartige Tonqualit\u00e4t, vergleichbar mit Produkten, die fast das Vierfache kosten. Auch sehr angenehm und wirklich langlebig. Sehr empfehlenswert",
+                            "publication_date": "2023-08-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE6Y4HKCSQ6QVIU7VHBSKZJNOVEQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ohrh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/R1EGTJVHHK7EZO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Schnelle Lieferung. Toller Preis. Bin sehr zufrieden",
+                            "publication_date": "2023-08-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "internetkanzler",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH3GVEVQUNDAIUHRZZJ55XVQ3CTQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle Qualit\u00e4t in jeder Hinsicht",
+                            "url": "https://amazon.de/gp/customer-reviews/RFPQLUMWMIXOR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Tonqualit\u00e4t und Sprachqualit\u00e4t gut, Haptik wirklich sehr gut. Top Preis-Leistung",
+                            "publication_date": "2023-08-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter Rudolf",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFCG7UVSKOJU5HWHSNTCX42GAQ4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Kopfh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/R3995PWSJG2SNF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Bin sehr zufrieden mit diesen Kopfh\u00f6rer.H\u00f6re Musik und H\u00f6rb\u00fccher.",
+                            "publication_date": "2023-08-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Katrin G.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEIWI6YN2Q7X5W7NAY2CYYCJM7JA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Anfangs super",
+                            "url": "https://amazon.de/gp/customer-reviews/R2KX0NGR3YQ0G6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Die ersten 4 Wochen perfekt.  Starker Sound! Dann leider eine seit defekt.  Habe leider auch nichts gefunden,  wo ich es reklamieren h\u00e4tte k\u00f6nnen. Das kann aber tats\u00e4chlich mein Fehler gewesen sein ... habs einfach nicht gefunden",
+                            "publication_date": "2023-10-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Isabella Switlinski",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH4KTWBYFJ35KZKWMI5CHTJ3US5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kopfh\u00f6rer",
+                            "url": "https://amazon.de/gp/customer-reviews/R1KTWOCPMWJJUY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Leider versteht man sehr schlecht man muss viele ger\u00e4uschemit wahrnehmen wie z.b seine eigene Jacke Pulli und immer ins Mikrofon reden und festhalten finde ich nicht gut",
+                            "publication_date": "2023-11-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Achim schmitz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEVDP65HZYSB5XPXYSTXC55QBD5Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles wie beschrieben,sehr gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R3DNWCNEXGGXLO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BYNSPWLS",
+                            "review_text": "Ware : wie erwartet gut\nVersand: wie angegeben schnell\nLieferung korrekt",
+                            "publication_date": "2023-07-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,990 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0431 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-fdaad7c36770",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0251 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-fdaad7c36770"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B07W95445B",
+                "asin": "B07W95445B",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B07W95445B",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B07W95445B?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:16 +00:00",
+                    "spell": null,
+                    "title": "Samsung N976B Galaxy Note 10+ 5G 256GB/12GB RAM without Contract Aura...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung N976B Galaxy Note 10+ 5G 256GB/12GB RAM without Contract Aura Glow",
+                        "url": "https://amazon.de/-/en/Samsung-N976B-Galaxy-without-Contract-silver/dp/B07W95445B/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41j4bCX+AZL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.2",
+                        "votes_count": 118,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 43,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hans-Christian Wunderlich",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHLGTDRCLCTYBEXRB7QUV4SEKK4A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes Teil!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3RER42P395Q9Z/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Das Smartphone wurde \u00fcber Prime schnell geliefert. Es handelt sich um Neuware mit unbesch\u00e4digtem Siegel an der Verpackung. Freundlicherweise ist auf dem Display eine d\u00fcnne Schutzfolie angebracht (sehr gut, Samsung!); au\u00dferdem wurde eine transparente Schutzh\u00fclle f\u00fcr das Note 10+ gleich mitgeliefert - prima! \u00dcber die Einstellungen konnte ich problemlos auf Android 12 aktualisieren; das ich nicht das aktuelle Android 13 bekommen habe, st\u00f6rt mich \u00fcberhaupt nicht, denn mein altes Note 8 hatte nur Android 8; und das habe ich \u00fcber 4 Jahre lang genutzt und \u00fcberlebt \ud83d\ude09 . Macht einen guten Eindruck; ich mag die Note-Serie, die ja leider nur noch bis zum Note 20 produziert wird. Das wird dann wahrscheinlich mein n\u00e4chstes sein. Aber bis dahin habe ich ja noch Zeit...",
+                            "publication_date": "2023-10-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alireza Abbasimoshaei",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHEAMX6RO2PX5NBVIJHGIVLPZ6BQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Versp\u00e4tung in sendung, sonst gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RIVQU9GLV0YHS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Gut aber versp\u00e4tung in sendung",
+                            "publication_date": "2023-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 August 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Thiel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFHQOVTPCBHE43PO6H2ZVEN4DL3Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Das beste Samsungmodel seit l\u00e4ngerem in dieser Preisklasse",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R23JCSQ6WY7W66/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Ich habe dieses Smartphone vor etwa einer Woche gekauft und bin sehr begeistert. Note 10+ hatte auch fr\u00fcher schon, habe danach ein S20FE gehabt und bin sehr gerne zur\u00fcckgekehrt. Wie an dem Vergleich der technischen Daten leicht zu erkennen ist, hat dieses Ger\u00e4t seitens seines RAMs dieselben Daten wie die neuesten Modele von Samsung. 5G-f\u00e4higkeit gibt es jetzt auch noch dazu....einfach super. Was Funktionen betrifft::::: ich wurde fast dem Samsung untreu und habe zwischenzeitlich zu Apple gewechselt. Das Appleger\u00e4t geh\u00f6rt zu den besten von Apple zurzeit. Was von Apple \u00fcber Funktionen zurzeit beworben wird, gibt es bei Samsung seit Jahren als Standard... keine Ahnung welches Floh mich da gebissen hat. Nun ist das Problem korrigiert und das \u00c4rger erledigt. Ich geh nie wieder zu Apple, und gerade NOTE 10+ 5G ist momentan das beste Smartphone mit dem besten Preisleistungsverh\u00e4ltnis,...ich w\u00fcrde sogar behaupten momentan auf gesamten Elektronikmarkt.",
+                            "publication_date": "2023-08-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 June 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "R. F.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGRNPFKPCHAWAXT6TXHQSKDSDOTA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Smartphone, aber...",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R20THMGG5CV53U/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Positiv:\nDas Smartphone wurde als \"gebraucht-sehr gut\" erworben und war in einem Top Zustand.\nDas Smartphone bietet gute Features, l\u00e4uft sehr schnell, Spiele laufen ohne Probleme, hat eine gute Akkulaufzeit, blitzschneller Ladevorgang, die Kamera macht hochaufl\u00f6sende Bilder und Videos, das Design ist ist unglaublich sch\u00f6n, rundum mit stabilen Gorillaglas ausgestattet, dass macht das Smartphone zu einem echten Blickfang. Versehentliche St\u00fcrze hat es Problemlos \u00fcberstanden, ich war echt erstaunt \u00fcber die super Stabilit\u00e4t und Qualit\u00e4t des Ger\u00e4tes. Gutes Preis-Leistungsverh\u00e4ltnis, ich w\u00fcrde es weiterempfehlen. Daf\u00fcr sind auf jeden Fall 5 Sterne drin. Aber....\nNegativ:\nEs wurde kein Eingabe Stift mitgeliefert.\nAufgefallen ist uns das leider erst nach 2 Wochen, da immer die nervige Nachricht auf dem Bildschirm erschien, dass das Smartphone mit dem Eingabestift verbunden werden soll.\nDas Handy wurde gewissenhaft  auf einem Tisch ausgepackt und die Verpackung ordentlich\nin den Schrank gepackt, uns w\u00e4re mit Sicherheit aufgefallen, H\u00f6rbar und Sichtbar, wenn da ein Stift runtergefallen oder heraus gefallen w\u00e4re.\nUns ist das Anfangs nicht aufgefallen, und liessen Revue passieren aber konnten uns an keinen Stift erinnern, nur an das Handy und das Netzteil mit Ladekabel, weil wir ihn bist Dato noch nicht brauchten. Also Verpackung durchsucht und das ganze Zimmer vorsichtshalber auch. Kein Stift.\nHaben den Support/H\u00e4ndler mehrmals angeschrieben, jedesmal wurde steif und fest behauptet, der Eingabestift wurde definitif mitgesendet. Definitiv nicht.\nUnd jemanden \u00fcber den Leisten ziehen haben wir echt nicht n\u00f6tig.\nSehr schade die ganze Sache. Daf\u00fcr 3 Sterne Abzug f\u00fcr den H\u00e4ndler der Zoxs GmbH.",
+                            "publication_date": "2023-06-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Birgit P.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFIYW5F72MNBG5UYWLYIO4CFE5KA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2SM8XIVSIXK9R/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Gegen Samsung ist nichts negatives zu sagen",
+                            "publication_date": "2023-05-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2022",
+                            "helpful_votes": 3,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61YGX9ODhoL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/8193XnzrC9L._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81uspvOvq9L._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ahmad Reshad",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/917e9cf6-2810-4a91-ad9c-e2fad9af201b._CR0,52.0,896,896_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGVMLM6LNYDQ6N2HLA746KQWLNNA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Doesn't have a box",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3P0V38B6OHR6P/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Everything is fine, but doesn't have a box with it, instead of that has a normal fast charger with cable.",
+                            "publication_date": "2022-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 October 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ramona Knipprath",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/df3b143e-a71b-4502-90df-2ec538f3eeba._CR0,0,400,400_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEUR3NAWKISGBNA2EQ4UJDLWPLYA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung galaxy Note 10+",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2GG1A0YAD0RYO/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Funktioniert sehr gut , bin zufrieden\nNur der Preis usw heftig.",
+                            "publication_date": "2022-10-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 June 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Seemann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE6NIS4FPHCTQVAHY6QRNLURPPPA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle Fotos",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3DPMDQGEDGA3Y/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Ein Top Telefon f\u00fcr den Preis.",
+                            "publication_date": "2022-06-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 July 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tughral",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGY5TJ6PD6VVVJWDPM3NID7JKQVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Very good",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2V3Q1U7RRFKEL/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Liked",
+                            "publication_date": "2022-07-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 February 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Bernd Kr\u00fcger",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGLKQRAFRQBDBIISR2NCFF4EDBBQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung Galaxy Note 10+",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3OAVRMQNMPGR9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Klasse Smartphone. Habe ich gebraucht von zoxs bestellt. Ger\u00e4t wie neu und funktioniert tadellos. Bin sehr zufrieden. Bernd Kr\u00fcger.",
+                            "publication_date": "2021-02-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 July 2020",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE6I5TV6TBULERGJML5FML7MPU4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "mega!!!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2F7N24GQNGQ9Z/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Vielen Dank an den Verk\u00e4ufer!\nMega!!! Alles genau wie besprochen!\nVielen Dank!!!!",
+                            "publication_date": "2020-07-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 26 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "otto",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG2LHJPUF4DWXNKBWLYQGA6IOOIQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Betrug, Gebraucht- und keine Neuware!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3R8NH2ZXIIRXQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Im guten Glauben, dass es sich bei dem angebotenen Note 10 Plus um ein Neuger\u00e4t handelt, hatte ein Freund mir dieses Handy \u00fcber seinen Account bestellt.\nNachdem ich festgestellt habe, dass Ortungsdienste nicht funktionieren, wandte ich mich hilfesuchend an den Samsung-Support. Nach Nennung der IMEI-Nummer wurde mir erkl\u00e4rt, dass  dieses Handy bereits 2019 erstmalig in Betrieb genommen wurde und deshalb schon sehr lange nicht mehr garantief\u00e4hig ist. Dar\u00fcber hinaus war dieses Ger\u00e4t NICHT f\u00fcr den deutschen Markt bestimmt.\nDass Amazon solchen Anbietern hier eine Plattform bietet ist mir v\u00f6llig unverst\u00e4ndlich, insbesondere deshalb, weil ein Vorrezensionist die gleiche Erfahrung geschildert hat.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 8 August 2020",
+                            "helpful_votes": 12,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Poly",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/c4ef0e0d-5908-42c2-9d21-e5e9245b1a19._CR93,0,313,313_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH2KJ3UKX4EPZF6SVO34W2Z4EJRQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hier wurde zu viel gespart.",
+                            "url": "https://amazon.de/gp/customer-reviews/R1VZMV5GNCVI53/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Mega Teil, es wurde aber leider auch gespart. Die kleine Kontroll LED ist weg gefallen, diese fehlt mir. Man fragt sich eigentlich warum? Warum wurde die 3 Taste weg gelassen? Warum wurde der Powerbutton auf die linke Seite verlegt. Ich frage mich ernsthaft, wer denkt sich soetwas aus? Ich kann hier nur sagen, dass Note 9 braucht sich nicht hinter dem Note10+ verstecken. Fingersensor funktioniert jetzt besser. Kamera nicht viel besser als beim Note 9. Was bleibt sind die Einsparungen gegen\u00fcber dem Note 9. 5G, wie werden mal sehen. Akku h\u00e4lt nicht l\u00e4nger als beim Note 9. Kopfh\u00f6rer Anschluss, meine Kopfh\u00f6rer passten nicht, erst der Ersatz. Der Klang der Kopfh\u00f6rer eine Zumutung, hier finde ich kaum Worte. Ein Handy was eine UVP von ca. 1200\u20ac hat solche Kopfh\u00f6rer beilegen. Adapter f\u00fcr normale Kopfh\u00f6rer liegt nicht bei. Daf\u00fcr m\u00fcsste man eigentlich schon 1 Stern abziehen. Was mach ich jetzt mit meinem guten Kopfh\u00f6rer?",
+                            "publication_date": "2020-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 November 2021",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Atze",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGGXJMMMAC6NWJFOKE7BHNZ5TD6A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/R28DKTKIF2B4S3/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Das Handy war ein Ausstellungsst\u00fcck und ich habe es f\u00fcr meine Frau gekauft. Sie ist Samsung \u201e Fan\" und war mit ihrem vorherigen Samsung Handy sehr zufrieden. Das dies aber jetzt in die Jahre gekommen ist und bald keine Updates mehr zur Verf\u00fcgung stehen musste ein neues Modell her. Der Zustand des Handys ist 1A. Die Funktion, Kamera, Akkulaufzeit sind einwandfrei. Meine Frau ist sehr zufrieden damit.",
+                            "publication_date": "2021-11-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 20 October 2021",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Schr\u00f6der Thomas",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGJHD5DGM4EVOYQ577GFCE5MYNZA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "tolles Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/R25KOFES865HWX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "genau das was ich gesucht habe zum top Preis",
+                            "publication_date": "2021-10-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 April 2021",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "S. Neumann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/ff1ff6b8-547d-40cf-8d61-49ef062fb535._CR0,0.0,332,332_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFHL5OJHDROFFMSMFU5LGO43GHAA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein PC f\u00fcr die Hosentasche \ud83d\udc4c\ud83d\udc4d",
+                            "url": "https://amazon.de/gp/customer-reviews/R2D0RRPQ7VR7H2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B07W95445B",
+                            "review_text": "Nach langem \u00dcberlegen habe ich mich entschlossen dieses Handy zu kaufen. Hatte fr\u00fcher schon ein Note, jetzt momentan Huawei \ud83d\ude44, aber was soll ich sagen, einfach ein TipTop Handy, f\u00fcr Arbeit und Freizeit, ein PC f\u00fcr die Hosentasche.",
+                            "publication_date": "2021-04-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 30 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "vincenzo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/3551504e-6a10-4184-ad57-808850bdc81e._CR0,0,500,500_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Ottimo",
+                            "url": null,
+                            "review_text": "Prodotto promosso consiglio",
+                            "publication_date": "2023-10-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 30 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Francisco",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Buena calidad",
+                            "url": null,
+                            "review_text": "Me encanta va s\u00faper r\u00e1pido y es genial",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 7 August 2022",
+                            "helpful_votes": 19,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61KY0B-hhbL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61nPVTgdajL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61zL3jAtFuL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "silvia",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/599bbc04-b54b-4015-adcb-9c918689f169._CR0,0,378,378_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Nuovo o ricondizionato?",
+                            "url": null,
+                            "review_text": "Samsung note 10 plus 5g\nAcquisto un tel nuovo...spedizione celere, apro la confezione originale ed il prodotto si presenta cos\u00ec....  scrivo al venditore spiegando la situazione...ma la sua risposta  e in lavorazione....cerco di nn scoraggiarmi attendendo la sua risposta x urgenza provo a controllare tutto, sperando che nn sia u  ricondizionato al posto del nuovo,  avendolo pagato 749 euro....cmq come ho detto  x urgenza lo metto in funzione , ma la batteria dopo nemmeno 10 min mi scala il 3%, ri.a go scioccata ,la batteria del dispositivo vecchio dura di pi\u00f9.,mi chiedo se potrebbe essere normale essendoun note che si scarica cos\u00ec velocemente nn conosco bene e quindi chiedo a chi l ha gi\u00e0 usato e normale???, nn so cosa fare ci sono rimasta veramente malissimo  inoltre nn riesco a trovare lo stato della percentuale della batteria ... ma solo qlk info superficiale  che allego in foto nn so cosa fare... x adesso cos\u00ec spero di aggiornare positivamente  sperando che il venditore mi aiuti",
+                            "publication_date": "2022-08-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[13]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 30 July 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Luciano",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/9e8c588a-2b1f-4d5e-9ecb-f0776288aa4c._CR109,0,281,281_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Bellissimo",
+                            "url": null,
+                            "review_text": "Bellissimo telefono, nuovo, nuovissimo, sigillato. Secondo me, il pi\u00f9 bello della gamma Note di sempre. (Gli auricolari inclusi nella confezione non funzionano, ho acquistato un altro paio aparte) Comunque sono contento del telefono, vale i soldi.",
+                            "publication_date": "2023-07-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 5 May 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Cristian",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Samsung Galaxy Note 10 Plus Aura Glow 5G",
+                            "url": null,
+                            "review_text": "Bellissimo.  Insostituibile, Unico. migliore degli utimi modelli serie Note. Soprattutto la versione 5g.\nIl sensore ToF, la s-pen pi\u00f9 avanzata di sempre, la sua linea, laudio zoom, i megapixel effettivi.\nil miglior Smartphone tutt'oggi in commercio. Difficile trovarlo a un prezzo simile proposto da Amazon italia.\nGrazie di cuore al operatrice che mi ha assistito (e a tarda ora) su mia richiesta per supporto riguardo le modalit\u00e0 di consegna definita tramite codice. E graze anche al corriere, una Persona gentile e corretta",
+                            "publication_date": "2023-05-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 13 July 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/815cORQ9JjL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "O. Milliez",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Tr\u00e8s d\u00e9\u00e7u \ud83e\udd2c",
+                            "url": null,
+                            "review_text": "Bonjour\nJ'ai achet\u00e9 un note 10 plus 5g. Trois mois plus tard mon t\u00e9l\u00e9phone tombe en panne au bout de 3 mois. Je le renvois pour une r\u00e9paration qui a tra\u00een\u00e9 1 mois et demi, pour enfin de compte r\u00e9cup\u00e9rer un t\u00e9l\u00e9phone avec la coque arri\u00e8re d\u00e9coller. Je suis tr\u00e8s d\u00e9\u00e7u, \u00e9tant pourtant un bon client chez Amazon. Je n'ose m\u00eame pas allum\u00e9 mon t\u00e9l\u00e9phone dans cette \u00e9tat. Plus de 500 euros quand m\u00eame le t\u00e9l\u00e9phone.\nJe voudrais me faire rembourser mon t\u00e9l\u00e9phone.",
+                            "publication_date": "2023-07-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 20 May 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Guillaume",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Parfait T\u00e9l\u00e9phone et Vendeur",
+                            "url": null,
+                            "review_text": "Achet\u00e9 en occasion, condition dite \"acceptable\". Parfaitement emball\u00e9, livr\u00e9e  avec chargeur et \u00e9couteurs adaptable, cheap mais parfait. Re\u00e7u le lendemain de ma commande. Le t\u00e9l\u00e9phone a quelques rayures visible \u00e9cran \u00e9teint, allum\u00e9, elles disparaissent. Produit conforme, je recommande le vendeur",
+                            "publication_date": "2021-05-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 9 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Donato",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "il migliore della samsung",
+                            "url": null,
+                            "review_text": "Questo smartphone \u00e8 il migliore della samsung\nunica cosa che migliorerei \u00e8 il consumo della batteria durante l'ascolto della musica",
+                            "publication_date": "2023-06-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 6 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Antonio G.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "No funciona, una mala compra",
+                            "url": null,
+                            "review_text": "Tratar de que  cubrir una garant\u00eda de Samsung es toda una odisea pues no hay manera de hacerlo por la cantidad de gestiones que tienes que realizar. LLEVE EL MOVIL AL SERVICIO TECNICO , y le traje con la misma aver\u00eda,  otra vez lo  tengo que llevarlo",
+                            "publication_date": "2023-10-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 22 February 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dario",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Una resa non corrispondente alle attese",
+                            "url": null,
+                            "review_text": "Il prodotto si presenta con una complessit\u00e0 non attesa, rese non sufficienti per un normale utilizzo. Probabilmente dovrebbe essere destinato a persone dotate di una pi\u00f9 alta tecnologia. Non va bene per un uso comune.Inutile e mai funzionante il riconoscimento facciale. Scarsa durata della batteria e della fotocamera.",
+                            "publication_date": "2023-02-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 21 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stefano",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "NOTE 10+5G",
+                            "url": null,
+                            "review_text": "Telefono nuovo,arrivato sigillato nella sua confezione originale,perfettamente funzionante.",
+                            "publication_date": "2023-05-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 21 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ari",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "usato spacciato per nuovo",
+                            "url": null,
+                            "review_text": "usato",
+                            "publication_date": "2023-10-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 19 February 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Cinzia Locatelli",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "BELLO MA INDICAZIONI POCO DETTAGLIATE",
+                            "url": null,
+                            "review_text": "Il telefono \u00e8 bello sia graficamente che per la fotocamera il problema \u00e8 che il venditore non specifica che il telefono proviene dal mercato inglese e la batteria dopo le fatidiche 10 ricariche per stabilizzarla continua a farmi solo 3 ore in autonomia(solo youtube, whatsapp e qualche videogioco con massimo 45 minuti in totale di gioco) scaricandosi molto velocemente a schermo spento quindi mi ritengo soddisfatto delle qualit\u00e0 hardware esclusa la batteria, componente non indifferente e lato software molto completo.\nLascio una stella perch\u00e9 comunque servono informazioni pi\u00f9 chiare e solo 3 ore in autonomia non si possono gestire",
+                            "publication_date": "2023-02-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 24 December 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Arianna Longhin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Consigliato!",
+                            "url": null,
+                            "review_text": "Ho sostituito  il vecchio note 8 con questo,  confermo che la gamma \u00e8 davvero fantastica!",
+                            "publication_date": "2022-12-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

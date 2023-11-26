@@ -1,0 +1,959 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0403 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-11f9a32d7b13",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0233 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-11f9a32d7b13"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0B7J3JF2P",
+                "asin": "B0B7J3JF2P",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0B7J3JF2P",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0B7J3JF2P?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:57:57 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy Watch5 Pro Round LTE Smart Watch Wear OS Outdoor...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy Watch5 Pro Round LTE Smart Watch Wear OS Outdoor Fitness Watch Fitness Tracker 45mm Titanium (German Version)",
+                        "url": "https://amazon.de/-/en/Samsung-Outdoor-Fitness-Tracker-Titanium/dp/B0B7J3JF2P/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31+grpxTffL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "3.4",
+                        "votes_count": 63,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 31,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lelouchia",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG4KF2BLRJKKS2WMHC6AWPPA7J4Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Europ\u00e4ische Version",
+                            "url": "https://amazon.de/gp/customer-reviews/R3QLUYYWVD9FRR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Es handelt sich nicht wie beschrieben um die deutsche Version, sondern um die Europ\u00e4ische.\nEs gibt glaube ich ein paar Probleme mit Samsung-Pay im deutschen Raum, aber ansonsten soweit eine stabile Uhr.\nWenn pl\u00f6tzlich der Akku anf\u00e4ngt innerhalb von einem Tag leer zu werden, mal die neuen Apps \u00fcberdenken, evtl ist da eine dabei die b\u00f6se Akku zieht :)\nAkku h\u00e4lt bei normaler Nutzung ca >2 Tage",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 January 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michael Christof",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEITWNFUGWDTUYSNN3KWZYLTFPBA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Geht nur mit neuer Software mein S6 Samsung ist nicht mehr nutzbar?  Flop steht nicht in Angebot",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RGBSNMYF80DNC/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Nur neues Handy das ist ein Flop und nicht w\u00fcnschenswert.",
+                            "publication_date": "2023-01-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 February 2023",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dieter S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGU7X7WUGP4MBV4KMT37GZJ6SO2Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Stylisch super Display Blutdruck Messung noch entwicklungsbed\u00fcrfti",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3MZQA9MLVZONA/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Tolles Display\nSuper Bedienung\nSchlafaufzeichnung hat Probleme Schlafunterbrechungen zeitlich korrekt aufzunehmen. Man geht kurz pinkeln und findet dann eine Unterbrechung von 35-45 Minuten vor. Die Schlafphasen scheinen korrekt zu sein.\nBlutdruck messen, kontrolliert mit einem validierten Ger\u00e4t ist erst nach 3. oder 4. Messung akzeptabel.\nHier hoffe ich auf Firmware Updates.\nAlles andere finde ich super.\nDas Armband sp\u00fcrt man nicht wenn es richtig eingestellt ist.\nEs k\u00f6nnten mehr voll umg\u00e4nglich bedienbare Ziffernbl\u00e4tter die kostenlos heruntergeladen werden k\u00f6nnen, verf\u00fcgbar sein.Bei der Gear S3 war das besser.\nAnsonsten gute Akkulaufzeit und ein sch\u00f6nes Gadget.",
+                            "publication_date": "2023-02-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 May 2023",
+                            "helpful_votes": 12,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dave",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHP465UZOSIYUDSV6OOZUXZ4XMVA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zwei mal EU Version geliefert bekommen",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RF88YIBUYE41M/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Ich habe mich sehr \u00fcber die Uhr und das g\u00fcnstige Angebot der der LTE Version gefreut. Die Uhr ist schick und liefert sicherlich was sie verspricht. Dies konnte ich jedoch nicht testen.\nHatte die Uhr inzwischen zum zweiten mal weggeschickt.\nBeim ersten mal hatte man vermutet, dass im Lager falsch gepickt wurde. Beim zweiten mal wird nun der H\u00e4ndler hoffentlich abgestraft, der seine Produkte bei Amazon lagert.\nMan kann doch nicht \"deutsche Version\" in der Beschreibung und als Modellnummer SM-R925FZTADBT angeben, aber am Ende ein Produkt anbieten, dass gar nicht f\u00fcr den deutschen Markt gedacht ist. Es war zwar m\u00f6glich die deutsche Sprache auszuw\u00e4hlen, bei der Region nicht. \u00d6sterreich und Schweiz gehen jedoch. Aber mit der EU Version funktionieren bestimmte Dienste, wie das Samsung-Pay, nicht.\nIch bin nun gespannt, wann Amazon das Problem l\u00f6st. Ich werde es in einer Woche erneut versuchen und hoffe, dass bis dahin der Preis erhalten bleibt sowie die richtige Version hier angeboten wird.",
+                            "publication_date": "2023-05-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 February 2023",
+                            "helpful_votes": 14,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Anke",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGOR2SY33CUE6DAOPKGCPP3GNZKA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Watch mit Blutdruckmessung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3SGK3X8HJYUN4/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Letztendlich fiel die Entscheidung auf die Samsung Watch. Sollte es die zierlich wirkende 4 mit 40 mm und 9,8 mm dicke, oder doch die 5, oder gar die klobig wirkende 5 pro mit 45 mm und 10,5 mm dicke, sein.\nDie Entscheidung fiel zum Schluss doch auf die Watch 5 pro wegen der l\u00e4ngeren Akkulaufzeit und mit LTE in der Farbe Titanium.\nZus\u00e4tzlich zu dieser Bestellung orderte ich noch eine Displayfolie und eine Harth\u00fclle (klarsicht) als Stosschutz und ein Ladekabel f\u00fcr Unterwegs.\nEine Watch ohne eigenst\u00e4ndige Telefonfunktion und Internet finde ich pers\u00f6nlich nicht notwendig, daf\u00fcr gibt\u2019s das Handy. Mit einer Hauptkarte und einer MultiSim Karte habe ich bei zwei Ger\u00e4ten die gleiche Rufnummer. So bin ich auf der Watch 5 pro mit der gleichen Nummer erreichbar ohne ein Handy dabei zu haben zu m\u00fcssen.\nNun musste eine herk\u00f6mmliche Karte vom Provider gegen eine eSim ausgetaucht werden. Das ging v\u00f6llig unproblematisch, nach einer Stunde hatte ich den QR Code.\nNun meine ersten Schritte mit dem Neuerwerb.\nDas Samsung Fold hat sich automatisch mit der Watch 5 pro verbunden und die Software Galaxy Wearable wurde ohne Zutun heruntergeladen. \u00dcbernahme der Daten vom Fold klappte auch reibungslos. Telefonbuch usw. wurden \u00fcbernommen. Nach der Aufforderung den QR Code f\u00fcr die eSim einzulesen erfolgte auch hier die Einrichtung fast von selbst. Ebenso unproblematisch war das Einrichten der Samsung Buds 2.\nEinige Probeanrufe hinsichtlich der Sprachqualit\u00e4t waren beeindruckend.\nNun habe ich \u00fcber die Watch 5 pro die Amazon Musik App heruntergeladen. \u00dcber die Buds 2 kann zwar durch Antippen die Lautst\u00e4rke ver\u00e4ndert werden, war mir aber zu leise. \u00dcber den Button Lautst\u00e4rke Men\u00fc bei der Watch kann die Lautst\u00e4rke angepasst werden.\nLeider gibt es von Audible, aus mir unerfindlichen Gr\u00fcnden, keine H\u00f6rbuch App. Also ist ein wenig Improvisation erforderlich. Ein H\u00f6rbuch im MP3 Format als ein Track (keine weiteren Kapitel wegen der \u00dcbersichtlichkeit) in den Musikordner des Handys kopieren und mit Galaxy Wearable auf die Watch 5 pro \u00fcbertragen.\nSchon habe ich Musik und H\u00f6rb\u00fccher.\nDie erste eigentliche H\u00fcrde gab es beim Blutdruck. Hier muss der Blutdruck zun\u00e4chst mit einem Oberarm Blutdruckmessger\u00e4t kalibriert werden, dann alle 28 Tage wieder.\nAlso erst mal ein Blutdruckmessger\u00e4t mit Oberarmmanschette kaufen und den Abgleich durchf\u00fchren.\nWie schon erw\u00e4hnt, meine ersten Schritte, und es wird noch eine ganze Zeit dauern bis ich mit den Apps durch bin.\nMit der Entscheidung Watch 5 pro bin ich total zufrieden.",
+                            "publication_date": "2023-02-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 April 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Wilke Witte",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGBYU4U5D6UYNT3RIHN4WGKMEDDQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Je nach Anbieter nur Datenverbindung m\u00f6glich, keine Telefonie!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2HSL3PQQHS9C9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Je nach Telefonanbieter ist bei der eSIM-Verwendung ausschlie\u00dflich Datenverbindung m\u00f6glich. Beim Versuch zu telefonieren wird die Verbindung nicht aufgebaut (es sei denn, die Watch telefoniert via Bluetooth \u00fcber das Handy - doch daf\u00fcr brauche ich ja dann nicht LTE). Mein Anbieter (sipgate) lie\u00df verlauten, dass man daran arbeite. Ich habe dann bei Congstar angerufen, um zu fragen ob es bei deren Vertr\u00e4gen ginge, eine SmartWatch als Standalone zu verwenden - gleiches Problem: Daten ja, Telefonie nein. Geht man direkt zur Telekom funktioniert es wohl.\nIch hatte vor 4 (!) Jahren mal eine Billiguhr samt GPS f\u00fcr unser Kind gekauft und wir konnten v\u00f6llig frei miteinander telefonieren.\nMir ist v\u00f6llig unverst\u00e4ndlich, wie hier eine Technik so verbaut wird, dass sie immer noch nicht das kann, was Billiganbieter k\u00f6nnen. Da sind zu 50% auch die Mobilfunkanbieter in Zugzwang, so eine Technik gangbar zu machen. Aber eben auch nur zu 50%, da es offensichtlich ja auch anders geht.",
+                            "publication_date": "2023-04-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 March 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "KEH",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHNHSJT7YPCQBHSLBP2GT4OLCW3Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Leider bei Restbestellung EU Version erhalten",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1MNM8QJOXVEX/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Habe leider bei Restbestellung auch die EU Version bekommen. Das hei\u00dft: Deutschland als Land nicht anw\u00e4hlbar. Nur andere EU L\u00e4nder wie Polen oder \u00d6sterreich...\nEntgegen der Artikelnummer, die in der Beschreibung angegeben wurde wo klar DBT steht wurde eine EU Artikelnummer Uhr geliefert.\nZur Beschreibung noch ein Tipp: In der Titelbeschreibung den Schreibfehler \"Deutche Version\" korrigieren.\nHabe neu bestellt und hoffe jetzt auf die DBT Version. Amazon Kundenservices wie immer hilfreich und Top. Trotzdem - das ganze f\u00fcr mich \u00e4rgerlich!!!\nAktualisierung: Von Amazon dann DBT Version erhalten. Jetzt alles Top. Super Uhr. Bei Erstbestellung war wohl H\u00e4ndler aus Polen im Spiel - was aber f\u00fcr mich nicht ersichtlich war. War das gleiche von mir gespeicherte Lesezeichen auf der Wunschliste!",
+                            "publication_date": "2023-03-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 June 2023",
+                            "helpful_votes": 7,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Franz Kohl",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/a6e9a5f8-2d65-43f5-a1e8-4f349d7163cd._CR110,0,280,280_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGP5N2TV5WIBFCBS3OOYZCNRCN4Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Achtung: geliefert wurde eine EU-Version, keine deutsche Version!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RW1DOSZ4O75N0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Nachdem meine urspr\u00fcngliche Rezension abgelehnt wurde (vermutlich weil ich auf die entsprechende Samsung-Seite mit der deutschen Artikelnummer verlinkt hatte...), hier nun kurz & knackig das Wichtigste:\nIm Artikel-Titel steht Stand heute (19.06.23) trotz meiner Produktfehlermeldung von vor 3 Tagen immer noch \"Deutche Version\" und in der Artikelbeschreibung die Artikelnummer SM-R925FZTADBT (das ist lt. Samsung die deutsche Version) drin.\nGeliefert wurde mir jedoch eine EU-Version (Artikelnummer SM-R925FZTAEUE). Seitlich auf der Samsung-Verpackung war zudem ein Aufkleber mit polnischen Angaben. H\u00e4tte ich mal besser vor der Bestellung schauen sollen, wo der Lieferant seinen Firmensitz an: in Krakau in Polen...\nDiverse andere Rezensenten haben ja bereits geschrieben was lt. Samsung mit einer EU-Version, bei der bei der Ersteinrichtung in der Regionauswahl \"Deutschland\" fehlt, in Deutschland alles nicht funktioniert: Samsung Pay und LTE (eSim-Aktivierung). Und wer wei\u00df dann was noch alles nicht funktioniert...\nNur gut, dass der Versand \u00fcber Amazon l\u00e4uft und ich somit nur den Zeitaufwand f\u00fcr die R\u00fcckgabe aber keine finanziellen Nachteile habe...",
+                            "publication_date": "2023-06-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "peter r\u00f6hrig",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/c63f1d03-03e7-4c42-bdeb-464dcf264df5._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHE32H3FT6N24YTQRUJZNGFY6XGQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Verarbeitung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2PYFI3GGYJ6EY/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Die Uhr ist der Hammer funktioniert alles perfekt schade nur das whatsapp ja auf keiner Uhr installierbar ist man bekommt zwar Nachrichten kann sie auch beantworten aber \u00fcber die Uhr kann man keine verschicken nut SMS  schade sonst ist sie top top top",
+                            "publication_date": "2023-07-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 December 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Johann P.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFENU554BDRKG7QEEMPGEFKGSAYA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kein 2 Armband dabei, um diesen Preis?",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1DGHVO6MMMUJ7/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Preis Leistung ?",
+                            "publication_date": "2022-12-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Martin Winkler",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGW2LVRYSKWP7WLBMPC2METNYF5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Nicht die deutsche Version erhalten",
+                            "url": "https://amazon.de/gp/customer-reviews/R2XAA5HN811805/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Bei der Uhr war Deutschland beim Gebietsschema nicht vorhanden. Es handelt sich also  nicht um die deutsche Version. Lediglich die Sprache konnte auf Deutsch eingestellt werden. Ich habe die Uhr umgehend zur\u00fcck geschickt.",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Uta Frank",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHXUSZD63XUSJRGCKAMB3ICI5F6A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle Uhr",
+                            "url": "https://amazon.de/gp/customer-reviews/R5B0INFHO5OWY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Schneller Versand. Die Uhr entspricht ganz genau meiner Erwartung.",
+                            "publication_date": "2023-08-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M.P.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEZHUSN3KYQN3SK6D2OUHZD4QHKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Artikelbeschreibung stimmt nicht!",
+                            "url": "https://amazon.de/gp/customer-reviews/RY5MBBA0J1SAY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Wie leider schon mehrfach berichtet handelt es sich bei der Uhr nicht um eine deutsche Version, sondern um ein EU-Modell! Da einige Funktionen in Deutschland nicht verf\u00fcgbar sind, ging die Uhr zur\u00fcck.",
+                            "publication_date": "2023-07-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 July 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/51lXMiOvL3L._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "cleo2385",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFOZ2K5AZMJGEWSHP5LFNDIE4ERQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Nicht die Uhr erhalten die wir bestellt haben",
+                            "url": "https://amazon.de/gp/customer-reviews/R7PMEFSXX5NZP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Wir haben extra die DBT Version bestellt weil unter der EU Version manche Funktionen nicht verf\u00fcgbar sind. Gekommen ist aber die EU Variante. Es ist nicht mal Deutschland anw\u00e4hlbar. Die Uhr ging leider sofort Retour.",
+                            "publication_date": "2023-07-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "nordlicht",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFVOSUSQZLY2EQN5XHPAH36SF6AQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Falsche Angaben",
+                            "url": "https://amazon.de/gp/customer-reviews/R3JZ6K5FKECG5O/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Angegeben sind deutsches Modell mit tadbt. Es kam eu Modell mit taeue. In ungarischer Sprache.\nAlso kein LTE, kein pay in Deutschland.\nSehr \u00e4rgerlich. F\u00fchlt sich wie Betrug an.\nGeht zur\u00fcck.",
+                            "publication_date": "2023-06-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 July 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71UXtrS-heL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Martin  L",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEFAXABOFDBIWI5IBECRCUWI4JYA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Falsche Version geliefert und berechnet.",
+                            "url": "https://amazon.de/gp/customer-reviews/R3FYCPUOG9KK82/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Es wurde die EU-Version statt der beworbenen und berechneten deutschen Version geliefert. Ware geht zur\u00fcck.  \u00c4rgerlich! Schade, dass man einen Stern anklicken muss!",
+                            "publication_date": "2023-07-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Elmar Lentz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGTN5ADWXGMXR7E5JSHINYHCZVYQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Achtung, Keine Deutsche Version!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1JD35RAWIP6VE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Auch wenn in der Artikelbeschreibung (Deuche) :-) Version steht, kommt eine EU-Version. Deutschland ist als Region, bei der Einrichtung der Smartwatch, nicht ausw\u00e4hlbar, Samsung Pay funktioniert nicht und auch telefonieren per LTE ist nicht m\u00f6glich, ziemlich unseri\u00f6s.",
+                            "publication_date": "2023-05-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGF2YKPFEXARSNSGRKV4NBEGR3KA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Eu Version anstelle Deutscher Version",
+                            "url": "https://amazon.de/gp/customer-reviews/R2PVGMTGSU7ZKD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Leider haben sich  die anderen Rezensionen bewahrheitet und es wird nicht der Artikel wie in der Beschreibung angegeben",
+                            "publication_date": "2023-07-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Susanne Auer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHOHY2OMM5LA7TCWDRWPUN6VUGXA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr schlecht, falsche Version.",
+                            "url": "https://amazon.de/gp/customer-reviews/R1UM8LP6ON0QTQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Habe eine deutsche Version bestellt und es kam die EU Version...\nSofort wieder zur\u00fcck geschickt.",
+                            "publication_date": "2023-07-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 February 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "MW",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHT2K4DR7RSHND4MBURKVZFNW6QQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "KEINE deutsche Version!",
+                            "url": "https://amazon.de/gp/customer-reviews/R30TZ2GZZSJ3WK/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Achtung: Entgegen der Artikelbeschreibung handelt es sich um eine EU- Version. Deutschland als Region kann nicht einmal ausgew\u00e4hlt werden, nur Deutsch als Sprache. Somit ist z. B. kein Samsung-Pay m\u00f6glich. Die R\u00fccksendung nach Italien muss man selbst bezahlen. Alles in allem ist das eine Unversch\u00e4mtheit. Absolut keine Kaufempfehlung!",
+                            "publication_date": "2023-02-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ERIC",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHFTHNSWCHTMOHBMVAJZHUCNQHGA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Uhr",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BAC828VRWAB9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Tr\u00e4gt sich gut und hat tolle Funktionen",
+                            "publication_date": "2023-04-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 December 2022",
+                            "helpful_votes": 12,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dennis Mohn",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHFKBFYVQBXSVM7AQ76OZLLTDMKQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Falsche Version vom H\u00e4ndler geliefert",
+                            "url": "https://amazon.de/gp/customer-reviews/RIR9XE8QS2J2Z/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Das Ger\u00e4t mag super sein, leider hat der H\u00e4ndler (trotz Angabe \"Deutsche Version\") ein EU-Ger\u00e4t geliefert, das laut Information vom Samsung-Support nicht f\u00fcr den deutschen Markt vorgesehen ist. Damit lassen sich auch keine deutschen eSIM Vertr\u00e4ge aktivieren!\nGer\u00e4t geht an H\u00e4ndler zur\u00fcck!",
+                            "publication_date": "2022-12-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 January 2023",
+                            "helpful_votes": 11,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "U T.Ph",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGFXQB2BKAP6MBCDPU3TZE5XIKAA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Keine deutsche Version",
+                            "url": "https://amazon.de/gp/customer-reviews/R1UWW88KTKW39J/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Es ist max. eine EU- Version. Deutschland ist gar nicht zum Ausw\u00e4hlen verf\u00fcgbar.  Lediglich deutsche Sprachen. Dies wurde mir auch von Samsung anhand der S-Nr. best\u00e4tigt. Also keine Kaufempfehlung. Mehr als \u00e4rgerlich!",
+                            "publication_date": "2023-01-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 March 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Niklas K\u00f6rschgen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG3HDMHBO4XZFCPESIJHUFV64HUA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Worst wristband in the history of watches",
+                            "url": "https://amazon.de/gp/customer-reviews/ROVEP2PQE85NY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Whoever created this wristband should be fired. This is the by far most irritating fastening mechanism by any watch ever created",
+                            "publication_date": "2023-03-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Bj\u00f6rn Goetze",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHF4F6QZEV64PJ44TY2LLX566FVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Nicht f\u00fcr Deutschland!",
+                            "url": "https://amazon.de/gp/customer-reviews/R9BJY4X63TJS/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Achtung,\nDiese Version ist nicht f\u00fcr Deutschland geeignet. Von Kauf kann nur abgeraten werden.",
+                            "publication_date": "2023-04-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 November 2022",
+                            "helpful_votes": 10,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "gerhard victor",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEYD5UIILANGCEER2JCED5KHAI4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kauf empfehlenswert  die neue Generation ist noch besser",
+                            "url": "https://amazon.de/gp/customer-reviews/R3PY3WD0BU2B1U/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Immer bessere Funktionen  absolut leicht",
+                            "publication_date": "2022-11-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 November 2022",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Percy",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AESL464S725AJYYA53GQ74OVFCZQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zeit ist Geld",
+                            "url": "https://amazon.de/gp/customer-reviews/RJ2YWQZF3TIAU/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Tolle Uhr",
+                            "publication_date": "2022-11-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 4 January 2023",
+                            "helpful_votes": 10,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFLFENWULWMSSRHALUHVUBACTHJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Falsche Pulsdaten, schlechte Ausf\u00fchrung bei einigen Sport Modi",
+                            "url": "https://amazon.de/gp/customer-reviews/R2A6FSL5M1FKF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Eines vorab, ich habe die Uhr bei Samsung registriert, es handelt sich um eine originale Samsung Galaxy Watch 5 pro.\nDie Uhr hat in Verbindung mit einem Samsung Handy einige n\u00fctzliche Funktionen, der Akku ist ok, aber da muss noch mehr gehen, meine alte 40\u20ac GPS-Uhr hat gute 7 Tage gehalten, die Samsung Uhr nur ca. 3 Tage.\nMeine sehr schlechte Bewertung resultiert aber daraus, dass gerade die Funktionen, die aus meiner Sicht eine Outdoor Uhr f\u00fcr Sport Fans ausmachen nicht richtig durchdacht sind oder nicht richtig funktionieren.\n Die Uhr bietet zum Beispiel nicht ganz so typische Sportarten an, was f\u00fcr mich auch ein Kaufgrund war. Die typischen Sportarten wie Laufen und Fahrrad fahren haben einen GPS-Aufzeichnung mit allen wichtigen Daten, was auch n\u00fctzlich und interessant ist.\nF\u00fcr mich nicht nachvollziehbar ist aber, warum bei manchen anderen Outdoor Sportarten, wie z.B. Kajaksport, Kanusport, Kitesurfen, Segeln, Windsurfen keine GPS-Aufzeichnung vorgesehen ist, dort interessieren mich auch Geschwindigkeiten, zur\u00fcck gelegte Strecke, usw., nat\u00fcrlich kann man improvisieren und einfach Fahrrad fahren einstellen zum Surfen, aber das kann ich auch mit meiner alten 40\u20ac Uhr machen, hier ist meine Erwartung schon so, dass sich der Hersteller etwas mehr Gedanken machen m\u00fcsste wenn er schon die Sportarten anbietet.\nWas mich noch sehr st\u00f6rt und ich erst zu sp\u00e4t festgestellt habe ist die Unstimmigkeit bei der Pulsanzeige. Ich habe die habe die Messung der Herzfrequenz auf permanent gestellt um nicht jedes Mal einen Sportmodus auszuw\u00e4hlen, aber merkw\u00fcrdigerweise geht der Puls nicht wirklich hoch, wenn ich Sport mache. Auf der anderen Seite ist es so, dass wenn ich einen Sportmodus ausw\u00e4hle der Puls steigt obwohl ich gar keinen Sport mache. Bei einer Vergleichsmessung im Ruhezustand mit einem medizinischen Ger\u00e4t war der Puls bei der Uhr (im Sportmodus) bei 115 bis 120 und bei dem medizinischen Ger\u00e4t bei 54.  Demzufolge traue ich den Daten nicht mehr, was bringt mir die Uhr zum Sport machen dann noch?",
+                            "publication_date": "2023-01-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 December 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEWJKWVMBBMSTSV3VL65KHMO4MHA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/gp/customer-reviews/R19JFOZ08XZEQP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0B7J3JF2P",
+                            "review_text": "Sehr gut",
+                            "publication_date": "2022-12-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[13]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 16 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "roberto6868",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Ok",
+                            "url": null,
+                            "review_text": "Ok",
+                            "publication_date": "2023-10-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

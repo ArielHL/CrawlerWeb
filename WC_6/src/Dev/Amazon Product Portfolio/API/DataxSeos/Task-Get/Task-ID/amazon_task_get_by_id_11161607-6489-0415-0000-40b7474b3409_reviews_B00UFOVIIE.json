@@ -1,0 +1,939 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0414 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11161607-6489-0415-0000-40b7474b3409",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0244 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11161607-6489-0415-0000-40b7474b3409"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B00UFOVIIE",
+                "asin": "B00UFOVIIE",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B00UFOVIIE",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B00UFOVIIE?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-16 14:13:14 +00:00",
+                    "spell": null,
+                    "title": "LAMY Logo Retractable Pen, Fountain Pen, Ballpoint Pen, Set",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "LAMY Logo Retractable Pen, Fountain Pen, Ballpoint Pen, Set",
+                        "url": "https://amazon.de/-/en/LAMY-Logo-Retractable-Fountain-Ballpoint/dp/B00UFOVIIE/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41VaCuAgVSL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.6",
+                        "votes_count": 277,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 44,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Corleone",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEDEWLL4BIPKSGXMNMXNFHOID42A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Fine",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RDD4M1WZLXM0F/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Gute Qualit\u00e4t",
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Wolfgang Krampe",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGV3OCS636WRXHEEW5FJJJEITCQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3PFUOXERO6RWS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Gibt nichts besseres.",
+                            "publication_date": "2023-06-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 March 2018",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Da Flex",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/8150c366-14e7-4273-a28a-3e113fd56406._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFMRCNWUDAMONQSCS3XJYD55NLIQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Funktioniert wie erwartet",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2U9XBGUN7F0I5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Ich benutze den Stift zum Skizzieren, und muss nun endlich nicht mehr nachspitzen. Die Druckmechanik der Mine funktioniert mit Federdruck, also auch \u00dcberkopf. Ebenfalls per Federdruck funktioniert der Halteclip zum Befestigen des Stifts. Der Clip ist relativ schwer, und macht den Stift kopflastig. Ich h\u00e4tte lieber eine gleichm\u00e4\u00dfige Gewichtsverteilung, aber es st\u00f6rt beim Zeichnen nicht. Der zweite kleine Kritikpunkt, falls Lamy mit liest: Es gibt im Moment nur Kugelschreiber und F\u00fcller in der gleichen Optik, aber keinen Tintenroller. Der Tintenroller der Logo-Serie ist geb\u00fcrstet, und passt nicht zu diesem Druckbleistift.\nPS: Ich habe inzwischen noch einen \"Kaweco Sport Skyline\" bekommen. Der ist sch\u00f6n leicht, und besser ausbalanciert.",
+                            "publication_date": "2018-03-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 August 2016",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "R. W.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFGPLZ2MQCZXKYNTI6NE2QMU5DKA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hervorragendes Schreibger\u00e4t mit kleinem Makel",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R311Z25DV1T1QB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Da ich mir im Laufe meiner Studienzeit das Notieren mit dem Bleistift angew\u00f6hnt habe und ich meinen alten Bleistift im H\u00f6rsaal liegenlie\u00df, musste ein Ersatz gefunden werden. Mein alter Druckbleistift war ebenfalls ein Lamy-Schreibger\u00e4t und leistete mir stets treue Dienste. W\u00e4hrend mein alter Bleistift jedoch \u00fcber eine Kunststoffspitze verf\u00fcgte, besitzt der Nachfolger eine Metallspitze. W\u00e4hrend des Schreibens nun lockert sich letzere und muss von Zeit zu Zeit wieder festgeschraubt werden, was den Schreibvorgang unterbricht. Bei der Kunststoffspitze trat dieses Problem nie auf - zudem verf\u00fcgte sie \u00fcber eine rutschfeste Oberfl\u00e4che, die ein pr\u00e4ziseres Arbeiten erm\u00f6glichte. Der Stift mit Metallspitze hat da ob seiner glatten Struktur leider das Nachsehen.",
+                            "publication_date": "2016-08-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 October 2016",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Ein neuer Stift in meiner Sammlung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1II22G2ZCIBUW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Da ich unbedingt noch einen sch\u00f6nen Bleistift brauchte, habe ich mir nat\u00fcrlich einen von Lamy bestellt. Er sieht einfach toll aus und liegt sehr gut in der Hand. Es gibt jedoch einen Stern Abzug, da er sehr schwach schreibt und ich dadurch st\u00e4rker dr\u00fccken muss. Liegt aber vermutlich an den mitgelieferten Mienen. N\u00e4chstes Mal werde ich etwas dickere Mienen bestellen. Sonst wie immer ein tolles Lamy-Produkt.",
+                            "publication_date": "2016-10-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 September 2016",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jean-Paul",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHEOY2FSZBNZAKVKGASB5ME3QJSQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klasse robuster Stift",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2WYWFXDAQJ60S/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Den Lamy hatte ich schon einmal in einer anderen Variante. Hier mit dem Metall/Edelstahl sieht er nicht nur toll aus, sondern f\u00fchlt sich auch sehr wertig an, da keine Plastikelemente dabei sind.\nDa ich bei Kugelschreibern immer mit der Halterung /Griff herumspiele, mache ich diese meist k\u00fcrzester Zeit kaputt. Da hier dieser sehr massiv ist, ist er wie geschaffen f\u00fcr meine Spielereien.\nIch w\u00fcrde ihn mir immer wieder zulegen, da es sich mit ihm gut schreibt und es ein tolles Design hat.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 September 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "CMS",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHEMQAWRCBOPFQEFKSODUUNRQMWQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Liegt f\u00fcr mich gut in der Hand",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3AQZDCDUT8QQ0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Habe mein Set vervollst\u00e4ndigt",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 September 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sverige2712",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEDVYDE6H6OB3VYPOFGU3KEC6NVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6ner Bleistift",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3BDC173MVB6LZ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Da ich sehr gerne mit Bleistift schreibe, ist es nicht der erste Druckbleistift, aber einer der Besten.  Der Stift liegt leicht in der Hand. Die Lieferung ging sehr schnell. Gerne wieder",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 February 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Charmaine",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGV2VHWKH76GK6CHKC2JDQXOKGXQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Druckbleistift mit kleinen M\u00e4ngeln",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R23ZY24P4XU6MF/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Der Bleistift liegt toll in der Hand und sieht auch sehr Wertig aus. Leider l\u00f6st sich beim schreiben immer wieder die Spitze. Dieses Problem l\u00e4sst sich aber durch eine kleines St\u00fcck Papier l\u00f6sen, welches man mit in das Gewinde klemmt.",
+                            "publication_date": "2020-02-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 February 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Bettina",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHKJ3YUNTASATLDZKRGNBBKXHESQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super im Handling",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R8BEDPS822TQG/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "meinem Sohn gef\u00e4llt der Stift sehr gut, da er immer Ersatzminen im Stift dabei hat, ihm gef\u00e4llt die Farbe sehr gut und f\u00fcr Geometrie hat er jetzt immer einen spitzen Bleistift dabei.",
+                            "publication_date": "2020-02-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 November 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ein_Bremer_in_Friesland",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGNAAUJOLLPV5D4I77HYW6EYATHA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kann man kaufen!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1FMJ6KR8EG6GR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Einer der besten Druckbleistifte, die ich bisher hatte. Sieht schick aus, war vom Preis her in Ordnung, liegt gut in der Hand. Besser als Bleistifte \"ewig und drei Tage\" anzupitzen.\nKann man kaufen!",
+                            "publication_date": "2019-11-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 August 2018",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M. Neumann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEANZY5KCNBZ2LYBSQJSKYLEUL5Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zufrieden",
+                            "url": "https://amazon.de/gp/customer-reviews/R1Q66W40SE6GPV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Super, genau so wie erwartet. Mir war es wichtig, dass der Clip sehr hoch angesetzt ist, weil ich den Stift in einem Monatsplaner  befestigen will, und das ist der Fall. Die Verarbeitung ist gut, der Stift liegt gut in der Hand.",
+                            "publication_date": "2018-08-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 February 2016",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEQ3ST5SP2YX6KWWGG2YIIVT73GQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Jeden Cent wert",
+                            "url": "https://amazon.de/gp/customer-reviews/R6ULU2W7K08G8/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Lamy hat es mal wieder geschafft - ein super Produkt zu angebrachtem Preis.\nDie Verarbeitung ist super, das Gewicht ist ideal und er liegt auch gut in der Hand. Der Clip st\u00f6rt auch trotz \u00f6fteren Drehens des Stiftes nicht und auch die (2) enthaltenen Minen sind unbesch\u00e4digt und sehr hochwertig.\nWer Interesse hat sollte zuschlagen!",
+                            "publication_date": "2016-02-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 December 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "\u2705 T",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/c08f8479-d5c6-44d4-b2a5-8fcf4cb5ba98._CR0,9.0,315,315_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHPIPG5Y7AJGLXYX5PSSIMSIMXNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wahrscheinlich keine Neuware",
+                            "url": "https://amazon.de/gp/customer-reviews/R1MZPTGINCZGTB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Der Stift fing nach 3 std Benutzung an seltsam zu klappern, vermutlich ist das der Mechanik geschuldet gewesen. Auch wenn es sich um einen Lamy handelt, hatte ich den Bleistift in keiner neuen, sondern in einer ausgefranzten Verpackung zugesandt bekommen.",
+                            "publication_date": "2019-12-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 May 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stefan Obermanns",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFGR2MNUSYB3X7S6SKW76HHBBU5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ok",
+                            "url": "https://amazon.de/gp/customer-reviews/R1SCI80WSJT0R6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Ok",
+                            "publication_date": "2021-05-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 June 2016",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dennis Sch\u00e4fer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGTEYFTLLLKUX7WJV6GJJRZEJPRA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Toller Stift f\u00fcr guten Preis",
+                            "url": "https://amazon.de/gp/customer-reviews/R1LFFHNUC9X6ME/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Der Druckbleistift hat mich vollends \u00fcberzeugt.\nBeim Kauf habe ich mich vor allem auf das Design konzentriert, welches mich sofort begeistert hat. Aber auch von der Verarbeitung wirkt der Stift stabil. Dahingehend \u00fcberzeugt der Stift vor allem durch sein gutes Preis-/Leistungsverh\u00e4ltnis, da er im Vergleich zu Rotring Stiften deutlich g\u00fcnstiger ist.",
+                            "publication_date": "2016-06-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 February 2016",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Henning",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHPE4XP5JCAI6IJ33E5HGLQCSG7Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Funktioniert gut, ist stabil und zuverl\u00e4\u00dfig",
+                            "url": "https://amazon.de/gp/customer-reviews/R77KCWYZPVN8D/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Bin mit dem Druckbleistift sehr zufrieden. Nutze dieses Modell jetzt seit \u00fcber 15 Jahren, funktioniert zuverl\u00e4ssig und gut. Ist stabil und gut verarbeitet / designed.\nHabe mittlerweile, da ich den Stift leider zweimal verloren habe den dritten. Der erste hat trotz viel und intensiver Nutzung \u00fcber 10 Jahre gehalten.",
+                            "publication_date": "2016-02-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 December 2015",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jan",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF4EVZWJTYPS6XUSE4CSOC6KDBGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passender Druckbleistift",
+                            "url": "https://amazon.de/gp/customer-reviews/RG92VL2XH5DK2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Ich habe mir diesen Artikel bestellt, weil ich zu meinem \"Set F\u00fcllhalter/Kugelschreiber LAMY logo\" (...) noch einen Bleistift dazu haben wollte. Er ist sehr stabil und passt perfekt zu den anderen Produkten aus der Lamy logo-Serie.\n !KLARE KAUFEMPFEHLUNG!\n\u00a9 JBorensky",
+                            "publication_date": "2015-12-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 September 2016",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Flo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/3894599e-852a-4142-966b-64bd4c8f6e6a._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGPGUQPSHD3PLWYS4QFCBMP5JY6A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6ner Stift zum Schreiben",
+                            "url": "https://amazon.de/gp/customer-reviews/R3900OZMMKTWP1/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Ich benutze den Druckbleistift nun seit einer Woche und bin mehr als begeistert!\nDas Schriftbild ist sauber und es l\u00e4sst sich angenehm schreiben, au\u00dferdem bricht die Mine nicht ab, was bei billigeren Modellen bei mir immer der Fall war!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 August 2017",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFTBZRH34FJHRUBOL4PRFWGPPYBQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles super und wie erwartet",
+                            "url": "https://amazon.de/gp/customer-reviews/R3JQRPXTSB7C22/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Hatte den Stift vor circa 5 Jahren schon einmal gekauft und verloren, weswegen Ersatz her musste.\nDie Druckautomatik funktioniert einwandfrei und der Stift liegt gut in der Hand. Lamy entt\u00e4uscht nicht!",
+                            "publication_date": "2017-08-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 November 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Erichtho",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE5GDA4NPGAIAHKW5LSXBXTWCAVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ST7AJBM7D6S/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Hochwertiger Edelstahl-Druckbleistift in zeitlosem Design. Wenn ich ihn verliere, kaufe ich ihn wieder.",
+                            "publication_date": "2019-11-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 April 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ismail Karaer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHF42A4DBZ6P4O3X3THW4WWB5DKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Genial....",
+                            "url": "https://amazon.de/gp/customer-reviews/R1AAJDUU8UKCGL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Sehr gute Produkt, w\u00fcrde immer wieder kaufen.....",
+                            "publication_date": "2020-04-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 June 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Funkyhu",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFW7CJ6U5BZLJP3LD657FHJF5I5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Qualit\u00e4t, sehr schnell Lieferung.",
+                            "url": "https://amazon.de/gp/customer-reviews/RRI57ZNTS09X7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Gute Qualit\u00e4t, sehr schnell Lieferung.",
+                            "publication_date": "2020-06-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 March 2018",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Camino.2016",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AESNZFB6XXEKGSRSHQYNQ27ZYN2Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klare Kaufempfehlung",
+                            "url": "https://amazon.de/gp/customer-reviews/R448ECHP8FP9O/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Ich habe den Kauf nicht bereut. Der Stift liegt gut in der Hand und sieht gut aus. Eine klare Kaufempfehlung von mir.",
+                            "publication_date": "2018-03-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 January 2017",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "accolon",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEU6HSNOLXNJOHQFMTTO5VDQC7MA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zu teuer, m\u00e4\u00dfige Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BW4LMBX7UO45/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Der Stift sieht auf den ersten Blick gut aus, ist aber wesentlich leichter, als man erwarten w\u00fcrde. Die Metallteile sind wertig, was aber leider nicht f\u00fcr die Teile aus Plastik und insbesondere die Mechanik gilt. So war der erste von Amazon gelieferte Stift auch direkt kaputt, da die Mechanik einfach stecken blieb. Es wurde kostenloser Ersatz geliefert, aber bei \u00fcber 9 Euro (Preis bei Erstellung dieser Rezension) stimmt das Verh\u00e4ltnis einfach nicht.",
+                            "publication_date": "2017-01-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 January 2017",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "manni kaltz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFQ4KGNN6AQQGK3BTY32TFT5ZGAQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt",
+                            "url": "https://amazon.de/gp/customer-reviews/R3W44LC11A5FAM/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "LAMY Druckbleistift\ndie erwartet gute Qualit\u00e4t\ngute Verarbeitung\nliegt angenehm in der Hand\nErsatzminen sind leicht und problemlos nachzuf\u00fcllen\nich nutze ihn t\u00e4glich - wirklich ideal",
+                            "publication_date": "2017-01-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 May 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGPWOHMBFYOG4DWNIP5UBFOQKHPA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "This is a present for my son.",
+                            "url": "https://amazon.de/gp/customer-reviews/R1Y0ZVJWH45I7A/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "My son is pleased to be very helpful in studying.",
+                            "publication_date": "2019-05-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 January 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mario Welle",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFBVDBQFFPXEZX3HSFON3FSTQ5SA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr schnelle Lieferung",
+                            "url": "https://amazon.de/gp/customer-reviews/R1BBWZ8HIIBJVB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Schnelle Lieferung, bin sehr zufrieden die Beschreibung war 100 % zutreffend.",
+                            "publication_date": "2019-01-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 October 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "schnedi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHGZ2NKRRLQODDOLFUNTSGXHZVCQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "tolles Blei",
+                            "url": "https://amazon.de/gp/customer-reviews/RJ5FBG0YY6UES/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "tolles Blei",
+                            "publication_date": "2019-10-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 August 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "T\u00f6pfer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFOH3QT6YR733ECJYG2OF7YD4U2A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/gp/customer-reviews/R1R0DEGDP5FEJX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B00UFOVIIE",
+                            "review_text": "Wie erwartet",
+                            "publication_date": "2019-08-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

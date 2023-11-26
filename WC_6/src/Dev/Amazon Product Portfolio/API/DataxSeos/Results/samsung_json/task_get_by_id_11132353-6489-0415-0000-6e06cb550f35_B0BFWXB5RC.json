@@ -1,0 +1,945 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0381 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-6e06cb550f35",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0226 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-6e06cb550f35"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0BFWXB5RC",
+                "asin": "B0BFWXB5RC",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0BFWXB5RC",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0BFWXB5RC?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:06 +00:00",
+                    "spell": null,
+                    "title": "Samsung , Unlocked, Galaxy A04S, EU 3/32GB, Android, Black",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung , Unlocked, Galaxy A04S, EU 3/32GB, Android, Black",
+                        "url": "https://amazon.de/-/en/Samsung-Unlocked-Galaxy-Android-Black/dp/B0BFWXB5RC/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/51xL90mMU3L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.4",
+                        "votes_count": 474,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 120,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andreas Stern",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGMXRJEEASD3VD3XXG2QTDGNPXOQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gutes Smartphone",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2TFKM4ZDOENO8/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Wie immer sehr schnelle Lieferung. Da das alte Smartphone defekt ist musste ein neues her. Wenn die Anspr\u00fcche nicht so hoch sind kann ich dieses Smartphone empfehlen. Die Kamera ist gut und macht sch\u00f6ne Bilder. Die Akkuleistung h\u00e4lt bei m\u00e4\u00dfigen Gebrauch 7 Tage, das hei\u00dft alle APPS Installiert keine Spiele. Apps KVB App, Whatsapp Messanger usw. Gegen\u00fcber dem alten Smartphone schneller. F\u00fcr den Preis jederzeit wieder",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pa Amat Darboe",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFF3425PORYJ5F3IIURJI5AMGF4Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "It was ontime",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R25ZLMVII4ODPM/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Was good",
+                            "publication_date": "2023-10-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEXJDXD22CTGWHSE6TFREVZYZ4LA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung A04 S",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R12CY5HXE7K54Z/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Schnelle Lieferung, bin zufrieden mit dem Smartphone",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Niki Osasumwen Abbe",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE3LF7YERNE4V7KDBLOUHOFEGKDQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Nice one",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1BTKR2KOL4U4I/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "The product is very good nice one with amazon",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFFUV2YI2JZTCURR73R6G67EWXJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ladekabel fehlt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RJFW3MIBALOSJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Da ich noch ein Ladekabel brauche, kann ich momentan nichts beurteilen.\nIch hoffe es ist alles okay.",
+                            "publication_date": "2023-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 May 2023",
+                            "helpful_votes": 19,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Benedikt Sauerland",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEBRADGMZCKJXJHLQZ3IDYZK2MYQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis Leistung Sehr gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RQ7Q6V7TLV2PY/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Die Leistung des Samsung A04S ist f\u00fcr einfache Aufgaben ausreichend, jedoch zeigen sich bei ressourcenintensiveren Anwendungen oder Spielen einige Schw\u00e4chen. Der Prozessor kann gelegentlich langsam reagieren und die Ladezeiten sind etwas l\u00e4nger als bei teureren Modellen.\nDas 6,5-Zoll-Display ist ausreichend gro\u00df und bietet eine akzeptable Bildqualit\u00e4t. Allerdings ist die Aufl\u00f6sung nicht besonders scharf, was bei der Anzeige von Texten oder feinen Details auffallen kann.\nDie Kamera des A04S ist in Ordnung, liefert aber keine beeindruckenden Ergebnisse. Bei guten Lichtverh\u00e4ltnissen k\u00f6nnen Sie anst\u00e4ndige Fotos machen, aber bei schlechteren Lichtverh\u00e4ltnissen sind die Aufnahmen oft verwischt und rauschig.\nDie Akkulaufzeit des A04S ist gut und kann einen ganzen Tag lang halten, wenn Sie das Telefon moderat nutzen. Es ist jedoch wichtig zu beachten, dass das Ger\u00e4t keine Schnellladefunktion bietet, was bedeutet, dass das Aufladen l\u00e4nger dauert.\nInsgesamt ist das Samsung A04S eine vern\u00fcnftige Wahl f\u00fcr diejenigen, die ein preisg\u00fcnstiges Smartphone suchen. Es erf\u00fcllt die grundlegenden Anforderungen und bietet ein solides Gesamtpaket. Wenn Sie jedoch nach High-End-Funktionen oder einer herausragenden Leistung suchen, sollten Sie in eine teurere Option investieren.",
+                            "publication_date": "2023-05-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Willi K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AETDGTPIJAN5DF6VGZNJQLNLTQVA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\u00dcbertrifft meine erwartung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3OVKY2G5WMMHA/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Sehr gutes Smartphone.Erf\u00fcllt voll meine Erwartungen.Durchaus emfehlenswert.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hannes",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG5HCVRMMHVBWI3QZT35PSU6PZGA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Funktioniert alles.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R9R5YUVU6YI3W/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Ein gutes Handy gerne wieder.",
+                            "publication_date": "2023-08-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Arndt, Margarete",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFEZAC5O5HA4SPGKCUJST3LMO6RQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Schnelle Lieferung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3VPIZFT0WYA8S/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Produkt entspricht Erwartungen\nSchnelle und gute Zustellung",
+                            "publication_date": "2023-08-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Team Schule mit Herz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGNQIEAHPJGSC7UPRFV45TRP3TGA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RYECN8OS3PH1F/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Schnelle Lieferung, netter Kontakt.",
+                            "publication_date": "2023-08-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hans-Peter",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGPQKSR22RSXHXGCCSKR2BTMKGVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sch\u00f6nes Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/R3VAZ57UAQHJGI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Hat alles prima geklappt und die Bedienung l\u00e4uft auch schon wunderbar",
+                            "publication_date": "2023-08-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 March 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mike suchy",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHORGZBIQDP7IMRO4B64PPQNGU7Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gut",
+                            "url": "https://amazon.de/gp/customer-reviews/RUI3NXT1R7F4X/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Supi",
+                            "publication_date": "2023-03-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon-Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFHD54UNDWQ6YRHORNBOCQXAZ5WQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung Galaxy",
+                            "url": "https://amazon.de/gp/customer-reviews/R3D7PAHY928QD3/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Alles prima jeder Zeit wieder",
+                            "publication_date": "2023-07-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 April 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon-Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEJVTW6XO6LBS2ZC5ZP7CMISNEQA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung galaxy a04s",
+                            "url": "https://amazon.de/gp/customer-reviews/RO3HSPE9Q0ZJ7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Einfache Bestellung und schnelle Lieferung. Produkt wie beschrieben, gut verpackt geliefert, Kunde zufrieden. Vielen Dank",
+                            "publication_date": "2023-04-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "S.K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH6E36G7R6J6O5WBRJA3T62MON5Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Zufrieden",
+                            "url": "https://amazon.de/gp/customer-reviews/R2L4DQR0GSQWHK/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Gutes Ger\u00e4t zu fairem Preis",
+                            "publication_date": "2023-05-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 April 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Werner R\u00f6hrig",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGBXFHCG5AWWZWDMJLKUAUK26GYQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis-Leistungs-Verh\u00e4ltnis",
+                            "url": "https://amazon.de/gp/customer-reviews/ROYHIRTLECEZ5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Dieses Handy hat ein sehr gutes Preis-Leistungs-Verh\u00e4ltnis.\nF\u00fcr meinen Bedarf bin ich sehr zufrieden.",
+                            "publication_date": "2023-04-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFVSSN6GUFVXGYDROKXHON3BXMOA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Intressant",
+                            "url": "https://amazon.de/gp/customer-reviews/R3GKS6T6KVYMHL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Verrassing geschenk",
+                            "publication_date": "2023-04-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 February 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hartmut Richter",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE3UA7SWMCNL4LD2TO3SGGEYIYXA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "gutes Handling",
+                            "url": "https://amazon.de/gp/customer-reviews/R1Q5E0KXWARMOL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "f\u00fcr den einfachen einfachen Gebrauch superschnell",
+                            "publication_date": "2023-02-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 28 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHZMXUM2ELWT4NMXH53LBHCZD62Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "kaufe ich wieder",
+                            "url": "https://amazon.de/gp/customer-reviews/R3O30ENFH8LGS7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Ich habe das Handy f\u00fcr meine Mama (83) gekauft - sie hatte zuvor auch ein Samsung.\nSie ist sehr zufrieden, das Handy ist etwas gr\u00f6\u00dfer und funktioniert wunderbar.\nDas Einrichten war in knapp einer Stunde erledigt.",
+                            "publication_date": "2023-10-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 22 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Wildgarten",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE4JYOULPKGPF75D5OHFO4JAI5VQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "nicht zufrieden",
+                            "url": "https://amazon.de/gp/customer-reviews/R3PPTWZCMLQQIW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Bei einem anderen Anbieter erworben. Gro\u00dfer Fehler! Akku nach 6 Monaten Totalausfall. Hauseigene Werkstatt schickt nach knapp 3 Wochen angebl. repariert zur\u00fcck. Problem wurde NICHT behoben, au\u00dferdem neues zus\u00e4tzliches Problem: \u00d6se f\u00fcr Ladekabel kam beim Rausziehen gleich mit raus.\nNicht preisWERT, sondern nur \u00e4rgerlich.",
+                            "publication_date": "2023-10-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 24 November 2022",
+                            "helpful_votes": 44,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "711mx3",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHMYSXZLZHWSH6G4GCVTQYTJVHBA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wesentliche Funktionen nicht verf\u00fcgbar.",
+                            "url": "https://amazon.de/gp/customer-reviews/R3NOKV9T6VE6C2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "hier die f\u00fcr mich wesentlichen R\u00fcckschritte gegen\u00fcber meines sechs Jahre alten Vorg\u00e4ngerhandys:\n\u2022 kein UKW-Radio mehr: Radio h\u00f6ren im Zug geht jetzt nur noch, wenn ich Empfang habe und das Datenvolumen ausreicht. Im Katastrophenfall, wenn mal das Mobilnetz ausf\u00e4llt, ist gar kein Radioempfang mehr m\u00f6glich. Beim alten Handy: einfach Kopfh\u00f6rerkabel einstecken und das Radio war stundenlang auf Empfang.\n\u2022 kein geplantes Ein- und Ausschalten m\u00f6glich: das Handy bleibt die ganze Nacht an und verbraucht Akku. Wenn ich zum Einschlafen einen Podcast h\u00f6re, l\u00e4uft der auch die ganze Nacht, denn das Handy geht nicht aus. Eine extra Timer-App kann zwar den Bildschirm und den Ton aussstellen, aber nicht das Handy. Dazu muss die Timer-App manuell jeden Abend neu gestartet werden.\n\u2022 keine automatische Bluetooth-Kopplung mehr: wenn ich meine BT-Kopfh\u00f6hrer aufsetzt, verbinden sich diese nicht mehr automatisch mit dem Handy. Ich muss die Verbindung manuell extra best\u00e4tigen. Ein weiterer R\u00fcckschritt gegen\u00fcber einem Handy aus dem Jahr 2016...\nDazu kein Ladeger\u00e4t dabei. Auch nur ein passendes Kabel fehlt. Es ist nur eines dabei, das USB-C an beiden Enden hat: kann man nicht an eine PC-Buchse anschlie\u00dfen. Ein normales Ladeger\u00e4t funktionierte dann auch nicht: das Handydisplay ging st\u00e4ndig an und aus und die Ladezeit sprang hin und her. Musste nun ein original Samsung Ladeger\u00e4t kaufen (wieder kein Kabel dabei), jetzt klappt das Laden gut.\nIch w\u00fcrde dieses Handy nicht noch einmal kaufen.",
+                            "publication_date": "2022-11-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFKS23GYTEP67FPTKJM5O3GNH63Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\ud83d\udc4d\ud83c\udffb",
+                            "url": "https://amazon.de/gp/customer-reviews/R1Z02IHKDNZWYF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Sehr gut , f\u00fcr sehne Preis \ud83d\udc4d\ud83c\udffb",
+                            "publication_date": "2023-01-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dee3110",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG7YRZGWR3HWF7Q7CKNHP66A5N5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Daumen hoch",
+                            "url": "https://amazon.de/gp/customer-reviews/R26426PKGR3ZIC/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0BFWXB5RC",
+                            "review_text": "Hab das Smartphone f\u00fcr meine Tochter bestellt und war \u00fcberrascht, wie g\u00fcnatig es ist und daf\u00fcr gut h\u00e4lt. Meine Tochter liebt es .",
+                            "publication_date": "2023-05-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 5 November 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andrew",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0f56a22d-14e6-430f-b2fc-078e1b0c441d._CR29,0,180,180_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Impossibile fare di meglio",
+                            "url": null,
+                            "review_text": "A questa cifra (109 \u20ac al momento di questa recensione) \u00e8 semplicemente un best buy. Inutile citare la scheda tecnica, si trova ovunque. Pi\u00f9 utile parlare delle impressioni di utilizzo.\nErgonomia buona considerati i 6.5 pollici di display. Grip buonononostante, o forse proprio per, i materiali non proprio nobilissimi. Feeling tattile eccellente, il policarbonato (plastica, per gli amici) fa il suo lavoro in maniera eccellente, permettendo non solo una presa, ma anche un utilizzo agevole con mani di tutte le dimensioni. Il sistema \u00e8 ottimizzato molto bene, fluido con i suoi 3 giga di RAM.\nNiente di questo telefono \u00e8 all'ultimo grido, ovviamente, ma tutto funziona al massimo, il che \u00e8 sempre indice di un prodotto pensato con cura. Qualche esempio? Il display ovviamente non \u00e8 un OLED, ma un'unit\u00e0 PLS LCD  (detto male: un IPS con gli steroidi ;) ) molto buona sotto il profilo della resa cromatica e della qualit\u00e0 complessiva anche se con qualche ovvio limite sulla resa dei neri e sulla definizione (il valore dei DPI si ferma a 270, comunque largamente sufficiente). Luminosit\u00e0 pi\u00f9 che discreta e buoni consumi. Manca il 5G, probabilmente pi\u00f9 per motivi di concorrenza interna che per necessit\u00e0 tecniche e la scheda video \u00e8 una vecchia Mali-G52 arrivata sul mercato ormai nel 2020 ma comunque onesta se non si hanno pretese impossibili visto il costo.\nIl comparto fotografico \u00e8 qualcosa pi\u00f9 che discreto, considerando non tanto i 50 mpx (che sono poco pi\u00f9 che il solito specchietto per allodole) ma per fluidit\u00e0 e qualit\u00e0 complessiva. Presente sia la stabilizzazione (ovviamente digitale e non ottica), sia l'HDR, oltre al solito ricchissimo sw Samsung. Da sottolineare un audio in capsula davvero cristallino, un vivavoce potente e definito e una versatilit\u00e0 del telefono davvero notevole. Ottimo per un un'utenza di persone normali che non vanno in brodo di giuggiole per un refresh rate, o come muletto per...chiunque. In questa fascia di prezzo, semplicemente non \u00e8 possibile fare meglio.",
+                            "publication_date": "2023-11-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sabrina",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Articolo ok ma coriere da schifo",
+                            "url": null,
+                            "review_text": "Il prodotto e arrivato nei tempi giusti ma il corieri non ha nemmeno suonato mi sono affacciata e la letteralmente lanciato in cortile dal finestrino del furgone .....",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "jedirockets",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/18ce2442-5cda-4133-84f4-2a86504d0f65._CR0,0,399,399_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "SEMBRA UN BUON PRODOTTO",
+                            "url": null,
+                            "review_text": "Prezzo ok per essere un Samsung.\nLa batteria, senza fare cose particolari, mi sembra duri per\u00f2 poco. Dopo un giorno - 30% e ho solo giocato un po'....",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 3 November 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Cliente Amazon",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Regalo perfetto \ud83c\udf3a",
+                            "url": null,
+                            "review_text": "Ho comprato questo dopo che il telefono di mio padre si \u00e8 rotto. Grazie alla garanzia sono riuscito ad avere un risarcimento comprando cos\u00ec questo modello. Molto buono e fa il suo lavoro. Se volete fare un regalo \u00e8 perfetto per qualit\u00e0 prezzo.\nPs. un altro ottimo regalo \u00e8 un libro intitolato \"Andr\u00e0 tutto bene te lo giuro\". Buona lettura",
+                            "publication_date": "2023-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Binot Michel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/ac75c0e2-4ce9-4190-b619-bc1e098e5444._CR62,0,375,375_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "samsung",
+                            "url": null,
+                            "review_text": "c'est une marque de confiance",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 25 October 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Emanuela Saverino",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Articolo soddisfacente",
+                            "url": null,
+                            "review_text": "Avevo gi\u00e0 acquistato qualche tempo fa il Samsung a03s per mia madre. Semplice e facile da usare. Ad oggi funziona perfettamente. Mi sono ritrovata a dover acquistare per me un nuovo smartphone e sono andata sul sicuro acquistando il Samsung A04S e devo dire che va alla grande. Buon rapporto qualit\u00e0 prezzo.",
+                            "publication_date": "2023-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[13]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 2 April 2023",
+                            "helpful_votes": 17,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "nicola",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/471621f7-e11a-4e73-9634-6f3f9d2cf1d9._CR0,0,500,500_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "samsung a04s",
+                            "url": null,
+                            "review_text": "premetto che ho preso questo smartphone da usare solo ed esclusivamente per ascoltare musica al lavoro con apple music.\ncome dicevo ho deciso di acquistare questo telefono da usare al lavoro per ascoltare musica con delle cuffie bluetooth perch\u00e8 non voglio rovinare la batteria del mio iphone.\nho scaricato l\u2019app apple music, fatto l\u2019accesso al mio account apple e boom, tutta la libreria che ho sui miei dispositivi apple magicamente appare anche sul samsung.\nnon so se si tratta di un bug del telefono o dell\u2019app apple music ma quando ascolti musica (almeno con cuffie bluetooth) quando una canzone sta per finire inizia l\u2019altra (si tratta di uno o due secondi) e per quanto possa dare fastidio a me non dispiace, in pratica non aspetti quell\u2019intervallo di tempo tra una canzone e l\u2019altra.\nlo smartphone in se non \u00e8 assolutamente male per ci\u00f2 che costa ad essere sincero, certo molta gente pretende che funzioni come un iphone dimenticandosi che questo samsung costa meno di 130 euro mentre un iphone arriva a ben 2.000 euro.\nnon \u00e8 fulmineo ma non \u00e8 neanche lento, fa ci\u00f2 che deve fare in tempi decenti.\nascoltando musica dalla suo speaker devo dire che il sound non \u00e8 male. quando si mettono le cuffie cambiano i giochi. il sound lascia un p\u00f2 a desiderare ma per fortuna mi sono accorto che supporta il dolby atmos e qui cambia tutto. si sente da cos\u00ec a cos\u00e0. con il dolby si sente molto meglio, addirittura meglio che con l\u2019iphone 6 che utilizzavo prima, proprio perch\u00e8 iphone 6 \u00e8 vecchio e non supporta il dolby.\nesteticamente \u00e8 carino, ma nell\u2019applicare il vetro temperato \u00e8 sorto il primo problema da solito smartphone di fascia bassa: quando pulisci il display con un qualsiasi panno restano 10 milioni di peluchi. impossibile da tirarli via. ma ci sta.\nper quanto riguarda la batteria va una bomba (almeno per l\u2019utilizzo che ne faccio io), usandolo in bluetooth perde circa il 20% di batteria al giorno, quindi arrivo tranquillamente fino a giovedi senza doverlo ricaricare. forse arriverebbe anche a venerd\u00ec ma lo carico un ora a pausa pranzo il giovedi, anche se il gioved\u00ec sera ha ancora circa il 30%.\nanche il display non \u00e8 male, abbastanza luminoso.\nse vi serve come secondo smartphone o per fare poche cose \u00e8 super consigliato, se lo volete come smartphone principale e non volte spendere tanti soldi o non avete il budget beh allora a quel punto sta a voi decidere.",
+                            "publication_date": "2023-04-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

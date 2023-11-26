@@ -1,0 +1,977 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0573 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11161607-6489-0415-0000-340c64302180",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0230 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11161607-6489-0415-0000-340c64302180"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B001P0GZO4",
+                "asin": "B001P0GZO4",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B001P0GZO4",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B001P0GZO4?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-16 14:09:13 +00:00",
+                    "spell": null,
+                    "title": "LAMY swift Rollerball Pen - Black",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "LAMY swift Rollerball Pen - Black",
+                        "url": "https://amazon.de/-/en/LAMY-swift-Rollerball-Pen-Black/dp/B001P0GZO4/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31Ou6bGc0WL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.5",
+                        "votes_count": 1139,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 375,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 August 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/618PTbMR+zL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/818i+jLRGTL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81hc0fskMDL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "MPUTZO",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF7ITX3K76ZNF6EIYV75QMWXEOTA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Immer guter Stift, beiliegend top Mine luftdicht eingeschweisst",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3U9QJS5OWOEQ5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Ein Stern weniger da , wie Bild oben das Hartpapier in dem der Stift und die Mine lagen, plattgedr\u00fcckt war. Stift und Mine haben nichts abbekommen. Der Lamy Roller ist wie immer super funktional und ist Qualit\u00e4tsware sowie auch die Rollermine die nicht im Roller vertrocknet sondern Vakuum verpackt beiliegt.",
+                            "publication_date": "2023-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 December 2012",
+                            "helpful_votes": 19,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M. Morath",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFBQ3C6IXDWT2ELRV3DUBHD7SLIA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Insgesamt guter Stift",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1ELP788VYW60Z/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Ich suchte einen Stift, der leicht l\u00e4uft, durchg\u00e4ngig schreibt und nicht allzu schnell Erm\u00fcdungserscheingungen hervorruft. Zun\u00e4chst war ich wegen des Gewichts des Stifts skeptisch, denn er ist mit 25 g doch schwerer als die Meisten seiner Kollegen. Ich m\u00f6chte den Stift zum Schreiben der Steuerberaterpr\u00fcfung verwenden. Somit stelle ich (wohl begr\u00fcndet) recht hohe Anforderungen an das Schreibger\u00e4t.\nNun im Einzelnen:\n1. Mechanik:\nDie Mechanik funktioniert tadellos und stets gleichm\u00e4\u00dfig (kein Spiel). Der Gegendruck ist recht hoch gew\u00e4hlt. Dies sorgt aber eben daf\u00fcr, dass die Mine auch dort bleibt wo sie sein soll. Dass sich der Clip einzieht, wenn man die Miene ausf\u00e4hrt, f\u00fcr mich zun\u00e4chst nur eine Spielerei. Aber man merkt es schnell. Wann immer man den Stift fr\u00fcher gedreht hat, weil der Clip gest\u00f6rt hat, ist dies jetzt nicht mehr der Fall. Eine saubere L\u00f6sung wie ich finde.\nDie Mine schaut f\u00fcr meine Begriffe zu wenig vorne aus der Spitze des Stiftes heraus. Sie k\u00f6nnte noch 1,0 bis 1,5 mm mehr vorne \u00fcberstehen, damit man die Spitze beim Schreiben besser sieht. Sie hat in der Stiftspitze nur sehr wenig seitliches Spiel, was das Schreiben angenehm macht.\n2. Laufeigenschaften:\nDie Laufeigenschaften sind - wie bei fast jedem Tintenroller - einwandfrei. Hier sei allerdings angemerkt, dass es neben dem Stift auch auf das Papier ankommt. Wer auf Schleifpapier schreibt, wird auch mit diesem Stift nicht gl\u00fccklich werden...\n3. Durchschreiben:\nHier habe ich - erwartungsgem\u00e4\u00df - meine Anforderungen nicht erf\u00fcllt bekommen (1 Stern Abzug). Trotz gutem Papier, m\u00f6glichst optimaler Schreibhaltung, m\u00f6glichst optimalem Druck auf's Papier und m\u00f6glichst durchg\u00e4ngigem Schreiben (ohne gr\u00f6\u00dferes Absetzen; ich schreibe Blockschrift) setzte der Tintenfluss immer mal wieder aus. Man konnte den letzten Buchstaben dann zwar wiederholen (dann kam auch wieder Tinte), aber dennoch ist das ein \u00e4rgerlicher Umstand. Es ist eigentlich der Beweis daf\u00fcr, dass es kein besseres Schreibger\u00e4t als einen (gescheiten) F\u00fcller mit ordentlicher Feder (auch Stahl) gibt...\n4. Schreibl\u00e4nge der Mine:\nNoch musste ich keine Mine wechseln. Da aber ich anderen Rezensenten bereits erw\u00e4hnten, dass die Minen schnell leer sind, wird es bei mir wohl nicht anders sein. Es ist allerdings auch ein Kompromiss den man eingehen muss. Entweder hohe Schreibl\u00e4nge und daf\u00fcr wenig Tinte auf's Papier oder weniger Schreibl\u00e4nge und daf\u00fcr einen besseren (gr\u00f6\u00dferen) Tintenfluss.\n5. \u00c4u\u00dferes/Schreibgef\u00fchl:\nDer Stift wirkt robust und hat ein moderns Design. Das Schreiben macht trotz der negativen Erfahrungen mit dem Tintenfluss Spa\u00df und scheint auch bei l\u00e4ngerem Schreiben nicht so schnell erm\u00fcdend zu sein, wie mit manchem Kugelschreiber. Dennoch sei auch hier angemerkt, dass ein guter F\u00fcller hier wohl noch besser ist.\n6. Fazit:\nDer Stift \u00fcberzeugt durch seine solide Verarbeitung und sein durchdachtes Konzept. Die Schreibleistung der Minen k\u00f6nnte sowohl in Sachen Kapazit\u00e4t als auch hinsichtlich des Tintenflusses durch den Hersteller noch optimiert werden. Dennoch ist der Stift auch f\u00fcr diejenigen, die viel schreiben m\u00fcssen zu empfehlen.\nIch selbst habe mir nun drei dieser Stifte in unterschiedlichen Farben und mit unterschiedlichen Tintenfarben besorgt. Ich denke, dass ich - nach alldem was ich bisher ausprobiert habe - auch bei diesem Stift bleiben werde.",
+                            "publication_date": "2012-12-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 June 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rambo-Rosi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH6PECXDD2QJAYFXNIEIPA2J4D3Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "perfektes Schreinger\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RZO6XJXARYOX5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "seid Jahrzehnte benutze ich zum Schreiben nur den Lamyschreiber - Lamy gleitet f\u00f6rmlich mit seiner Mine \u00fcbers Papier - nach 30 Jahre ist mein alter Lamy (Neupreis 84 DM) kaputt gegangen - also nach so einer langen Zeit stimmt das Preis, Leistung Verh\u00e4ltnis total",
+                            "publication_date": "2023-06-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 October 2012",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stocki",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE4IZDDFSAWQJVL35FNXZLHMYZ6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Angenehmer, edler Qualit\u00e4tstintenroller",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/ROXD0HNBA8SFI/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Habe mir den M330 Silber bestellt, nachdem ich mein schwarzes Modell verloren habe (ich wei\u00df, nicht sehr geschickt...)\nDamit ist es also schon mein zweiter Stift dieser Reihe, weshalb ich jetzt beschlossen habe, ein paar Worte dar\u00fcber zu verlieren:\n\u2022Die Verpackung:\nIch wei\u00df, das hat eigentlich nichts mit dem Produkt zu tun, aber hier gro\u00dfes Lob an Amazon: der Stift war stabil und trotzdem recht ressourcenschonend verpackt.\n\u2022Das Handling:\nIch habe noch nie einen Stift verwendet, der ann\u00e4hernd so gut in der Hand liegt. Ich schreibe sehr gerne von Hand, vor allem wenn es um pers\u00f6nliches wie Briefe und Gru\u00dfkarten geht, und auch wenn ich eine Fortbildung o.\u00e4. besuche wird dort eifrig von mir mitgekritzelt (und zu Hause meistens digitalisiert).\nDer Stift eignet sich mMn sowohl zum ordentlichen, sch\u00f6nen Schreiben von Gr\u00fc\u00dfen und seri\u00f6sen Briefen, als auch zum schnellen mitkritzeln in einer Vorlesung, in der es schnell gehen muss.\nDurch die Luftl\u00f6cher im vorderen Bereich bleibt der ganz aus Metall gefertigte Stift auch beim l\u00e4ngeren Schreiben recht k\u00fchl und Schwei\u00df kann verdunsten - gro\u00dfer Pluspunkt gegen\u00fcber Gummigriffen. Gleichzeitig geben die L\u00f6cher Halt. Dass der Clip am hinteren Ende mit dem Ausfahren der Mine (also wenn man auf den Knopf am hinteren Ende dr\u00fcckt) in den Stift hinein eingefahren wird, verbessert das Schreibfeeling enorm. Kein l\u00e4stiger Clip ist mehr im Weg, sondern der M330 ist perfekt rund - egal, wie man ihn dreht und wendet.\n\u2022Die Tinte\nIch verwende diesen Stift mit zwei verschiedenen Patronen: einerseits einer elegant schwarzen Kugelschreibertinte, die nat\u00fcrlich nicht ausgel\u00f6scht werden kann, daf\u00fcr aber schwarz ist. Ich schreibe pers\u00f6nlich sehr gern mit Schwarz, und die passende Mine in dieser Farbe f\u00fcr den M330 ist ausgezeichnet. Hochwertig verarbeitet, Stabil, einfach auszuwechseln und vor allem sehr \"fl\u00fcssig\". Der Stift schreibt damit also extrem \"locker\", die Hand wird kaum belastet. Auch wenn man damit l\u00e4nger schreibt gibt es keine unangenehmen Kr\u00e4mpfe und Verspannungen in den Fingern - trotz des eher hohen Eigengewichtes des Stifts. Dieser rollt fast wie von selbst \u00fcber die Kugelspitze.\nDie zweite Patrone die ich besitze, ist herk\u00f6mmliche F\u00fcllfedertinte, die mit einem Tintenkiller gel\u00f6scht werden kann. Recht viel gibt es nicht dazu zu sagen, au\u00dfer dass auch diese au\u00dfergew\u00f6hnlich gut \"rollt\" und ein sch\u00f6nes Farbbild hat.\nInsgesamt also absolute Kaufempfehlung, wirklich negatives finde ich nichts.\nGru\u00df,\nAlex",
+                            "publication_date": "2012-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Bernd Schaffrath",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6d530289-c5a2-4a0f-8856-cbe5e785b1fe._CR0,0.0,333,333_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEUJYAZRNQCGND3NFW5RWSYTJLUQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klasse Schreibqualit\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RV8AT04P48CFO/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Toller Stift. Klasse Schreibqualit\u00e4t.",
+                            "publication_date": "2023-07-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "EarlyLife",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF3AISRD6UKG3MIYBWUL6HRRLCJQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Nicht zu gebrauchen",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3SO0DVAS3C0IQ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Noch nie, hatte ich so einen schlechten Tintenroller. Fast jede Zeile, etliche Aussetzer. In meinen Dokumentationen, f\u00fcr die der Stift gedacht war, ist er v\u00f6llig unbrauchbar. Der Stift ist Lamy typisch gut verarbeitet, aber das war es dann auch.",
+                            "publication_date": "2023-11-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 June 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Harald S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGDC54TENHGQUIQ4ET6VEH3MIULQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lieblingsstift",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3BOQRXDBASKK3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Mein insgesamt vierter. F\u00fcr jede Tintenfarbe einer. Korrekturen machen damit doppelt so viel Spa\u00df.",
+                            "publication_date": "2023-06-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 April 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG2HZHOENHXTSAXOEIKPE4BZD2EQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klare Kaufempfehlung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R33WPO36Y35KHU/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Alles super, zum Gl\u00fcck habe ich mir noch d\u00fcnnere Minen gekauft, die die dabei war ist mir etwas zu dick",
+                            "publication_date": "2023-04-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ralf Flemnitz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH4XUXRLEBPWMW7BW7HPQMNMPIWQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Edler Schreiber",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R28A5XSZQZQ5RV/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Nicht nur sein \u00c4u\u00dferes macht was her, er ist auch noch sehr stabil wie die meisten Schreibger\u00e4te von LAMY.",
+                            "publication_date": "2023-05-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Antonio Ledda",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFKLNFL7MYHWJDCOA7MO24SDEUFA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Extravaganter Sift, hat nicht jeder",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R20NERJIZAOYHR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Extravaganter Stift mit passenden Tinteroller der gut in der Hand liegt und somit ein sch\u00f6nes Schrifbild erm\u00f6glicht.",
+                            "publication_date": "2023-04-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "milenebab",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG27WUKEKWKTQDXFJFJOOQOEQWYA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kleine Bemerkung",
+                            "url": "https://amazon.de/gp/customer-reviews/RHDTRMHLR7DXM/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Produkt sehr gut aber die dazugeh\u00f6rende Mine hat gefehlt.",
+                            "publication_date": "2023-05-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 January 2013",
+                            "helpful_votes": 17,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "AcidBurns",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEG7GABCVLUB7Z4DKFLUUNDISHAA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "ein super \"Kuli\"",
+                            "url": "https://amazon.de/gp/customer-reviews/R3Q1DHJ56UIUIY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Wie ich schon in der Rezension der in diesem Kuli verwendeten Minen Lamy M66 (http://www.amazon.de/product-reviews/B000FA5ED8/ref=cm_cr_pr_viewpnt_sr_5?ie=UTF8&filterBy=addFiveStar&showViewpoints=0) geschrieben habe, ist das Schreibgef\u00fchl einfach g\u00f6ttlich.\nDer Rollwiderstand entspricht etwa dem eines F\u00fcllers, jedoch ohne l\u00e4stiges Auslaufen oder eintrocknen. Mine raus und los. Beim Ausfahren der Mine klappt sogar noch der Klemmb\u00fcgel mit ein. Top nachgedacht. Eine l\u00e4stige gummierung der Spitze braucht der Stift nicht, durch ein Lochblech bleiben die Finger immer gut gek\u00fchlt und das eloxierte Metall bietet trotzdem genug gripp.\nIch bin Student, daher eigentlich immer knapp bei Kasse, aber diesen Luxus g\u00f6nne ich mir seitdem ich einen dieser Kulis von meinem Vater gemopst hatte.\nNun, warum kaufe ich einen neuen wenn ich doch schon einen habe? Ganz einfach: nach ca. 1000-2000 \"Mine-raus-rein\" Vorg\u00e4ngen h\u00e4ngt der automatische Einzug des Klips und man kann den Kuli nicht mehr einfahren. Bei jedem normalen Kuli ist das kein Problem, bei dem hier jedoch schon.\nSobald die Mine in Kontakt mit Stoff (z.B. Jacket Innentasche) oder Papier kommt saugt sich der Stoff oder das Papier mit der Tinte voll. Das gibt nicht nur doofe Flecken die nicht rausgehen sondern die Mine ist danach auch leer.\nF\u00fcr einen so teuren Kuli w\u00fcrde ich erwarten, dass der Einklappmechanismus mal ordentlich auf Belastung gepr\u00fcft wurde. Wer gerne den Kuli-Knopf aus langeweile dr\u00fcckt wird mit dem Teil hier nicht lange sch\u00f6n schreiben k\u00f6nnen... Daher 1 Stern abzug f\u00fcr eine sonst absolut gelungene Revolution des Schreibgef\u00fchls.\nGr\u00fc\u00dfe,\nAcid",
+                            "publication_date": "2013-01-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "A.R.MINIA '",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/94568c50-250a-444f-b294-3dd9da73b79b._CR8,0,163,163_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHWGDPJZN424QFMZ3KGGOPEHIBUQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "An sich ein gutes Schreibger\u00e4t - leider Defekt",
+                            "url": "https://amazon.de/gp/customer-reviews/R8XKXK4LYAQRM/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Der Lamy Tinten Roller ist an sich ein gutes Schreibger\u00e4t \u2013 ich hatte leider einen Montags Stift, und der Dr\u00fccker mit Clip hat sich immer wieder verklemmt; deswegen Retoure\u2026",
+                            "publication_date": "2023-02-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alexander Kehl",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHQ32DEZXZ7MHHMD3ZONNAMLQTPQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Tintenroller",
+                            "url": "https://amazon.de/gp/customer-reviews/RRVEXDRPC3NMB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Schreibt super, gute Qualit\u00e4t.",
+                            "publication_date": "2023-02-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "J\u00fcrgen Denifle",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/29170cbf-f054-4310-a6b9-02f3a34cc3d3._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGPBVBKQ6FA5BMGF2SXLLUZ4D7JA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Toller Rollpen mit versteckbarem Halteclip",
+                            "url": "https://amazon.de/gp/customer-reviews/R1J5MXW0AVBAC8/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Sehr robust, sch\u00f6ne Oberfl\u00e4sche, versteckbarer Halteclip. Kann ich nur empfehlen!",
+                            "publication_date": "2023-01-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 January 2016",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Teasy",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/47729458-83cd-4825-af8d-dae3a6946491._CR10,0,480,480_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE7ZV4QVEVRPFPUKZA2FKUCPHPMQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr eleganter Tintenroller mit  guter Schreibeigenschaft",
+                            "url": "https://amazon.de/gp/customer-reviews/R2WE3LLTU95S6E/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Der Lamy Swift Palladium ist ein wirklich tolles und edel wirkendes Schreibger\u00e4t aus Metall.\nDas \u00e4u\u00dfere Erscheinungsbild dieses Tintenrollers hat mich sofort \u00fcberzeugt, als ich diesen das erste mal in die Hand genommen habe.\nDie \u00dcberzeugung wurde nach den ersten Schreibversuchen noch einmal getoppt! Wenn man bedenkt, dass dieser Stift eigentlich im bezahlbaren Rahmen liegt - h\u00e4tte ich nicht mit gerechnet.\nEinzig diese kleine Plastiknase oberhalb des versenkbaren Clips hat in mir die Frage aufgebracht, ob dies normal ist. H\u00e4ndlerseitig konnte mir hier leider keine klare Auskunft erteilt werden - Amazon Kunden sind da schon deutlicher. Obwohl auch hier die Meinungen etwas auseinander gingen. Der Eine scheint diese \"Nase\" zu haben - der Andere wieder nicht. Sei's drum. Die Nase scheint wirklich den Aspekt zu haben, den tollen Stift vor dem herunterrollen vom Schreibtisch zu sch\u00fctzen.\nNun einmal schauen, wie lange ich mir der mitgelieferten M66 m in blau bei t\u00e4glicher Nutzung auskommen werde. Die ersten 4 Tage macht die Mine jedenfalls noch nicht den Anschein, ausgewechselt werden zu m\u00fcssen.\nMein Fazit: klare Kaufempfehlung!",
+                            "publication_date": "2016-01-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG3MPCX5PSVUPB7CHAI6VGFEODIQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Toller Lamy \u2013 Korrekturstift!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2DTY874GJEGYI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Alles bestens!",
+                            "publication_date": "2023-02-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 February 2020",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Elektronenhirn",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEYPBLBAOKQNQKDAMBMSIOBSRCEQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preis-Leistung TOP!",
+                            "url": "https://amazon.de/gp/customer-reviews/R225BKAANFAVD6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Wollte einfach einen gut schreibenden Tintenroller - da man sich bei der Wahl der Marke auch immer gleich zwangsweise an die Ersatzminen-Marke bindet, waren mir sowohl Handling des Stiftes und vor allem die Schreibqualit\u00e4t der Minen sehr wichtig....bin bei LAMY gelandet - bin sehr zufrieden!\nDer Stift liegt gut in der Hand, hat eine f\u00fcr den Preis tolle Haptik, der automatisch einfahrende Clip ist sehr angenehm beim Schreiben und die Mine l\u00e4uft - bis jetzt sehr leicht und fl\u00fcssig - was ich halt bei einem Tintenroller im Vergleich zum Kuli so sch\u00e4tze. Habe mir noch Ersatzminen in der Breite M von Lamy geholt: Breite B, welche im Lieferumfang war, ist mir zu breit und hat damit auch einen ziemlich hohen Tintenverbrauch. Breite M ist top f\u00fcrs Vielschreiben.",
+                            "publication_date": "2020-02-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 April 2011",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Solarus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEK5JI656HCG45O643XXLJ2R7MEA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcllfeder oder Tintenroller",
+                            "url": "https://amazon.de/gp/customer-reviews/R2AJ6B787SB5EQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Nun weigere ich mich, am Schreibtisch mit einem Kugelschreiber zu schreiben. Man muss fest aufdr\u00fccken, hat ein grauenhaftes Schriftbild, ...\nNun ist es leider nur am Schreibtisch m\u00f6glich, auf eine F\u00fcllfeder zur\u00fcckzugreifen. F\u00fcr unterwegs ist ne F\u00fcllfeder einfach zu unhandlich. Da ich von Kullis jedoch mitlerweile die Nase voll habe, habe ich mich dazu entschieden diesen Tintenroller zu kaufen. Er ist heute gekommen und ich habe Ihn gleich getestet.\nDas Schreibgef\u00fchl ist einfach nur der Hammer. Meine F\u00fcllfeder ist zwar noch um ne Spur besser (recht teures Modell), aber der Schreiber gleitet regelrecht \u00fcber das Papier. Nie Wieder Kullis. Danke Lamy und Amazon\nPS.: Der Einfahrmechanismus des Clips funktioniert tadellos und ich habe aufgrund der gelesenen Rezessionen keinen Grund davon auszugehen, dass es sich in den n\u00e4chsten Jahren \u00e4ndern wird. Es sei denn, er wird mir von jemanden gestohlen. Kullies mitgehen zu lassen (sieht aus wie einer) wird ja leider in den meisten B\u00fcros als Kavaliersdelikt angesehen :(",
+                            "publication_date": "2011-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 November 2016",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lutz Erlach",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGJOVVAV2Z4ZUEZJD7BWCDXPOREA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Arbeitsger\u00e4t mit Pfiff (und einem kleinen Mangel)",
+                            "url": "https://amazon.de/gp/customer-reviews/R1CG6DNIZJXAL8/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Super Tintenroller, sehr sch\u00f6n ausbalanciert und mein Stift f\u00fcr jeden Tag. Ich liebe Tintenroller, denn F\u00fcller klecksen bei mir komischerweise immer, Kugelschreiber sind mir zu unsch\u00f6n im Schriftbild.\nDer automatisch versenkte Clip verhindert nicht, dass man den Stift in die Hemdtasche steckt, wenn die Mine ausgefahren ist Man denkt aber  doch eher daran noch kurz den Aluknopf zu dr\u00fccken, wenn man den eingezogenen Clip f\u00fchlt, somit ist dieser pfiffige Trick eher ein Knoten im Taschentuch als ein echter Schutz. Dennoch funktioniert es !\nIch habe zwei von diesen Tintenrollern im Einsatz. Ein schwarzer und ein blauer Stift mit der jeweiligen Mine, die als Zubeh\u00f6r erh\u00e4ltlich ist. F\u00fcr Nutzer von Terminplanern empfehle ich Stiftdicke \"M\", weil's einfach feiner ist. Im Lieferumfang ist eine Mine der St\u00e4rke \"B\", die eher f\u00fcr Unterschriften oder Briefe/Notizen geeignet ist.",
+                            "publication_date": "2016-11-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 October 2020",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "skylerx",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6ea3ee46-fcb3-4e2f-83a9-a1bd4f645760._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG6WJSXCPTEK6JFEP7EIKRPCM5AA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die Minen machen ihn unbrauchbar",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BF6IKCOCDQHZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Von der Idee her ganz gut mit dem einziehbaren Clip. Designtechnisch ist auch nichts auszusetzen. Wenn nur die grottigen Minen nicht w\u00e4ren. Schlauerweise passen in diesen Stift ja nur die LAMY-eigenen M66 Minen, die pro St\u00fcck mit ca. 3 Euro nicht gerade preiswert sind. Meine Frau schreibt gerne mit Strichst\u00e4rke B, hier suppt die Mine nur so herum und man kann damit gar nicht richtig schreiben. Ich dagegen schreibe gerne mit Strichst\u00e4rke M und hier kratzt die Mine was das Zeug h\u00e4lt. Ich habe mehrere Minen ausprobiert, wenn man Gl\u00fcck hat, dann ist bei 5 St\u00fcck eine dabei, die nicht herumkratzt. Das darf bei einem Tintenroller nicht sein. Gerade bei einem Tintenroller erwartet man ja, dass man richtig fl\u00fcssig schreiben kann. Dies ist hier trotz des tollen Namens und des hohen Preises nicht garantiert. Daher von mir nur drei Sterne.",
+                            "publication_date": "2020-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 March 2015",
+                            "helpful_votes": 8,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Till R.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHI5EAHJ7IK7IJF5DTLMB5UYUCXQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr den Preis nicht zufriedenstellend.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2IGW2E7NENS7J/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Ich habe mir vor einigen Wochen diesen Tintenroller vor allem aufgrund der ansonsten recht positiven Rezensionen gekauft.\nLeider kann ich den anderen Rezensionen so nicht ganz zustimmen, doch erst zum Positiven dieses Stifts:\nDer Tintenroller hat ein sehr sch\u00f6nes, schlichtes Design und liegt sehr angenehm in der Hand. Die verwendeten Patronen vermitteln ein angenehmes Schreibgef\u00fchl, welches dem eines richtigen F\u00fcllers in nichts nachsteht. Das recht hohe Gewicht des Tintenrollers verleiht ihm einen sehr wertigen Touch. Der Mechanismus des Clips ist sehr ausergew\u00f6hnlich und ein echter Hingucker,\nNun zu den Aspekten, die mir an diesem Tintenroller negativ aufgefallen sind und Ausl\u00f6ser f\u00fcr meine schlechte Bewertung sind:\nDie von Lamy vorgeschriebenen Minen haben die Strichst\u00e4rke \"M\". Diese ist meiner Meinung nach f\u00fcr den allt\u00e4glichen Gebrauch in der Schule nur wenig geeignet, da die Schrift (bzw. meine Schrift) dadurch schwer lesbar wird.\nWeiterhin ist die Tinte nicht l\u00f6schbar, was ich von einem Tintenroller eigentlich erwartet h\u00e4tte.\nF\u00fcr Vielschreiber wird die Nutzung dieses Tintenroller zudem zu einem recht kostspieligen Spa\u00df, da die Minen (,wenn man t\u00e4glich zwischen einer und drei A4-Seiten beschreibt,) nach ca. 1 1/2 bis 2 Wochen bereits leer sind, was f\u00fcr einen Preis von ca. 3\u20ac je Mine meiner Meinung nach viel zu wenig ist.\nLeider haben die Minen zudem das Manko, \u00f6fters \"Aussetzer\" zu produzieren, d.h. die entsprechende Mine schreibt f\u00fcr einen kurzen Augenblick, bevorzugt bei Punkten, nicht. Resultat ist ein deutlich unsauberes Schriftbild.\nAu\u00dferdem macht der Mechanismus des Clips bei mir bereits jetzt einige Probleme. So wird die Mine teils nicht korrekt ein bzw. ausgefahren. Auch der Clip an sich verhakt sich ab und zu, sodass er ebenfalls nicht korrekt eingefahren wird.\nInsgesamt muss ich diesen Kauf leider in die Kategorie \"Sch\u00f6n anzusehen, aber nicht praxistauglich\" einordnen. F\u00fcr diesen Preis nur schwer akzeptabel.",
+                            "publication_date": "2015-03-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 January 2015",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "K. Finkenstedt",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFYUKGSM3FWOEXFFSNMHXJ7NY6CQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle Optik, raffinierte Mechanik, billiges Material",
+                            "url": "https://amazon.de/gp/customer-reviews/RMZAAJFFSKRUI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Mit Freude habe ich dieses Schreibger\u00e4t erwartet. Ab dem Moment des Auspackens folgte leider eine Reihe von Entt\u00e4uschungen:\n- Die Verpackung war scheinbar bereits benutzt oder zur\u00fcckgesendet - jdfs war sie schon deutlich gedr\u00fcckt etc.\n- Der Stift selbst wurde getrennt von einer blauen Mine (Strichbreite B) geliefert. Das Zusammenbauen war kein Problem. Dabei stellte ich schon beim Aufschrauben fest, dass der Stift sich etwas \"billig\" anf\u00fchlt. Etwa wie ein 50 Ct. Werbegeschenk. Das Design ist zweifelsfrei klasse und sehenswert! Nur leider liegt er etwas unsicher in der Hand und f\u00fchlt sich gerade am Schaft bei Weitem nicht so hochwertig an, wie andere Modelle von LAMY.\nDie Mechanik wodurch der Clip versenkt wird (leider steht er noch immer etwas hervor) ist wirklich gelungen und macht das Schreiben fl\u00fcssiger - jedenfalls soweit man mit diesem Schreibger\u00e4t klar kommt.\n- Die Tinte ist schnelltrocknend und bereitet dadurch viel Freude beim Schreiben. Allerdings ist die Haltung des Tintenrollers f\u00fcr mich ungewohnt bzw. unangenehm, da der vordere Teil (zwischen Finger und Schreibspitze) etwa 2 cm misst. Das Schreiben wirkt dadurch etwas \"hochgestochen\".\nZusammenfassend kann man sagen, dass dieses Schreibger\u00e4t optisch in jedem Falle etwas hermacht, in der Ausf\u00fchrung (gerade hinsichtlich des verwendeten Materials) zeigen sich aber deutliche Abstriche, die meines Erachtens diesen enorm hohen Preis (ca. 22 \u20ac) keinesfalls rechtfertigen!\nEs ergeben sich zwar noch 3 Sterne, aber keine klare Kaufempfehlung.",
+                            "publication_date": "2015-01-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 December 2020",
+                            "helpful_votes": 4,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://images-na.ssl-images-amazon.com/images/I/71IPtEMGrCL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://images-na.ssl-images-amazon.com/images/I/71Twbdq5-+L._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andreas M.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH7NY7252ANXCZO5NZFATNIJFK5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Edler, hochwertiger Tintenroller - jedoch teure und kurzlebige Minen! :(",
+                            "url": "https://amazon.de/gp/customer-reviews/R1MSS6PIYDL178/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Sch\u00f6ner, hochwertiger und gut verarbeiteter Tintenroller von Lamy. Gut ausbalanciert und angenehmes Gewicht.\nEinziger Kritikpunkt am Stift selbst ist der versenkbare Clip, wenn die Mine herausgedr\u00fcckt ist. Dadurch rollt der Kugelschreiber durch sein vergleichsweise h\u00f6heres Gewicht schnell davon.\nDer Kulli schreibt anfangs fl\u00fcssig und butterweich, aber die Minen fangen ziemlich schnell an zu kratzen oder die Tinte trocknet aus.\nDeshalb nur 3 Sterne von mir, aufgrund der teuren und kurzlebigen Minen. Von Lamy war ich mal ein anderes Qualit\u00e4tsniveau gewohnt.\nSollte man sich trotzdem f\u00fcr den Kauf entscheiden, kann man gleich 1 oder 2 Minen als Reserve mitbestellen und so lange eingeschwei\u00dft lassen bis man sie braucht.\nDas zweite Bild das ich angeh\u00e4ngt habe zeigt das Schriftbild mit einer \"B Mine\" also die breitere Variante.",
+                            "publication_date": "2020-12-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 July 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHRTOMWWG25A7TE7BQWTAOJJCJ4Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Angenehmes Schreibger\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R334YKSWH8DKDO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Sehr angenehmes Schreiben. Liegt gut in der Hand.\nSo gut, das ihn meine Schwiegermutter schon \"klauen\" wollte...\ud83d\ude02 Naja, der n\u00e4chste Geburtstag kommt bestimmt.",
+                            "publication_date": "2022-07-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 February 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGOZ6EYZBC4W2H4J7MFZZZ5CQYFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6ner, wertiger Stift mit sch\u00f6nem Schriftbild",
+                            "url": "https://amazon.de/gp/customer-reviews/R1K4SBQX3OE49Q/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Es ist ein sehr sch\u00f6ner, wertiger Stift, der toll in der Hand liegt und mit dem sich toll schreiben l\u00e4sst. Ich habe mir mehrere davon in verschiedenen Faben zugelegt. W\u00fcrde ihn wieder bei diesem H\u00e4nlder kaufen.",
+                            "publication_date": "2022-02-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 August 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "N.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFJ23PPH3VYLV4OLZ7GKEM43UHVA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lieblingsstift",
+                            "url": "https://amazon.de/gp/customer-reviews/RMJ5RWEWQK1BD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Egal ob Unterschriften oder einfaches Schreiben - dieser Tintenroller ist einfach toll. Ich m\u00f6chte ihn nicht mehr hergeben. Die etwas dickere Miene macht die Schrit sehr elegant. Das Eintrocknen, was manche Kunden bem\u00e4ngeln, kann ich so nicht best\u00e4tigen. Das Blau macht den Tintenroller sehr edel.",
+                            "publication_date": "2021-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 November 2016",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ididi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGBGFJQSWJ7TZBFBYMUE34JIHP4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy spricht f\u00fcr Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R22TMS4AMCF7R/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Ein genialer Tintenroller\nDie M-Mine schreibt etwas breiter als man es von einer F\u00fcllfeder gewohnt ist, aber mir macht das nichts aus\nDer versenkte Clip w\u00e4hrend des Schreibens ist auch eine geniale Idee\nIch habe mir diesen Roller zus\u00e4tzliche auch in der Farbe weiss angeschafft.\nIch schreibe damit t\u00e4glich und freue mich schon auf dem Weg ins B\u00fcro, dass ich wieder damit schreiben kann\nIch habe mehrere Schreibger\u00e4te von Lamy, bin ein absoluter Fan dieser Marke. Ich werde auch nicht daf\u00fcr bezahlt, was ich hier schreibe, mir liegen  diese Schreibger\u00e4te eben so gut in der Hand. Ich wurde noch nie entt\u00e4uscht.\nSehr empfehlenswert\nSuper",
+                            "publication_date": "2016-11-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2018",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stiker",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHOV5A5C6TGFM2SRGYW5WIHVSDGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy, was sonst!",
+                            "url": "https://amazon.de/gp/customer-reviews/R36I85KC6O4V1L/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Ich hatte vor 10 Jahren einen Lamy Tintenroller mit Gravur geschenkt bekommen, der bis heute t\u00e4glich im Einsatz war. Er ist nun aber leider aufgrund von Materialerm\u00fcdung defekt. Ich habe mir nat\u00fcrlich wieder einen Lamy ausgesucht, da alleine das Schreiben mit einem Rintenroller einfach Spa\u00df macht. Die Verarbeitung ist gewohnt gut, die Preisleistung bei diesem Modell mehr als gut. Die Lieferung erfolgte sehr schnell. Alles in allem sehr zu empfehlen f\u00fcr ein Schreibger\u00e4t das nicht nur seinen Zweck erf\u00fcllt sondern auch optisch sch\u00f6n ist.",
+                            "publication_date": "2018-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 August 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Heinz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/5ee4faea-dcca-4a37-be23-8b43a0e13b23._CR0,0,427,427_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHYPPCYYTUYU6JEJ3POT3TNLU2OA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy Tintenroller",
+                            "url": "https://amazon.de/gp/customer-reviews/R3LE4PZIWBU6VB/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B001P0GZO4",
+                            "review_text": "Sch\u00f6n schreiben, guter Schreiber.\nKaufen bei Amazon hat den NACHTEIL immer Telefonische Bel\u00e4stigung von den H\u00e4ndler,\nauch in Fremdsprache, aus der Schweiz aus Frankreich, Italien, England u.s.w.",
+                            "publication_date": "2020-08-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

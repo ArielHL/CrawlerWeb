@@ -1,0 +1,104 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0305 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-ef07f8dc9e12",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0155 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-ef07f8dc9e12"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CJF6L1F2",
+                "asin": "B0CJF6L1F2",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CJF6L1F2",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CJF6L1F2?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:40:48 +00:00",
+                    "spell": null,
+                    "title": "WIIUKA Case for iPhone 15 Pro Max, Leather from Germany, Leather...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "WIIUKA Case for iPhone 15 Pro Max, Leather from Germany, Leather Mobile Phone Chain, Premium Mobile Phone Case, Chain Strap, Neck Strap, Blue Midnight Blue",
+                        "url": "https://amazon.de/-/en/WIIUKA-Leather-Germany-Premium-Midnight-blue/dp/B0CJF6L1F2/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41HDgFAStbL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4",
+                        "votes_count": 1,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 1,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 1,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "thor",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/42dc7e3e-c317-442a-88bf-f91c138ffd95._CR0,0,411,411_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEJDA5PRPHUBDM2YA36VDYV3GKUQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Prima H\u00fclle f\u00fcr das iPhone",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2EIBKQX1O10X2/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CJF6L1F2",
+                            "review_text": "Die Lederh\u00fclle ist perfekt f\u00fcr das iPhone 15 pro Max. Qualitativ gibt es nicht zu meckern. Passt perfekt und f\u00fchlt sich gut an. Ein angenehmer Ledergeruch verstr\u00f6mt die H\u00fclle. Also eigentlich  5 Sterne, wenn da nicht der Transport w\u00e4r, 8 Tage als Warenpost in ein und derselben Stadt geht garnicht. Da h\u00e4tte ich es auch zu Fu\u00df abholen k\u00f6nnen.",
+                            "publication_date": "2023-10-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0351 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-95d4e62501a4",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0177 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-95d4e62501a4"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09QL8VQP1",
+                "asin": "B09QL8VQP1",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09QL8VQP1",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09QL8VQP1?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:15 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy S22 SM-S901B 15.5 cm (6.1) Dual SIM Android 12 5G USB...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy S22 SM-S901B 15.5 cm (6.1) Dual SIM Android 12 5G USB Type-C 8 GB 128 GB 3700 mAh Pink Gold",
+                        "url": "https://amazon.de/-/en/Samsung-Galaxy-SM-S901B-Android-Type-C/dp/B09QL8VQP1/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41pVE6haQCL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.3",
+                        "votes_count": 34,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 5,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 5,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mar Me\u00df",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF737BWTYQVFNE7LFYAHSJRCMEGQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handy ohne Zubeh\u00f6r",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2GTVNIQ35JO4O/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09QL8VQP1",
+                            "review_text": "Wie kann man bitte in der heutigen Zeit ein Handy mit USB-C Lade - Anschluss OHNE Stecker verkaufen? Ich war nun 2 Tage besch\u00e4ftigt so ein sch... Stecker aufzutreiben,\nja mag sein dass dies die Zukunft ist aber ein C-Anschluss hat nun wirklich NOCH nicht jeder zu Hause. Ebenso vermisse ich die Ohrst\u00f6psel, fr\u00fcher in jedem Handy mit dabei.\nSchade, kann das Handy noch nicht bewerten da ich es nach 2 tagen nun endlich mal aufladen kann. Verr\u00fcckt.... Und sehr nervig.",
+                            "publication_date": "2023-10-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Manja",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEZAMAX3Q5IBYGI5XHBOEHK2DM7Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Defekt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2ZVF5F0CUCP01/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09QL8VQP1",
+                            "review_text": "Sehr entt\u00e4uscht, das Smartphone ist nicht hochgefahren. Ich habe es geladen und dann angeschaltet nach 10 min war das Smartphone hei\u00df und ist nicht hochgefahren. Ausschalten hat dann auch nicht mehr funktioniert.",
+                            "publication_date": "2023-06-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mathias P.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFGS6RMKKRSBFZQPIQIGJE3QWZMQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Amazing",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1S8TC3QYLIIIH/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09QL8VQP1",
+                            "review_text": "The phone is so good and much cheaper here than in my country. I arrived it in 5 days. Recommend if you\u2019re gonna buy that phone!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 9 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Monica",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Cell top",
+                            "url": null,
+                            "review_text": "Cellulare ottimo foto pazzesche lo consiglio veramente un ottimo Cellulare per il mio lavoro e non solo\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 30 January 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Giancarlo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Perfetta",
+                            "url": null,
+                            "review_text": "Conforme alla mia richiesta",
+                            "publication_date": "2023-01-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

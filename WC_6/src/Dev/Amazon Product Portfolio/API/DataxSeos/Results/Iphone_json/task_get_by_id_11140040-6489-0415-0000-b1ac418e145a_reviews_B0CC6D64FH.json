@@ -1,0 +1,953 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0396 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-b1ac418e145a",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0235 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-b1ac418e145a"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CC6D64FH",
+                "asin": "B0CC6D64FH",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CC6D64FH",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CC6D64FH?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:40:40 +00:00",
+                    "spell": null,
+                    "title": "TORRO Case Compatible with iPhone 15 Pro Max - Premium Leather Case...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "TORRO Case Compatible with iPhone 15 Pro Max - Premium Leather Case with Stand Function and Card Slots - Black",
+                        "url": "https://amazon.de/-/en/TORRO-Case-Compatible-iPhone-Pro-Black-red-details/dp/B0CC6D64FH/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/51pyNpSui3L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.3",
+                        "votes_count": 192,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 98,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michael T.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH2DTOQZNHHWEXB3LT6N5EXIEMGQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sch\u00f6ne Echt-Lederh\u00fclle",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1G3ANQ25UF2TQ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Eine tolle Echt-Lederh\u00fclle f\u00fcr das Smartphone. F\u00fchlt sich sehr gut in der Hand an. Die Magnete zum Verschluss m\u00fcssen sich noch etwas beweisen, aber bisher kann ich nichts negatives sagen.",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Baghira",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGIA4KL3VGNLOGO2AHR5UPXZHOVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Elegant und sch\u00f6n",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1SXNDYYBE273E/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Ich verwende f\u00fcr alle meine aktuellen Apple-Ger\u00e4te die roten Lederh\u00fcllen von Torro. Die H\u00fcllen sind hochwertig gearbeitet, elegant und sch\u00f6n. Ebenso erf\u00fcllen sie ihre Schutzfunktion ausgezeichnet. Die H\u00fclle f\u00fcr mein iPad Pro habe ich seit \u00fcber einem Jahr im Einsatz und sie ist nach wie vor in einem sehr gutem Zustand mit nur leichten Abnutzungserscheinungen am R\u00fccken, was durch das st\u00e4ndige auf- und Zuklappen verst\u00e4ndlich ist und bei Leder dazugeh\u00f6rt. Die H\u00fclle f\u00fcr das iPhone Pro Max kam p\u00fcnktlich am n\u00e4chsten Tag und ist genauso sch\u00f6n und hochwertig verarbeitet wie die anderen. Wie sie passt kann ich noch nicht sagen, da ich auf mein iPhone noch warte\ud83d\ude14. Ich finde die H\u00fcllen von Torro insgesamt sehr empfehlenswert\ud83d\udc4d\ud83c\udffc\ud83d\ude0a.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Reiner F.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEUGJTD5JX4D3IUAQVWGK5X7KGVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Erf\u00fcllt seinen Zweck.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2F7APUSBT55HS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "F\u00fcr das iPhone 15 Pro Max. Ein gute Qualit\u00e4t. Etwas ungewohnt, der Komplette Schutz.",
+                            "publication_date": "2023-11-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Avatarius",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEMIEPYNYQB7FXRPFOKTMOA454OA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Handyh\u00fclle, wie beschrieben",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RQZ3WGSZUSYRI/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Die Handyh\u00fclle wirkt hochwertig und haltbar, das Handy sitzt passgenau und ist gut gesch\u00fctzt.",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 November 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Danny",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFNQV7RA6NVLIBJEWAZ7BYZUER4A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bin sehr zufrieden",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R25JHZB95MU1B0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Bin mit den H\u00fcllen bisher immer sehr zufrieden. Sie passen gut und sind sehr robust. Das Leder f\u00fchlt sich gut an und liegt gut in der Hand.",
+                            "publication_date": "2023-11-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "h\u00fcttemaus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG3PNYW4RZUI7UCR67ETREKXN2SA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr edel",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R23IRMPWTXPB48/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Tolles Leder.tolle Farbe, Zusatztasche das I T\u00fcpfelchen!",
+                            "publication_date": "2023-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 20 October 2023",
+                            "helpful_votes": 2,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61Q+cLEM5TL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "VSK",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEBAAVAICWQR6E2TNQPNGOENQQDQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Empfehlung Torro f\u00fcr iPhone 15 pro max",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1V5ZAJC68COJW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Diese H\u00fclle ist sehr gut. Im Gegensatz zu einer fr\u00fcheren Variante f\u00fcr das 12er pro max, klappt das induktive Laden mit Apples Magsafe Kabel. Es h\u00e4lt auch magnetisch an der H\u00fclle. Die F\u00e4cher f\u00fcr Karten sind sehr praktisch.",
+                            "publication_date": "2023-10-20 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Viktor Schnedl",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEZFNDFOBCSTSJUIK3F542NTXCJQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Torro",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R33IVB9ZLASQGE/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Wie immer einer sehr gute Qualit\u00e4t gibt nichts zu beanstanden.",
+                            "publication_date": "2023-10-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Thomas J.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGDI3NLDVQQLYNZ3YQBZAD2EUF7A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sensationelle Handyh\u00fclle!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3SBEV6M8XLAB7/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Das ist mittlerweile die dritte Handyh\u00fclle von Torro. Es gibt, glaube ich, keine bessere H\u00fclle. Diese ist nochmal bedeutend besser als die Vorg\u00e4nger. Perfekter Druckpunkt bei den Tasten. Sehr angenehm in der Hand und ein dezenter Lederduft schmeichelt der Nase. Die Verarbeitung ist sowieso \u00fcber jeden Zweifel erhaben. Gerne wieder!",
+                            "publication_date": "2023-10-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Franz-Josef",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/704499de-5bf4-4c85-ad8e-cefe7279b6f2._CR0,0,362,362_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG3CGUQR7DWDQR4I2UNSP66ZUZPQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt \ud83d\udc4d",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3G5FNDIR9OU3Z/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Alles so wie beschrieben. Hochwertiges Material.",
+                            "publication_date": "2023-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "R\u00fcdiger H.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHJATT2K725O73KMNNI7HGUJBSBA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handy Schutzh\u00fclle",
+                            "url": "https://amazon.de/gp/customer-reviews/R38ZF0BSMIEHGR/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Alles gut.",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "I.Eckstein",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AELHBHT2TOYFJTZA2VK7HKQF3YTA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Empfehlenswert!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2A96VOOJG604/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Guter Service u. Gute Qualit\u00e4t der Artkela",
+                            "publication_date": "2023-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Irmgard B.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMVZCCDFERUR6N3TLSM4BSCQ2JA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handy H\u00fclle f\u00fcr iPhone 15 pro max",
+                            "url": "https://amazon.de/gp/customer-reviews/R2BOJ5CC3YRQ5P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Die H\u00fclle ist sehr gut verarbeitet und sieht sehr gut aus. Ich habe sie in blau gew\u00e4hlt, passend zu dem blauen Handy.\nIch kann den Kauf nur empfehlen.\nVielen Dank.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kindle-Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMTFVTHCKM67YIA73CCJD3KOKJQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ZDYZNVMCNVVV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Gute Qualit\u00e4t und sehr schnelle Lieferung immer wieder gerne",
+                            "publication_date": "2023-10-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazone",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGBB4NYONZFSTSGZHTEJBUK7OJIA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Es stinkt nix!",
+                            "url": "https://amazon.de/gp/customer-reviews/R17E81LK4L7EJQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Ich habe die H\u00fclle gerade eben erhalten: ES STINKT NIX, nur nach Leder!\nMehr kann ich z.Z. nochnicht sagen, da mein 15PM erst im Oktober kommt!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Joachim Rudolf",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEUQD7R4MC4D5MSQGJKDNO64RWWQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "iPhone H\u00fclle mit 3Kartenf\u00e4chern",
+                            "url": "https://amazon.de/gp/customer-reviews/R3JKIIMPW2FEGL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "H\u00fclle sieht gut aus und passt.\nNach 5Tagen riecht die H\u00fclle immer noch sehr stark nach Chemie, genauer gesagt sie stinkt.",
+                            "publication_date": "2023-11-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Altenkirch",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHI6Y7INKXCEHDHUFOOWKMIW2ZBA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle H\u00fclle aber\u2026",
+                            "url": "https://amazon.de/gp/customer-reviews/R2WP9F35DI763W/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "\u2026 die Lederlaschen mit den Magneten an der Seite st\u00f6ren nur und reiben immer wieder an der Hand, sodass sie wund werden \u2026 sehr schade, werde sie zur\u00fcckschicken",
+                            "publication_date": "2023-10-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Achtung Fehlkonstruktion",
+                            "url": "https://amazon.de/gp/customer-reviews/R3QHGTB0VV2HIU/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Einer der teuersten H\u00f6hlen auf Amazon und dann so etwas! Wof\u00fcr ein Schalter war hat Apple jetzt einen ganz normalen Knopf gesetzt. Was machen die Hersteller? Beziehungsweise der Hersteller? Genau wir lassen weiter ein Loch in der H\u00f6hle, so dass man recht schlecht an den Knopf jetzt hinein kommt Hat bei der Entwicklung nicht ber\u00fccksichtigt das druckt nun ein Schalter nicht mehr vorhanden ist, sondern ein Knopf. Da h\u00e4tte ich auch eine billige H\u00fclle kaufen k\u00f6nnen f\u00fcr zehn Euro und h\u00e4tte das gleiche Problem gehabt gleicher Verarbeitung.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jan",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AECS5P4XN3H5IITZXFF6JDDV3I2Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Extremer stechender \u00e4tzender Geruch !!!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BOCCZDTMR2EP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Gerade aus der Amazon Verpackung genommen fiel bei unge\u00f6ffnen Verpackung der extrem stechende Geruch von billig Plastik auf. Es kann auch das behandelte Leder sein. Zumindest flog die H\u00fclle direkt aus den Wohnzimmer. An meinen H\u00e4nden klebt der Geruch und an meinen Lippen und Zunge brennt es. Was wird da benutzt???",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Max Hoelz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGTTYTY5SQAOMN2RV2J5HBCJRUPQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ist ihr Geld nicht wert!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2EWOLOQRLOOBI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "H\u00fclle macht keinen hochwertigen Eindruck & riecht stark. Zudem kam die H\u00fclle nicht originalverpackt an. Wenn ich 40\u20ac f\u00fcr eine H\u00fclle bezahlen soll, m\u00f6chte ich nicht so etwas bekommen. Nie mehr Torro.",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "A",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHGLVC2QSVADVYGWB3AFG2J7SQFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Verschluss ist ungen\u00fcgend",
+                            "url": "https://amazon.de/gp/customer-reviews/R2W0XFYSOS3TOT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Die Magneten im Verschluss halten nicht. Die H\u00fclle geht immer wieder auf. Obwohl das ein eindeutiger Mangel ist, m\u00f6chte Amazon 2,99 Euro f\u00fcr eine R\u00fccksendung\u2026 ernsthaft Amazon?!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 16 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "beetle_instructor",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFWGIE7IDJZHSS73VJGS3BRGEZVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Stabile H\u00fclle mit extremer Ausd\u00fcnstung",
+                            "url": "https://amazon.de/gp/customer-reviews/R3EAWCT5X8PNAJ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Ich habe die H\u00fclle in schwarz/schwarz bestellt. Sie hat ungef\u00e4hr vier Tage Lieferzeit gehabt. Beim auspacken ist mir aufgefallen, dass der schwarze Karton der Verpackung an den Falten schon etwas in Mitleidenschaft gezogen war. Die H\u00fclle selbst war v\u00f6llig in Ordnung, wenn man sie aber als Geschenk gedacht hat, ist es schade, wenn die Umverpackung schon etwas l\u00e4diert ankommt.\nWas allerdings wirklich beachtlich ist, ist der enorme Gestank, den diese im Vergleich winzige H\u00fclle verbreitet. Ich habe sie kurz an meinem Handy angebracht, musste sie aber nach kurzer Zeit nach drau\u00dfen bef\u00f6rdern und den Raum durchl\u00fcften. Ich bin da jetzt wirklich nicht so empfindlich und st\u00f6re mich an den geringen Ausd\u00fcnstungen, die solche Produkte immer mal wieder aufweisen, aber so eine raumerf\u00fcllende alles \u00fcberlagernde \"Note\" habe ich bisher noch nie erlebt. Ein der Nase schmeichelnder Lederduft, wie in einer anderen Rezension geschildert, kann ich also ganz sicher ausschlie\u00dfen.\nIch werde nachberichten, ob sich dieser Zustand noch \u00e4ndert.\nNachtrag :\nAuch am zweiten Tag habe ich versucht, die H\u00fclle am ge\u00f6ffneten Fenster im B\u00fcro (ohne Handy) ausd\u00fcnsten zu lassen. Leider ohne Erfolg. Vielmehr bemerken Kollegen, die nichts von der H\u00fctte wissen, einen durchdringenden/stechenden Geruch.\nIch werde die H\u00fclle deshalb zur\u00fcckschicken und die Bewertung auf den einen, obligatorischen, Stern zur\u00fccksetzen.\nSehr schade, da mir die H\u00fctte schon zugesagt hat. Aber mit den nicht enden wollenden Ausd\u00fcnstungen ist es nicht m\u00f6glich.",
+                            "publication_date": "2023-10-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Heinz Krummholz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/944efd28-c019-4f2c-83c3-83cf41fa94f2._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFQSLJQCQOZREVZIPC6RAVSYG5BQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles bestens",
+                            "url": "https://amazon.de/gp/customer-reviews/R2UV40J53O42BZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Das Produkt ist ok",
+                            "publication_date": "2023-11-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Claudia Sunny",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFSPXOAQGFAPOWZ6TFZVEKNY4Z6Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Empfehlenswert",
+                            "url": "https://amazon.de/gp/customer-reviews/R3A02A6KG9Y9O0/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CC6D64FH",
+                            "review_text": "Tolle H\u00fclle, sieht gut aus, sch\u00fctzt, ich w\u00fcrde sie wieder kaufen!",
+                            "publication_date": "2023-11-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 26 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Laurence",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Well made, nice looking case, but not for me",
+                            "url": null,
+                            "review_text": "It seems a well made and well designed case. Can be folded over to form a landscape mode stand.\nRemoved one star because I think it\u2019s essential to also have a screen protector. I really worry about putting my plastic debit card and driving licence into the card slot and then closing it to put it in direct contact with the screen.\nI waited til I\u2019d bought and applied a screen protector before using this case. But I decided it\u2019s not for me. In a day out around London with a paper travelcard and coupled with also trying to use the phone to take photos, I found the case cumbersome and awkward, but this is personal preference and just not what I\u2019m used to.",
+                            "publication_date": "2023-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 5 October 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jeipiika",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Great product if you don't want wireless charging",
+                            "url": null,
+                            "review_text": "I've been buying Torro cases for my phones since the iPhone 7, so getting one for the 15 was a no-brainer. As always, it's a quality product, well engineered. I've noted iterative changes and improvements along the line - the 7 case's leather wasn't too supple and never loosened up enough to stay propped up on the kickstand, a problem I didn't have with subsequent cases, and the lips in this case seem to be more pronounced, giving plenty of clearance between surface and whatever bits of the device are exposed. Ironically, this is most noticeable in front, where it's least needed when you close the flap.\nBut I think this one might have one or two flaws. Others have noted the decision to leave a hole for the new action button, rather than simply print a button into the side. Accessing the button's fine for folks like me with small fingers; if you have larger fingers, you might want to consider alternatives.\nThe killer for me, however, is that this case interferes with wireless charging. I've been buying this exact style of case since 2017, and since 2020 I've used a yootech Qi pad to charge my phones. On the 11, 13 and 14, this was no problem for these cases, but the 15 won't play ball. Without the case, it works fine.\nMaybe I need a new Qi pad. In the interim, it's wired charging. I have cables with magnetic heads which retain the quick disconnect convenience, and I have a USB-C head inserted in this phone. Removing it, on the other hand, is another matter, as getting a good enough grip to pull it out is very difficult, and the most success I've hand involves using the case's lip as leverage. I can see a fatigue break in the future.\nIt's a great product, certainly, but it has challenges that hamper it. Consider these if you want to buy this.",
+                            "publication_date": "2023-10-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "rbham",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "This is a good phone cover",
+                            "url": null,
+                            "review_text": "Apparently only old people have wallet phone cases. That's ok because I am getting old and I love these cases. I've had several for different phones. Great protection if dropped. Good for propping on it's side watching funny video clips of people falling over. And it's like having a flip phone in the early 90s. Only with arthritis.",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 23 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Monty",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Nice Leather Case",
+                            "url": null,
+                            "review_text": "Lovely leather case with well padded sides, looks great. The lack of MagSafe is a downside, but everything else is top quality. There may be a trade off here but the case is great.",
+                            "publication_date": "2023-10-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 4 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michelle Mansell",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Excellent Quality",
+                            "url": null,
+                            "review_text": "Arrived promptly.  The quality of the product is great and the best I've had so far.  A shame you can't use the magsafe charger, but I knew this before I purchased it.  It really is a nice phone case.",
+                            "publication_date": "2023-11-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[13]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 26 September 2023",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61vKe2TEZqL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Client d'Amazon",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Fermoir",
+                            "url": null,
+                            "review_text": "Pochette pour iPhone 15 pro max de bonne qualit\u00e9\nDommage que le fermoir aimant\u00e9 ne soit pas stable se d\u00e9cale dans la poche",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

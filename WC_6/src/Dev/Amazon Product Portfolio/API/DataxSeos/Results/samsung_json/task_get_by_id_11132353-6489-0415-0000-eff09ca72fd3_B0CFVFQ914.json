@@ -1,0 +1,72 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0421 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 1,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-eff09ca72fd3",
+            "status_code": 40102,
+            "status_message": "No Search Results.",
+            "time": "0.0229 sec.",
+            "cost": 0,
+            "result_count": 0,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-eff09ca72fd3"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CFVFQ914",
+                "asin": "B0CFVFQ914",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CFVFQ914",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CFVFQ914?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:53:53 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy A14 LTE Android Smartphone without Contract, 64 GB, 4...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy A14 LTE Android Smartphone without Contract, 64 GB, 4 GB RAM, 6.6 Inch Dynamic AMOLED Display, 5,000 mAh Battery, Black, Mobile Phone",
+                        "url": "https://amazon.de/-/en/Samsung-Android-Smartphone-without-Contract/dp/B0CFVFQ914/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/519DJ+dhPML._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.7",
+                        "votes_count": 4,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 0,
+                    "item_types": null,
+                    "items_count": 0,
+                    "items": null
+                }
+            ]
+        }
+    ]
+}

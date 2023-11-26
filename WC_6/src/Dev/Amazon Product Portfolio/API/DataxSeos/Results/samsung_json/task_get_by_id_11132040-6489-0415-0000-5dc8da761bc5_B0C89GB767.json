@@ -1,0 +1,481 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0478 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132040-6489-0415-0000-5dc8da761bc5",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0208 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132040-6489-0415-0000-5dc8da761bc5"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0C89GB767",
+                "asin": "B0C89GB767",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0C89GB767",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0C89GB767?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 18:42:41 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy Z Fold5 Folding Smartphone without Contract, Android...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy Z Fold5 Folding Smartphone without Contract, Android Phone, 512 GB, Extended Battery Life, HD Camera, Cream. Includes 36 Month Warranty [Exclusive to Amazon]",
+                        "url": "https://amazon.de/-/en/Smartphone-Contract-Extended-Warranty-Exclusive/dp/B0C89GB767/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41NyuTJMV+L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.2",
+                        "votes_count": 21,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 12,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 14,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 August 2023",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tomasz K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFDH5QO7UUNOHBS7WCRTZUVIJ4SA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein wirklich feines Ger\u00e4t \ud83d\udc4d\ud83c\udffb",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R10S7MR0TBQ4SQ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Bin sehr zufrieden. Eine sch\u00f6ne Kombination aus Handy und Tablet !\nNat\u00fcrlich ist der Preis schon saftig aber f\u00fcr mich absolut \"preiswert\" !\nEinziger Kritikpunkt: die Qualit\u00e4t der Fotos k\u00f6nnte besser sein und an das Format des Frontbildschirmes musste ich mich gew\u00f6hnen. Benutze es aber zu 90% aufgeklappt.",
+                            "publication_date": "2023-08-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 August 2023",
+                            "helpful_votes": 11,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "TECHNIKFREAK",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF5O4TKQB2GYMIXHEIZDC5BKQL7A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles Ger\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RVTE7TFQ008XS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Das Samsun Galaxy Z Fold5 ist ein technischer Leckerbissen.Alleine das Umschalten von Au\u00dfen- auf Innendisplay macht gro\u00dfe Freude.Das hier dann auch noch die Arbeit mit dem S-Pen m\u00f6glich ist macht das ganze komplett.\nDie Qualit\u00e4tsanmutung ist prima,ich hoffe auf lange Lebensdauer,aber es gibt ja bei Amazon 3 Jahre Garantie.\nNat\u00fcrlich w\u00e4re ein etwas niedrigerer Preis fein,aber feine Technik kostet nun mal einen feinen Preis.Auch bei den Mitbewerbern ist ein faltbares Smartphone nicht g\u00fcnstiger zu bekommen.",
+                            "publication_date": "2023-08-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 19 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ioana",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/daa9bf24-0da5-4369-967f-c75b642c86e9._CR0,41.0,250,250_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGWAZCOXAOKSDEEJF4W2EQV7HAUA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Eine Beeindruckende Entdeckung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2N3KJW3Q5RU6Z/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Ich hatte die Gelegenheit, das SAMSUNG Galaxy Z Fold 5 zu nutzen, und ich muss sagen, dass es mich von Anfang an fasziniert hat. Die Tatsache, dass ich ein Telefon und ein Tablet in einem einzigen Ger\u00e4t haben kann, ist wirklich beeindruckend.\nDas Telefon verf\u00fcgt \u00fcber einen gro\u00dfz\u00fcgigen 7,6-Zoll-Bildschirm, der ein ausgezeichnetes Seh- und Spielerlebnis bietet. Ich war beeindruckt von der Bildqualit\u00e4t und den lebendigen Farben auf dem Bildschirm.\nEin weiteres Feature, das ich liebe, ist die Einhandbedienung des Telefons, was es ideal f\u00fcr den t\u00e4glichen Gebrauch macht. Die Dual App View-Funktion hat sich ebenfalls als sehr n\u00fctzlich erwiesen, da ich problemlos zwei Apps gleichzeitig ausf\u00fchren kann.\nObwohl der Preis angemessen ist, glaube ich, dass sich die Investition f\u00fcr alle Funktionen und die Leistung, die dieses Telefon bietet, lohnt. Das SAMSUNG Galaxy Z Fold 5 ist schnell zu einem verl\u00e4sslichen Begleiter in meinem Leben geworden. Es bietet nicht nur Leistung und Innovation, sondern bringt auch eine gewisse Eleganz in meine t\u00e4gliche Routine.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 11 October 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Miele",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/850e38f8-2767-4f34-be3c-b1dcf67734a2._CR135,0,230,230_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGNBALAEOTSOJAZW6VS226A7HRMA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Overpriced",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2ZAVLX57RFUAX/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Quality and Price are bad.\nAlso no Innovation.",
+                            "publication_date": "2023-10-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 4 October 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Gast123",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGFMWAWYF3FTZL7FFXRIBKAB6G6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Was???",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R20QHTV9C1SVP3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Wer gibt so viel Geld f\u00fcr Noname aus, die bauen auch Waschmaschinen uns sonst was f\u00fcr ein Billigm\u00fcll",
+                            "publication_date": "2023-10-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 6 August 2023",
+                            "helpful_votes": 27,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andreas Eifel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGWW5JP4YEGASDBMQSKZTDT4OO2Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hammer!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R15J409DSSQM7G/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Das tollste St\u00fcck Technik das ich je in der Hand hatte. Das Ger\u00e4t ist sehr D\u00fcnn und Glatt, sodas eine gute H\u00fclle unversichtbar ist. Samsung hat die bestehenden Apps so gut bearbeitet bzw. aufgewertet und an das gro\u00dfe Display angepasst, das YouTube, Whatsapp, Netflix uvm. einfach auf dem gro\u00dfen Display ein Genu\u00df sind. F\u00fcr einen Smartphone Freak wie mich eine enorme Bereicherung. Ich hatte vorher ein Galaxy s22 Ultra, also die Me\u00dflatte liegt hoch... und ich wurde nicht ent\u00e4uscht.",
+                            "publication_date": "2023-08-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 11 August 2023",
+                            "helpful_votes": 30,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Enrico S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/fa74cc8e-4c2c-437e-b233-bf866b46653a._CR0,26.0,280,280_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFT6KB4CPVSBJG4G7XSRTZ3CQR5A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sieht gut aus, aber\u2026\u2026.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2JJ5PTPF55IWX/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Das grenzt wirklich an K\u00f6rperverletzung ein Handy f\u00fcr 2000 \u20ac. es gibt Menschen auf der Welt, die nicht mal so viel im Monat verdienen.  Ich hatte das Handy schon in der Hand und damit zum Beispiel Fotos gemacht. Die Fotos sind nicht gerade der Br\u00fcller. Leute es gibt Handys, die unter 1000 \u20ac kosten und viel viel mehr Leistung haben. Ich glaube hier bezahlt man nur das klappen vom Handy",
+                            "publication_date": "2023-08-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 12 August 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "mischa",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFLHAIVIILM4IDPLA6ZE4C4OJLHA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bis jetztes bestes foldable mit Stiftunterst\u00fctzung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3FUFZAVJOSS2G/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Fold 5 ist wohl das einzine phone mit Stiftunterst\u00fctzung. Das ist mein erstes foldable, aber nach \u00fcber 1ner Woche damit werde ich wohl nie wieder ein normales phone kaufen.\nIch nutze es f\u00fcr:\n- Mangas lesen\n- Notizen machen (auch beruflich). Hab mein iPad mini 6th verkauft, weil es das Tablet einfach vollst\u00e4ndig ersetzt hat\n- websurfen",
+                            "publication_date": "2023-08-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 4 August 2023",
+                            "helpful_votes": 50,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEHLUXNA5OTLDXCUXAVU4QQXEOJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lacher",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1OQ2E0FWN5UPE/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "2000 Euro f\u00fcr ein Handy einfach nur l\u00e4cherlich das grenzt schon an K\u00f6rperverletzung",
+                            "publication_date": "2023-08-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 17 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rock",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0c50fa33-e29d-4f10-9817-a46bc1c7d29f._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG24NNSADZR5UXEFSIQQBQTGZS6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "All is good but....",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R320EOU4TD7B9S/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Price is more and i personally used this for 10 days.. you have to handle it with care because if it falls from your hand then you may get dot or scratch 2nd Display. Its very sensitive if you push little more with s pen \ud83d\udd8a then it might get dot or cracks",
+                            "publication_date": "2023-08-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 17 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rock",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0c50fa33-e29d-4f10-9817-a46bc1c7d29f._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG24NNSADZR5UXEFSIQQBQTGZS6A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "All is good but....",
+                            "url": "https://amazon.de/gp/customer-reviews/R320EOU4TD7B9S/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Price is more and i personally used this for 10 days.. you have to handle it with care because if it falls from your hand then you may get dot or scratch 2nd Display. Its very sensitive if you push little more with s pen \ud83d\udd8a then it might get dot or cracks",
+                            "publication_date": "2023-08-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 13 August 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ARS",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGOVAY5RH5ZZ2TGRGUBGRNRBK4TA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Das Office in der Tasche.",
+                            "url": "https://amazon.de/gp/customer-reviews/R3MIRNKWBSG735/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Ein w\u00fcrdiger Nachfolger von meinem alten Fold 3, der f\u00fcr die n\u00e4chsten Jahre weiter in der Familie bleiben wird.\nDiesmal wieder und rechtzeitig bei Samsung zugeschlagen, die 1TB Version mit Kopfh\u00f6rer f\u00fcr \u20ac 1919, - mit einem Jahr Samsung Care +\nJa, es ist relativ viel Geld, daf\u00fcr bekommt man ein mobiles Office mit dem man Geld verdienen kann.\nWer das Geld \"sparen\" will, der kann gerne bei dem \"Obsth\u00e4nder\" probieren und sein Smartphone mit einem teuren Mobilfunkvertrag jahrelang abbezahlen...\nAuch wenn ich fast alle Ger\u00e4te von dem \"Obsth\u00e4nder\" beruflich und privat gerne benutze, das Smartphone kommt nicht mehr in Frage; nach fast allen Versionen von Galaxy Note x ist der Fold + ein pen (extra Zubeh\u00f6r) ein perfekter Nachfolger.\nWas die Verarbeitung, Geschwindigkeit und Zuverl\u00e4ssigkeit betrifft da bin ich pers\u00f6nlich sehr zufrieden.",
+                            "publication_date": "2023-08-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 17 August 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rock",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0c50fa33-e29d-4f10-9817-a46bc1c7d29f._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG24NNSADZR5UXEFSIQQBQTGZS6A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "All is good but....",
+                            "url": "https://amazon.de/gp/customer-reviews/R320EOU4TD7B9S/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Price is more and i personally used this for 10 days.. you have to handle it with care because if it falls from your hand then you may get dot or scratch 2nd Display. Its very sensitive if you push little more with s pen \ud83d\udd8a then it might get dot or cracks",
+                            "publication_date": "2023-08-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 13 August 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ARS",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGOVAY5RH5ZZ2TGRGUBGRNRBK4TA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Das Office in der Tasche.",
+                            "url": "https://amazon.de/gp/customer-reviews/R3MIRNKWBSG735/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0C89GB767",
+                            "review_text": "Ein w\u00fcrdiger Nachfolger von meinem alten Fold 3, der f\u00fcr die n\u00e4chsten Jahre weiter in der Familie bleiben wird.\nDiesmal wieder und rechtzeitig bei Samsung zugeschlagen, die 1TB Version mit Kopfh\u00f6rer f\u00fcr \u20ac 1919, - mit einem Jahr Samsung Care +\nJa, es ist relativ viel Geld, daf\u00fcr bekommt man ein mobiles Office mit dem man Geld verdienen kann.\nWer das Geld \"sparen\" will, der kann gerne bei dem \"Obsth\u00e4nder\" probieren und sein Smartphone mit einem teuren Mobilfunkvertrag jahrelang abbezahlen...\nAuch wenn ich fast alle Ger\u00e4te von dem \"Obsth\u00e4nder\" beruflich und privat gerne benutze, das Smartphone kommt nicht mehr in Frage; nach fast allen Versionen von Galaxy Note x ist der Fold + ein pen (extra Zubeh\u00f6r) ein perfekter Nachfolger.\nWas die Verarbeitung, Geschwindigkeit und Zuverl\u00e4ssigkeit betrifft da bin ich pers\u00f6nlich sehr zufrieden.",
+                            "publication_date": "2023-08-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

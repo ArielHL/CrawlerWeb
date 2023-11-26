@@ -1,0 +1,959 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0675 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-3ad5823a9ce1",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0306 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-3ad5823a9ce1"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CKW2YCZC",
+                "asin": "B0CKW2YCZC",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CKW2YCZC",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CKW2YCZC?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:41:28 +00:00",
+                    "spell": null,
+                    "title": "OMOTON f\u00fcr iPhone 15 Pro Panzer Schutz Glas mit...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "OMOTON f\u00fcr iPhone 15 Pro Panzer Schutz Glas mit Rahmen-Installationshilfe, kompatibel mit iPhone 15 Pro Schutzfolie, 3D Full Screen, Unzerst\u00f6rbar und Bruchsicher, Milit\u00e4rischer Schutz, 3 St\u00fcck",
+                        "url": "https://amazon.de/-/en/OM-15-Pro-003/dp/B0CKW2YCZC/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41F2H+DO+LL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.5",
+                        "votes_count": 9803,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 2629,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Denise B\u00f6cher",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEJ7VVK4IOY2SCATJKABHTDOZGOQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1PUUZX71FG1O4/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Super Folien",
+                            "publication_date": "2023-10-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Fred",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEW46LVFORES6N7X7LHIULEJOSCA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gutes Produkt.",
+                            "url": "https://amazon.de/gp/customer-reviews/R1XQSTS3GMWGMT/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Mein IPhone 8 ist mir schon 2 Mal runtergefallen. Nichts passiert, der Schutzfolien sei Dank. Das Aufbringen hat jedesmal auf Anhieb geklappt. Drei Folien sind in der Packung - ein Mal runterfallen geht also noch. Dann w\u00fcrde ich das gleiche Produkt wieder bestellen.",
+                            "publication_date": "2023-05-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "J. K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHNDND5EAXRXETOVJV2R3ANLUK3Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Richtig gut sch\u00fctzende Panzerglasfolien",
+                            "url": "https://amazon.de/gp/customer-reviews/R90TPQ2XXB83H/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich habe seit Jahren Panzerglasfolien auf meinen Handydisplays, da diese das Display einfach am besten sch\u00fctzen. Auch mit diesen bin ich wieder sehr zufrieden, die Anbringung ist einfach und ich kann sie auf jeden Fall weiterempfehlen :)",
+                            "publication_date": "2023-05-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 November 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dan B.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFQPOBOALEQLL3JYZGHK7GYJC7GQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Beste Schutzfolie die ich je hatte!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2O4T5Y7I328F0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich klebe bestimmt schon seit fast 20 Jahren irgendwelche Schutzfolien auf alle m\u00f6glichen Displays aber dies ist das erste Set was mal durch Innovation gl\u00e4nzt. Im Set enthalten ist eine Schablone die man auf das Handy klemmt und dann passt die Folie haargenau an die richtige Position. Ohne vielleicht auch nur einen mm schr\u00e4g drauf zu kleben. Immer 100% perfekt und damit ist man richtig schnell.\nIch w\u00fcnschte das w\u00fcrde sich als Standard etablieren und w\u00e4re auch bei anderen Anbietern dabei. Top!",
+                            "publication_date": "2022-11-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 March 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Andre",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFV2IBXLOJGZBUU5K4J7IHXEBJHQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr den Preis ok, ABER..",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RVLMQ8ZJP5CZH/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Aktualisierung +1 Stern dazu:\nNach meiner Bewertung hat sich bei mir eine Nina von Omoton gemeldet und mich gefragt ob mit meiner Bestellung alles in Ordnung w\u00e4re, habe mir bei Ihr etwas Luft gemacht und Sie ist mir freundlicherweise sogar entgegen gekommen. Habe schon lange nicht mehr so einen netten und kompetenten Support erlebt. Also weiter so, so sollte es eigentlich immer sein. Danke Nina! :)\nAlso ich habe das Paket erhalten und hatte mich riesig gefreut. Dir Anleitung und der Umfang der gelieferten Ware ist super, leider aber klebt die Folie tats\u00e4chlich an den R\u00e4ndern so gut wie gar nicht. Was mich nat\u00fcrlich \u00e4rgert.. wenn man die Folie auflegt und anklebt sollte schon alles wie neu aussehen, so aber macht man die Folie drauf und hat das Gef\u00fchl man h\u00e4tte sie schon l\u00e4nger drauf weil die R\u00e4nder sich eben l\u00f6sen bzw. nicht richtig fest sind. Wenn ich so eine Folie bestelle erwarte ich das sie dann auch h\u00e4lt, dann lieber das zus\u00e4tzlich Zeug weg lassen und lieber ordentlich klebende Folie schicken, darum geht\u2019s ja eigentlich auch.. aber na gut der Preis ist eben auch ausschlagekr\u00e4ftig.",
+                            "publication_date": "2020-03-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 May 2019",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://images-na.ssl-images-amazon.com/images/I/61M-Y0cIutL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Gute Displayschutzfolie, aber...",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1G50XGC6ALNXT/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Das Preis/Leistungsverh\u00e4ltnis der Displayschutzfolie ist top. Man bekommt 3 Folien, eine Anleitung, mehrere Reinigungst\u00fccher, ein Mikrofasertuch, mehrere Montage-Kleber, Spatel und Anleitung.\nDie Montage ist dank der mitgelieferten Materialien im Vergleich zu anderen Folien einfach.\nDavor hatte ich die Panzerglas-Folie, die in den Applestores gekauft und direkt aufgeklebt werden kann.\nDie Folie von OMOTON ist deutlich dicker. Zumindest ist die Folie deutlich sp\u00fcrbar beim Druck auf den Home Button.\nDer mitgelieferte Spatel ist auch viel zu weich, um damit Bl\u00e4schen effektiv zu entfernen. Eine Kreditkarte ist deutlich besser.\nAuf den ersten Blick macht die Folie einen soliden Eindruck - der Langzeittest wird zeigen, ob die Folie auch mehr aush\u00e4lt oder nicht.\nJetzt zum \"aber...\" aus meiner \u00dcberschrift und weshalb ich in Summe einen Stern abgezogen hab:\n- Die Montagekleber kleben viel zu stark. Beim 1. Versuch diese zu entfernen, wurde die Folie wieder mit angehoben. Als ich die Montagehilfe dann nach dem 2. Versuch, die Folie aufzukleben, versehentlich auf die Tischdecke (Plastik) gelegt habe, hab ich ewig gebraucht, die Dinger wieder ab zu bekommen.\n- 3D-Touch funktioniert nur noch eingeschr\u00e4nkt. Das Display an sich reagiert weiterhin gut auf Eingaben, aber 3D-Touch am iPhone 7+ ist jetzt nurnoch mit sehr starkem Druck m\u00f6glich. Das ist \u00e4rgerlich.",
+                            "publication_date": "2019-05-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 August 2018",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "SMK M\u00fcnchen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/faa80b36-a0df-4b4f-a2da-ba5d55666866._CR0,0,958,958_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHMLSR24MIUAPJXT5MEV34OLSORQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Intelligente Montage!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2K0S0A2KW4YGK/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Schutzfolien sind ja Massenprodukte und kosten wahrlich nicht die Welt. Sinn und Zweck sind eindeutig vorgegeben und lassen wenig Raum f\u00fcr \u00dcberraschungen oder Entt\u00e4uschungen. So ist es grunds\u00e4tzlich auch hier.\nBisher hatte ich nur \"Folien\" - hier ist es f\u00fcr mich Premiere, dass es eine \"Folie\" aus \"Glas\" ist. Ich setze \"Glas\" in G\u00e4nsef\u00fc\u00dfchen, da es sich letztlich um eine dickere und stabilere Folie handelt. Sie ist biegsam, ein wenig schwerer und eben vor allem deutlich \"dicker\". Am Anfang daher ein wenig ungewohnt, da nun zum \"Home-Button\" ein regelrechter Krater zu sp\u00fcren ist. Das ist aber reine Gewohnheit. Wenn es einem besseren Schutz dient, soll es in Ordnung sein. Nun aber der Clou, weshalb ich hier 5 Sterne gebe. Die Montageanleitung ist in fast perfektem Deutsch und der Lieferumfang an Hilfsmitteln ist reichlich und - ja genau - intelligent. Neben Alkoholt\u00fcchern und einem Brillenputztuch und einem gro\u00dfen Aufkleber f\u00fcr Staubresteentfernung, gibt es auch mehrere kleine Aufkleberstreifen. Mit diesen Streifen kann man, bevor man die Klebefolie auf der R\u00fcckseite der Schutzfolie entfernt, diese am Handy (mit 3 St\u00fcck - oben, Mitte, unten) am Handy fixieren. D.h. kein Verrutschen beim Ansetzen, kein schiefes Kleben und damit kein mehrmaliges Abziehen und wieder Ansetzen. Tolle Idee.\nOb es Zufall war oder am Produkt liegt, m\u00f6chte ich noch einen letzten Punkt erw\u00e4hnen: mir gelang das Anbringen auf Anhieb auch blasenfrei. Liegt wahrscheinlich an der gr\u00f6\u00dferen Stabilit\u00e4t der Folie, die Einschl\u00fcsse kaum mehr zul\u00e4sst. Alles in allem also eine Empfehlung. Lieferung war schnell und schadenfrei.",
+                            "publication_date": "2018-08-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Beata",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHHCP4SBKMEGXJOXGN6AZD2X4VFA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Na tak !",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3FO8MT3YBHET1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Wszystko jak w opisie. \u017badnych zastrze\u017ce\u0144",
+                            "publication_date": "2023-05-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 February 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Redikulus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/b36f117c-4a3c-4fe1-a2b9-811c74796e8b._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGAZRPQCDBSBBHI4YRKEEE77AMKQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Jahrelang benutzt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RNB54B3GA7A8/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ausschlaggebend f\u00fcr meinen Kauf war der Inhalt von gleich 3 Panzergl\u00e4sern, denn misslingt die Anbringung des ersten oder zweiten Glases, ist das kein Weltuntergang.\nPositiv:\n\u2022 Sehr leicht anzubringen\n\u2022 Mitgelieferte Reinigungst\u00fccher so wie man sie kennt\n\u2022 3 Panzergl\u00e4ser\n\u2022 Haftet fest\n\u2022 H\u00fcllenvertr\u00e4glich\n\u2022 Bei perfekter Montage keine Blasenbildung\n\u2022 kratzfest, sturzfest, sehr stabil\n\u2022 Home-Button etc. sehr gute Einkerbungen\n\u2022 sehr einfache Reinigung: Desinfektionsmittel draufspr\u00fchen, wirken lassen, abwischen.\nNegativ:\nScharfe Seitenkanten, es deckt 1mm links wie rechts nicht ab. Dadurch sammelt sich Staub zwischen Panzerglas und H\u00fclle, mich st\u00f6rt das sehr und ich muss es st\u00e4ndig s\u00e4ubern.\nFazit: Wenn ein Panzerglas auch nur 6-7Monate h\u00e4lt, habe ich mit 3 Gl\u00e4sern ca. 18-21 Monate Schutz f\u00fcr mein Display. F\u00fcr den Preis ist das absolut gerechtfertigt: 4 verdiente Sterne, sehr gute Arbeit.",
+                            "publication_date": "2021-02-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 August 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "S.Dietel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEJTN6TEFCHF24BSH5MSLYXKMCXA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute Folie, jedoch auch nicht unzerbrechlich",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R5RWCJH2LHTB1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Eine gute Folie, die sich dank der Anleitung und dem beigelieferten Montagezubeh\u00f6r einfach anbringen lies. Jedoch war sie leider nicht kratzresistent, wodurch nach kurzer Zeit auch schon leichte Fahrer und sp\u00e4ter auch Risse entstanden sind - gute Produkt f\u00fcr einen guten Preis, aber auch nicht perfekt",
+                            "publication_date": "2022-08-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 December 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Josef W.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6c6255f8-da52-4787-a282-a5aca55397a8._CR6,0,488,488_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFEDDQHROVSDRAXRZSKQLDJ5YL6Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Absolut nichts auszusetzen!\ud83d\udc4c\u263a\ufe0f",
+                            "url": "https://amazon.de/gp/customer-reviews/R86Z0E83JMFXY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Hallo Zusammen,\ndas Produkt war per Prime schon am n\u00e4chsten Morgen da.\nIch habe es sofort ausgepackt und konnte folgenden Inhalt feststellen.\nEs war eine Schablone dabei, 3 x Panzerglas, Ein Stofftuch und drei Feuchtt\u00fccher.\nEigentlich war es ziemlich selbsterkl\u00e4rend, daher habe ich die beigef\u00fcgte Bedienungsanleitung nicht lesen m\u00fcssen.\nIch habe das Display erstmal schon sauber gemacht mit dem Feuchttuch, dann sauber getrocknet mit dem Stofftuch und anschlie\u00dfend habe ich die Schablone angebracht. Schlussendlich, habe ich einfach die Folie vom Panzerglas entfernt und das Panzerglas sanft in die Schablone bzw. auf das Display gelegt, Schablone abgenommen und mit den Fingern von oben nach unten gestrichen. Und siehe da, kein Profi h\u00e4tte es besser geschafft, sitzt wie angegossen ohne Bl\u00e4schen und mit der mitgelieferten Schablone, kann man das Panzerglas gar nicht falsch montieren, also f\u00fcr Jedermann zu schaffen.\nDas Panzerglas sitzt perfekt, ist gro\u00df genug und st\u00f6rt \u00fcberhaupt nicht. Beim H\u00e4ndler h\u00e4tte ich f\u00fcr ein Panzerglas 15\u20ac bezahlt und hier habe ich es selber in 2 Minuten erledigt und noch zwei Weitere Panzergl\u00e4sser, die ich meinen Eltern auf an das iPhone 8 Plus angebracht habe.\nFazit: Super viel gespart, gute Qualit\u00e4t, kinderleicht anzubringen, sitzt wie angegossen. 2 mal Daumen hoch! \ud83d\udc4d\u263a\ufe0f",
+                            "publication_date": "2019-12-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Katharina",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHVFGYJR4L72QPFWVRS46EPSD2TA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super",
+                            "url": "https://amazon.de/gp/customer-reviews/R2WO45JLGF34V6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Gute Panzerglasfolien",
+                            "publication_date": "2023-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 December 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Petra.R.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG2FNSLLYNY6XAZXSRTDW5I3YYFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die besten Schutzfolien die ich bisher hatte.",
+                            "url": "https://amazon.de/gp/customer-reviews/R3SH6CC1EMKN3Y/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Lassen sich gut anbringen und halten sehr sehr gut. Eine ist jetzt schon seit Monaten drauf. Und ich benutze mein iphone wirklich viel \u00fcber den ganzen Tag. H\u00e4lt und h\u00e4lt und h\u00e4lt, und h\u00e4lt was es verspricht.",
+                            "publication_date": "2022-12-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 January 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "G",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMCI4GWWLIXXHITUE3IH5HYQEEQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tut das was sie tun soll",
+                            "url": "https://amazon.de/gp/customer-reviews/R1PP82FEEVM8FA/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich habe mich relativ lange gegen Panzerglasfolien gew\u00e4hrt, da ich diese immer als zu dick und hervorstehend empfand.\nAls ich es dann aber satt hatte mir nach relativ kurzer Zeit immer wieder eine neue \"normale\" Schutzfolie zu kaufen, weil diese so schnell verkratzen, habe ich es dann doch mal mit dieser Panzerfolie probiert und ich bin sehr zufrieden.\nDie Folie bzw. das Glas ist stabil und die Aussparungen sitzen an den richtigen Stellen.\nWas dennoch auff\u00e4llt, mich aber nicht sonderlich st\u00f6rt ist, dass das Glas an den Seiten etwas zu weit \u00fcbersteht und daher aufgrund der Displayrundung des iPhone nicht mehr richtig aufliegt und sich deshalb an den Seiten etwas vom Display l\u00f6st (f\u00e4llt kaum auf).\nF\u00fcr den Preis bekommt man 3 Folien und ein umfangreiches Set mit Mikrofasertuch, Auftragungshilfen etc.\nIch habe die erste Folie nun seit November drauf und bisher noch nicht einen Kratzer, was man von den normalen Folien nicht unbedingt kennt.\nPreis-/Leistung stimmt und ich w\u00fcrde mir dieses Produkt wieder bestellen!",
+                            "publication_date": "2019-01-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 May 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "kelihu",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/a0f69edc-4d0f-40b4-ab9d-05411c85e93f._CR0,0,1238,1238_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEY6RNHDESB6FE3HRRRGXP53WVDA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Einfach super!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3F7Y6547R9IZ9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich habe diesen Displayschutz vor 3 Jahren f\u00fcr mein neues iPhone 8 Plus gekauft, um den Touchscreen zu sch\u00fctzen. Heute habe ich das damals angebrachte Schutzglas zum ersten Mal gewechselt, weil es nicht mehr \u00fcberall richtig haftete.\nIch bin absolut begeistert von diesem Produkt. Es enth\u00e4lt 3 Schutzgl\u00e4ser inklusive Material zum Anbringen und eine Anleitung. Die \u201eFolie\u201c selbst passt passgenau auf das Display und mit den Utensilien l\u00e4sst es sich ohne nervige Staubk\u00f6rner zwischen Display und Schutzglas anbringen. Das hat bei mir mit anderen Schutzfolien nie geklappt.\nDas Schutzglas ist kratzfest und sch\u00fctzt das Display auch, wenn das Smartphone mal runterf\u00e4llt. Es gibt auch keine Probleme, was die Bedienung des Touchscreens angeht.\nW\u00fcrde ich jederzeit wieder kaufen!",
+                            "publication_date": "2021-05-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 July 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Konrad Wilhelm",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFZ575WJJLYUSWWTTJBYHUL2PG5Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "H\u00e4lt die schlimmsten Schl\u00e4ge ab",
+                            "url": "https://amazon.de/gp/customer-reviews/RXC9A77LIES5T/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Da ich mein Handy immer in der Hosentasche zusammen mit meiner e-Zigarette tragen musste ein guter Displayschutz her. Daher hab ich mich gleich f\u00fcr dieses Dreierset entschieden da \u00f6fters Schl\u00e4ge und Spr\u00fcnge reinkommen.\nBis jetzt ist dem Display nie was passiert auch wenn die Folien stark gesprungen sind durch den Anschlag mit dem Verdampfer. Also von der Sicherheit wirklich zu empfehlen.\nZubeh\u00f6r ist auch klasse. F\u00fcr jede Folie ist ein Reinigungstuch und Staubentferner dabei, das Anbringen geht kinderleicht und schnell. Bis jetzt habe ich alle Folien immer blasenfrei anbringen k\u00f6nnen. Von der Touchemfindlichkeit ist es keine Unterschied zum Display ohne Folie. Die Durchsichtigkeit: Es mach mir leider den Eindruck als wenn die Folie ein wenig den Kontrast aus dem Display nimmt. Aber man gew\u00f6hnt sich dran und es f\u00e4llt irgendwann nicht mehr auf. Die Verarbeitung des Folienrandes ist nicht ganz so gut gelungen, bei Bewegen und draufschauen schimmert der Rand in allen Regenbogenfarben. Das ist leider ziemlich st\u00f6rend. Aber ansonsten wirklich zu empfehlen, da die Sicherheit vom Display gut gewahrt ist.",
+                            "publication_date": "2019-07-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 July 2018",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": [
+                                {
+                                    "type": "video_element",
+                                    "source": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/310a69fa-af9e-44f9-8c2c-c81a0b4c3604/default.jobtemplate.hls.m3u8",
+                                    "preview": "https://m.media-amazon.com/images/I/51et+xFfCGL._SY256._SY256.jpg"
+                                }
+                            ],
+                            "user_profile": {
+                                "name": "Alex K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/2e2e1f98-43e8-4b9b-a1a8-4717ec146564._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHBZIBVGEIMSINMAGQXEOJTOJBKQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Legt sich an den Kanten nicht richtig an!!! Aber Service super",
+                            "url": "https://amazon.de/gp/customer-reviews/R33S3RQKWN2433/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich habe aus Versehen zwei der Pakete mit 3 Stk bestellt.. Lieferung war super schnell- aber die Panzerglasfolie legt sich nicht richtig an den Kanten an, was nicht sch\u00f6n aussieht. Bei der Ersten, die ich angelegt habe ging es schon nicht und bei der Zweiten ebenso nicht. Schade\nNun habe ich das erste Paket wirklich schon aufgebraucht und schon wieder legt sie sich nicht an den Kanten an... sch\u00e4tze sie ist etwas zu gro\u00df. Bitte \u00e4ndern!\nUpdate:\n********************************************************************************\nVerk\u00e4ufer hat sich mit mir per Email in Kontakt gesetzt und mir einen kostenlosen Ersatz gew\u00e4hrt. \u00dcber einen Gutscheincode konnte ich das Panzerglas kostenlos wiederbestellen. Daf\u00fcr gibt es erstmal einen Stern mehr! Sollte die Panzerglasfolie dann richtig passen- werde ich meine Rezension nochmals \u00fcberarbeiten. Danke Service Team!\nUpdate: Habe ein Paket umsonst bekommen, vielen Dank an den super Service- es geht immernoch nicht. Legt sich nit an die Kanten an. Soooorry - ein Stern hoch - kann nur zwei vergeben. Gr\u00fc\u00dfe\n\u2014\u2014\u2014-\nUpdate: Nach meiner letzten Rezension mit dem Video und nach ausprobieren eines neuen Paketes, habe ich nun offiziell eine Entschuldigung per E-Mail bekommen und den kompletten Kaufpreis f\u00fcr beide Pakete als Gutschrift bei Amazon zur\u00fcck erstattet bekommen. Tolle Kundenbetreuung. Nochmal ein Stern mehr, auch wenn das Glas nix war. M\u00f6glich, dass es bei anderen Ger\u00e4ten gut ist. Gru\u00df",
+                            "publication_date": "2018-07-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 August 2018",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Goggo56",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGARXPBCESWFVKCAJW7OUT6AODLA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "... nach Anlaufschwierigkeiten absolut ok",
+                            "url": "https://amazon.de/gp/customer-reviews/R2KUZS7EIWD46D/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "... man bekommt 3 Folien, ansprechend und stabil verpackt mit entsprechendem Zubeh\u00f6r.\nDas Aufbringen der Folien ist relativ einfach. Leider hatte die 1te Folie einen kleinen Einschluss - genau im Bereich der Tastatur. Habe dann die 2te Folie aufgezogen - diese l\u00f6ste sich nach 1-2 Std. unten rechts vom Display.\nDie 3te Folie aufgezogen - 100% super. H\u00e4lt seither, wie die anderen Folien auch sehr passgenau - KEINE Fingerabdr\u00fccke mehr. Hatte mich vorher sehr \u00fcber das Oiginaldisplay ge\u00e4rgert das war/ ist da sehr empfindlich.\nEigentlich also 3 *** - 4 Sterne deshalb: Verk\u00e4ufer kontaktiert, Problem mit Folien 1 und 2 geschildert und problemlos\noriginal 3 neue Folien bekommen innert 2 Tagen. Produkt also 3 Sterne - Verk\u00e4ufer 5  Sterne = gesamt 4 Sterne\n\u00dcber die Best\u00e4ndigkeit kann ich noch nichts sagen/ schreiben",
+                            "publication_date": "2018-08-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 June 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sandra",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHRG5H5MCZ6E7TP53FBJUZCIKBBA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "H\u00e4lt was es verspricht",
+                            "url": "https://amazon.de/gp/customer-reviews/R3QYFHOH1ZAZA6/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Super Glas , einfach darauf zu machen : schneller Versand . Alles super",
+                            "publication_date": "2022-06-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 March 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lukas G\u00e4rtner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHFBVZTUTRNORSDDKB6TBY457JFA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Erf\u00fcllt seinen Zweck.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2AM43I49RIL0J/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ob es wirklich vor allen Kratzen gesch\u00fctzt ist, wird sich zeigen, ich benutzte das Glas noch nicht so lange. Bisher macht es aber einen sehr stabilen Eindruck. Das Touch wird durch das glas meiner Meinung nach nicht gest\u00f6rt. Man kann nach wie vor mit leichten Ber\u00fchrungen alles aktivieren.\nWas mir aber ziemlich \u00e4rgerlich war, war das beim Anbringen die ganze Zeit Fussel und Staub dazwischen kam und man somit 1000 Anl\u00e4ufe brauchte.\nZus\u00e4tzlich sollte man einen mehr davor warnen was passiert wenn eins dieser Foliengl\u00e4ser kaputt geht. Mit ist eins zerbrochen. Dabei sind dann sehr viele kleine Splitter rum geflogen.\nAlso vorsichtig umgehen damit!",
+                            "publication_date": "2020-03-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 May 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Maximilian",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEXYVNE3DKWBH2KHATTRCB5T6ECQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Panzerglas IPhone 8 Plus",
+                            "url": "https://amazon.de/gp/customer-reviews/RAWF4QS68V8JN/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Nicht viele Worte KLASSE!\nIch benutze dieses Panzerglas mit dem Original Apple Silikon case und es ist einfach SUPER!\nIch habe nur wenige Kritik Punkte gefunden.\n1: Mich hat es nicht gest\u00f6rt aber die kanten unten beim Home Button k\u00f6nnten ein wenig mehr abgerundet sein aber nicht weiter schlimm.\n2: Das hat schon ein bisschen gest\u00f6rt aber es war keines Wegs tragisch weil bei bestimmter Sonneneinstrahlung sah das Panzerglas immer versetzt aus was dann nicht so sch\u00f6n aus sah.\nAber das ist alles Meckern auf hohem Niveau.\nFazit Ich kann dieses Panzerglas jedem weiter empfehlen den die oberen Punkte nicht st\u00f6ren.",
+                            "publication_date": "2020-05-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 June 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peggy",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHQOZNLYDD4RWJWUPTP23HEASWMA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Es bildet sich nach etwa 8 Wochen eine Blase",
+                            "url": "https://amazon.de/gp/customer-reviews/RJV99OZFDFJ4M/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Das Glas ist an sich super. Genauso wie die Installationshilfe. Leider - und ich wei\u00df nicht, woran das liegt - bildet sich am rechten Rand des Displays mitten unter der Folie eine Blase. Diese wird immer gr\u00f6\u00dfer und dehnt sich immer nach oben und unten aus. Die Blase ist vollst\u00e4ndig unter der Folie und reicht nicht ganz bis zum Rand, sondern ist noch voll umschlossen. Schwer zu beschreiben. Ich habe jetzt die 3. Folie der Packung aufgebracht (ohne Einschl\u00fcsse) undimmer wieder an der gleichen Stelle erscheint nach einigen Wochen der Fehler. Vielleicht liegt das auch an einem unebenen Displayglas? Es ist merkw\u00fcrdig und tritt m\u00f6glicherweise nur bei meinem Handy auf.\nAnsonsten ist das eine sehr sehr robuste und haptisch tolle Folie.",
+                            "publication_date": "2019-06-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 May 2022",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71K8YdEWdoL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Nina j",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFELX5HWZWQNQU57OQDD6723F3FA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klare Kaufempfehlung",
+                            "url": "https://amazon.de/gp/customer-reviews/RDJCSSRFVD019/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "F\u00fcr mich pers\u00f6nlich ist eine panzerfolie immer etwas schwierig und NIE habe ich es ohne eine kleine Luftblase hinbekommen.\nAber mit diesem set war es innerhalb von Sekunden schnelle gemeistert.\nZu aller \u00dcberraschung war dort ein Rahmen bei der \u00fcbers Handy gest\u00fclpt wird und so eine einwandfrei Hand habe erm\u00f6glicht.\nEinfach super!!!",
+                            "publication_date": "2022-05-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 August 2018",
+                            "helpful_votes": 14,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Horst-Dieter Owomoyela",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHX3P7EHJVBNMC2AI6QUNLIVY6HA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter Schutz mit kleinem Makel",
+                            "url": "https://amazon.de/gp/customer-reviews/R22MTX9KZVC30E/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Die Schutzfolien von OMOTON sind vom Lieferumfang so konzipiert, wie die der meisten anderen Hersteller auch. Man erh\u00e4lt wie vom Hersteller angegeben 3 Schutzfolien, dazu entsprechendes Reinigungszubeh\u00f6r wie Mikrofasert\u00fccher, Staubabsorber und Alkoholpads.\nPositiv hervorzuheben ist, dass die Verpackung von OMOTON einen etwas h\u00f6herwertigen Eindruck hinterl\u00e4sst, als die vieler anderer Konkurrenzprodukte.\nDie Folie f\u00fchlt sich sehr gut an, 3D-Touch ist problemlos nutzbar. Das Display wird ausreichend weit abgedeckt, lediglich die R\u00e4nder k\u00f6nnen aufgrund ihrer Abrundung nicht gefasst werden.\nDas wesentliche Manko der Schutzfolien ist, dass sie die Frontkamera nicht sch\u00fctzen, da sie an der entsprechenden Stelle eine Aussparung aufweisen. Das sorgt zwar teilweise f\u00fcr klarere Bilder, jedoch ist die Gefahr f\u00fcr Kratzer deutlich erh\u00f6ht. Somit gibt es leider nur 4* f\u00fcr ein ansonsten sehr gutes Produkt.",
+                            "publication_date": "2018-08-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 5 May 2018",
+                            "helpful_votes": 14,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christine Wittstock",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFN6MTC6O747CFY6JDAGD2UNBDNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr einfache Montage",
+                            "url": "https://amazon.de/gp/customer-reviews/R4YUDYK8EQ62W/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Die Lieferung war dank Prime super schnell. Die Folien kommen in einer sehr schicken Holzschachtel verpackt. Eine gute Anleitung ist Innen liegend. F\u00fcr jede Folie gibt es ein feuchtes und ein trockenes Reinigungstuch. Ebenfalls gibt es einen Staubaufnehmenden Aufkleber, f\u00fcr die letzten Staubk\u00f6rnchen. Dann positioniert man die Folie an der richtigen Stelle. Zum Fixieren gibt es zwei Klebestreifen. Erst dann wird die Schutzfolien abgezogen und die Glasfolie kann super positioniert werden. Wie in der Anleitung beschrieben, f\u00e4hrt man nur von links nach rechts in der Mitte der Folie entlang und sie zieht sich fast komplett ohne Bl\u00e4schen am Display fest. Kleine Bl\u00e4schen k\u00f6nnen mit dem mitgelieferten, kleinen Rakel super entfernt werden. Nur an den R\u00e4ndern musste ich \u00f6fter etwas fester lang gehen, damit die Folie auch dort gut klebt. Liegt sicherlich an der Abrundung.\nDie Folie ist glasklar und es gibt auch keine Fingerabdr\u00fccke. Auch die Passform ist sehr gut. Ich bin begeistert und w\u00fcrde sie jedem empfehlen und auch wieder kaufen.",
+                            "publication_date": "2018-05-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 March 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Maybritt",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEJRCXAWI3PPMZEB7VTDM3OWZSQA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr stabil",
+                            "url": "https://amazon.de/gp/customer-reviews/R2YJNYYDE5AWS5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Auf meinem iphone 7+ h\u00e4lt eine Folie immer mehrere Monate. Auch wenn das Handy oft auf harten Boden f\u00e4llt, geht weder das Panzerglas noch das Display kaputt. An einer Seite unten haftet das Glas zwar nicht ganz am Handy, aber das sieht man nur, wenn man genau hinsieht und es st\u00f6rt nicht weiter.",
+                            "publication_date": "2021-03-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 April 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michael Mattke",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFTIAWUYSXJJ5GV2SJWSZ2GUZPXA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "die absolute H\u00e4rte!",
+                            "url": "https://amazon.de/gp/customer-reviews/RN6E5XHMYRRFK/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich hatte dieses Schutzglas f\u00fcr mein iPhone 8 plus nachbestellt, weil auf dem Glas des iPhones schon erste leichte Kratzer zu sehen waren (nach 3 Monaten!).\nHier ein Verbesserungsvorschlag f\u00fcr die Verk\u00e4ufer: 4 Tage nach dem Kauf bzw. nach der Lieferung kam dann erst eine Mail vom Verk\u00e4ufer mit einem Link zum sehr gut erkl\u00e4rten Video, wie man das Glas sicher aufbringt. Leider zu sp\u00e4t, nachdem ich zwei der drei Gl\u00e4ser \"versaut\" hatte ... aber man braucht ja auch nur eins.\nUnd das Glas ist wirklich hart, anders als alle, die ich beim alten iPhone benutzt hatte: man kann da wirklich mit einer Scheere dr\u00fcberkratzen, da sieht man nichts!!!\nUnd noch etwas Erstaunliches: Nach dem Aufbringen dieses Panzerglases waren die alten Kratzer auf dem iPhone nicht mehr zu sehen. Tolle Sache, kann ich weiterempfehlen.",
+                            "publication_date": "2019-04-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 October 2018",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Feruzan Ay",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGAAE5YM7NDYXFEKNHX7LE3TTHJQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mein Iphone gerettet, 1000\u20ac gespart",
+                            "url": "https://amazon.de/gp/customer-reviews/R38HGWXG0KM06G/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Ich hatte keine Angewohnheit eine Handy-Schutzfolie zu verwenden. Ich muss au\u00dferdem sagen bis jetzt hatte ich nie so teures Handy gehabt. Im Sommerurlaub wollte ich vorwiegen das als Fotoapparat verwenden, deswegen hatte ich diese Folie verwendet, eventuell von Kratzern zu sch\u00fctzen. (Man packt ja es beim fotografieren schnell ein und aus) Und ich war sehr dankbar, auf diese Schutzfolie, weil ich doch eine riesigen Bruch darauf hatte und ich dachte,\nLCD von Iphone w\u00e4re kaputt. Als ich nach dem Urlaub zu Hause diese Folie entfernte, sah ich eine gro\u00dfe \u00dcberraschung, Bruch war nur auf der Schutzfolie. Ich war so Dankbar und zweite Schutzfolie kam schnell wieder darauf. Ich kann diese Ware %99 empfehlen.\nEinziger Erweiterungswunsch w\u00e4re, dass die Folien etwas gr\u00f6\u00dfer w\u00e4ren, sie decken nicht die komplette Oberfl\u00e4che von Iphone 8 Plus.",
+                            "publication_date": "2018-10-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 April 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter.P",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGUIRKANN22CZZSUOCQTGJ5RBNJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ok",
+                            "url": "https://amazon.de/gp/customer-reviews/RLWQ08A63MMOQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Die h\u00fcllen sind im Gro\u00dfen und Ganzen oK, die erste musste ich allerdings bereits nach drei Wochen wieder runter machen, da sich Blasen bildeten, die nicht mehr weggingen. Ich bin mir aber nicht sicher, ob ich nicht eventuell einen Fehler beim Aufbringen gemacht habe...",
+                            "publication_date": "2021-04-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 January 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dennis",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGJZSPLRMAK6I4KVTSBUBY4JY7HA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Trotz bedenken mehr als zufrieden",
+                            "url": "https://amazon.de/gp/customer-reviews/R3DYTMPVSD2VJW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CKW2YCZC",
+                            "review_text": "Sehr gute Folie f\u00fcr mein iPhone 7+.\nBin selber kein Liebhaber von Folien bzw. Schutzgeh\u00e4usen. Dennoch bisher (3 wochen Nutzung ca. \u00fcberzeugend).\n3 Folien die man erh\u00e4lt, mit einem Reinigungtuch, einer Anleitung und klebestreifen, zum intelligenten fixieren der Folie. Folie wird also nicht freihand montiert, was in der Regel zu besch**** Ergebnissen f\u00fchrt.\nLeider nur ein Reinigungstuch dabei. Sollte die Folie mal abgehen, muss man selber fuer ersatz sorgen.\nTrotz erster Bedenken, da sich die Folie beim ersten auftragen an einigen Seiten anf\u00fchlte wie \u201enoch nicht ganz fest\u201c reicht es dabei an der stelle entsprechend penetrant die Luft rauszudr\u00fccken. Je nach Wetter & Temperatur sieht es sonaus, als ob an den Stellen wieder luft eintreten w\u00fcrde, war bisher aber kein problem.\nNoch bin ich \u00fcberzeugt! Gute folie",
+                            "publication_date": "2019-01-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

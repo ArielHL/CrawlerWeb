@@ -1,0 +1,964 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0457 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-7a9ad08ea5fb",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0279 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-7a9ad08ea5fb"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09V3J7TCF",
+                "asin": "B09V3J7TCF",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09V3J7TCF",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09V3J7TCF?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:40:52 +00:00",
+                    "spell": null,
+                    "title": "Apple iPhone 13 Mini (128GB) - Green",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Apple iPhone 13 Mini (128GB) - Green",
+                        "url": "https://amazon.de/-/en/Apple-iPhone-13-Mini-128GB/dp/B09V3J7TCF/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31J4zSX9nDL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.7",
+                        "votes_count": 3751,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 586,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "fischer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEFWYD4BUL4N4NWPQ5CB2Q4QVWWQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Bestes iPhone",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RFDPL6EUSTXSA/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Habe mir nach langem \u00fcberlegen wieder ein iPhone gekauft. Ich will gar nicht gro\u00df auf die Daten eingehen, man kennt Apple Produkte. Lieferung war schnell, alles funktioniert wie gewohnt und nach 2 Jahren habe ich noch 88% Akku-Kapazit\u00e4t.\nIch nutze das iPhone prim\u00e4r nur f\u00fcr Whatsapp, ab und zu mal Bilder machen und Mobil Mails checken und komme locker damit durch den Tag.",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 November 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Patrick",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHUKTBK7UV5VI2FTT5IXTUXV7HGA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Liebe!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3RAQOD6SRW2CS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Ich liebe das IPhone 13 mini! Leider produziert Apple keine Mini Serie mehr, weshalb ich statt dem 15er nochmal ein 13er Mini bestellt habe\u2026 l\u00e4uft fl\u00fcssig, Kamera absolut ok, mit dem Akku komme ich bei normaler Nutzung locker durch den Tag\u2026 f\u00fcr mich das beste Handy (da ich die Gr\u00f6\u00dfe liebe)",
+                            "publication_date": "2023-11-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHZQG67ZTOCCKCLFVQ37SILWKY4A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Schnell und kompakt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2UJOW7WO14WB9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Das derzeit beste kleine Smartphone, da es ja weder ein 14 noch ein 15 Mini gibt. Durch die sehr gute Aufl\u00f6sung ist der Bildschirm definitiv gro\u00df genug. Bedienung mit einer Hand ist gut machbar. Der Akku h\u00e4lt ausreichend lang (deutlich l\u00e4nger als beim 12 Mini). Die Kamera macht unter allen Bedingungen unter denen ich sie bislang ausprobiert habe exzellente Bilder.",
+                            "publication_date": "2023-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Magdalena J.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHGKRUDGWMRGXDQS4XEIHXJOF7KA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "I love it!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R12U209VSDOQ30/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "I don\u2019t like big phones, so after iphone SE 2020 I finaly decided for iphone 13 mini. It was a perfect choice! Functionality and performance are much better, face ID works very good, design (rose) is beautifully. I can see one minus - the phone is much thicker than SE or 7/8. But anyway, it beats its predecessors!",
+                            "publication_date": "2023-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jojo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGIJZJFOBQEN2OCFY6OTXBWWIYSA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles Handy",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RQ1Z3BL5OLGZ2/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Ich bin sehr zufrieden mit meinem neuen Handy, es liegt in der Hand, ist nicht so gro\u00df und funktioniert sehr gut",
+                            "publication_date": "2023-11-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 July 2023",
+                            "helpful_votes": 22,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sabrina B.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFV5OBVIN3CRX3HGMFZKYKZOQZWA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klein, aber leistungsstark - Das Apple iPhone 13 Mini begeistert auf ganzer Linie!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2PSJETMSN85R/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Das Apple iPhone 13 Mini hat mich von Anfang an beeindruckt und ist ein echtes Technikwunder! Dieses kleine Kraftpaket bietet eine Leistung und Funktionalit\u00e4t, die mich vollkommen \u00fcberzeugt hat und das Smartphone zu einem unverzichtbaren Teil meines Lebens gemacht hat.\nDas kompakte Design des iPhone 13 Mini ist einfach perfekt f\u00fcr mich. Die handliche Gr\u00f6\u00dfe passt bequem in meine Hand oder in jede Tasche, was es zu einem idealen Begleiter f\u00fcr unterwegs macht. Ich kann das Smartphone problemlos mit einer Hand bedienen und habe dennoch alle Funktionen eines gro\u00dfen Smartphones zur Verf\u00fcgung.\nDie Leistung des iPhone 13 Mini ist beeindruckend. Der A15 Bionic Chip sorgt f\u00fcr eine schnelle und reibungslose Performance, egal ob beim Multitasking, Spielen oder beim Bearbeiten von Fotos und Videos. Das Smartphone reagiert blitzschnell und l\u00e4uft stabil, ohne dass es zu Rucklern oder Verz\u00f6gerungen kommt.\nDie Kameraqualit\u00e4t des iPhone 13 Mini ist herausragend. Die 12-Megapixel-Dual-Kamera erm\u00f6glicht scharfe und detailreiche Fotos, auch bei schlechten Lichtverh\u00e4ltnissen. Die Nachtmodus-Funktion und der optische Bildstabilisator sorgen f\u00fcr tolle Aufnahmen, egal zu welcher Tageszeit.\nDie Akkulaufzeit des iPhone 13 Mini hat mich ebenfalls beeindruckt. Ich kann das Smartphone den ganzen Tag \u00fcber nutzen, ohne dass der Akku leer wird. Die Schnellladefunktion erm\u00f6glicht es mir, das iPhone in kurzer Zeit wieder aufzuladen, wenn ich es ben\u00f6tige.\nDie Displayqualit\u00e4t ist beeindruckend. Das Super Retina XDR Display bietet lebendige Farben, gestochen scharfe Bilder und eine hohe Helligkeit. Es macht einfach Spa\u00df, Inhalte auf dem Display anzusehen, sei es beim Surfen im Internet, beim Anschauen von Videos oder beim Spielen von Spielen.\nAbschlie\u00dfend kann ich nur sagen, dass das Apple iPhone 13 Mini ein echtes Juwel ist. Mit seinem kompakten Design, der leistungsstarken Technologie und der beeindruckenden Kameraqualit\u00e4t ist es ein absolutes Spitzenprodukt. Ich kann das iPhone 13 Mini uneingeschr\u00e4nkt empfehlen und bin begeistert von der Qualit\u00e4t und dem Komfort, den es mir bietet. Ein Smartphone, das in Sachen Leistung und Funktionalit\u00e4t keine W\u00fcnsche offenl\u00e4sst!",
+                            "publication_date": "2023-07-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Barbara",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AETBTQZNCTIJOPTIC7EJV3DRYP4A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfect size, amazing camera",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3160EWHI9P0QW/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Was looking for a small phone and 13 mini is the perfect compact size. Loving all the features and the camera is amazing too!",
+                            "publication_date": "2023-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Elements",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/05a9a240-8b32-47b5-84be-c2d78ec1fdf4._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFF24KH5FHFNK5TA2HCV6LIIS4QQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Optimal",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R23Y0N8274WIHB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Schade das es kein weiteres Mini mehr geben wird. Warum es immer gr\u00f6\u00dfer und noch gr\u00f6\u00dfer sein muss frage ich mich ja schon seit der 6. Generation. Gut, ich geh\u00f6re auch zu den Menschen die das Smartphone auch mal in der Hosentasche l\u00e4sst und sich mal hinsetzt. Ist ja nicht mehr selbstverst\u00e4ndlich heutzutage.",
+                            "publication_date": "2023-10-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tusch!",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGMLRLKMFIRILX2QYEJCUK5BZVJQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "sch\u00f6ner kleiner gr\u00fcner Apfel",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2SOAGVG162A3E/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Tadellose Lieferung, Ger\u00e4t funktioniert einwandfrei,\nDaten\u00fcbertragung von einem alten SE bis auf Accountdetails\nunproblematisch, also alles wie erhofft.",
+                            "publication_date": "2023-11-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 7 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ines Alvarez",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEXERKWHQG62E2TWQ2RAYQVUIA6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Genau",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2T6AYJ4LO8RN0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Top!",
+                            "publication_date": "2023-11-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Maja",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGVLMOBKZ2WMC4CRCRZUJ6UJAUSQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfect size, perfect design, for now is really the best phone I ever had.",
+                            "url": "https://amazon.de/gp/customer-reviews/RJC1QGON8ERJH/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "I like everything.",
+                            "publication_date": "2023-11-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "H.T.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGN2G7QQML5GFKJOLRNRLIINGDMA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handliches Smartphone mit top Ausstattung",
+                            "url": "https://amazon.de/gp/customer-reviews/R2OENJ3MIPWZQ7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Endlich ein kleines Smartphone mit top Hardware",
+                            "publication_date": "2023-11-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Der Bastler",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEIKBOPCFX4HD7ALFMY7WJHFCGSQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein passendes Produkt, klein, handlich und zuverl\u00e4ssig",
+                            "url": "https://amazon.de/gp/customer-reviews/R35RVIKY0WPFH9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Es hat alles gepa\u00dft!",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sabina Piwowarska",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/b02e7e4d-6fd2-4e11-8052-fe716bd920af._CR0,0,647,647_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH6GCAB6OSRVSQCGTS2SVLDC5U7Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mein erster iPhone",
+                            "url": "https://amazon.de/gp/customer-reviews/RIXB7WF0HV6FE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Es ist mein erster iPhone \u00fcberhaupt und bin damit Mega happy\nEs l\u00e4uft geschmeidig und Akku h\u00e4lt auch Max 1,5 Tage f\u00fcr mich ausreichend",
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Hauke Meissner",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGA34C6YR6TLL5725X5MINI33IDA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/gp/customer-reviews/RR6230DT3BQJG/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Es ist technisch und optisch das Handy auf dem Markt. Die Gr\u00f6\u00dfe ist perfekt, die Kamera mach sehr gute Bilder.",
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ahmed Al-Fehrnawi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHUFNAQS7TNZV2UVUFZYMHVHNLAQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "I like it",
+                            "url": "https://amazon.de/gp/customer-reviews/R1R8PNSE625A5Q/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "I always liked smaller phones, and this one doesn't disappoint. I was worried about buying it from here, but all good. Delivered in time.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 September 2023",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEJQ22JV7T3FRCFXL54RLKS6NV4A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ideale Nachfolge meines iPhone SE der ersten Generation",
+                            "url": "https://amazon.de/gp/customer-reviews/R38MDNP0AGF4CI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "F\u00fcr mich ideal als Ersatz f\u00fcrs iPhone SE der ersten Generation. Technisch TOP und liegt vor allen Dingen\ngut kompakt in der Hand. Kamera wirklich ein Fortschritt zum \"alten\" SE Handy. Ich bin sehr zufrieden, ein guter Kauf.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AENDQO4U2VVKMAWVVWAWIQFMF44Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "gutes Handy, schnelle Lieferung",
+                            "url": "https://amazon.de/gp/customer-reviews/R3E2RF91XO9E1Y/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "gutes Handy, schnelle Lieferung",
+                            "publication_date": "2023-10-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rezenus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AET6O2PYDLF5ZTF5ABBNJURRK7KQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Originalverpackt und versiegelt",
+                            "url": "https://amazon.de/gp/customer-reviews/R139WLBKFYJBBD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Ist eben ein IPhone. Das Ger\u00e4t selbst macht alles gut, was Samsung besser macht.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "test-the-best",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEQET7NHVQHDW7ZTF725CGGREAAQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "so teuer und trotzdem solche Schw\u00e4chen!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1JLHTP4AEE3XT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Design ist super. Bedienung ist easy. Preis ist hoch. Hier w\u00fcrde ich ein ausgereiftes Gesamt-Konzept erwarten, bei dem alle Details \u00fcberdurschnittlich sind - oder aber zumindest \u00fcberzeugend und akzeptabel.\nZwei M\u00e4ngel, die mich besonders \u00e4rgern, m\u00f6chte ich herausstellen:\n(1) Die kurze Akkulaufzeit des iPhone 13 mini ist f\u00fcr mich nicht akzeptabel. Wenn ich nicht t\u00e4glich (meist \u00fcber Nacht) das Handy auflade, laufe ich Gefahrt, dass es am Tag 2 nicht mehr durchh\u00e4lt von der Akku-Leistung. Dabei ist mein iPhone noch keine 6 Monate alt!\n(2) Ein weiteres \u00c4rgernis sind f\u00fcr mich die Makro Foto-Aufnahmen, die einfach nicht scharf zu kriegen sind. Hier habe ich schon verschiedene Tricks ausprobiert und bin noch zu keiner technisch \u00fcberzeugenden L\u00f6sunge gekommen - geschweige denn zu einer user-freundlichen L\u00f6sung.\nAndroid verdient das Geld mit Werbung. Apple hat eine anderes Gesch\u00e4ftsmodell. Daf\u00fcr bezahl ich auch gern das doppelte oder dreifache eines Android-Ger\u00e4tes. Ich erwarte dann aber auch, dass ich eine entsprechende Leistung erhalte. Das, was ich vom iphone 13 mini f\u00fcr maxi Geld bekomme, empfinde ich als sehr \"mini\".",
+                            "publication_date": "2023-11-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 February 2022",
+                            "helpful_votes": 20,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Herr Urmel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/893cd4b5-c51e-4555-bd3f-5ea3cf69f312._CR83,0,333,333_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AELHMFOKEAKD6XM4VMBJF5JFRCLQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kleines Hochleistungstelefon",
+                            "url": "https://amazon.de/gp/customer-reviews/R3SR8HWEAECZ52/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Ich hatte bereits einige iPhones der \u00e4lteren und neueren Generation und gehe nur auf Dinge ein, die mir aufgefallen sind.\n** Verpackung **\nFlach kommt er daher, der neue Karton. Der Inhalt ist stark eingedampft worden: das iPhone selbst, ein Ladekabel mit Lightning und USB-C auf der anderen Seite. Leider ohne Netzteil. Es ist nur noch ein anstatt zwei Apfel-Sticker dabei und ein wenig Papierzeug sowie das \u00d6ffnungswerkzeug.\n** Einrichtung **\nMittlerweile funktioniert das super gut. Das neue neben das alte iPhone halten und man wird durchgef\u00fchrt. Sogar das alte automatisch abzumelden und zu l\u00f6schen f\u00fcr den Weiterverkauf wird einem angeboten. Aber Vorsicht, vielleicht muss man in der ein oder anderen (Banking!)App noch etwas abmelden oder etwas manuell sichern!\n** Display **\nDas OLED Display ist ein Traum, sch\u00f6n knackig scharf und mit gutem Schwarzwert. Hell genug ist es auch am Tag. Die Notch f\u00fcr den FaceID Sensor ist etwas schlanker geworden (Vergleich zum Xr welches hier liegt) und es geht sch\u00f6n weit bis zum Rand. Jedoch nicht so weit dass es \u00fcbertrieben empfindlich wirkt.\n** Face ID **\nDer Erfassungsbereich von Face ID wurde deutlich verbessert gegen\u00fcber fr\u00fcheren Modellen. Jetzt entsperrt es meistens auch wenn es auf dem Tisch vor einem liegt. Das hat das XR nicht getan!\n** Geschwindigkeit **\nUnglaublich, alles \u00f6ffnet und reagiert in Sekundenbruchteilen. Keine Ruckler, schon gar keine Mikroruckler wie oft bei Konkurrenzmodellen zu sehen. Einfach schnell.\n** Lautsprecher **\n\u00dcberraschend laut und klar, super um mal einen Podcast weiterzuh\u00f6ren. Zum Freisprechen auch super.\n** Kamera **\nDer neue Nachtmodus tut was er soll und macht eine Langzeitbelichtung f\u00fcr 1-3 Sekunden soweit ich gesehen habe. Die Ergebnisse sind gar nicht verkehrt - ist man nat\u00fcrlich im Fotobereich unterwegs beeindruckt einen das nicht besonders.\nDie Aufl\u00f6sung ist nicht besonders hoch, beide Kameras machen aber knackscharfe Fotos. Umschalten von Weitwinkel auf Ultraweitwinkel geht schnell und einfach.\nWerde die gro\u00dfe Kamera beim Wandern zuk\u00fcnftig im Schrank lassen. Es ergeben sich wunderbare M\u00f6glichkeiten mit dem Ultraweitwinkel.\n** Farbe **\nMein gr\u00f6\u00dfter Kritikpunkt sind die neuen Geh\u00e4usefarben. Midnight ist nicht schwarz, sondern hat so einen leichten Blaustich. Finde ich f\u00fcrchterlich - immerhin sieht man es in der H\u00fclle fast nicht. Das wei\u00dfe ist auch nicht mehr wei\u00df, sondern mehr Cremefarbig. Schade! beim 12er war es noch in Ordnung.\n** Akku **\nJa, es ist ein wenig schw\u00e4cher als die gr\u00f6\u00dferen Modelle was die Laufzeit angeht. Normalnutzer kommen trotzdem locker durch den Tag mit 30% am Abend. Wer st\u00e4ndig am Smartphone h\u00e4ngt, f\u00fcr den ist es halt einfach nicht geeignet!\n** Formfaktor **\nIch liebe es. Wie fr\u00fcher - Phone in die Tasche und man merkt es fast nicht. V\u00f6llig ungewohnt sich mit einer engeren Jeans ins Auto setzen zu k\u00f6nnen mit dem Mini in der Hosentasche. Mit einem heutzutage \"normalgro\u00dfen\" Smartphone fast undenkbar ohne es zu verbiegen. Beim Laufen in der Jackentasche schl\u00e4gt es einem nicht die ganze Zeit gegen die Rippen, weil es sch\u00f6n leicht ist. Hoffentlich nicht das letzte Mini-iPhone was es zu kaufen gibt.\n** Fazit **\nWer ein kleines Topsmartphone m\u00f6chte und das Geld daf\u00fcr locker hat - sofort zuschlagen!",
+                            "publication_date": "2022-02-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "A.S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMUK3NHX4VPKAFR2EDEMAF4RCNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Smart-Phone",
+                            "url": "https://amazon.de/gp/customer-reviews/R35ISE261OCDBA/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Ein Smart-Phone f\u00fcr die Hosentasche. Klein, handlich und dazu ein super schneller Prozessor. Was will man mehr?.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sissi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEWYU22XYGFZ7MMOQD5MMTZUW7YQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Iphone 13 Mini",
+                            "url": "https://amazon.de/gp/customer-reviews/R1M0XBO29BHSGI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Wir haben das Handy seid 2 Wochen. Bis jetzt Top!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Volker",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFVMH3AZ3ONJEKNW2SJLBTC52PKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/RPFUM6HJ1EC0P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "War ok",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mader Maximilan",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF47QBJHJERT4KLU3FTK5N7UKNNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/gp/customer-reviews/R2YP0D59W9Z8TA/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "100% Akkukapazit\u00e4t\nAlles perfekt!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 August 2023",
+                            "helpful_votes": 5,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/718S5IOG85L._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81G6u-2s6TL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81MZ1nWwUkL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81e-vVqw4NL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Mega handy genau das was ich will !",
+                            "url": "https://amazon.de/gp/customer-reviews/R1GG1NI44GATTE/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Es ist klein handlich und sieht mega sch\u00f6n aus! Das Preis-Leistungsverh\u00e4ltnis passt einfach und das Design ist einfach gelungen ! Der Akku langt bei normaler Nutzung super \u00fcber den Tag und auch das Display ist mega ! Hab mich echt in das Ding verliebt ! Die Kamera macht Hammer Bilder alles in allem eine absolute Kaufempfehlung meinerseits wert\nWer auf 5,5 Zoll Handys steht der wird hier was handliches f\u00fcr die Hosentasche bekommen ! Egal welche Farbe sie sehen alle toll aus",
+                            "publication_date": "2023-08-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Georg",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/f92b589b-080a-433f-a471-86e64d64d99e._CR73,0,438,438_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG3GEPB73ZU5OTBLU37OWDWJKGNA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "IPhone 13 mini",
+                            "url": "https://amazon.de/gp/customer-reviews/R1BLGR4BPZAGUO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Top Handy \ud83d\udc4d",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "hrn.tk",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEVHOM6OFWLSVUYR3YB5DY6NXZPA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "passt",
+                            "url": "https://amazon.de/gp/customer-reviews/R2YO6G5E41U3YD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "passt",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kuddel",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE2TOTBL45EDFS45NAP2QQNMT2TA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt gut in die Hosentasche",
+                            "url": "https://amazon.de/gp/customer-reviews/R1W54GYQVP3QB7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Ist nicht so ein Riesen Teil von der Technik auf dem neusten Stand sehr schnell eben Apple",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Elena L",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE5XIORPSWT624V5EO5VLEW6UXDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/R28KBPDPGDJWP8/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09V3J7TCF",
+                            "review_text": "Tolles Handy! Bin sehr zufrieden!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

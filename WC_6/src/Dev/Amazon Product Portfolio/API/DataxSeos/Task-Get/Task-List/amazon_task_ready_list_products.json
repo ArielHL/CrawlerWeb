@@ -1,0 +1,52 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1223 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11162049-6489-0210-0000-a12879655b39",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0591 sec.",
+            "cost": 0,
+            "result_count": 2,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "products",
+                "tasks_ready"
+            ],
+            "data": {
+                "se_type": "organic",
+                "se": "amazon",
+                "api": "merchant",
+                "function": "products"
+            },
+            "result": [
+                {
+                    "id": "11162041-6489-0209-0000-8785a71b829f",
+                    "se": "amazon",
+                    "se_type": "organic",
+                    "date_posted": "2023-11-16 18:41:17 +00:00",
+                    "tag": "fabercastell",
+                    "endpoint_advanced": "/v3/merchant/amazon/products/task_get/advanced/11162041-6489-0209-0000-8785a71b829f",
+                    "endpoint_html": "/v3/merchant/amazon/products/task_get/html/11162041-6489-0209-0000-8785a71b829f"
+                },
+                {
+                    "id": "11162041-6489-0209-0000-8f034e13e4e5",
+                    "se": "amazon",
+                    "se_type": "organic",
+                    "date_posted": "2023-11-16 18:41:17 +00:00",
+                    "tag": "lamy pens",
+                    "endpoint_advanced": "/v3/merchant/amazon/products/task_get/advanced/11162041-6489-0209-0000-8f034e13e4e5",
+                    "endpoint_html": "/v3/merchant/amazon/products/task_get/html/11162041-6489-0209-0000-8f034e13e4e5"
+                }
+            ]
+        }
+    ]
+}

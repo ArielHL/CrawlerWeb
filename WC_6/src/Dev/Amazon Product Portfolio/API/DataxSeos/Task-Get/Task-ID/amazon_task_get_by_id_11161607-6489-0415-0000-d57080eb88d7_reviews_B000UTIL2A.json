@@ -1,0 +1,959 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0883 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11161607-6489-0415-0000-d57080eb88d7",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0203 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11161607-6489-0415-0000-d57080eb88d7"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B000UTIL2A",
+                "asin": "B000UTIL2A",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B000UTIL2A",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B000UTIL2A?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-16 14:08:43 +00:00",
+                    "spell": null,
+                    "title": "Lamy Vista 312 Rollerball Pen Made of Transparent CP Plastic with Grip...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Lamy Vista 312 Rollerball Pen Made of Transparent CP Plastic with Grip Grooves and Self-Springing Metal Clip, with M 63 Blue Rollerball Refill, Nib Width M",
+                        "url": "https://amazon.de/-/en/312-Rollerball-Transparent-Plastic-Self-Springing/dp/B000UTIL2A/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41+DO+mgQ4L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.6",
+                        "votes_count": 271,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 49,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Christel Karn",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEHXLIZVFFG43EWS3NICDIGW2JQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Lamy Tintenroller",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RSHO0D1BF3B36/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Gute Qualit\u00e4t, tolles Design",
+                            "publication_date": "2023-08-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 6 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Conny P.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF3XIE4PGBAFPGNPVKU5NWI43JEQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Das n\u00e4chste MalNur dieser shop",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R29XH04B77NAGY/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Preis super\nKommunikation super\nHoffentlich bald wieder",
+                            "publication_date": "2023-07-06 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ruhrpottdesaster",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHSDHQBRFBJIY35473G7EZUUWGZQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Perfekt",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3EZ5MMXHO5MPH/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Produkt, Bestellabwicklung, Lieferung.",
+                            "publication_date": "2023-05-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 October 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Adrian",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/0048434e-513b-4c2c-8705-83185cd57b59._CR28,0,444,444_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEJ6FE4ZWSG4RIIUFHLL3HG6OUEA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tintenroller Made in Germany unter 20\u20ac",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R23S3ZZ9MJ1XNL/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Auch wenn es ein sehr sch\u00f6ner Tintenroller in einer guten Qualit\u00e4t ist, wird er ohne jegliche Verpackung geliefert.",
+                            "publication_date": "2022-10-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 June 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michael K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHIQBXMSEMBELH65XQ3KSO4HH5KQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein wunderbares Schreibger\u00e4t. Aber kein bisschen gr\u00fcn.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1PLZ5OERCEONL/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Ein wunderbares Schreibger\u00e4t. Sch\u00f6n in der Handhabung und noch sch\u00f6ner ist das Aussehen. Eigentlich perfekt, aber geht es nicht ohne Plastik? Den N\u00e4chsten kaufe ich, wenn er aus Holz oder Papier ist. Dann gibt es 5 Sterne! Dann kaufe ich sogar 2. Einen in schwarz und einen in wei\u00df.",
+                            "publication_date": "2022-06-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 January 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Nadja",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH5GXXJRDDCHOKXZLHRGHBTY3ZLQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klassiker",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3ANIJ824TNBEP/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Sehr sch\u00f6ner Tintenroller. Meinem Sohn hat der Tintenroller so gut gefallen, dass ich mir einen Neuen bestellen musste.\nIch bin froh, dass die Tintenroller in der Schule erlaubt sind, da mein Sohn lieber damit schreibt, als mit einem F\u00fcller.",
+                            "publication_date": "2022-01-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 September 2016",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "st37",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGVOV3YKJYGTTCGSGP5OPPWYUXFA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alternative zum F\u00fcller",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2ZHUWGYU5MH97/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Mir gef\u00e4llt der Tintenroller sehr gut, da er eine robuste Alternative zum klassischen F\u00fcller darstellt. Ein Sch\u00fctteln l\u00e4sst nicht sofort die Tinte spritzen, au\u00dferdem verkraftet er st\u00e4rkeren Druck auch besser als die klassische Tintenfeder (falls doch der Frust beim Schreiben kommt ;)\nDie Tinte ist l\u00f6schbar, wie beim normalen F\u00fcller.\nAu\u00dferdem ist schnelleres Schreiben nicht wie beim Kugelschreiber mit einer schwachen bzw. d\u00fcnnen Schrift erkauft.\nBisherige St\u00f6rfaktoren:\n- doch sehr kr\u00e4ftige Tintenabgabe (einen Tick zu viel nach meinem Geschmack)\n- Mine teuerer als Patronen\nDa ich den Tintenroller erst seit kurzem besitzte, f\u00e4llt es mir schwer zu beurteilen wie lange die Mine h\u00e4lt.\nAn sich finde die Idee des Tintenrollers super.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 26 June 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "H. Sabrina",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/ba8032fa-27f4-49f6-88df-9591f413f3d0._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEWLWEKMDVHGCQXFPNA7VXO3FTRQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2NMJPEIPSVTGR/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Ein sehr guter Tintenroller \ud83d\udc4d\ud83c\udffd Ich meinen schon seit 15 Jahren und er funktioniert noch immer einwandfrei. Dieser hier genau der selbe ist f\u00fcr meinen Sohn \ud83d\ude0a",
+                            "publication_date": "2021-06-26 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 January 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "J\u00f6rg",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE5KSDU5OTLBNM6VVZ4AOLZD2F6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles Schreibger\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RF7GY0QU14SOH/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Ideal f\u00fcr die Arbeit",
+                            "publication_date": "2021-01-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 December 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "soner muhcu",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGGPLREXRCTZZRPIORUXEY3KK7SA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Toller Stift",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R17Q0A5XOF982E/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Es ist wie immer Lamy-Qualit\u00e4t.",
+                            "publication_date": "2020-12-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 November 2018",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alexandria",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEPSBRGYQ3G6MOODLTAFMBJRE6AQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Verliebt",
+                            "url": "https://amazon.de/gp/customer-reviews/R12ZIHQ1XJZIU/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Liegt gut in der Hand.\nLeider sind die Mienen ein bisschen teuer, aber das weis man ja, wenn man schon einmal einen Lamyf\u00fcller hatte.",
+                            "publication_date": "2018-11-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 October 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "SabZar",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFJBIJBIKQ72VU4NXK7DKLXAKBYQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top",
+                            "url": "https://amazon.de/gp/customer-reviews/R2NZ6P0WI4X1M5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Was soll man sagen?! Lamy eben! Perfekter Stift. Lieferung und Verpackung war auch einwandfrei.",
+                            "publication_date": "2019-10-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 31 August 2016",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Birgit Hoymann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFKBH22LHLYSKWWD7AKKKSNV4PKQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mein Lieblingsstift",
+                            "url": "https://amazon.de/gp/customer-reviews/R1GN628UCFXX4K/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Der Stift ist stabil, langlebig und sieht sehr gut aus. Die Lieferung kam p\u00fcnktlich und unversehrt. Vorsicht bei Verwendung dickerer Minenst\u00e4rke. Die sind viel zu schnell leer.",
+                            "publication_date": "2016-08-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 December 2015",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Martin Mutlu",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF7ZXS2NQSLHJ5QYKP7DTBV7SAKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Artikelzustand sehr gut!",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ZPGK26AIBN58/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Ich bin sehr \u00fcberzeugt von dem Tintenroller und empfehle ihn auch nur weiter.\nVerpackung war zwar ein wenig besch\u00e4digt, doch es \u00e4nderte nichts am Qualit\u00e4tszustand des Tintenrollers.",
+                            "publication_date": "2015-12-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 April 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG3MONN4RTHGH7ZYPVILZHOV3PYQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr schnell",
+                            "url": "https://amazon.de/gp/customer-reviews/R3VI96GGKQS8K4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Super schneller Versand alles gut",
+                            "publication_date": "2019-04-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 8 March 2010",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jan Stolte",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF4OGEYFBENS6EG3YB24FETZTHFA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles einwandfrei",
+                            "url": "https://amazon.de/gp/customer-reviews/RDF7IGC2K77MF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Kann nur sagen das er sch\u00f6n schreibt und das habe ich auch nicht anders erwartet!!!",
+                            "publication_date": "2010-03-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 13 January 2011",
+                            "helpful_votes": 10,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kaboe",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGB46L7AX5PCQP5EQC2LYAHC7QVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ersatzmine ist unversch\u00e4mt teuer",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ZSHTDHZ61E0W/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Der Tintenroller schreibt nur bei neuer Mine gut. Wird die Mine leerer, hat er ein richtig schlechtes Schriftbild - mal genug Tinte, mal nicht. Wenn er gut schreibt, schreibt er in normalen Heften leider schnell auf die andere Seite durch. Die Ersatzminen sind unversch\u00e4mt teuer.",
+                            "publication_date": "2011-01-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 March 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lutz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHGGTAYOYLJNESI6BCLKZP7BKPJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Besser als herk\u00f6mmlicher F\u00fcller",
+                            "url": "https://amazon.de/gp/customer-reviews/R270ZO0JEO2WZ2/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Kann ich allen Eltern f\u00fcr Kinder ab zweites Halbjahr Klasse 3 empfehlen.\nSchriftbild wird schoener",
+                            "publication_date": "2021-03-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 February 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kristina R\u00f6hrig",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE7BYX63DJE4WEPQUCWUUVSBF3VA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klasse Quali!",
+                            "url": "https://amazon.de/gp/customer-reviews/R3TWTLKSSAZMB7/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "Wundersch\u00f6ner F\u00fcller, kam schnell an und ist einwandfrei!",
+                            "publication_date": "2022-02-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 May 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "K. Velten",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFXODZCJX3NJDL4BS3YWBPGFLYFQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Schade aber ok",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BEEWALNVLJWV/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "War ok leider gibt es keine breiteren mienen zum ersetzen",
+                            "publication_date": "2021-05-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Yuri",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHLV2JIPM4P4BPOJMISTEK4S6JIA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Cool ink, smooth writing roller, nice material",
+                            "url": "https://amazon.de/gp/customer-reviews/R31BF597PXYV20/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B000UTIL2A",
+                            "review_text": "This my second Lame roller ball pen - I like both.",
+                            "publication_date": "2023-05-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 2 April 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jackie",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Love Lamy",
+                            "url": null,
+                            "review_text": "I have the vista in the ballpoint pen and love it so thought I\u2019d try the rollerball which I also love. Comes with blue ink which I\u2019m not a fan of but purchased some refills in the black. Writes smoothly and comfortable in the hand.",
+                            "publication_date": "2023-04-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 22 May 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61dK4zuMydL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Carapuce",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "snepbdooG",
+                            "url": null,
+                            "review_text": null,
+                            "publication_date": "2023-05-22 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 9 June 2022",
+                            "helpful_votes": 1,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61TINqE8EWL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "GABRIELA A.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "EXCELENTE COMPRA",
+                            "url": null,
+                            "review_text": "Excelente bol\u00edgrafo. Suave al escribir, lindo, c\u00f3modo. Super recomendable para usar y para regalar",
+                            "publication_date": "2022-06-09 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 3 April 2022",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "maurizio bauer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/b6018b1d-1b29-433c-9404-43aad9c2aef2._CR62,0,375,375_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Essenzialit\u00e0 e design",
+                            "url": null,
+                            "review_text": "Stile essenziale, scrittura di livello. Ad un prezzo giusto per un prodotto Made in Germany.",
+                            "publication_date": "2022-04-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 11 August 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "H lew",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Best value pen for the money. Writes great.",
+                            "url": null,
+                            "review_text": "I have a couple of lamy pens, but this is the first roller ball and I love it. Fantastic price for a lamy and a great design. Highly recommended for some who wants a nice pen for work but doesn't want to spend a lot.",
+                            "publication_date": "2019-08-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 18 January 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "veronika k",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Lamy never disappointed",
+                            "url": null,
+                            "review_text": "Absolutely in love, just wouldn't mind ti dind refils on Amazon with good price",
+                            "publication_date": "2021-01-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Spain on 2 April 2020",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ernes",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "ES"
+                            },
+                            "title": "Bol\u00edgrafo con una gran est\u00e9tica y de buena calidad.",
+                            "url": null,
+                            "review_text": "Escritura muy fluida, buena est\u00e9tica y manejo f\u00e1cil. El \u00fanico pero es que es de trazo un poco grueso al ser la M.\nEn cualquier caso compra muy  recomendable.",
+                            "publication_date": "2020-04-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Canada on 15 January 2019",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "CA"
+                            },
+                            "title": "Great pen, super smooth writing",
+                            "url": null,
+                            "review_text": "bonus: it looks nice.",
+                            "publication_date": "2019-01-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[13]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 11 February 2021",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marco Menegon",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Ok",
+                            "url": null,
+                            "review_text": "Arrivata 1 giorno dopo, ma tutto bene prodotto arrivato in buone condozioni!!",
+                            "publication_date": "2021-02-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

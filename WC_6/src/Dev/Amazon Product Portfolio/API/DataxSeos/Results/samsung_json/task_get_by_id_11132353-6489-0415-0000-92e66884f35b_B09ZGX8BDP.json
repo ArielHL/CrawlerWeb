@@ -1,0 +1,162 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0610 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-92e66884f35b",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0241 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-92e66884f35b"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09ZGX8BDP",
+                "asin": "B09ZGX8BDP",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09ZGX8BDP",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09ZGX8BDP?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:01 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy S21 FE 5G 128GB G990 Graphite Dual SIM EU",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy S21 FE 5G 128GB G990 Graphite Dual SIM EU",
+                        "url": "https://amazon.de/-/en/Samsung-Galaxy-128GB-G990-Graphite/dp/B09ZGX8BDP/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31t2T8oZYLL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "5",
+                        "votes_count": 6,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 3,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 3,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 7 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ROBERT Laetitia",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Tr\u00e8s bon t\u00e9l\u00e9phone",
+                            "url": null,
+                            "review_text": "Tr\u00e8s bon t\u00e9l\u00e9phone, de la gamme S de chez Samsung \u00e9gale \u00e0 sa bonne r\u00e9putation, dommage qu'il n'y ait plus de chargeur fournit pour des normes \"d'\u00e9cologies\" (on vient d'acheter un appareil qui requiert des terres rares mais fournir un peu plus de cuivre pour le charger et faire importer le chargeur de l'autre bout du monde est clairement \u00e9cologique...). A noter que le double c\u00e2ble USB C n'\u00e9tait pas compatible avec mes autres chargeurs ou mon PC j'ai opt\u00e9 pour l'achat d'un adaptateur USB vers USB C.",
+                            "publication_date": "2023-10-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 10 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Fran\u00e7oise Micheli Je viens de constater que la commande concern\u00e9e ma \u00e9t\u00e9 factur\u00e9e et pr\u00e9lev\u00e9e 2fois",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Le produit correspond \u00e0 mes attentes.",
+                            "url": null,
+                            "review_text": "Utilisation modeste, en remplacement de mon dernier Samsung s10.  .",
+                            "publication_date": "2023-10-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 30 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "\"titouf\"",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "vendeur serieux",
+                            "url": null,
+                            "review_text": "correspond \u00e0 la description, bonne communication du vendeur. expedition super rapide. Le telephone fonctionne parfaitement.",
+                            "publication_date": "2023-05-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

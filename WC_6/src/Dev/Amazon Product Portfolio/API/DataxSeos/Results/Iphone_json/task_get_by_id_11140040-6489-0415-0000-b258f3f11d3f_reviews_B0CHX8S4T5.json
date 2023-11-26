@@ -1,0 +1,720 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0399 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-b258f3f11d3f",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0228 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-b258f3f11d3f"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CHX8S4T5",
+                "asin": "B0CHX8S4T5",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CHX8S4T5",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CHX8S4T5?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:41:02 +00:00",
+                    "spell": null,
+                    "title": "Apple iPhone 15 Fine Fabric Case with MagSafe - Black",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Apple iPhone 15 Fine Fabric Case with MagSafe - Black",
+                        "url": "https://amazon.de/-/en/Apple-iPhone-Fine-Fabric-MagSafe/dp/B0CHX8S4T5/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31EYm-RAYcL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "2.9",
+                        "votes_count": 33,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 22,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 22,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mau",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/b9f08b33-3e90-4340-90d1-37d2ff88c33f._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHRWQA3D6WDVUDXBLT4RD6NBEUPA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Entt\u00e4uschende Qualit\u00e4t trotz schickem Design",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3NNOOXUM9421C/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Zu Beginn dachte ich, dass die vielen negativen Bewertungen auf unsachgem\u00e4\u00dfe Handhabung des Produkts zur\u00fcckzuf\u00fchren sind, da Stoffh\u00fcllen generell etwas empfindlicher sind im Vergleich zu Silikonh\u00fcllen. Allerdings war ich entt\u00e4uscht, nicht nur von den permanenten Kratzern durch Fingern\u00e4gel, sondern auch davon, dass das Silikonumrandung sich im normalen B\u00fcroalltag bereits nach weniger als einem Monat stark abgenutzt hat. Die Qualit\u00e4t ist sehr entt\u00e4uschend, besonders angesichts des hohen Preises. Andererseits f\u00fchlt sich der Stoff angenehm an und die Farbe ist wirklich schick. Hoffentlich gibt es in Zukunft eine verbesserte Version des Produkts.",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Patricia Motz",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AECACSIEAMJ3BNJWRUKZFN2IUSIA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handyh\u00fclle",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2DSZ0BGY5CUQT/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Sie ist wirklich wundersch\u00f6n. Auch die Verarbeitung wei\u00dft Qualit\u00e4t auf. Nur leider ist diese nicht besonders robust. Trotzdem kann ich sie nur empfehlen.",
+                            "publication_date": "2023-10-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "\u2693\ufe0fMilchmannfrau",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF43QWKOHDN3M7CJMUYESKIIT7VA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "perfekt\u2665\ufe0f",
+                            "url": "https://amazon.de/gp/customer-reviews/R35XOXXBRV1W8D/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Passt unfassbar gut, sieht edel aus - das beste ist aber, wie die H\u00fclle sich anf\u00fchlt. Es ist irgendwie warm und weich - nie wieder Plastik!!! Ist zwar etwas teuer, aber ich w\u00fcrde sie trotzdem wieder kaufen!",
+                            "publication_date": "2023-11-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Isabell V\u00f6lkl",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEISXCI7ELCPLBRN5VKAXY7NVCTA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Handyh\u00fclle i phone 15",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2X870MBSRF679/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Passt perfekt. F\u00fchlt sich nicht rutschig an wie andere. Sehr sch\u00f6nes Material. Ob der Preis sein muss\u2026.. naja",
+                            "publication_date": "2023-10-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "lennart",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AF66Z6EQRYZQD5O7TS4IQYYJFIEA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Schlechte Qualit\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2ZUYVPJ5VOXE4/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Habe in den vergangenen 13 Jahren die verschiedensten H\u00fcllen f\u00fcr iPhones gekauft und gerne genutzt. Von ganz g\u00fcnstigen direkt aus Fernost bis originalen Apple Cases. Dieses ist mit Abstand die zugleich schlechteste und teuerste H\u00fclle. Bereits nach kurzer Nutzung (2 Wochen) hat die R\u00fcckseite der H\u00fclle Verf\u00e4rbungen und Kratzer trotz umsichtigem Umgang. Das hatte ich so noch nie. Und das f\u00fcr einen sehr stolzen Preis.\nWie ich lese, geht es nicht nur mir so. Entsprechend kann ich Interessierte nur warnen.",
+                            "publication_date": "2023-10-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 September 2023",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "MightyKomi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHAY6N732EEUOZPX5VBLPGW3J56A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Material ist Schmutzmagnet",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1I0YUC3TSB9WS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Habe das Case bestellt da ich jahre Langer Leder Case Nutzer bin und immer sehr zufrieden war.\nIch denke das Material geht schnell kaputt und ist ein Schmutzmagnet.\nKann leider nicht nachvollziehen was Apple sich da gedacht hat",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "HS",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE3EEZPNA2J4QIBCALWT5KQUFFQQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "V\u00f6llig \u00fcberteuert",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1X1RF250QIHN2/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Also f\u00fcr dieses Geld habe ich nun wirklich mehr erwartet.\nV\u00f6llig \u00fcberteuert und das Geld nicht wert.\nNie wieder H\u00fcllen von Apple.",
+                            "publication_date": "2023-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 September 2023",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ch2619",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AE4XMDIKIX6AUFROQAVAUHLZEKMA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kein Vergleich zur Lederh\u00fclle",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1YSJCP3S9T6H7/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Gef\u00e4llt mir von der Haptik gar nicht und geht zur\u00fcck.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 7 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "jackdaniels",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFVZL3AGOMESRUIJWW5L4AOKPRKQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "FineWoven-Feingewebe",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R6CT7ZDPMB40E/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Hatte lange \u00fcberlegt ob ich diese Apple FineWoven Schutzcase kaufen soll,weil im Internet und auch hier findet man nur sehr viele negative Bewertungen.\nHab immer die Apple Ledercases gehabt und war sehr zufrieden damit,die letze in der Farbe Tinte sehr sch\u00f6n.\nHab lange das Internet durchsucht und sehr viele andere Hersteller begutachtet und dann Videos im Internet, und Bewertungen durchgelesen.\nDie anderen H\u00fcllen sind nur etwas g\u00fcnstiger als die Apple Cases auf Silikon von Apple h\u00e4tte kein Interesse.\nWar mir sehr unschl\u00fcssig was ich kaufen soll, m\u00f6chte nicht ein haufen Geld ausgeben und dann bin immer wieder unzufrieden damit und lande nach rissen Loch in der Geldtasche wieder bei Apple.\nDas Applecase l\u00e4sst auch wieder gut verkaufen zb. wenn man andere Farbe m\u00f6chte,f\u00fcr die anderen Schutzcases bekommt man fast nix weil die Menschen wollen Apple.\nDeswegen kam die Entscheidung hol sie dir gleich das MagSave FineWoven in der Farbe Mulberry,wollte eigentlich die Farbe Immergr\u00fcn war leider nicht verf\u00fcgbar und mit langer Lieferzeit angegeben.\nBeurteilung:\nJa sie knarzt minimal.\nSie zerkratzt wenn man mit den Fingernagel r\u00fcberkratzt,aber auch die Ledercases zeigen da Abn\u00fctzungen.\nDie Farben t\u00e4uschen etwas,sind anders als auf Verpackung angegeben.\nManche Case zeigen schon beim auspacken leichte Gebrauchsspuren,war leider schon bei der Lederversion so.\nSie zieht leicht Staub an und darf nicht nass werden schon gar nicht mit \u00d6l und Pastsauce.\nDas iPhone geht etwas schwerer raus als die Ledervariante.\nDas die H\u00fclle wie Plastik ist,denn widerspreche ich sehr,sie ist was neues und was eigenes.\nSie hat was edles und schaut auch hochwertig aus,und sie hat auch das Applelogo drauf was mir pers\u00f6nlich sehr gef\u00e4llt.\nDer Stoff (Feingewebe) hat eine sehr feine Struktur hinten sieht man es gut,seitlich muss man besser schauen finde es sehr Interessant.\nUnd ihren Job wird das Case auch sicher erf\u00fcllen,sie sch\u00fctzt mein iPhone,genauso gut wie das Leder zuvor.\nLangzeitvergleich wird Interessant.\nHoffe konnte etwas helfen mit dieser Bewertung.",
+                            "publication_date": "2023-10-07 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 18 October 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "T.B.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHBRFHQR5H6TSQ3QDKGUSYIGNAIA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gute H\u00fclle - halt kein Leder!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2TCVVCMWP5XE1/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Ich finde, das neue Material der H\u00fclle fasst sich sehr gut an, ist halt kein Leder. Hab ich nach den ganzen negativen Rezensionen so nicht erwartet. Vor allem bleibt der gewohnte Formfaktor erhalten.\nMan sollte die H\u00fclle nicht mit dem alten Ledercase vergleichen sondern mit der Apple Silikon-H\u00fclle. Und da ist das Finewoven deutlich angenehmer und zieht viel weniger Staub an.\nIch hatte vorher das Spigen Ultra Hybrid Frost Case (das f\u00fchlt sich echt billig an, R\u00fcckseite sehr rutschig) und ein Ledercase von Wiiuka (untere Seite leider nicht gesch\u00fctzt, tr\u00e4gt etwas mehr auf, Magsafe etwas schwacher, ansonsten super Qualit\u00e4t).\nZur Not mach ich mir Halt ne Carbonh\u00fclle um das Finewoven-Case, damit es nicht besch\u00e4digt wird ;)\nAber eigentlich hab ich die H\u00fclle ja, damit das Iphone gesch\u00fctzt ist....",
+                            "publication_date": "2023-10-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 28 September 2023",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ringli",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFPKVTKT3CNSU26LRPLMVMIMIDAQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "verkratzt sehr schnell",
+                            "url": "https://amazon.de/gp/customer-reviews/R1JURQ3RAINZSP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "schon nach wenigen Tagen verkratzt. Es f\u00fchlt sich ganz okay an, aber die Umsetzung seitens Apple ist leider nicht gut.\nNachtrag: Die ersten 40 Bewertungen hier wurden einfach gel\u00f6scht. Da frage ich mich warum???",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 3 October 2023",
+                            "helpful_votes": 2,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/71fyQVVF7RL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marc S.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGWXAVBT7AUV7AI5AG23IOWTPRKA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "als Handyh\u00fclle ungeeignet",
+                            "url": "https://amazon.de/gp/customer-reviews/R2H836YOSE9YX9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "Ich habe die H\u00fclle nun eine Woche in Gebrauch und sie sieht bereits sehr abgenutzt aus, obwohl ich damit sehr sorgsam umgegangen bin.\nDas Handy war im Rucksack und nur dadurch hat die H\u00fclle sichtliche Druckstellen bekommen, welche nicht mehr weggehen.\nDas eine H\u00fclle Gebrauchspuren aufweist ist ja v\u00f6llig in Ordnung und ist auch Sinn einer H\u00fclle, aber f\u00fcr \u20ac 70,- mit einer einw\u00f6chigen Nutzung ist es f\u00fcr mich nicht OK und wird zur\u00fcck geschickt.",
+                            "publication_date": "2023-10-03 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 25 September 2023",
+                            "helpful_votes": 8,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "The Reviewer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGS56Q3YDA2FHH2GOBRVK5WTMIFA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "was f\u00fcr ein Schrott, das soll nachhaltig sein ...",
+                            "url": "https://amazon.de/gp/customer-reviews/R2NHDXH1LRX3IW/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B0CHX8S4T5",
+                            "review_text": "schon nach einem Tag schonender Behandlung sieht das Teil aus wie sonst nach 5 Jahren, sowas soll nachhaltig sein, aber Hauptsache in der Keynote von diesem linken Umwelt-Schwachsinn referieren. Geht retour, Qualit\u00e4t unterirdisch, der Preis ist doch krank.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Canada on 15 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Select Shopper",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "CA"
+                            },
+                            "title": "It is what it is",
+                            "url": null,
+                            "review_text": "I buy an Apple leather case with each new iPhone I get. With the iPhone 15, Apple no longer offers the leather case and instead offers this \"finewoven\" case. I was skeptical after reading negative comments about durability, feel, etc. As much as I've  always loved the leather cases, this one has found it's way into my heart. As for the feel, I would say suede-like, or maybe silk, or a bit like my old lazyboy chair. So, I really can't describe the feel - it has its own. It is what it is, and it's quite nice. Durability wise, it seems okay although I haven't tried attacking it with a nail or driving over it. Thinking it might be an acquired taste... it took me 3 days of use to decide it was the right case for me.",
+                            "publication_date": "2023-10-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United States on 27 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Turist",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/4d0bbd69-5435-4a00-81de-a50453376f15._CR0,0,375,375_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "US"
+                            },
+                            "title": "Good case, solid bumper, lightweight...",
+                            "url": null,
+                            "review_text": "Update: After a week of using the case, there are fit issues, specifically observed loosening on the sides, creaking noises as device moves inside of the case, side material is too rigid and a lot of movement in case. Apple definetely could have done better making this case. Changed my rating to reflect.\nThere a lot of negative reviews and posts on YouTube on this case series from Apple, it wasn't an easy decision this one...It turned out my impressions are not negative on this case. I found that it has a solid bumper surround with micro texture that slightly helps with grip and obviously back is light fabric, the new fabric made of recycled materials. Case it self is pretty lightweight, adds nothing significant to 15's weight. The surround is hard but pretty thin, it does not add any bulk at all to overall weight or handling of the device. While material is better than silicone it still picks up some lint/dust but can be wiped away simply. I have noticed it has some heat dissipation features that it does feel that phone itself cools down faster or do not heat up as much compared to the other cases I tried especially hen I used it plugged in...I think perceptions play a lot into many of these negative reviews, I enjoyed using the previously available Apple made leather cases, however I do not think this one is a replacement to that. You can't replace leather feel and patina look with plastic and recycled fabric...this is to me a new generation case that is useful and slim that doesn't take away from the feeling you get from using the phone without a case and that is what I was looking for, I do not like cases at all honestly. If you're looking for the same this might be an option for you, if not definitely you will find something wrong with bumper, fabric how thin etc... Overall for me this is a top quality case, I enjoy using, paired with a good quality glass screen protector gives me a piece of mind in terms of protection and still feels almost as good as using the device without a case.",
+                            "publication_date": "2023-10-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 23 October 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Benjamin Lemoine",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Rendez-nous le cuir\u2026",
+                            "url": null,
+                            "review_text": "Apple avait d\u00e9j\u00e0 fait fort en rempla\u00e7ant le cuir pleine fleur des coques d'iPhone 11 par une pseudo croute pour les suivantes, mais l\u00e0, la coque est non seulement mauvaise, mais \u00e0 ce prix l\u00e0, on est \u00e0 la limite du vol\u2026",
+                            "publication_date": "2023-10-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United States on 28 September 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Book Worm",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "US"
+                            },
+                            "title": "Not bad, but not a cleverly designed case",
+                            "url": null,
+                            "review_text": "Although, no longer leather, factoring inflation and the $5 off sale, the price of the case is not as egregious as first seems. The material feels nice, although it scuffs easily.\nMy #1 con with the case, however, is the charger opening on the bottom. I say it\u2019s unintelligent as the size of the opening is not very big and is likely designed only with Apples USB-C in mind.  A universal port that is bottlenecked essentially by the tiny case hole opening.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United States on 5 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "JayD317",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "US"
+                            },
+                            "title": "I wanted to like it",
+                            "url": null,
+                            "review_text": "The feel of the case was nice, but if you hold your phone with your pinky at the bottom, the case will dig into your pinky. The bottom has a sharp edge where the charger port is so that was definitely a negative and I had to buy a different case.",
+                            "publication_date": "2023-11-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United States on 13 October 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "BK",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "US"
+                            },
+                            "title": "This is great! What\u2019s the deal?",
+                            "url": null,
+                            "review_text": "I don\u2019t see why all the hate? All I see is people on YouTube scratching the back hard with their fingernails and complaining that it marks up too easy. Who the hell does that? I\u2019ve been using this ever since the release of iPhone 15 and I love it! Soft in your hand and just the right grip from the sides. Buttons are flawless. I got the brown to pair with my black iPhone 15 and it looks killer. Kinda pricey but WTH! \ud83e\udd37\ud83c\udffc\u200d\u2642\ufe0f",
+                            "publication_date": "2023-10-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[13]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United Kingdom on 13 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dissatisfied customer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "GB"
+                            },
+                            "title": "Poor",
+                            "url": null,
+                            "review_text": "Poor and expensive",
+                            "publication_date": "2023-10-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United States on 25 September 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Chris",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "US"
+                            },
+                            "title": "Not worth the same premium as the old leather cases",
+                            "url": null,
+                            "review_text": "After the silicone cases just crumble apart, I would always use a leather case which for some reason proved more durable\u2026 this case after only 2.5 days is already showing wear and tear. Apple themselves warn that using MagSafe charger will create a ring but after 2 days? No thanks I\u2019ll be returning and grabbing a something more durable. Gone are the days where I can trust Apple\u2019s first-party accessories",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in the United States on 21 September 2023",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Customer",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "US"
+                            },
+                            "title": "Looks and feels fine to me",
+                            "url": null,
+                            "review_text": "I don\u2019t get the complaints, it looks great and feels just fine. Obviously I can\u2019t tell long term durability yet but for now I like it as a leather alternative.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

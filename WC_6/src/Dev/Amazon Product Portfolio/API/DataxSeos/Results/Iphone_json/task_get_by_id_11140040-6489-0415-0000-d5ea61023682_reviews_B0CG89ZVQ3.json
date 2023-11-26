@@ -1,0 +1,72 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0420 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 1,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-d5ea61023682",
+            "status_code": 40102,
+            "status_message": "No Search Results.",
+            "time": "0.0206 sec.",
+            "cost": 0,
+            "result_count": 0,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-d5ea61023682"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0CG89ZVQ3",
+                "asin": "B0CG89ZVQ3",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0CG89ZVQ3",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0CG89ZVQ3?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:41:14 +00:00",
+                    "spell": null,
+                    "title": "Beeasy For iPhone 15 Case Waterproof for MagSafe, 360 Degree Outdoor...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Beeasy For iPhone 15 Case Waterproof for MagSafe, 360 Degree Outdoor Protective Case with Screen Protector, IP68 Waterproof Mobile Phone Case Dustproof Shockproof Armour Case for iPhone 15 Case 6.1",
+                        "url": "https://amazon.de/-/en/iPhone-15-Waterproof-Protective-Shockproof-black/dp/B0CG89ZVQ3/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41QK73pn01L._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": null,
+                        "votes_count": null,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 0,
+                    "item_types": null,
+                    "items_count": 0,
+                    "items": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,978 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0556 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-cae6395886c4",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0324 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-cae6395886c4"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09ZHWG7WR",
+                "asin": "B09ZHWG7WR",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09ZHWG7WR",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09ZHWG7WR?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:53:59 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy Tab S6 Lite (2022 Edition), 10.4 inch TFT Display, 64...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy Tab S6 Lite (2022 Edition), 10.4 inch TFT Display, 64 GB Memory, LTE, Android Tablet including S Pen, Angora Blue, 36 Month Warranty [Exclusive to Amazon]",
+                        "url": "https://amazon.de/-/en/Samsung-Display-including-Warranty-Exclusive/dp/B09ZHWG7WR/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/41deW9kN+HL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.7",
+                        "votes_count": 1560,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 358,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "LemmyIsGod",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH7ABRLBK44PMAYSSKBE6SPIXS6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Eindach genial",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3K540VFE1ZSJB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Hab mir das Tablet zur Unterst\u00fctzung des Studiums gekauft, weil ich doch \u00f6fters handschriftliche Notizen brauche und die Zettelwirtschaft echt nervig und un\u00fcbersichtlich wurde. Das hat jetzt ein Ende und als Bonus schreibe ich auch privat wieder wesentlich mehr, weil die Hanschrifterkennung super funktioniert.\nEin kleines Manko ist die Bildschirm\"Tastatur\" zum Schreiben mit dem SPen, weil hier die aufgelegte Hand st\u00f6rt. Das m\u00fcsste noch gefixt werden, aber kein Grund f\u00fcr einen Sternabzug, daf\u00fcr ist die Leistung einfach zu gut.",
+                            "publication_date": "2023-11-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 July 2023",
+                            "helpful_votes": 89,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Schick und mit aktuellem Android und Sicherheitspatch",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/RVVEMOHVYD9OK/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Tablets gibt es wie Sand am Meer. Und jede Menge g\u00fcnstige Varianten aus China mit beeindruckender Hardware. Doch bei einem ganz wichtigen Punkt den leider sehr viele unber\u00fccksichtigt lassen, trennt sich die Spreu vom Weizen und zwar wenn es um Software-Updates geht. Ich habe schon zwei g\u00fcnstige Tablets gekauft die bereits mit alter Android Software ausgeliefert und nie wieder ein Update erhalten haben. Dabei ist aktuelle Software mindestens, wenn nicht sogar wichtiger als die Hardware. Und wenn man darauf Wert legt - und das sollte man - dann bleiben nur noch ganz wenige Hersteller \u00fcbrig. Apple ist da ganz klar Vorreiter aber auch in einer anderen Position. Bei Android gibt es eigentlich nur zwei die wirklich regelm\u00e4\u00dfig und zeitnah Updates anbieten und das ist Google und  Samsung. Und deshalb fiel meine Entscheidung auch auf das Samsung Galaxy Tab S6 Lite.\nDas Lenovo Tab P11 (2. Gen) stand auch noch in der engeren Auswahl und bietet zwar die bessere Hardware aber schlechtere Update-Funktionalit\u00e4t. Ich hatte mal das Lenovo Tab 10 (2018) und war damit \u00fcberhaupt nicht zufrieden. Es gab noch ein Update und dann war's das. Das Samsung Galaxy Tab A (2016) meiner Frau bekam 4 oder 5 Jahre lang Sicherheitsupdates.\nNach der Einrichtung des S6 Lite gab es sofort das neueste Android 13 Update, Sicherheitspatchlevel Juni und Play Store Update Juni. So soll es sein und diesbez\u00fcglich ist Samsung einfach stark.\nDie Bildqualit\u00e4t des S6 Lite ist f\u00fcr den Preis angemessen, das IPS-Panel zeigt sch\u00f6ne Farben und die Aufl\u00f6sung ist ausreichend. Nat\u00fcrlich kein Vergleich zu OLED aber das ist klar. Sch\u00f6n w\u00e4re noch gewesen wenn das S6 Lite 120 Hz unterst\u00fctzen w\u00fcrde aber lieber verzichte ich darauf als mit einer alten Software vorlieb nehmen zu m\u00fcssen.\nDie Verarbeitung des Geh\u00e4uses ist auf hohem Niveau, die Kamera okay, mehr aber auch nicht. Alles eine Frage des Preises. Da das Tablet nur f\u00fcrs surfen, mailen und gelegentlich ein bisschen spielen (Candy Crush, UNO, ...) verwendet wird, ist die Performance v\u00f6llig ausreichend. Cool ist, dass f\u00fcr die Datenspeicherung ein MicroSD-Slot zur Verf\u00fcgung steht und auch ein 3,5 mm Klinke-Anschluss vorhanden ist.\nDie Android Oberfl\u00e4che ist Samsung typisch aufgeh\u00fcbscht und es sind einige Apps vorinstalliert die es nicht br\u00e4uchte aber alles im Rahmen. Wer Android nativ m\u00f6chte muss zu Google Produkten greifen. W\u00e4re das Google Tablet nicht so teuer, noch dazu f\u00fcr recht bescheidene Hardware, w\u00e4re das Google Tablet meine erste Wahl gewesen.\nF\u00fcr den aufgerufenen Preis von deutlich unter 300 Euro und den angedachten Einsatzbereich, erf\u00fcllt das Samsung Galaxy Tab S6 Lite bestens seinen Zweck und wir sind sehr zufrieden.",
+                            "publication_date": "2023-07-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "P.v.Retzen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFIKTV7OOCVFSSD7COA5GIZH7WGQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2T2WNTVJS3W7N/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das Tab ist in allen Funktionen bestens geeignet f\u00fcr jeden User",
+                            "publication_date": "2023-11-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Krydo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AES7IYPO7OLDPYYDRCBOHBMSNE6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top f\u00fcr die Ausbildung.",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R32T5AF90WBV0L/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Ich bin sehr zufrieden mit dem Tablet, nur die Spitze von dem Stylus k\u00f6nnte etwas stabiler sein.\nDie Spitze habe ich nach ca 6 Wochen gegen Titanium Spitzen ausgetauscht, die sich auf Paperlike-Folie anf\u00fchlen als w\u00fcrde man mit einem Kugelschreiber schreiben.",
+                            "publication_date": "2023-11-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 22 September 2023",
+                            "helpful_votes": 8,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Carsten",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFT6NB2NDHDRQZRNHONYAKR2QFGA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super !",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R22VRVJYLBTQH0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Zu Beginn: ich nutze das Tablet nur, um im Nachtdienst Netflix etc zu schauen und zwischendurch mal bissjen auf einem heruntergeladenen Zeichenprogramm rumzumalen. Also nichts wirklich gro\u00dfes.\nHierf\u00fcr ist das Tablet absolut ausreichend. Tolle Bildqualit\u00e4t. Der Stift l\u00e4sst pr\u00e4zise Strichf\u00fchrungen zu, was mich doch sehr \u00fcberrascht hat.\nDer Akku h\u00e4lt bei permanenter Nutzung mehrere Stunden, also auch hier, alles super.\nDie Einrichtung des Tablets war sehr einfach und dauerte insgesamt nur ca 25 Minuten bei mir. Dann konnte ich direkt loslegen.\nAlso f\u00fcr alle, die das Tablet f\u00fcr zwischendurch zum Shoppen und Filme schauen benutzen: klare Kaufempfehlung f\u00fcr das Geld.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rakuncek",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AESMYA6JX2KA4PNN3RG6NM4LV6WQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Great value for money tablet",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1NUAR037B2MB9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "The tablet in combination with an S pen is an awesome producr great for taking notes and doing other tasks.",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 August 2023",
+                            "helpful_votes": 12,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ruchi",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFZCZW4E4WAD2AMUTDVBOKLOXTHQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Performance review from an average user",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1CQMF2GZ4JNN0/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "This is a review after 6 months of using the device. I am a student and mostly use it to take notes and maybe watch YouTube videos every now and then. While the picture quality is really good it is not the best once you are used to an AMOLED display. The battery life has reduced a bit even though I do not have a lot of apps on the tablet. The notes app works perfectly fine and is most used for me. It's really good too. Since I don't have a lot of apps it doesn't lag often but there are some very minor issues that do occur rarely. lack of a fingerprint sensor is an issue sometimes because we are all used to opening our phone with a touch or a look and typing the pin can be a little slow and out of habit. The camera quality is also very good although I haven't really used it much. The best feature is the speakers on both sides which are very loud and perfect for a movie night in bed.",
+                            "publication_date": "2023-08-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Konstantinos Papaioannou",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGHR6QVIXXM5WXMUAIRH6KUJDRVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Wie gewohnt..",
+                            "url": "https://amazon.de/gp/customer-reviews/R3DN1OQ223DX4N/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Da gibts nichts hinzuzuf\u00fcgen.. auf jeden Fall zufrieden :)",
+                            "publication_date": "2023-11-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 8 October 2023",
+                            "helpful_votes": 3,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61W7aT32xlL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61ZjSUhuRCL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61uvK8FaYgL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lilly",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFZQ6FLZ7GSKFCIBT7GVQJIEPSHA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles Tablet",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2QY6RZFNLV77Y/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Hab dieses Tablet bei Amazon Retoure gekauft.  Was mich absolut \u00fcberrascht hat, es wurde noch nie ausgepackt. Alle Siegel waren nicht ge\u00f6ffnet. Hab mich nat\u00fcrlich sehr dar\u00fcber gefreut und gegen\u00fcber dem Original Preis auch noch gespart. Alles super.",
+                            "publication_date": "2023-10-08 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 October 2023",
+                            "helpful_votes": 7,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Michael G.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/412d181c-1362-452a-b078-97882b0ed37c._CR16,0,468,468_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEOILATHNQS3STLGOOXRR4AQIOKQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes und g\u00fcnstiges Arbeitsger\u00e4t",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1AVUTIZV0KCEU/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Dieses Tablet ist f\u00fcr mich das Ideale, wenn es um die Verwendung als besseren, \"digitalen Notizblock\" geht.\nPerformance ist absolut ausreichend, Gr\u00f6\u00dfe Ideal und das Schreiben mittels beiliegendem Stift funktioniert einwandfrei. Wenn es also kein Fancy High End Ger\u00e4t, sondern einfach ein Arbeitstier sein soll, kann ich dieses Tablet durchaus als kosteng\u00fcnstige Alternative zu den entsprechenden Flagship Ger\u00e4ten empfehlen.",
+                            "publication_date": "2023-10-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Natallia Tsypuliauskya",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFTGKKK2F3XYHOOPABZXXRXA43TQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Passt wie erwartet. Ich bin sehr zufrieden!",
+                            "url": "https://amazon.de/gp/customer-reviews/R27ACB0LR0CQNK/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Die aktuelle Amazon-Bestellung hat meine Erwartungen erf\u00fcllt",
+                            "publication_date": "2023-10-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Stefanie K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHMBEQMLOGBYA2A3NY57FQ2TJCDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolles tablet f\u00fcr den privaten Gebrauch",
+                            "url": "https://amazon.de/gp/customer-reviews/R2DS9IJC3KXCZ4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das Ger\u00e4t bietet alles was man gew\u00f6hnlich braucht. Der Stift funktioniert einwandfrei.",
+                            "publication_date": "2023-10-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 September 2023",
+                            "helpful_votes": 2,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/611pk71ZhhL._SY88.jpg"
+                                },
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61J8O15TRAL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Volker111",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/8581f10a-9a26-4e93-90e4-ad2815765fab._CR0,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHRNIOY2RQN76MK67MT7P73HXBTQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Schnell in den Anwendungen und verbessert in der Speicherverwaltung",
+                            "url": "https://amazon.de/gp/customer-reviews/R35VX0FS82N5H5/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das mit Android 13 ausgestattete Tablet \u00fcbertrifft bislang meine Erwartungen bez\u00fcglich Speicherverwaltung, Geschwindigkeit aber auch der Fotografie.\nDie Zusatzkarte von 128 GB bei 64 GB innerer Speicher scheinen daher v\u00f6llig zu reichen.\nBildqualit\u00e4t, Tonausgabe, alles eine klare Verbesserung zu meinem eher problematischen Vorg\u00e4ngermodell, dem Tab A 8.0",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 21 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Horst Nowski",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFZQBP5FKVHRASBHFJIJXKODCWPA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "w",
+                            "url": "https://amazon.de/gp/customer-reviews/R80EE05EZ0O9A/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Alles super alles gut.",
+                            "publication_date": "2023-10-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Julliana",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGK2I5YLSFJBAEZWY2NQ47DA5LGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "nice!",
+                            "url": "https://amazon.de/gp/customer-reviews/R104GM7DLAMKG4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "I'm very happy with it",
+                            "publication_date": "2023-10-14 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Sally Reinhold",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/ce003b46-9a5b-4cab-bfff-90ac0233421e._CR0,48.0,236,236_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHO6QCXP6NCPPPM72Q3NOI2FEX5A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr sch\u00f6n",
+                            "url": "https://amazon.de/gp/customer-reviews/R6RB5NEZNAJQZ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Als erstes hab ich das Tabelle bestellt und habe dann etwas anderes bekommen was sehr schlimm war daraufhin habe ich angerufen und eine Ersatzlieferung bekommen, daher bekommt es einen Stern weniger, soo jetzt zum tablet ich benutze es f\u00fcr spiele und zum Streamen f\u00fcr mehr nicht, daher bin ich super zufrieden mit dem Tablet",
+                            "publication_date": "2023-10-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 September 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEWMA2THZVPC6WIIUQMEH2PTMH4Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tablet gutes Super",
+                            "url": "https://amazon.de/gp/customer-reviews/R250LETUHBNK7Z/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Sehr gutes Tablet mit Stift funktioniert alles super \u00fcber mein altes Samsung alle Daten r\u00fcber gesendet .\nSmart Switch echt sehr einfach !\nMeine Kaufempfelung bin echt zufrieden mit dem Tablet.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 3 September 2023",
+                            "helpful_votes": 7,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tellerschnecke",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFU656XZ3DMKLWFX6C2VTNQHXNVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ein preiswertes und zuverl\u00e4ssiges Tablet.",
+                            "url": "https://amazon.de/gp/customer-reviews/R3EKAK3G2YA7AN/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Ich besitze das neue Samsung Galaxy S6Lite erst seit wenigen Tagen, kann aber jetzt schon sagen, dass es wesentlich besser konfiguriert ist als mein Samsung Galaxy S5e.\nVor allem haben die Hersteller dem Samsung Galaxy S6Lite endlich wieder eine Steckbuchse f\u00fcr ein Headset geg\u00f6nnt, was ich wirklich als ein Plus im Handling empfinde.\nAnsonsten weist es die gleichen Features auf, welches das Samsung S5e auch hat; den Pen ben\u00f6tige ich nicht, daher kann ich dar\u00fcber (noch) nichts sagen.\nEs ist zu empfehlen, sich noch eine H\u00fclle und eine Panzerglasfolie anzuschaffen, da das im Lieferumfang nicht enthalten ist.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 July 2023",
+                            "helpful_votes": 9,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Rubin",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/6fc9c86b-3c2f-440d-b6db-2862a1c0a4c4._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AH4I6MKLCIXZCLBLK5EIEC723UQQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gemischte Gef\u00fchle",
+                            "url": "https://amazon.de/gp/customer-reviews/RCOWBUBKZU5AT/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das Samsung S6 Lite ist f\u00fcr mich jetzt das erste Android Tablet. In Sachen Tablets habe ich sonst nur das iPad Mini, iPad und iPad Air benutzt.\nDa ich aber allgemein Android Smartphones nutze, wollte ich jetzt alles auf einer Plattform haben und nicht all zu viel ausgeben, daher kam mir das Angebot auf Amazon grade Recht.\nDas Tablet selbst macht einen guten Eindruck und wirkt nicht billig, braucht sich also nicht zu verstecken. Nachdem ich alles eingerichtet habe, hab ich direkt mal die Spiele App \"Hearthstone\" herunter geladen und getestet, da mir dies besonders wichtig ist und ich gerne ab und zu auf dem Tablet spielen m\u00f6chte. Getestet wurde das Schlachtfeld, man merkt leider das der Prozessor nicht besonders leistungsstark ist, aber Hearthstone ist zumindest mal akzeptabel spielbar, bei vielen Animationen l\u00e4uft es ein wenig tr\u00e4ge, aber ist zu verschmerzen, man kann durchaus Spass damit haben. Etwas anspruchsvollere Games kann man dann wohl vergessen.\nDann habe ich allgemein mit Twitter angefangen und hier und da ein paar Texte verfasst, E-Mails gescheckt, ein bisschen im Internet gesurft, die allt\u00e4gliche Dinge die man so macht.\nHier merkt man auch wieder, das der Prozessor nicht wirklich mit kommt.\nMan selbst wird ein wenig gebremst, es l\u00e4uft nicht wirklich geschmeidig und deutlich langsamer als z.b das etwas teure iPad (2019).\nEs f\u00fchlt sich an als hat man uralte Technik vor sich liegen, bei den Games ist klar, da hab ich mit Abstriche gerechnet, aber bei normale Anwendungen?\nF\u00fcr den Preis ist mir das Tablet ein Tick zu langsam, Grade weil eben die Konkurrenz (Apple) das um einiges besser macht.\nMan muss aber auch erw\u00e4hnen, das hier ein Stift dabei ist, was aber auch nicht wirklich Spass macht und sich tr\u00e4ge anf\u00fchlt. Da ich das Tablet aber nicht all zu oft nutze, ist es f\u00fcr mich kein grosses Problem.\nFace ID ist meiner Meinung nach v\u00f6llig nutzlos, wenn man das Tablet in dunklere r\u00e4ume betreibt, auch bei hellen r\u00e4ume braucht man mehrere anl\u00e4ufe damit das Tablet das Gesicht erkennt, da h\u00e4tte ich mir lieber Touch ID gew\u00fcnscht.\nWas mir aber gef\u00e4llt ist das Display, weswegen ich mich auch f\u00fcr dieses Modell entschieden habe. Das Display flackert laut Notebookcheck mit 81970 hz bei einer eingestellten Helligkeit von 16% und darunter. (PWM)  Der Wert ist ziemlich hoch, daher ideal f\u00fcr empfindliche Personen.\nDamit das Samsung S6 Lite aber zu einem empfehlenswerten Tablet wird, muss man mit dem Preis noch runter.\nAber wenn man unbedingt Android m\u00f6chte hat man auch nicht wirklich viel alternativen f\u00fcr den derzeitigen Preis.\nWer nach einem g\u00fcnstigen aber dennoch nicht extrem langsamen Android Tablet sucht, der kommt durchaus mit dem S6 Lite zurecht. Wer aber sein Tablet jeden Tag intensiv nutzt, wird wahrscheinlich nicht wirklich Spass damit haben und sollte unbedingt etwas mehr investieren. Besonders wenn man wie ich vom iPad kommt und gewohnt ist, das selbst beim g\u00fcnstigsten alles fl\u00fcssig l\u00e4uft.",
+                            "publication_date": "2023-07-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 13 May 2023",
+                            "helpful_votes": 21,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Thilo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/1afce7d5-393a-4735-a2b3-e2bdb055f753._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHRYJ2OZFGFVM2UST47IKQQJSQBA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Guter, solider Begleiter in Freizeit, Schule und Beruf",
+                            "url": "https://amazon.de/gp/customer-reviews/R2NQKUHUX0F72S/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das Samsung Galaxy Tab S6 Lite (2022 Edition) ist ein solides Tablet, das sich f\u00fcr den Einsatz in der Schule, im Beruf und in der Freizeit eignet. Der Preis von unter 300 Euro ist f\u00fcr die gebotenen Funktionen angemessen und stellt eine gute Wahl f\u00fcr alle dar, die ein solides Tablet ben\u00f6tigen, aber nicht zu viel Geld ausgeben m\u00f6chten.\nDas 10,4-Zoll-TFT-Display bietet eine ausreichende Helligkeit und Sch\u00e4rfe f\u00fcr die meisten Anwendungen. Das Schreiben mit dem mitgelieferten S Pen funktioniert soweit gut, allerdings kann es im seitlichen Randbereich zu einigen Problemen kommen, wenn das Tablet die Schrift nicht richtig erkennt. Insgesamt ist das Schreiben mit dem Stift aber eine gute Option f\u00fcr alle, die h\u00e4ufig Notizen machen m\u00fcssen oder kreativ sein m\u00f6chten.\nDie Software des Tablets ist passabel, jedoch w\u00fcnscht man sich f\u00fcr die Samsung Notes App noch ein paar mehr Features, wie zum Beispiel ein Lineal oder einen Ma\u00dfstab f\u00fcr Zeichnungen. Die Performance des Tablets ist solide, jedoch nicht immer so fl\u00fcssig, wie man es sich w\u00fcnschen w\u00fcrde. Aber f\u00fcr den Preis ist das absolut zu verkraften.\nIch nutze das Tablet seit einem halben Jahr f\u00fcr die Schule, den Beruf und die Freizeit und bin insgesamt sehr zufrieden. Auch das Schauen von Videos ist dank des guten Displays und des ordentlichen Sounds eine Freude. Alles in allem kann ich das Samsung Galaxy Tab S6 Lite (2022 Edition) jedem empfehlen, der ein solides Tablet zu einem guten Preis-Leistungs-Verh\u00e4ltnis sucht.",
+                            "publication_date": "2023-05-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 August 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jonas D\u00f6ring",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE3CI5V6N5PT7AMZH5NA4YPCSVAQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes Tablet, manchmal etwas hakelig",
+                            "url": "https://amazon.de/gp/customer-reviews/R3QJQ817MYQRWY/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "F\u00fcr den relativ g\u00fcnstigen Preis inkl. Stift sollte man nicht zu viel erwarten.\nInsgesamt f\u00fchlt sich alles nicht so ganz fl\u00fcssig an. Das \u00f6ffnen, schlie\u00dfen und wechseln zwischen den Apps ist schon etwas hakelig. Kein gravierendes Problem, aber wenn ich dauerhaft damit arbeiten m\u00fcsste w\u00e4re mir das nichts. F\u00fcr gelegentliche Nutzung aber kein Problem.\nDer Stift funktioniert gut und ich benutze ihn gerne f\u00fcr Notizen.\nAlles in allem ein gutes Tablet f\u00fcr den Preis, nicht mehr und nicht weniger.",
+                            "publication_date": "2023-08-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Bj\u00f6rn H.A.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHNCG5NWAXOWKS3MJM6TUUGLFNJA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "The best light sketch/drawing tablet",
+                            "url": "https://amazon.de/gp/customer-reviews/R1XNX8BQ2013YK/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Gets the social media and entertainment job done with minimal effort",
+                            "publication_date": "2023-10-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Volkan Eker",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEY7HEXVWRSN2CQYYRHS6G5YI37Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super",
+                            "url": "https://amazon.de/gp/customer-reviews/R1ZDE01X0K9TGG/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Einfach nur super kann ich nur weiterempfehlen",
+                            "publication_date": "2023-10-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 April 2023",
+                            "helpful_votes": 73,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Primer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/984c7931-e90c-4222-85aa-938c9511a9c8._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGPO7E726QKITHDNMBSDSSSRLKVQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\u00dcberzeugend***** Leistung und Preis*****Update",
+                            "url": "https://amazon.de/gp/customer-reviews/R1BWOR8344HPQQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Vorab: Die Ausf\u00fchrung Wifi kann wirklich NUR WLAN. ( Das es solche Ger\u00e4te gibt, war uns nicht bewusst und haben es komplett \u00fcberlesen. Inzwischen nutzen wir die Ausf\u00fchrung LTE, mit der Wlan und Mobil ( SimKarte) m\u00f6glich sind.\nNachdem unser altes Samsung Tab vor Jahren den Dienst einstellte, suchten wir speziell f\u00fcr den Urlaub etwas Neues. Mit unseren Handys sind wir bei Huawei sehr zufrieden, allerdings sind uns die Google Dienste gerade f\u00fcr den Urlaub mit Maps, Translater, ect. wichtiger und so entschieden wir uns f\u00fcr das :\nSamsung Galaxy Tab A8, Android Tablet, WiFi, 7.040 mAh Akku, 10,5 Zoll TFT Display, vier Lautsprecher, 32 GB/3 GB RAM, Tablet in Grau.\nDieses neue Ger\u00e4t war allerdings fehlerhaft, es hing sich direkt auf und ging am n\u00e4chsten Tag zur\u00fcck. So etwas nervt ungemein, das Gleiche wollten wir auch nicht mehr, zumal die Bild- und Tonqualit\u00e4t nicht wirklich \u00fcberzeugte. Aber das lag vielleicht ja auch nur an m\u00f6glichen Defekten.\nEin letzter Versuch nun mit dem Tab6 Lite. ( Nachdem unsere Samsung Handys vor Jahren am gleichen Tag den Dienst einstellten, war dieser Hersteller f\u00fcr uns eigentlich Geschichte. Letztendlich hatte uns der Zweck und der zun\u00e4chst g\u00fcnstige  Preis zum Kauf des Tab 8 gef\u00fchrt.)\nNachdem wir nun deutlich mehr ausgegeben haben, hat uns das 6 Lite sofort begeistert. Was f\u00fcr ein Unterschied. Installation schnell und reibungslos, Bild und Ton sind wirklich super, Ladezeiten sehr gut, Installation neuer Apps und zus\u00e4tzlicher Speicherkarte schnell und einfach.\nJetzt sind wir froh, \u00fcber den Umweg ein tolles Tab erworben zu haben. Auch die :\nhttps://www.amazon.de/dp/B08796QXSL?psc=1&ref=ppx_yo2ov_dt_b_product_details passt incl. Deckglas hervorragend.\nNachtrag: 10.05.23 Der Pen war uns beim Kauf  \u00fcberhaupt nicht wichtig. Inzwischen haben wir uns damit angefreundet und nutzen das Teil intensiv. Das Handling ist gut und einfach. Eine sinnvolle Erg\u00e4nzung f\u00fcr ein schnelles arbeiten.\nSollte sich Ver\u00e4nderungen unserer heutigen Einsch\u00e4tzung ergeben, werden wir diese Bewertung nat\u00fcrlich korrigieren.\nWar das hilfreich? ;-)",
+                            "publication_date": "2023-04-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 9 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "LB",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFKGYRFDMV45SLBPEZMP3C3KUCTA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tablet",
+                            "url": "https://amazon.de/gp/customer-reviews/R3H4KVZGAH11WP/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "The tablet really met my expectations, it's really good according to it's price and i highly recommend it and the Delivery was quick. Thank you!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "MaxM",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEAYCBBHPPEKME5OC3I3Y4ITVP3A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tablet super, s-pen naja",
+                            "url": "https://amazon.de/gp/customer-reviews/R2ZJGR9X2Z2EBQ/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das Tablet ist echt super! F\u00fchlt sich sehr hochwertig an. Allerdings sollte man wissen, dass man die Mine des s-pen ab und zu wechseln muss. Meine Mine war direkt bei der Lieferung kaputt. Also Vorsichtig mit dem s-pen!",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Albert K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGFT4VWEFLM7E4S4CQ2ZJ6T3OLBQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "\ud83d\udc4c",
+                            "url": "https://amazon.de/gp/customer-reviews/RLB58MPLWQAVO/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "OK \ud83d\udc4d\ud83c\udffb",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 August 2023",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Peter Hein",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/63cee36b-89f4-4b48-a664-8692967c9223._CR62,0,375,375_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AG5AAOJEJINCJC4AZ3B2HDZZAPIQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Tablet",
+                            "url": "https://amazon.de/gp/customer-reviews/R3ERG69UTH9JF4/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Versand und Verpackung waren spitze.\nKein Highend Tablet, aber ein durchaus gutes .\nGute Aufl\u00f6sung und brillantes Display\nBei den meisten Games hat es gen\u00fcgend Leistung und der Akku \ud83d\udd0b macht auch nicht zu schnell schlapp.\nMit den \u00fcblichen Samsung SchnickSchnack an Apps oder Funktionen.\nPen ist super f\u00fcr Zeichnen oder auch Office.\nSupport ist Klasse und es wird noch Android 14 geben. Aktuell ist Android 13.\nAlles in Einem ein tolles Tablet zum fairen Preis",
+                            "publication_date": "2023-08-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 May 2023",
+                            "helpful_votes": 41,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/81OLf8NcgVL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ennasus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/a0b7cbfe-0d88-4659-8694-cf1a3a7d294b._CR0,26.0,281,281_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AERDLHYMQCVGYVRX7PVH372PNDYA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Klare Kaufempfehlung aber auch Schw\u00e4chen",
+                            "url": "https://amazon.de/gp/customer-reviews/RUNMWEVDLGOM/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Ich m\u00f6chte gerne meine Erfahrungen mit diesem Tablet teilen. Es ist wirklich ein gro\u00dfartiges Ger\u00e4t f\u00fcr den t\u00e4glichen Gebrauch.\nZun\u00e4chst einmal muss ich die Bildqualit\u00e4t loben. Das 10,4-Zoll-Display ist einfach atemberaubend. Die Farben sind lebendig, die Details sind scharf und die Helligkeit ist f\u00fcr die Preisklasse \u00fcberdurchschnittlich.\nDie Leistung des Tablets ist ebenfalls zufriedenstellend. Ich kann mehrere Apps gleichzeitig \u00f6ffnen, ohne Verz\u00f6gerungen oder Abst\u00fcrze zn. Fortnite und PUBG laufen auf h\u00f6chsten Einstellungen mit \u00fcber 90 FPS.\nDer S Pen, der im Lieferumfang enthalten ist, ist \u00fcberraschend leicht. Ist super f\u00fcr handschriftliche Notizen geeignet. Die App Samsung Notes ist wirklich krass umfangreich. Die benutze ich mittlerweile ausschlie\u00dflich Der S Pen ist pr\u00e4zise und reaktionsschnell.\nDie Akkulaufzeit des Galaxy Tab S6 lite ist ebenfalls beeindruckend. Selbst bei intensiver Nutzung h\u00e4lt der Akku den ganzen Tag durch, sodass ich keine Sorgen haben muss, dass mir unterwegs der Saft ausgeht.\nNat\u00fcrlich gibt es auch ein paar kleine Nachteile. Die Kameras sind nicht die besten und liefern durchschnittliche Ergebnisse. Wenn Sie jedoch haupts\u00e4chlich Fotos mit Ihrem Smartphone aufnehmen, sollte dies kein gro\u00dfes Problem sein.\nAlles in allem bin ich mit dem Samsung Galaxy Tab S6 lite \u00e4u\u00dferst zufrieden. Es bietet eine gro\u00dfartige Kombination aus Leistung, Bildqualit\u00e4t und Funktionalit\u00e4t zu einem erschwinglichen Preis.",
+                            "publication_date": "2023-05-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 July 2023",
+                            "helpful_votes": 11,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Erfinder24",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGZARQ3YCICWVLJPORBAKSKDJMNQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "(Fast) Perfektes Tablet mit Stift",
+                            "url": "https://amazon.de/gp/customer-reviews/RMMPS600W9JFX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09ZHWG7WR",
+                            "review_text": "Das Tablet funktioniert einwandfrei und die meisten Apps laufen fl\u00fcssig. Der Stift funktioniert besser als alle von mir getesteten Windows Ger\u00e4te, auch ohne Batterie oder Akku. Aber leider ist die Performance extrem schlecht, Apps wie OneNote oder Teams haben lange Ladezeiten und ruckeln ziemlich oft. Auch aufwendigere Websites ruckeln und laden lange.\nPositiv:\n- Guter Stift\n- Gutes Preis-Leistungs-Verh\u00e4ltnis\n- Tolle Verarbeitung\n- Guter Bildschirm\n- lange Akkulaufzeit\n- gute Software (One UI 5, Android 13)\nNegativ:\n- Schlechte Leistung\n- keine Tastatur ansteckbar (also nur Bluetooth)\n- lange Aufladezeit (bei mir ca. 3,5 Stunden)\nFazit:\nPositiver Punkte \u00fcberwiegen eindeutig und ich kann das Tablet jedem empfehlen, der nicht so viel Geld ausgeben will. Obwohl es sicher g\u00fcnstigere Tablets mit mehr Leistung gibt, hat SAMSUNG einfach die beste Software. (wegen ONE UI 5 und Android 13)",
+                            "publication_date": "2023-07-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

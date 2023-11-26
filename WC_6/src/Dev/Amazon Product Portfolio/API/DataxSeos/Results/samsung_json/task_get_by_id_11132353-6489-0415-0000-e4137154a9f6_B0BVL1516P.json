@@ -1,0 +1,791 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0377 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-e4137154a9f6",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0203 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-e4137154a9f6"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B0BVL1516P",
+                "asin": "B0BVL1516P",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B0BVL1516P",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B0BVL1516P?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:54:11 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy A14 5G Silver 16.6 cm (6.6\") 4 GB 64 GB Android 13",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy A14 5G Silver 16.6 cm (6.6&#34;) 4 GB 64 GB Android 13",
+                        "url": "https://amazon.de/-/en/Samsung-Galaxy-Silver-16-6-Android/dp/B0BVL1516P/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31hcRxXn2PL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.1",
+                        "votes_count": 45,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 17,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 24,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 12 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Marion",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGNYX4PVDQRCXEFIOB2GQPBSFS6Q/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Gutes Preis- Leistungsverh\u00e4ltnis",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1UMJ2HV1OLA1W/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BVL1516P",
+                            "review_text": "Ich bin mit dem Ger\u00e4t sehr zufrieden. Die Lieferung erfolgte schnell. Da man mittlerweile aber bei \u00dcbergabe einen Code nennen muss, gestaltete sich diese als problematisch.",
+                            "publication_date": "2023-10-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Wolfdietrich Siller",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGVT3QM75CZN67BTFCRNMRHPKBRQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Einwandfreie Qualit\u00e4t, riesiges Display, sehr guter Kontrast",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R5B3E7T973MLB/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BVL1516P",
+                            "review_text": "Einwandfreie Qualit\u00e4t, riesiges Display, sehr guter Kontrast",
+                            "publication_date": "2023-07-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 30 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ursula Niemann",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG7RPCLRC2TQKY4LC5CNXRHUUZ6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Smartphone",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R10TWWYSZEHLRJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B0BVL1516P",
+                            "review_text": "Gutes ,f\u00fcr mich ausreichendes Smartphone.",
+                            "publication_date": "2023-05-30 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Italy on 21 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "fabiana",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "IT"
+                            },
+                            "title": "Ottimo rapporto qualit\u00e0 prezzo.",
+                            "url": null,
+                            "review_text": "Regalo per signora. Facile utilizzo e leggero.",
+                            "publication_date": "2023-10-21 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 12 October 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "loulou",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "bon achat",
+                            "url": null,
+                            "review_text": "Honn\u00eatement je trouve le A14 5g tr\u00e8s moyen",
+                            "publication_date": "2023-10-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 13 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Client Kindle",
+                                "avatar": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "TOP",
+                            "url": null,
+                            "review_text": "En recherche d un samsung dans les moins ch\u00e8res mais avec toute la modernit\u00e9  , visuellement assez jolie ,capteur d empreinte sur le c\u00f4t\u00e9,  5G , Android 13, l'appareil photo n est pas exceptionnel et la batterie semble pas tenir tr\u00e8s longtemps , la qualit\u00e9 des films streaming est bof ,mais autrement samsung reste encore un choix judicieux pour la qualit\u00e9,  le prix , et le suivis de leurs t\u00e9l\u00e9phones  , me convient parfaitement",
+                            "publication_date": "2023-07-13 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 10 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "yvonne martins",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Probl\u00e8me pour allumer le t\u00e9l\u00e9phone",
+                            "url": null,
+                            "review_text": "Des le lendemain de l achat , probl\u00e8me d allumage avec un \u00e9chec d allumage.\nJ'ai d\u00fb faire des recherches sur le net pour m apercevoir que c est une panne courante sur ce mod\u00e8le et qu il y avait une technique pour red\u00e9marrer le t\u00e9l\u00e9phone.",
+                            "publication_date": "2023-08-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 17 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": [
+                                {
+                                    "type": "video_element",
+                                    "source": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/0110fddf-bbf0-4a0f-884c-0a6b7a38cbc4/default.jobtemplate.hls.m3u8",
+                                    "preview": "https://m.media-amazon.com/images/I/61VzeDKavWL._SY256._SY256.jpg"
+                                }
+                            ],
+                            "user_profile": {
+                                "name": "Sarah Duhaut",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/e3a8d6d5-4d5e-49bd-ab54-2c8306eedf6f._CR0,51.0,231,231_SX48_.jpg",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Tr\u00e8s beau t\u00e9l\u00e9phone",
+                            "url": null,
+                            "review_text": "Le t\u00e9l\u00e9phone est tr\u00e8s beau et simple d\u2019utilisation la couleur argent\u00e9 est magnifique. La livraison a \u00e9t\u00e9 rapide avec un jour d\u2019avance. Le livreur a laiss\u00e9 le colis dans ma bo\u00eete aux lettres en mon absence et tr\u00e8s contente du livreur \u00e9galement qui n\u2019a pas \u00e9t\u00e9 envoy\u00e9 le colis dans point relais. Merci",
+                            "publication_date": "2023-08-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 5 August 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "GEORGE Bernard",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Bon smartphone mais...",
+                            "url": null,
+                            "review_text": "Ce t\u00e9l\u00e9phone pour le prix est correct, mais je lui trouve un gros d\u00e9faut, il est vraiment trop lourd.",
+                            "publication_date": "2023-08-05 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 10 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "phedra",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Portable",
+                            "url": null,
+                            "review_text": "Tr\u00e8s bon produit ,comme indiqu\u00e9.",
+                            "publication_date": "2023-07-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 25 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "RUBIO",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Pas terrible",
+                            "url": null,
+                            "review_text": "C'est un \"tank\"...\nIl est vraiment lourdaud, tr\u00e8s \u00e9pais et lent.\nil est neuf, quasiment aucune appli de t\u00e9l\u00e9charg\u00e9es et il montre des lenteurs d'ex\u00e9cution, notamment sur une fonction basique : \u00e9crire sur le clavier (les lettres arrivent lentement ce qui d\u00e9clenche en plus la fonction zoom automatique). Tr\u00e8s p\u00e9nible ce zoom automatique sur ce mod\u00e8le qui emp\u00eache aussi de rentrer rapidement et correctement son mot de passe pour d\u00e9verrouiller.\nMauvaise ergonomie des boutons, barre espace du clavier qui nous am\u00e8ne sur l'accueil (j'ai pourtant de petits doigts...).\nJe note \u00e9galement une chauffe assez rapide.\nJe n'ai pas test\u00e9 les photos.\nOK ce n'est pas un haut de gamme, mais j'en viens \u00e0 regretter mon vieux J5, c'est dire !\nPour ma part, ce n'est pas possible (pourtant pas exigeante, j'ai gard\u00e9 5 ans mon J5). J'ai command\u00e9 un S10.",
+                            "publication_date": "2023-07-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 4 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pierre",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Ponctualit\u00e9",
+                            "url": null,
+                            "review_text": "parfait",
+                            "publication_date": "2023-07-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 18 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Monia",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "A14 5g",
+                            "url": null,
+                            "review_text": "Tr\u00e8s d\u00e9\u00e7ue....WiFi ne fonctionne pratiquement jamais, photos pas de bonnes qualit\u00e9s, bug sur bug avec Google, le mode Chat en SMS en plus de la corbeille disparue,...vraiment de plus en plus r\u00e9gressif et d\u00e9cevant Samsung..\nLe A13 vaut bien plus avec 1 an de plus que le A14, mais plus \u00e7a \u00e9volue, plus \u00e7a r\u00e9gresse et me d\u00e9\u00e7oit, trop de changements constamment des menus alors qu'\u00e0 la base c'\u00e9tait mieux...\nIls ne peuvent s'emp\u00eacher de toucher, c'est incroyable...",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 12 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ISR",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Smartphone non destin\u00e9 au march\u00e9 fran\u00e7ais\u00e0 l'origine",
+                            "url": null,
+                            "review_text": "Deux achats aupr\u00e8s de deux vendeurs diff\u00e9rents, (ELOLT et NUTRACOM), exp\u00e9di\u00e9 par Amazon et deux fois le m\u00eame constat.Smartphone destin\u00e9 \u00e0 l'origine au march\u00e9 tch\u00e8que, car pr\u00e9sence de logos O2 tch\u00e8que au d\u00e9marrage/arr\u00eat du Smartphone et applications de l'op\u00e9rateur O2 tch\u00e8que. Impossible \u00e0 enlever les logos de l'op\u00e9rateur ni d'\u00e9viter leur installation automatique lors de la configuration du Smartphone. Hormis ce probl\u00e8me, le smartphone fonctionne correctement.",
+                            "publication_date": "2023-07-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 15 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ang\u00e9lique",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Renvoyer",
+                            "url": null,
+                            "review_text": "T\u00e9l\u00e9phone renvoy\u00e9 car il ne prenait pas en charge mes cartes SIM.\nT\u00e9l\u00e9phone non fran\u00e7ais.",
+                            "publication_date": "2023-07-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Foxlady",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Vendeur qui ne rembourse pas",
+                            "url": null,
+                            "review_text": "Le t\u00e9l\u00e9phone Samsung A14 5G pr\u00e9sentait un dysfonctionnement au niveau de la batterie. Le vendeur malgr\u00e9 la r\u00e9ception de l article n a pas rembours\u00e9 au bout d un mois.",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Poland on 25 August 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61pwowvpUXL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "lambus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "PL"
+                            },
+                            "title": "Ocena Negatywna dla sprzedawcy. Straci\u0142em niepotrzebnie czas.",
+                            "url": null,
+                            "review_text": "Niestety produkt niezgodny z opisem -  po uruchomieniu telefony w\u0142\u0105czy\u0142a si\u0119 blokada chyba operatora .  W opisie sprzeda\u017cy mia\u0142 to by\u0107 telefon bez blokad.",
+                            "publication_date": "2023-08-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 25 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "RUBIO",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Pas terrible",
+                            "url": null,
+                            "review_text": "C'est un \"tank\"...\nIl est vraiment lourdaud, tr\u00e8s \u00e9pais et lent.\nil est neuf, quasiment aucune appli de t\u00e9l\u00e9charg\u00e9es et il montre des lenteurs d'ex\u00e9cution, notamment sur une fonction basique : \u00e9crire sur le clavier (les lettres arrivent lentement ce qui d\u00e9clenche en plus la fonction zoom automatique). Tr\u00e8s p\u00e9nible ce zoom automatique sur ce mod\u00e8le qui emp\u00eache aussi de rentrer rapidement et correctement son mot de passe pour d\u00e9verrouiller.\nMauvaise ergonomie des boutons, barre espace du clavier qui nous am\u00e8ne sur l'accueil (j'ai pourtant de petits doigts...).\nJe note \u00e9galement une chauffe assez rapide.\nJe n'ai pas test\u00e9 les photos.\nOK ce n'est pas un haut de gamme, mais j'en viens \u00e0 regretter mon vieux J5, c'est dire !\nPour ma part, ce n'est pas possible (pourtant pas exigeante, j'ai gard\u00e9 5 ans mon J5). J'ai command\u00e9 un S10.",
+                            "publication_date": "2023-07-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 4 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pierre",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Ponctualit\u00e9",
+                            "url": null,
+                            "review_text": "parfait",
+                            "publication_date": "2023-07-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 18 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Monia",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "A14 5g",
+                            "url": null,
+                            "review_text": "Tr\u00e8s d\u00e9\u00e7ue....WiFi ne fonctionne pratiquement jamais, photos pas de bonnes qualit\u00e9s, bug sur bug avec Google, le mode Chat en SMS en plus de la corbeille disparue,...vraiment de plus en plus r\u00e9gressif et d\u00e9cevant Samsung..\nLe A13 vaut bien plus avec 1 an de plus que le A14, mais plus \u00e7a \u00e9volue, plus \u00e7a r\u00e9gresse et me d\u00e9\u00e7oit, trop de changements constamment des menus alors qu'\u00e0 la base c'\u00e9tait mieux...\nIls ne peuvent s'emp\u00eacher de toucher, c'est incroyable...",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 12 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "ISR",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Smartphone non destin\u00e9 au march\u00e9 fran\u00e7ais\u00e0 l'origine",
+                            "url": null,
+                            "review_text": "Deux achats aupr\u00e8s de deux vendeurs diff\u00e9rents, (ELOLT et NUTRACOM), exp\u00e9di\u00e9 par Amazon et deux fois le m\u00eame constat.Smartphone destin\u00e9 \u00e0 l'origine au march\u00e9 tch\u00e8que, car pr\u00e9sence de logos O2 tch\u00e8que au d\u00e9marrage/arr\u00eat du Smartphone et applications de l'op\u00e9rateur O2 tch\u00e8que. Impossible \u00e0 enlever les logos de l'op\u00e9rateur ni d'\u00e9viter leur installation automatique lors de la configuration du Smartphone. Hormis ce probl\u00e8me, le smartphone fonctionne correctement.",
+                            "publication_date": "2023-07-12 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 15 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ang\u00e9lique",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Renvoyer",
+                            "url": null,
+                            "review_text": "T\u00e9l\u00e9phone renvoy\u00e9 car il ne prenait pas en charge mes cartes SIM.\nT\u00e9l\u00e9phone non fran\u00e7ais.",
+                            "publication_date": "2023-07-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 2 November 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Foxlady",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "Vendeur qui ne rembourse pas",
+                            "url": null,
+                            "review_text": "Le t\u00e9l\u00e9phone Samsung A14 5G pr\u00e9sentait un dysfonctionnement au niveau de la batterie. Le vendeur malgr\u00e9 la r\u00e9ception de l article n a pas rembours\u00e9 au bout d un mois.",
+                            "publication_date": "2023-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Poland on 25 August 2023",
+                            "helpful_votes": null,
+                            "images": [
+                                {
+                                    "type": "images_element",
+                                    "alt": "Customer image",
+                                    "url": null,
+                                    "image_url": "https://m.media-amazon.com/images/I/61pwowvpUXL._SY88.jpg"
+                                }
+                            ],
+                            "videos": null,
+                            "user_profile": {
+                                "name": "lambus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "PL"
+                            },
+                            "title": "Ocena Negatywna dla sprzedawcy. Straci\u0142em niepotrzebnie czas.",
+                            "url": null,
+                            "review_text": "Niestety produkt niezgodny z opisem -  po uruchomieniu telefony w\u0142\u0105czy\u0142a si\u0119 blokada chyba operatora .  W opisie sprzeda\u017cy mia\u0142 to by\u0107 telefon bez blokad.",
+                            "publication_date": "2023-08-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

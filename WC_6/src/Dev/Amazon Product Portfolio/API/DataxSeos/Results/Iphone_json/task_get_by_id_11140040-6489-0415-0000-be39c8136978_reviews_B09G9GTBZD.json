@@ -1,0 +1,939 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0507 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11140040-6489-0415-0000-be39c8136978",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0335 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11140040-6489-0415-0000-be39c8136978"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B09G9GTBZD",
+                "asin": "B09G9GTBZD",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B09G9GTBZD",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B09G9GTBZD?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 22:41:18 +00:00",
+                    "spell": null,
+                    "title": "Apple iPhone 13 Pro (128\u00a0GB) - Graphit",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Apple iPhone 13 Pro (128\u00a0GB) - Graphit",
+                        "url": "https://amazon.de/-/en/MLV93ZD-A/dp/B09G9GTBZD/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/31-uaXyNGKL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.8",
+                        "votes_count": 3284,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 400,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 30,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 15 July 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "M.H.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFOI5NR6NN3U3ZIVLXFO3NPCAB5A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Apple halt \u2026gut \ud83d\udc4d aber zu teuer \ud83d\udc4e",
+                            "url": "https://amazon.de/gp/customer-reviews/R3SWD0HE6P0RV/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Apple ist halt gut und wertig \ud83d\udc4d aber auch zu teuer \ud83d\udc4e\nAber wenn man einmal mit der Familie am Apple Haken h\u00e4ngt, dann kommt man nicht mehr weg.\nApple m\u00fcsste sein System mal etwas mehr \u00f6ffnen, und so gestalten, da\u00df man die Akkus einfach selbst austauschen k\u00f6nnte, damit die Ger\u00e4te auch l\u00e4nger genutzt werden.\nAuch die aktuellen Preise sind wirklich langsam unversch\u00e4mt und weit weg von einem guten Preis.- Leistungsverh\u00e4ltnis.\nAber wie gesagt\u2026\u2026einmal Apple, immer Apple \ud83e\udd14\ud83d\ude09",
+                            "publication_date": "2023-07-15 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 29 April 2023",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Flo",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AESVVTZSAH4DTILIKQHQGDGRQBUA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super iPhone f\u00fcr den Preis unschlagbar in der Generation",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R281I6F8G5GEQS/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich habe das Apple iPhone 13 Pro in der Farbe Alpingr\u00fcn getestet und bin absolut begeistert. Das Design ist schick und modern und das Ger\u00e4t liegt angenehm in der Hand. Besonders beeindruckt hat mich die Akkulaufzeit, die trotz intensiver Nutzung den ganzen Tag \u00fcber ausreichend war.\nDas Display ist gestochen scharf und die Farben sind lebendig. Auch die Kameraqualit\u00e4t hat mich \u00fcberzeugt. Besonders die Nachtmodus-Funktion ist super, um auch bei schlechten Lichtverh\u00e4ltnissen tolle Fotos zu machen.\nDie Bedienung des iPhones ist wie gewohnt intuitiv und einfach. Auch die neuen Funktionen, wie beispielsweise das verbesserte A15 Bionic Chip-System, machen das Ger\u00e4t noch schneller und leistungsst\u00e4rker.\nInsgesamt bin ich sehr zufrieden mit dem Apple iPhone 13 Pro und kann es jedem empfehlen, der ein zuverl\u00e4ssiges und leistungsstarkes Smartphone sucht.",
+                            "publication_date": "2023-04-29 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 November 2021",
+                            "helpful_votes": 19,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": null,
+                            "title": "Erfolgreicher Umstieg vom iPhone 8 zum iPhone 13 Pro\u2026",
+                            "url": "https://amazon.de/gp/customer-reviews/R1BL2UR793TPX9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Eines vorweg: Der Umstieg klappte technisch relativ leicht, da ich meine alten Daten vom iPhone 8 auf das neue iPhone 13 pro \u00fcberspielt habe. Vorher hatte ich Bluetooth aktiviert und das neue iPhone wurde erkannt, sodass die Synchronisierung beginnen konnte. Das dauerte allerdings auch eine ganze Weile, wobei die umfangreichen Apps noch jeweils installiert werden mussten, aber halt automatisch.\nLeichte Problem gab es bei der Apple ID, denn diese musste ich mehrfach eingeben, bis die rote \u201e1\u201c bei den Einstellungen endlich verschwand\u2026\nAbgesehen vom angenehm gr\u00f6\u00dferen, scharfen Display (wobei mich die Notch nicht wirklich st\u00f6rt), ist das sp\u00fcrbar h\u00f6here Gewicht gew\u00f6hnungsbed\u00fcrftig. Die hochwertige Technik fordert halt doch ihren Tribut, was sich auch anhand der deutlich hervorstehenden drei Kameralinsen offenbart.\nAktuelles Fazit in Kurzform:\n+ \u00fcberzeugendes Kamerasystem mit guter Technik, sowohl bei Tag als auch (noch) bei schwacher Beleuchtung, wobei mir vor allem die Weitwinkelkamera gut gef\u00e4llt. Der dreifache Zoom sollte nicht unbedingt der Kaufgrund sein, ist aber auch nicht zu verachten. Wer auf eine \u201ePeriskopkamera\u201c wartet, muss sich ansonsten noch gedulden (ggf. bis 2022). Solange wollte ich aber nicht warten.\n+ angenehm gro\u00dfes, scharfes Display, ersetzt aber l\u00e4ngst kein Tablet, z. B. das iPad mini\n+ flotte Performance in allen Situationen\n+ Akkulaufzeit deutlich verbessert (gg. iPhone 8), h\u00e4lt zumindest bei mir problemlos einen Tag oder l\u00e4nger durch\n+/- praxistaugliche Handlichkeit mit eingeschr\u00e4nkter Einhand-Bedienbarkeit. Kleine H\u00e4nde bekommen bereits hier gewisse Probleme.\n- vergleichsweise hohes Eigengewicht, daran muss man sich erst gew\u00f6hnen, wenn man von einem iPhone 8 oder dem aktuellen SE kommt\n- nicht so sch\u00f6n flach wie das iPhone 8/ SE, wirkt etwas klobiger\nAktuelles Kurzfazit: Ich habe den Kauf nicht bereut. Das Kamerasystem rechtfertigt vom iPhone 8 herkommend eine Neuanschaffung. Wer ohnehin ein gr\u00f6\u00dferes Display bevorzugt, hat einen weiteren Vorteil, wobei auch der kr\u00e4ftigere Akku punkten kann.\nDennoch vermisse ich den Homebutton immer noch etwas, wobei ich Face-ID \u00fcbrigens mittlerweile sehr zu sch\u00e4tzen wei\u00df\u2026",
+                            "publication_date": "2021-11-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 May 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "exqn",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFHX4QQWY7GI3LAOSW5I2HXPIRFQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Smartphone",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R3QI12AHUAKE5H/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich muss gestehen ich habe das Produkt im Saturn gekauft, da ich \u00fcber Amazon, Bosch Akkus f\u00fcr ein Bohrmaschine erhalten habe, als das gew\u00fcnschte Smartphone.\nDaf\u00fcr m\u00f6chte ich aber auch keine schlechte Review geben, da es ja schlie\u00dflich um das Produkt geht. Mit dem Smartphone bin ich sehr zufrieden. Die Funktionen sind mir eigentlich nicht so wichtig, es geht mir viel mehr um die Akkulaufzeit und die passt endlich mal im Hause Apple, zumindest f\u00fcr mein Nutzungsverhalten . Selbst nach bald 2 Jahren Nutzung habe ich eine Kapazit\u00e4t von 97%",
+                            "publication_date": "2023-05-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 5,
+                            "rank_absolute": 5,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Aidas",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AG6XZ3RLPMOECQ52QNGO4MJ365DQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Apple",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2W703JCI3EGHV/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Nothing to say, perfect smartphone in all aspects. Camera amazing!",
+                            "publication_date": "2023-07-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 6,
+                            "rank_absolute": 6,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 January 2022",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Crammy",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGADS77TZVKNUK7CIPJZ7GVCETFQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Upgrade lohnt!",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2TNMLXTTG78J9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Zuerst einmal muss ich sagen das ich mal wieder \u00fcberrascht bin.\nIch habe von meinem IPhone 11 Pro Max gewechselt zu dem 13 Pro.\nWie man Vielleicht ahnen kann, war mir das IPhone 11 Pro Max zu gro\u00df und ich wollte die kleinere Variante Probieren.\nNun aber zu den Hauptkriterien.\nIch habe gewechselt da ich das neue Pro-Res Display ausprobieren wollte.\nUnter anderen hatte Apple bei der 12er reihe ja einen gang zur\u00fcck gezogen was die Akku Kapazit\u00e4t anging. Im IPhone 13 wurde das ganze wieder verbessert. Und dazu mal das \u201eWow\u201c. Dieses Akku h\u00e4lt genauso lange wie mein 11 Pro Max (Out of the Box / 100% Kapazit\u00e4t). Man erkennt einfach wie Apps, iOS, und Chip angepasst sind und was man damit rausholen kann\u2026 einfach genial.\nVielleicht erinnert sich der ein oder andere an die alten 3000 mAh Smartphones die nach 3 std leer waren. Das ist Geschichte !\nDie Kamera mit der neuen Makro Funktion ist auch unglaublich. Der cinema Mode hat viel Potenzial, ben\u00f6tigt dennoch sehr viel licht was aber verst\u00e4ndlich ist.\nAll in one kann man nix besseres erwarten und meine Erwartungen sind mehr als erf\u00fcllt!\nDer Preis ist echt ordentlich aber f\u00fcr das was man bekommt ist es nunmal zzgl. Steuern etc., echt angemessen.",
+                            "publication_date": "2022-01-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 7,
+                            "rank_absolute": 7,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 January 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Olaf H.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGGKMKLBGCQCJPAIYUIIMZYYT2BQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr Filmer ein Must Have",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R2OYXXKEFC0ZNN/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich nutze seit Jahren Samsung Handys, zuletzt das Galaxy S10e. Das iPhone 13 Pro setzt in Optik, Verarbeitung und Materialien Ma\u00dfst\u00e4be. Das Display ist das Beste was ich bisher hatte und es macht Spa\u00df, durch die Seiten zu scrollen.\nDie Apps sind sehr gut an IOS angepasst. Ein Umzug von WhatsApp ist nur mit einem  kostenpflichtigen Hilfsprogramm m\u00f6glich, daf\u00fcr kann Apple nichts.\nDa Apple in der Werbung die Kamera in den Vordergrund ger\u00fcckt hat, m\u00f6chte ich hier n\u00e4her eingehen:\nFotos mit der Hauptkamera gelingen bei sehr guten Lichtverh\u00e4ltnissen sehr gut. Probleme gibt es bei gro\u00dfen Kontrastverh\u00e4ltnissen. Hier ist entweder der Schatten zu dunkel, oder der helle Bereich \u00fcberbelichtet. Der Smart HDR Modus, der fr\u00fcher manuell ausgew\u00e4hlt werden konnte, wird automatisch vom Handy erkannt, oder auch nicht. Die fotografischen Stile sind ganz nett, schr\u00e4nken die Nachbearbeitung der Fotos jedoch ein.\nDie Makro-Aufnahmen gelingen auch bei sehr gutem Licht. So scharf wie in den Beispielbildern von Apple sind meine Aufnahmen jedoch nicht geworden. Trotz eingestelltem Modus und gesetztem Fokus Punkt, waren sehr viele Aufnahmen unscharf.\nDas Teleobjektiv ist mit der 3- fachen Vergr\u00f6\u00dferung sehr gut. Die Selfie-Kamera ist okay, hat aber Luft nach oben.\nDie Videoaufnahmen sind die besten am Markt. Da kann man absolut nichts beanstanden. Der Kinomodus ist in meinen Augen eine nette Spielerei, die noch ausbauf\u00e4hig ist. Dieser funktioniert nur im Full-HD und unter optimalen Bedingungen. Haare oder der Brillenrand verschwinden schon mal. Den Kino-Modus w\u00fcrde ich nicht benutzen.\nDie Zeitlupenaufnahmen sind echt toll. An Silvester die Tischfeuerwerke in Slow Motion zu betrachten ist schon etwas Besonderes. Im Gegensatz zu Samsung sind diese nicht zeitlich beschr\u00e4nkt.\nDie Nachtaufnahmen sind im Video- oder Fotomodus meist sehr gut.\nWas hat mich am iPhone 13 pro gest\u00f6rt:\n\u2022 Die Men\u00fcf\u00fchrung ist zum Teil verschachtelt, z.B. adaptive Helligkeit sucht man unter Bedienhilfen\n\u2022 Insgesamt bin ich von der Qualit\u00e4t der Bilder entt\u00e4uscht. Die Tiefensch\u00e4rfe der Hauptkamera k\u00f6nnte besser sein und die Belichtungen stimmen auch nicht immer. Auch das der HDR Modus nicht schaltbar ist, st\u00f6rt mich.\n\u2022 Schaut man sich die  Fotos auf dem Handy an, werden diese durch einen interne Verbesserung sch\u00f6ner dargestellt, als es dann auf dem iPad oder TV zu sehen ist\n\u2022 Der Makromodus entt\u00e4uscht mich (vielleicht ist auch die Kamera defekt)\n\u2022 Leider hatte ich in Innenr\u00e4umen einige Male Empfangsprobleme, das S10e war hier besser",
+                            "publication_date": "2022-01-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 8,
+                            "rank_absolute": 8,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 July 2022",
+                            "helpful_votes": 278,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Smith Lord",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/9f6fd09a-f231-4673-ae1e-74370ba81031._CR6,0,487,487_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AH2GFEBYTK5OLZHR5JLYRSVKLUJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Warnung an Android User",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R23GCAD8Y3OIJG/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich nutze das iPhone 13 Pro (256GB) jetzt knapp einen Monat und ich muss tats\u00e4chlich sagen, dass ich den Kauf ziemlich bereue.\nIch komme von einem Galaxy S8, welches ich \u00fcber 4 Jahre genutzt habe und das 13 Pro ist dem fast einem halben Jahrzehnt (!) \u00e4lteren Android Ger\u00e4t in so vielen Punkten derma\u00dfen gnadenlos unterlegen, dass man sich ernsthaft fragt, ob die bei Apple \u00fcberhaupt wissen was Fortschritt bedeutet, oder ob die ihr Smartphone Betriebssystem absichtlich so altert\u00fcmlich halten.\nMeinen Wechsel von Samsung zu Apple begr\u00fcndete ich damit, weil Apple die best\u00e4ndigere Update Politik an den Tag legt. Ich nutze meine Smartphones jahrelang, deshalb d\u00fcrfen sie auch etwas kosten, und der aktuelle Stand f\u00fcr ein dauerhaft stabiles und sicheres System sollte mir demnach wichtig sein.\nBisschen Umgew\u00f6hnung in der Bedienung, kann ja nicht so schwierig sein.\nAber Pustekuchen!\nDies hat nichts mit Umgew\u00f6hnung zu tun, sondern mit dem Verzicht auf zahlreiche, hilfreiche und n\u00f6tige Funktionen und einer\u00a0schlicht und einfach\u00a0weitaus schlechteren Bedienung.\nEs geht bei den grundlegendsten Dingen los.\nAuf einem iPhone kann man nicht einfach wischen wie auf einem S8. Nein, dort musst du dir erst angew\u00f6hnen alles langsam und behutsam zu machen.\nEinfach zack und wisch geht hier nicht. Wischt man auf einem S8 rechts unten, je nachdem wie man es belegt hat, schlicht nach oben um die im Hintergrund laufenden Apps zu \u00f6ffnen, musst du auf einem iPhone 13 Pro langsam wischen und kurz anhalten.\nOkay. Aber warum?? Warum kann ich nicht einfach wischen???\nWillst du unten mittig nach oben wischen um auf den Startscreen zu kommen, macht das iphone 13 Pro gar nichts.\nWillst du links unten nach oben wischen um einen Schritt in einer Anwendung oder Website zur\u00fcck zu gehen, macht iPhone gar nichts.\nUnd hiermit kommen wir auch direkt zum gro\u00dfen Neckbreacker. Ein iPhone hat n\u00e4mlich keine grundlegende Zur\u00fcck-Funktion.\nNein, sie haben richtig gelesen. Gibt es nicht! Nur wenn eine App selbst eine Zur\u00fcck-Funktion hat, die in Form eines Pfeiles oben links, sch\u00f6n umst\u00e4ndlich umgreifen oder gar die zweite Hand benutzen, k\u00f6nnen sie einen Schritt zur\u00fcck gehen.\nEinfach nur zack und wisch, egal auf welcher Anwendung auch immer man sich gerade befindet, kann ein iPhone nicht.\nWissen sie wie unfassbar nervig das ist, wenn man sonst immer die millisekundenschnelle und v\u00f6llig selbstverst\u00e4ndliche totale Kontrolle \u00fcber sein Phone hatte?\nES GIBT KEINE ZUR\u00dcCK-FUNKTION! \nDas ist keine Umgew\u00f6hnung.\u00a0Das ist, als h\u00e4tte man pl\u00f6tzlich einen Bolzen im Hirn, wodurch man einfachste Dinge nicht mehr ausf\u00fchren kann.\nDie Kamera ist bombe, keine Frage, aber warum kann ich eine Videoaufnahme nicht pausieren und im richtigen Moment wieder starten?\nWhatsApp auf einem aktuellen iPhone, ist wie WhatsApp auf Android vor gef\u00fchlt 10 Jahren. Allein in dieser Applikation, gibt es so viele Punkte die mit Android fortschrittlicher sind, man glaubt es ehrlich gesagt kaum.\nSprachnachricht mit erh\u00f6hter Geschwindigkeit bei ausgeschaltetem Bildschirm anh\u00f6ren, geht nicht....\nEin Bild direkt als Datei versenden, geht nicht.... (nur umst\u00e4ndlich)\nEin Bild oder eine Datei an mehrere Kontakte senden, geht nicht...\nMehrere Bilder an mehrere Kontakte senden, geht nicht...\nEine Nachricht an mehrere Kontakte weiterleiten? Geht nicht...\nEine Sprachnachricht aufnehmen, geht nicht....(!!!!)\n(nur wenn sie die Tastatur hochgeklappt haben, damit das Mikrofonsymbol weiter oben ist. Denn ist es unten rechts in der Ecke des Bildschirms, bricht die Aufnahme aufgrund der am Rand des Displays viel schlechteren Touchsensitivity st\u00e4ndig ab, wenn man seinen Daumen nicht mit ca. 100kg Pressdruck auf die Scheibe quetscht)\nUnd dies sind nur ein paar Punkte, die allein WhatsApp betreffen.\nGrundlegend ist die komplette Bedienung so derma\u00dfen Banane und unn\u00f6tig umst\u00e4ndlich, dass man sich st\u00e4ndig fragt: Warum!? Es k\u00f6nnte doch so einfach sein.\nDie von mir sehr liebgewonnene adaptive Helligkeit, funktioniert mit einem iPhone 13 Pro nicht. Sie funktioniert nur sporadisch, man muss sie st\u00e4ndig reseten, oder wird viel zu dunkel.\nGeht nicht...\nL\u00e4ngere Screenshots, ich nenne sie mal Scrollshots, damit man bspw. in einem Screenshot von Text mehr Inhalt in einen Shot bekommt anstatt zwei machen zu m\u00fcssen, japp, richtig, geht nicht...\nDie interne Tastatur ist selbstredend die reinste H\u00f6lle, weshalb ich mir auch dieses Mal wieder SwiftKey heruntergeladen habe. Und jetzt raten sie mal wie toll die beste Handy Tastatur aller Zeiten auf einem iPhone 13 Pro ist.\nDa brauche ich gar nicht von anfangen. Einfach nur v\u00f6llig obsolet und absurd sinnbefreit.\nVideo Streaming Dienste\u00a0funktionieren. Selbstverst\u00e4ndlich.\nAber warum drehen die sich nicht dynamisch, unabh\u00e4ngig von der im System vorgenommenen Einstellung, automatisch mit? Drehe ich mich im Bett egal auf welche Seite, hat ein Android Phone seit 6 Jahren sich auch entsprechend\u00a0gedreht! Gerade auch bei abgeschalteter Ausrichtungssperre!\nEin iPhone spackt nur rum. Dreht sich so oder so, aber\u00a0nicht wie es soll. Das dann gepaart mit der allgemein beknackten Bedienung.....NERV!\nGeht\u00a0nicht...\nUsw usw usw....\nEs sind so viele kleine und gro\u00dfe Punkte, \u00fcber die man nur mit\u00a0dem Kopf sch\u00fctteln kann. Undurchdacht und das Gegenteil von fortschrittlicher Bedienung und Funktion.\nWenn man hier aber jetzt tats\u00e4chlich anfangen w\u00fcrde was bei Android alles besser ist, m\u00fcsste man einen Roman schreiben. Umgekehrt\u00a0reicht ein kleiner Notizzettel.\nDenn ich w\u00fcrde wirklich gerne Punkte nennen, die die unglaublich vielen fehlenden Dinge gegen\u00fcber eines Android Phones aufwiegen, diese konnte ich aber nicht finden. Ganz im Gegenteil, es kommen quasi t\u00e4glich neue Dinge dazu, die mich meinen Schritt\u00a0mehr und mehr bereuen lassen. Und ich habe extra immerhin einen Monat gewartet und dem Ganzen doch eine Chance gegeben.\nAber der Wechsel von einem 5 Jahre alten Galaxy S8 zu dem angeblichen Monster Phone iPhone 13 Pro, war wortw\u00f6rtlich ein R\u00fcckschritt.\nOkay, die Kamera ist der Wahnsinn, obgleich es keine Pausefunktion bei Videoaufnahmen gibt, und die integrierten Stereo Speaker k\u00f6nnen richtig was. Geradezu r\u00e4umlich klingen diese manchmal sogar.\nAuch die Bildqualit\u00e4t im allgemeinen ist super gut. Auch wenn das ultra fl\u00fcssige Display leider am Rand auf Eingaben nicht gut reagiert. (hat nichts mit Bildqualit\u00e4t zu tun, wollte ich aber noch einmal erw\u00e4hnt haben) Notizzettel voll)\nAber jeder der behauptet das ios besser als Android ist, hat schlichtweg keinen Plan.\nEin iPhone ist etwas f\u00fcr verblendete Markenopfer und Leute, die ihr Telefon nur ab und zu am Tag mal in der Hand haben oder sich der um Welten besseren Bedienung eines Android Phones nicht bewusst sind. F\u00fcr absolute Suchtis bei denen nix schnell genug gehen kann, oder Leute die einfach etwas haben wollen das auf logische und einfache Weise funktioniert, ist das aber nichts.\nUnd genau diese Erkenntnis habe ich mir als Vorwand genommen, dieses ancient phone doch zu behalten. Denn auf dem iPhone 13 ist alles so nervig und umst\u00e4ndlich, dass ich gar keinen bock habe es \u00fcberhaupt st\u00e4ndig in die Hand zu nehmen. Vielleicht bekomme ich so meine verdammte Handy Sucht in den Griff.\nBeste Werbung ever. Nichts zu danken Apple.\nUpdate: Nach exakt einem Jahr, ist der Akku derart im Eimer, dass ich teilweise dreimal am Tag laden muss.",
+                            "publication_date": "2022-07-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 9,
+                            "rank_absolute": 9,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 24 June 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Medicus",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGLMBGKZAH2TWOJHI7KHUHDTFDKQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Alles perfekt",
+                            "url": "https://amazon.de/gp/customer-reviews/R1UUNSCWB8GHCJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Alles perfekt, schnelle und unkomplizierte Lieferung. Alles wie beschrieben.",
+                            "publication_date": "2023-06-24 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 10,
+                            "rank_absolute": 10,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 April 2023",
+                            "helpful_votes": 3,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Gisela",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/f6ad82af-9806-41ee-a385-cc34fc229439._CR0,0,492,492_SX48_.jpg",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AFQU64GI3CNSXI6DZVZH4DYZF24A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr mich das perfekte Handy",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R7830W5C2Y2DP/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Lange habe ich \u00fcberlegt, ob der Aufpreis zum Pro sinnvoll w\u00e4re und zum Gl\u00fcck habe ich mich dazu entschlossen. Das 120 Hertz Display ist grandios und die Kamera ist f\u00fcr mich das gr\u00f6\u00dfte Plus.\nAus meiner Sicht eine hundertprozentig richtige Entscheidung!",
+                            "publication_date": "2023-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 11,
+                            "rank_absolute": 11,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Claudio K.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGBDUYCJGSNAYHIR5YWLTOCRHB3A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Display kratzanf\u00e4llig",
+                            "url": "https://amazon.de/gp/customer-reviews/R3TGT7UKTMKEKA/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Rein Technisch kann man das IPhone 13 Pro empfehlen, aber die Standfestigkeit des Displays ist ein Witz.\nHabe das Handy st\u00e4ndig in einer Schutzh\u00fclle und benutze es wirklich sanft.\nTrotzdem habe ich mit Kratzern zu k\u00e4mpfen, wobei ich mich Frage woher sie kommen!",
+                            "publication_date": "2023-05-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 12,
+                            "rank_absolute": 12,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 December 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Ganglyon",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/547c03fb-e3e9-4b4f-9eef-43d410071f4a._CR0,0,500,500_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFBXESLFXFQH4S5KTMURAS2WOCWQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Preislich v\u00f6llig \u00fcberzogen",
+                            "url": "https://amazon.de/gp/customer-reviews/R3ERFDI7FWXT3R/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich habe mein iPhone 13 Pro (256 GB) jetzt seit fast einem Monat und muss sagen, dass ich den Kauf wirklich bereue. Ich habe seit \u00fcber 4 Jahren ein Galaxy S8 und das 13 Pro ist fast 5 (!) Jahre alten Android-Ger\u00e4ten gnadenlos unterlegen, also wei\u00df Apple was Fortschritt bedeutet bzw. was Fortschritt ist? gemeint durch Das Betriebssystem des Smartphones ist bewusst altmodisch gehalten. Der Grund, warum ich von Samsung zu Apple gewechselt bin, ist, dass Apple eine konsistentere Update-Richtlinie hat. Ich benutze seit Jahren Smartphones, daher werden mir einige Ausgaben verziehen. Daher sollte mir der aktuelle Zustand eines dauerhaft stabilen und sicheren Systems wichtig\nDas hat nichts mit Gew\u00f6hnung zu tun, sondern einfach ein viel schlechteres Erlebnis ohne viele n\u00fctzliche und notwendige Features. Es beginnt mit dem grundlegendsten. Sie k\u00f6nnen auf dem iPhone nicht wie auf dem S8 wischen. Nein, man muss sich daran gew\u00f6hnen, alles langsam und vorsichtig zu machen. Einfaches Sacken und Wischen funktioniert hier nicht. Je nachdem, wie Sie es zuweisen, k\u00f6nnen Sie auf Ihrem S8 einfach unten rechts nach oben wischen, um im Hintergrund laufende Apps zu \u00f6ffnen. Beim iPhone 13 Pro muss man langsam wischen und kurz pausieren. gut. aber wieso? ? warum wischt du es nicht ab? ? ? Will man unten mittig nach oben wischen, um zum Startbildschirm zu gelangen, macht das iPhone 13 Pro nichts. Wenn Sie in einer Anwendung oder Website einen Schritt zur\u00fcckgehen m\u00f6chten, indem Sie unten links nach oben wischen, tut das iPhone nichts. Und das bringt uns direkt zum gro\u00dfen Nackenbrecher: Dem iPhone fehlen grundlegende R\u00fcckenfunktionen. Nein, Sie haben richtig gelesen. Nichts hier! Sie k\u00f6nnen nur dann einen Schritt zur\u00fcckgehen, wenn die App selbst die M\u00f6glichkeit hat, zur\u00fcckzugehen. Dies kann in Form eines Pfeils oben links, ungeschicktes Greifen oder sogar mit der zweiten Hand sein. Einfach zack und wischen, egal welche Anwendung Sie gerade verwenden. Nicht auf dem iPhone. Wissen Sie sonst, wie \u00e4rgerlich es w\u00e4re, wenn Sie in Millisekunden immer die volle Kontrolle \u00fcber Ihr Telefon haben k\u00f6nnten und v\u00f6llig selbstverst\u00e4ndlich sind?\nDies ist keine Gewohnheits\u00e4nderung. Es ist, als h\u00e4ttest du pl\u00f6tzlich einen Blitz im Gehirn. Das bedeutet, dass Sie nicht in der Lage sein werden, die einfachsten Dinge zu tun. Kameras sind gro\u00dfartig, aber warum kann ich die Videoaufnahme nicht anhalten und zum richtigen Zeitpunkt fortsetzen? WhatsApp auf dem iPhone ist heute \u00e4hnlich wie WhatsApp auf Android vor 10 Jahren. Ich kann ehrlich gesagt nicht glauben, dass sich diese App allein in vielerlei Hinsicht von Android entwickelt hat. Ich kann Sprachnachrichten bei ausgeschaltetem Bildschirm nicht schnell abh\u00f6ren.... Ich kann Bilder nicht direkt als Datei versenden.... (nur nervig)\nIch kann keine Fotos oder Dateien an mehrere Kontakte senden... Ich kann nicht mehrere Fotos an mehrere Kontakte senden... M\u00f6chten Sie Nachrichten an mehrere Kontakte weiterleiten? !!!!)\n(Nur wenn die Tastatur nach oben zeigt und das Mikrofonsymbol oben liegt. Befindet es sich in der unteren rechten Ecke des Bildschirms, ist die Ber\u00fchrungsempfindlichkeit am Rand des Displays stark reduziert, es sei denn, Sie dr\u00fccken Ihren Daumen mit etwa 100 kg Druck auf den Bildschirm, da die Aufzeichnung immer unterbrochen wird.)\nUnd das sind einige Punkte, die nur WhatsApp betreffen: Im Grunde ist die ganze Bedienung so banal und unn\u00f6tig umst\u00e4ndlich, dass man sich immer wieder fragt \u201ewarum!?\u201c. Es k\u00f6nnte so einfach sein. Die adaptive Helligkeit, die ich liebe, funktioniert auf dem iPhone 13 Pro nicht. Entweder funktioniert es nur sporadisch, oder es muss st\u00e4ndig neu eingestellt werden, oder es wird zu dunkel. es geht nicht...\nL\u00e4ngere Screenshots nenne ich Scrollshots. Auf diese Weise k\u00f6nnen Sie mehr Inhalte auf einmal aufnehmen, anstatt zwei Aufnahmen zu machen. Richtig, es ist unm\u00f6glich...\nDie eingebaute Tastatur ist nat\u00fcrlich die reinste H\u00f6lle, also habe ich auch dieses Mal SwiftKey heruntergeladen. Und jetzt stellen Sie sich die beste Telefontastatur aller Zeiten auf dem iPhone 13 Pro vor. Da muss man nicht anfangen. V\u00f6llig veraltet, l\u00e4cherlich und sinnlos.\nVideo-Streaming-Dienst funktioniert. Nat\u00fcrlich. Aber warum dreht es sich nicht automatisch und dynamisch, unabh\u00e4ngig von den Einstellungen im System?Seit sechs Jahren passen sich Android-Telefone an, zu welcher Seite ich mich im Bett drehe. Besonders wenn die Orientierungssperre ausgeschaltet ist!\nDas iPhone ist einfach nur ein Durcheinander. Es dreht sich in beide Richtungen, aber nicht in die urspr\u00fcngliche Richtung. Es wurde dann mit einer allgemein geknackten Operation gepaart ... NERV!\nUnm\u00f6glich \u2026 und so weiter \u2026 Es gibt verschiedene gro\u00dfe und kleine Punkte, und ich kann nur den Kopf sch\u00fctteln. Im Gegensatz zu durchdachten, fortschrittlichen Operationen und Funktionen. Aber wenn Sie hier wirklich anfangen wollen, ist das Gute an Android, dass Sie einen Roman schreiben m\u00fcssen. Umgekehrt gen\u00fcgt eine kleine Notiz.\nIch m\u00f6chte auf die Punkte hinweisen, die so viele Dinge ausgleichen, die im Vergleich zu Android-Telefonen fehlen, aber ich konnte sie nicht finden, was ich bedauere Und ich habe mindestens einen Monat gewartet, um allem eine Chance zu geben ... Aber der Wechsel vom f\u00fcnf Jahre alten Galaxy S8 zum vermeintlichen Monsterhandy iPhone 13 Pro war ein buchst\u00e4blicher R\u00fcckschritt. Nun, es gibt keine Funktion zum Anhalten der Videoaufnahme, aber die Kamera ist gro\u00dfartig. Die integrierten Stereolautsprecher sind wirklich gut. Manchmal klingt es sogar fast r\u00e4umlich. Auch die Bildqualit\u00e4t ist insgesamt sehr gut. Leider, auch wenn das superglatte Display an den R\u00e4ndern nicht gut auf Eingaben reagiert.\nAber wer behauptet, iOS sei besser als Android, hat \u00fcberhaupt keine Pl\u00e4ne. Das iPhone ist f\u00fcr das blinde Markenopfer, den gelegentlichen Handybesitzer oder denjenigen, der sich nicht bewusst ist, dass ein Android-Telefon einfacher zu bedienen ist. Aber es ist nichts f\u00fcr absolute S\u00fcchtige, die nichts auf die Schnelle erledigen k\u00f6nnen oder Leute, die einfach etwas wollen, das auf logische und einfache Weise funktioniert. Genau diese Erkenntnis war es, die ich als Ausrede benutzt habe, um das iPhone 13 in der Hand zu halten Das iPhone 13 ist so schwerf\u00e4llig und unhandlich, dass ich keine Lust habe, es st\u00e4ndig in der Hand zu halten. Vielleicht bekomme ich meine verdammte Telefonsucht in den Griff. Beste Werbung aller Zeiten. Ich habe Apple nichts zu verdanken.",
+                            "publication_date": "2022-12-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 1,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 13,
+                            "rank_absolute": 13,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 4 November 2022",
+                            "helpful_votes": 5,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "T.Meyer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFA4BNAQR3LADZCHKY2POUE3QD7A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr gut - aber nicht perfekt!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1GMY46KMC2Q05/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Habe ein Update vom IPhone 7Pro auf das 13 Pro gemacht.  Das ist nat\u00fcrlich ein gro\u00dfer Sprung und besonders die neue Kamera macht richtig Freude.\nEinzig dass der Home-Button nicht mehr existiert, gef\u00e4llt mir von der Funktionalit\u00e4t \u00fcberhaupt nicht gut. Auch die Apple Politik, dass man bei immer h\u00f6heren Preisen weder Kopfh\u00f6rer noch Netzger\u00e4t mehr im Lieferumfang dabei sind finde ich schon \u00e4rgerlich\u2026\nIch habe das IPhone \u00fcber Warehouse Deals gekauft -\u201ewie neu\u201c war es in der Tat, nur \u00fcber 200\u20ac g\u00fcnstiger und ein 20W Powernetzteil mit dazu bestellt.  Die Verpackung war nur einmal ge\u00f6ffnet worden, sonst war es unbenutzt - sogar die Schutzfolien waren noch drauf.\nWas will man mehr \u2026perfekt!",
+                            "publication_date": "2022-11-04 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 14,
+                            "rank_absolute": 14,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 25 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Cell cell",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGCOS3SDZMJC7J4ASFQVPSSEUWFA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Ok",
+                            "url": "https://amazon.de/gp/customer-reviews/R1KHT9561F01HS/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ok",
+                            "publication_date": "2023-06-25 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 15,
+                            "rank_absolute": 15,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 June 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Carmen",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMNAAJYNG44QJVWXEG6IV7CSBQA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "iPhone 13 Pro",
+                            "url": "https://amazon.de/gp/customer-reviews/R1RU8EKRZYR29P/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Das IPhone ist super",
+                            "publication_date": "2023-06-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 16,
+                            "rank_absolute": 16,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 10 March 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Musti",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGMJTUWY3EEHL53QEWDO2OAHTFWA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Die erwartet Qualit\u00e4t von Apple",
+                            "url": "https://amazon.de/gp/customer-reviews/R2SLZ0TMWONHEF/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Das Apple iPhone 13 Pro bietet zwar eine hervorragende Qualit\u00e4t und Leistung, wie von Apple erwartet, jedoch ist der Preis etwas hoch im Vergleich zu anderen Smartphones auf dem Markt. Trotzdem ist das iPhone 13 Pro eine ausgezeichnete Wahl f\u00fcr jeden, der bereit ist, etwas mehr Geld auszugeben, um ein leistungsstarkes und zuverl\u00e4ssiges Smartphone zu besitzen.",
+                            "publication_date": "2023-03-10 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 17,
+                            "rank_absolute": 17,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 28 April 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Dax Herbert",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEZZY4SZ52TF7XHC42HC7I4XDS7Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Super Handy",
+                            "url": "https://amazon.de/gp/customer-reviews/R34DPJGA58955W/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Handy ist top ist jetzt schon ca 7 Monate in Betrieb Akku Status sinkt schnell ansonsten ist es sehr sch\u00f6n und gut verarbeitet \ud83d\udc4d\ud83c\udffb",
+                            "publication_date": "2023-04-28 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 18,
+                            "rank_absolute": 18,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 February 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Lory",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AE6JFVGV6SX7DQGGIRURDGPAWEGQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Funktioniert perfekt",
+                            "url": "https://amazon.de/gp/customer-reviews/R1MFRHBQWARTG9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Hab das iPhone seit April 2022 und bin noch selten entt\u00e4uscht worden. Das einzige sind die Nahaufnahmen (Makro) der Photo App. Die sind nicht so scharf, wie man sich's gerne w\u00fcnscht. Wusste ich aber vorher. Hatte schlie\u00dflich die Tests gelesen. Wirklich erstaunlich sind dagegen die Videoaufnahmen. Kompliment an apple.",
+                            "publication_date": "2023-02-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 19,
+                            "rank_absolute": 19,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 December 2021",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jan M.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHIIVCTLM6EBBQKMPQYPS6CNM67Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Spitzen Digitaler Allround Begleiter",
+                            "url": "https://amazon.de/gp/customer-reviews/R1M69MQFMBIJ9Q/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Bin von meinem iPhone XS auf das iPhone 13 umgestiegen, und bereue es nicht :-)\nSpitzen Kamera, habe gestern die Kids beim Schneeh\u00f6hle bauen im Dunkeln fotografiert, echt unglaublich - das bekommt eine teure Spiegelreflex nichtmal hin! Das iPhone macht mehrere Fotos, und rechnet sie dann nach Bildausschnitten mit unterschiedlicher Belichtung zusammen - einfach genial!\nMerkt man auch, wenn man sich ein Foto sofort ansieht, ist es noch etwas verschwommen und es dauert einige Sekunden dann ist es in voller Sch\u00e4rfe und Pracht da :-)\nHabe mir einen 2h Film angesehen und hatte nur mehr 20% Accu, dachte mir das geht sich nie aus - nach dem Film waren noch 12% im Accu - einfach unglaublich!\nHabe fr\u00fcher viel Geld f\u00fcr m\u00f6glichst lautlose Computer ausgegeben (Update so alle 2-3 Jahre), nutze ich zwar beruflich auch noch immer aber privat nutze ich fast nur mehr das Handy - kann eh schon fast alles :-)",
+                            "publication_date": "2021-12-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 20,
+                            "rank_absolute": 20,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 January 2022",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Pesi Erbe",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEYCNFV26YWPXOHY772TQAEHJBNQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Apple ist eben Apple, Qualit\u00e4t ist Qualit\u00e4t.",
+                            "url": "https://amazon.de/gp/customer-reviews/R2BF8DNMSZ9HPI/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Das die Elektronik und das Zubeh\u00f6r von Apple nicht gerade preiswert ist, ist ja nun hinl\u00e4nglich bekannt. Aber Qualit\u00e4t vom Feinsten hat nun mal ihren Preis, da spiegeln sich auch die sehr durchdachten Funktionen in der Entwicklung wider. Das iPhone 13 pro, ich habe mich f\u00fcr das Model mit 256 GB entschieden, macht hierbei einen gewaltigen Schritt nach vorn. Die Wertigkeit ist absolut im oberen Segment anzusiedeln, wenn nicht sogar an der Spitze. Die bis dato von mir gemachten Fotos sind fast wie mit meiner NIKON, klar, nur fast, aber doch schon unglaublich in ihrer Qualit\u00e4t was Sch\u00e4rfe und Farbe betrifft. Das Telefonieren, Sprachnachrichten, Lautst\u00e4rke und was wei\u00df ich noch, alles absolut Top. Ich w\u00fcrde es mir immer wieder kaufen. Ich habe einige Modelle ausgelassen und bin vom iPhone 7 direkt auf das 13er gesprungen. Ich bereue es nicht und kann das iPhone 13 in der pro-Ausf\u00fchrung uneingeschr\u00e4nkt empfehlen. Viel Spa\u00df damit!",
+                            "publication_date": "2022-01-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 21,
+                            "rank_absolute": 21,
+                            "position": "right",
+                            "xpath": "/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 17 May 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Cyro Ferreira",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHQGYUA3EIB6CJICDI7FA2TDXLDQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "vbucks",
+                            "url": "https://amazon.de/gp/customer-reviews/R3EE22Z9Y0HL3Q/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Fortnite battle pass",
+                            "publication_date": "2023-05-17 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 22,
+                            "rank_absolute": 22,
+                            "position": "right",
+                            "xpath": "/div[4]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 18 December 2021",
+                            "helpful_votes": 46,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Alex",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AEPVNZHE7IIZJVENKS2CHS57ST7Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "F\u00fcr mich leider unbrauchbar",
+                            "url": "https://amazon.de/gp/customer-reviews/RSNEZH0I5MH76/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich wollte von meinem Samsung Galaxy S10e zu Apple umsteigen, da fast alle Leute die ich kenne iPhone benutzen und zufrieden sind.\nDa dachte, wenn schon umstieg dann gleich richtig, also habe ich das Flaggschiff geholt und habe mich tierisch drauf gefreut\nDie Entt\u00e4uschung kahm aber relativ schnell.\nGleich beim auspacken merkt man, wow kein Ladeger\u00e4t... Super Apple soll ich das Kabel in die Steckdose rammen?\nDas ladekabel ist das billigste Kabel das ich jemals in der Hand hatte\nIch bin entsetzt dass das unter Apple Leuten als normal angesehen wird\nBei jedem Android Ger\u00e4t war schon immer ein qualitativ hochwertiges Kabel dabei und nat\u00fcrlich ein super Ladeger\u00e4t\nAber naja, alles nicht so tragisch im Endeffekt kommt aufs Handy an\nUnd ich muss sagen die Hardware ist 1a, absolut klasse\nDas tastenlayout ist einfach perfekt, alles genau da wo es hingeh\u00f6rt\nDas Display ist super und die Kamera ist krass!\nAn der Hardware gibt's f\u00fcr mich ( au\u00dfer dem v\u00f6llig veralteten Ladenschluss) nichts zu meckern\nEs ist erschreckend wie veraltet das Betriebssystem von Apple eigentlich ist.\nZahlreiche Features und die ich schon seit Jahren mit meinem Android Ger\u00e4t t\u00e4glich benutze gibt es auf ios einfach nicht.\nIch habe wirklich versucht mit dem Handy klar zu kommen aber es funktioniert f\u00fcr mich einfach nicht, alles was auf einmal nicht mehr geht nervt tierisch und macht die Bedienung unn\u00f6tig aufwendig.\nIch habe mit einem Kollegen gesprochen der ebenfalls auf Apple umgestiegen ist und er meint dass der Umstieg zu Apple wirklich schwer ist und dass er selbst nach einem Jahr immer noch frustriert ist weil ihm Funktionen fehlen.\nIch wollte es schon zur\u00fcck schicken aber ich konnte es noch meiner Freundin andrehen.\nSie hat sowieso bisher immer nur iPhones gehabt, die \u00fcbrigens alle fr\u00fcher oder sp\u00e4ter irgendwelche defekte hatten (vielleicht Pech oder auch miese Qualit\u00e4t)\nJedenfalls ist sie begeistert von dem iPhone 13pro, vor allem von der Kamera\nDas Fazit ist wohl, wer schon immer Apple hatte und f\u00fcr den kein Android Ger\u00e4t in Frage kommt: Geiles Handy, sehr empfehlenswert.\nF\u00fcr jemanden der umsteigen will zu Apple: lass es einfach, ohne Witz, du wirst es bereuen.\nUnd f\u00fcr alle anderen: probiert lieber ein Android in der gleichen Preisklasse die Software ist Apple Jahre voraus.",
+                            "publication_date": "2021-12-18 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 23,
+                            "rank_absolute": 23,
+                            "position": "right",
+                            "xpath": "/div[5]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 January 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Niklas Thierbach",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AF4XRNUWTSNYS7QLXHR2BYMKIA2Q/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Geniales Smartphone",
+                            "url": "https://amazon.de/gp/customer-reviews/R1H2SXLFLZUKUM/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Das Beste Smartphone welches ich jemals besessen habe. Ja, auch hier bezahlt man zum Gro\u00dfteil den Namen und ich werde mir auch keines der Nachfolger Modelle zulegen, da die Preispolitik einfach eine Frechheit ist, aber solange man nur Stumpf nach Namen \"Apple\" oder \"Iphone\" kauft, scheint es ja eh jedem egal zu sein. Ger\u00e4t Top, Preis einfach der gr\u00f6\u00dfte Flop!",
+                            "publication_date": "2023-01-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 24,
+                            "rank_absolute": 24,
+                            "position": "right",
+                            "xpath": "/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 1 February 2023",
+                            "helpful_votes": 2,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Bastian W.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFKPMVVXGA5YS7AZR7LQLYN4THPA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Top Smartphone",
+                            "url": "https://amazon.de/gp/customer-reviews/R1GZPTAPLILMB1/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Benutze es seit gut einem Jahr und bin nach wie vor absolut zufrieden. Kann den Kauf auch im Jahr 2023 noch weiter empfehlen, da ich der Meinung bin, dass sich das iPhone 14 nicht lohnt.",
+                            "publication_date": "2023-02-01 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 25,
+                            "rank_absolute": 25,
+                            "position": "right",
+                            "xpath": "/div[7]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 2 November 2022",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "B.Mx",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHKVNJ6YYG7WEUEMEERBWKBW3T2A/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Tolle Kamera. preislich sehr gehoben",
+                            "url": "https://amazon.de/gp/customer-reviews/R9O1VEJI7F1T9/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Ich bin vom iPhone XS auf dieses iPhone umgestiegen. Die Kamera Qualit\u00e4t ist wirklich toll. Dann Gewicht merkt man einen sehr hohen unterschied, das Handy ist wirklich schwer. Der Akku h\u00e4lt gleich den ganzen Tag auch wenn ich das Handy mehr verwende. preislich  finde ich Apple Ger\u00e4te Schon ziemlich \u00fcberteuert\u2026 Jedoch wenn man einmal ein iPhone hat ist es einfach so simpel iPhone zu bleiben\u2026",
+                            "publication_date": "2022-11-02 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 26,
+                            "rank_absolute": 26,
+                            "position": "right",
+                            "xpath": "/div[8]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 11 March 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Morgenstern M.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFTABLKYKQ2XCGPVRNML43FEC7EQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Sehr geiles IPhone",
+                            "url": "https://amazon.de/gp/customer-reviews/R3KRCG1Z93HGWX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Bin Begeistert wie von Apple zu erwarten, das Phone ist Top und l\u00e4sst zumindest f\u00fcr mich keine W\u00fcnsche offen.",
+                            "publication_date": "2023-03-11 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 27,
+                            "rank_absolute": 27,
+                            "position": "right",
+                            "xpath": "/div[9]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 May 2023",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Jefe",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/dd6e3dd2-4003-4d57-bb61-a37d74a709b3._CR83,0,333,333_SX48_.jpg",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AET5HJXMAQSQZCXCWWZV6QN6AJRQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mittelm\u00e4\u00dfige Qualit\u00e4t",
+                            "url": "https://amazon.de/gp/customer-reviews/R2OYRGWMF829MD/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Mir hat die Stabilit\u00e4t nicht gefallen, es h\u00e4ngen sich des \u00f6fteren Apps auf und ich mu\u00df das Ger\u00e4t neu starten. Dann wird es beim Laden und beim Betrieb schnell sehr hei\u00df. Die Batterielaufzeit ist auch nicht so toll. Bei Filmaufnahmen stellt der Autofokus gerne mal unscharf. Hat mir unz\u00e4hlige Aufnahmen versaut.",
+                            "publication_date": "2023-05-23 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 28,
+                            "rank_absolute": 28,
+                            "position": "right",
+                            "xpath": "/div[10]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 19 November 2022",
+                            "helpful_votes": 6,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Amazon Kunde",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AFTOIVLYEXZKE2EBXPRLQVSKEMEQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Kaufempfehlung!",
+                            "url": "https://amazon.de/gp/customer-reviews/R1G9DW6GX8FI17/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "Im Vergleich zu meinem IPhone 11 ein Quantensprung beim Fotografieren und selbst bei der Akkulaufzeit:\nVerwackelte Fotos sind kaum noch m\u00f6glich!\nNaturgetreue Farben!\nDer 11er Akku war, bei h\u00e4ufigem Forografieren, oft schon mittags leer, der vom 13 Pro h\u00e4lt jetzt 1 Tag durch!\nHabe keine 2. Kamera mitgenommen und bin mit den Fotos vollkommen zufrieden!",
+                            "publication_date": "2022-11-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 29,
+                            "rank_absolute": 29,
+                            "position": "right",
+                            "xpath": "/div[11]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 16 August 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Kunal Wani",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AHJDCJBL4LIKAQF4MVTXKYHGIAZQ/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Amazing",
+                            "url": "https://amazon.de/gp/customer-reviews/R28FEJ64TMR7ED/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "All features are awesome. Picture quality, Video quality which is like you can use it anytime for vlogging. Nightlight photography is also good. Most important is it is very handy to use with the screen size and the battery life is also great of you are using on regular basis. It will go around 1-1.5 days. Sharing this experience after using it for 3 weeks.",
+                            "publication_date": "2022-08-16 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 30,
+                            "rank_absolute": 30,
+                            "position": "right",
+                            "xpath": "/div[12]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 23 September 2022",
+                            "helpful_votes": 1,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "G.M.",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/gp/profile/amzn1.account.AGHZOPUTTDHH3ADXQWFRHPPRQLTA/ref=cm_cr_getr_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Hervorragende Hardware-Qualit\u00e4t gepaart mit ausgereifter Software",
+                            "url": "https://amazon.de/gp/customer-reviews/R3BSPHP48P35XH/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=B09G9GTBZD",
+                            "review_text": "iPhone 13 Pro: Tadellose Verarbeitung, \u00e4sthetisch sehr ansprechend (Farbe Alpingr\u00fcn sieht super aus), liegt gut in der Hand, Gewicht ist okay.\nSoftware (iOS 16), Funktionen, Apps, iCloud-Einbindung etc. laufen sehr fl\u00fcssig. Die ausgezeichneten Kameras erm\u00f6glichen erstaunlich hochwertige Foto- und Videoaufnahmen. Akkulaufzeit passt (ich werde mir aber vorsichtshalber, f\u00fcr den Fall gr\u00f6\u00dferer Tagestouren und Videoaufzeichnungen, eine MagSafe Powerbank zulegen). FaceID (mein erstes iPhone mit FaceID) funktioniert problemlos.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

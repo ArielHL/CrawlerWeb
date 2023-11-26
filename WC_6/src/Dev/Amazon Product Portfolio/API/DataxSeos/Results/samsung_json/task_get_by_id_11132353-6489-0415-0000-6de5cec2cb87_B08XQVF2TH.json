@@ -1,0 +1,191 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0622 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11132353-6489-0415-0000-6de5cec2cb87",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0234 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "amazon",
+                "reviews",
+                "task_get",
+                "advanced",
+                "11132353-6489-0415-0000-6de5cec2cb87"
+            ],
+            "data": {
+                "se_type": "reviews",
+                "api": "merchant",
+                "function": "reviews",
+                "se": "amazon",
+                "location_name": "Germany",
+                "language_name": "English (United States)",
+                "tag": "B08XQVF2TH",
+                "asin": "B08XQVF2TH",
+                "depth": 30,
+                "device": "desktop",
+                "os": "windows"
+            },
+            "result": [
+                {
+                    "asin": "B08XQVF2TH",
+                    "type": "reviews",
+                    "se_domain": "amazon.de",
+                    "location_code": 2276,
+                    "language_code": "en_US",
+                    "check_url": "https://www.amazon.de/product-reviews/B08XQVF2TH?ie=UTF8&pageNumber=1&language=en&pageSize=10",
+                    "datetime": "2023-11-13 21:53:56 +00:00",
+                    "spell": null,
+                    "title": "Samsung Galaxy S20 FE Dual SIM Smartphone 128GB Rot Cloud Red...",
+                    "image": {
+                        "type": "images_element",
+                        "alt": "Samsung Galaxy S20 FE Dual SIM Smartphone 128GB Rot Cloud Red (General\u00fcberholt)",
+                        "url": "https://amazon.de/-/en/dp/B08XQVF2TH/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8",
+                        "image_url": "https://m.media-amazon.com/images/I/418XWIg4+pL._AC_US60_SCLZZZZZZZ__.jpg"
+                    },
+                    "rating": {
+                        "type": "rating_element",
+                        "position": "left",
+                        "rating_type": "Max5",
+                        "value": "4.3",
+                        "votes_count": 22,
+                        "rating_max": "5"
+                    },
+                    "reviews_count": 4,
+                    "item_types": [
+                        "amazon_review_item"
+                    ],
+                    "items_count": 4,
+                    "items": [
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 1,
+                            "rank_absolute": 1,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[2]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 14 September 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Heite",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AGKYN7AUSBBZH5JLBDE62M3EA4UQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Speichererweiterung durch externe Speicherkarte",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R1SPUQ5ZMQL1OG/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B08XQVF2TH",
+                            "review_text": "Ich habe mir erst ein neues Samsung f\u00fcr 500 Euro gekauft und war v\u00f6llig entsetzt, dass ich bei diesem neuen und teuren Modell den Speicherplatz nicht per Micro SD Speicherkarte erweitern konnte.\nDaher habe ich mich wieder f\u00fcr dieses Handymodell entschieden.",
+                            "publication_date": null,
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 5,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 2,
+                            "rank_absolute": 2,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[3]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in Germany on 27 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Tanja Fischer",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AEBE3RGZC57QUN77P545JT6D3IMQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Samsung s20Fe",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R37RKWAQXMHNF4/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B08XQVF2TH",
+                            "review_text": "Das Smartphone ist im einwandfreien Zustand leider wurde jedoch kein ladekabel dazu geliefert und auch kein Orginalkarton",
+                            "publication_date": "2023-07-27 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 4,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 3,
+                            "rank_absolute": 3,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[4]/div[1]/div[1]",
+                            "verified": false,
+                            "subtitle": "Reviewed in Germany on 31 July 2023",
+                            "helpful_votes": null,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "Mick",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": "https://amazon.de/-/en/gp/profile/amzn1.account.AHT2C4NDEQVA7PL3ZKUNNGOYIVZQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+                                "reviews_count": null,
+                                "locations": "DE"
+                            },
+                            "title": "Mein letztes Samsung",
+                            "url": "https://amazon.de/-/en/gp/customer-reviews/R10GVQBRO93IQ3/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B08XQVF2TH",
+                            "review_text": "Vor knapp zwei Jahren f\u00fcr fast 500 Euro gekauft. Von Anfang an, haben die vielen, nicht deinstallierbaren unn\u00f6tigen Apps jede Menge Speicher und Akku gefressen. Eine Bildschirmsperre die in der Hosentasche ein Gesicht erkennt oder zuf\u00e4llig die f\u00fcnfstellige Pin wei\u00df. Dadurch werden st\u00e4ndig Screenshots gemacht (bis zu 80 am Tag), merkw\u00fcrdige Webseiten aufgerufen oder sogar mitten in der Nacht Freunde angerufen, wovon man nichts merkt. Nervt einfach nur. Jetzt ist, kurz vor Ablauf der Garantie das untere Mikrofon defekt und die lapidare Antwort vom H\u00e4ndler ist, \"wir schicken es ein aber es wird ein paar Wochen weg sein. Alles zusammen sagt mir: nie wieder Samsung. Sehr entt\u00e4uschend",
+                            "publication_date": "2023-07-31 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 2,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        },
+                        {
+                            "type": "amazon_review_item",
+                            "rank_group": 4,
+                            "rank_absolute": 4,
+                            "position": "right",
+                            "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[5]/div[3]/div[1]/div[6]/div[1]/div[1]",
+                            "verified": true,
+                            "subtitle": "Reviewed in France on 19 December 2022",
+                            "helpful_votes": 4,
+                            "images": null,
+                            "videos": null,
+                            "user_profile": {
+                                "name": "OUMOU DEME",
+                                "avatar": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/default._CR0,0,1024,1024_SX48_.png",
+                                "url": null,
+                                "reviews_count": null,
+                                "locations": "FR"
+                            },
+                            "title": "BATTERIE",
+                            "url": null,
+                            "review_text": "BONJOUR , JE SUIS SATISFAITE NEANMOINS LA BATTERIE NE TIENS PAS DU TOUT JE SUIS DEGOUTER.",
+                            "publication_date": "2022-12-19 00:00:00 +00:00",
+                            "rating": {
+                                "rating_type": "Max5",
+                                "value": 3,
+                                "votes_count": null,
+                                "rating_max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

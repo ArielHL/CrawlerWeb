@@ -1,0 +1,43 @@
+{
+    "version": "0.1.20230825",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1265 sec.",
+    "cost": 0,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "11160104-6489-0180-0000-fd3a601a9147",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0702 sec.",
+            "cost": 0,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "merchant",
+                "google",
+                "products",
+                "tasks_ready"
+            ],
+            "data": {
+                "se_type": "shopping",
+                "se": "google",
+                "api": "merchant",
+                "function": "products"
+            },
+            "result": [
+                {
+                    "id": "11160048-6489-0179-0000-642c90dc04ec",
+                    "se": "google",
+                    "se_type": "shopping",
+                    "date_posted": "2023-11-15 22:48:53 +00:00",
+                    "tag": "samsung s23",
+                    "endpoint_advanced": "/v3/merchant/google/products/task_get/advanced/11160048-6489-0179-0000-642c90dc04ec",
+                    "endpoint_html": "/v3/merchant/google/products/task_get/html/11160048-6489-0179-0000-642c90dc04ec"
+                }
+            ]
+        }
+    ]
+}
