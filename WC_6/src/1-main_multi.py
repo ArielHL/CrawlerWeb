@@ -19,8 +19,10 @@ from MiddleWares.CustomLogger import CustomLogger
 
 output_path = Path(__file__).parents[2].joinpath('Output')
 logger_path = Path(__file__).parents[0].joinpath('Logs')
+results_path = Path(__file__).parents[2].joinpath('Output','Results_2')
 logger_path.mkdir(parents=True, exist_ok=True)
 output_path.mkdir(parents=True, exist_ok=True)
+results_path.mkdir(parents=True, exist_ok=True)
 logger_file=logger_path.joinpath('log.txt')
 
 # setting the logger
@@ -32,11 +34,12 @@ logger = CustomLogger(name=__name__,
 
 # **************************************************** SETTINGS ****************************************************
 
-SORT_WORDS_LIST = ['Pflegequalität','Lebensqualität','Sicherheit','Aktivitäten und Gemeinschaft','Personalqualifikation']
-NUMBER_OF_THREADS = 5
+SOURCE_FILE_NAME='url_cata_2.xlsx'
+SORT_WORDS_LIST = []
+NUMBER_OF_THREADS = 10
 CRAWLED_SIZE_LIMIT = 50
 LINKS_LIMIT = 25
-CHUNK_SIZE = 25
+CHUNK_SIZE = 500
 
 # *******************************************************************************************************************
 
@@ -69,8 +72,7 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
                     links_limit=LINKS_LIMIT,
                     project_path=PROJECT_PATH
                 )
-
-
+    
     def crawl():
         """
         Read queue and crawled file into memory
@@ -85,16 +87,13 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
                 
             except RuntimeError as e:
                 logger.error(f'RuntimeError: {str(e)}')    
-       
 
-        
     def create_workers():
         """
         Create worker threads (will die when main exits)
         
         """
-     
-     
+
         for _ in range(NUMBER_OF_THREADS):
             t = threading.Thread(target=work,daemon=False)
             t.start()
@@ -131,7 +130,7 @@ def main(project_name: str, homepage: str, total_links: int, sum_df_list: list, 
     # logger.info(f'\nCompany: {PROJECT_NAME} Processed : {len(spider.crawled)} links    \nFinished in {round(end-start,2)} seconds')
 
     with sum_df_lock:
-        company_dict={'Company':PROJECT_NAME,'Links':len(spider.crawled),'Time':round(end-start,2)}
+        company_dict={'Company':PROJECT_NAME,'url_base':HOMEPAGE,'Links':len(spider.crawled),'Time':round(end-start,2)}
         sum_df_list.append(company_dict)
     progress_bar.close()
         
@@ -144,15 +143,26 @@ if __name__ == '__main__':
     logger.enable_terminal_logging()
     logger.info('Starting the process')
     source_path = Path(__file__).parents[1].joinpath('Source')
-    source_file = source_path.joinpath('URLs_for_crawler_v2.xlsx')
+    source_file = source_path.joinpath(SOURCE_FILE_NAME)
     logger.info(f'Reading Source file: {source_file}')
     df=pd.read_excel(source_file)
+    df.drop_duplicates(subset=['WebSite'],inplace=True)
+    df['Company']=df['Company'].apply(lambda text: remove_special_characters(text))
     
-   
-    
+    # 1. update protocol of websites
+    ulr_crawl_modified = source_path.joinpath('Url_to_Crawl_modified.xlsx')
+    if not ulr_crawl_modified.exists():
+        logger.info(f'starting updating protocol of websites over: {len(df)} rows')
+        df=protocol_handler(df)
+        df.to_excel(source_path.joinpath('Url_to_Crawl_modified.xlsx'),index=False)
+        logger.info(f'Finished updating protocol of websites over: {len(df)} rows')
+    else:
+        logger.info(f'File already exists. Skipping updating protocol of websites over: {len(df)} rows')
+        df=pd.read_excel(ulr_crawl_modified)
+        
+        
     # Setting number of workers (one for company)
-    
-    num_cores = multiprocessing.cpu_count()
+    num_cores = multiprocessing.cpu_count()*2
     
     logger.info(f'Starting Multiprocess with Number of workers: {num_cores}')
     with multiprocessing.Manager() as manager:
@@ -166,20 +176,21 @@ if __name__ == '__main__':
         num_chunks = len(df) // CHUNK_SIZE + (len(df) % CHUNK_SIZE != 0)
         for i in range(num_chunks):
             logger.info(f'Starting Chunk: {i+1} of {num_chunks}')
+            logger.info('*'*160)
             start_idx = i * CHUNK_SIZE
             end_idx = (i + 1) * CHUNK_SIZE
             chunk_df = df[start_idx:end_idx]
     
             # Create a multiprocessing pool
             with multiprocessing.Pool(processes=num_cores) as pool:
-                pool.starmap(main, [(row['Company'], row['WebSite'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in chunk_df.iterrows()])
+                pool.starmap(main, [(row['Company'], row['WebSite_full'],CRAWLED_SIZE_LIMIT,sum_df_list,sum_df_lock) for index, row in chunk_df.iterrows()])
         
 
         end=time.perf_counter()
         
         # Convert the shared list to a DataFrame
         sum_df = pd.DataFrame(list(sum_df_list))
-        sum_df.to_excel(output_path.joinpath('Companies','Summary.xlsx'), index=False)
+        sum_df.to_excel(results_path.joinpath('Summary.xlsx'), index=False)
         logger.info(f'\nFinished Complete process in {round(end-start,2)} seconds')
     
     

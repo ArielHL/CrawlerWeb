@@ -1,5 +1,6 @@
 from urllib.request import urlopen, Request
 from urllib import error
+import socket
 from Spiders.link_finder import LinkFinder
 from MiddleWares.middlewares import *
 from MiddleWares.CustomLogger import CustomLogger
@@ -71,7 +72,6 @@ class Spider:
         
         # define object parameters
         self.html_string_status = False
-        
         self.boot()
         self.crawl_page('First spider',Spider.base_url)
     
@@ -89,7 +89,7 @@ class Spider:
         # load queue and crawled files
         Spider.queue = file_to_list(file_name=Spider.queue_file,dict_key='url')
         Spider.crawled_df = file_to_df(file_name=Spider.crawled_df_file)
-        Spider.crawled = Spider.crawled_df['url'].tolist()
+        Spider.crawled = Spider.crawled_df['url'].tolist()                              # reading the crawled list from the crawled_df
         
   
     def crawl_page(self,thread_name:str,page_url:str):
@@ -113,23 +113,30 @@ class Spider:
             # logger.info('thread '+ thread_name +' | Queue ' + str(len(Spider.queue)) + ' | crawled ' + str(len(Spider.crawled)) + '| % ' + str(perct*100))
             
             # gather links from page_url
-            links,html_string,language = Spider.gather_links(self,page_url)
+            links,html_string,language,linkedin_profile = Spider.gather_links(self,page_url)
             
             with list_lock:
                 
                 # add links to queue
                 Spider.add_links_to_queue(links=links,links_limit=Spider.links_limit)
-   
+                
                 # remove page_url from queue and add to crawled (cause has been crawled)
                 list_remove(value=page_url,my_list=Spider.queue)
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} removing from queue: page: {page_url}')
+                
                 # add page_url to crawled
                 list_add(value=page_url,my_list=Spider.crawled) if self.html_string_status else None
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} adding to crawled: page: {page_url}')
+                
                 # add data to df
                 Spider.add_data_to_df(  project_name=Spider.project_name,
                                         url_base=Spider.base_url,   
                                         url=page_url,
                                         html_string=html_string,
-                                        html_lang=language  ) if self.html_string_status else None      
+                                        html_lang=language,
+                                        linkedin_profile=linkedin_profile) if self.html_string_status else None 
+                
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} adding to df: page: {page_url}')     
             
             # Sort the links
             Spider.queue=Spider.sort_links(keywords=Spider.sort_keywords_list,target_list=Spider.queue)    
@@ -138,6 +145,7 @@ class Spider:
             with update_lock:
                 # update queue and crawled files
                 Spider.update_files()
+                logger.info(f'Project: {Spider.project_name}, worker:  {thread_name} updating files: page: {page_url}')
       
             
     
@@ -162,7 +170,7 @@ class Spider:
         
         try:
             request = Request(page_url,headers=header)
-            response = urlopen(request)
+            response = urlopen(request,timeout=5)
             response_status = response.getcode()
             
             # Checking if the response is valid
@@ -188,14 +196,22 @@ class Spider:
 
                     max_string = max(first_string, key=len)                                                                  
                     language = detect(max_string)  
-                
+                    
+        except error.HTTPError as e:
+             logger.error(f"HTTP Error: {e.code} - {e.reason}")
+             
+        except error.URLError as e:
+            if isinstance(e.reason, socket.timeout):
+                logger.error("Request timed out.")
+            else:
+                logger.error(f"URL Error: {e.reason}")        
                 
         except Exception as e:
-            # logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
+            logger.error(f'Page {page_url} could not be crawled due to {str(e)} will be excluded from the queue')
             self.html_string_status = False
-            return list(),None,None
+            return list(),None,None,None
         
-        return finder.page_links(),html_string,language
+        return finder.page_links,html_string,language,finder.linkedin_profile
     
     @staticmethod
     def add_html_string(html_string:str) -> None:
@@ -276,14 +292,12 @@ class Spider:
     
     
     @staticmethod
-    def add_data_to_df (project_name:str,url_base:str,url:str,html_string:str,html_lang:str) -> None:
+    def add_data_to_df (project_name:str,url_base:str,url:str,html_string:str,html_lang:str,linkedin_profile:str) -> None:
         
-        new_df=pd.DataFrame({'Project':project_name,'url_base':url_base,'url':[url],'html_string':[html_string],'html_lang':[html_lang]})
+        new_df=pd.DataFrame({'Project':project_name,'url_base':url_base,'url':[url],'html_string':[html_string],'html_lang':[html_lang],'linkedin_profile':[linkedin_profile]})
         Spider.crawled_df=pd.concat([Spider.crawled_df,new_df],ignore_index=True)
     
-    
-    
-            
+
     @staticmethod
     def update_files():
         list_to_file(links=Spider.queue, 

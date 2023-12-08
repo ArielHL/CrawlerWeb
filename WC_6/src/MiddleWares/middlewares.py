@@ -4,13 +4,15 @@ from pathlib import Path
 import concurrent.futures
 from typing import *
 import requests
-from urllib.parse import urlparse
 from urllib.request import urlopen
 import pandas as pd
-import numpy as np
 import json
 import tldextract
-import threading
+import re
+from bs4 import BeautifulSoup
+from tqdm import tqdm
+from urllib.parse import urlparse, urlunparse
+from concurrent.futures import ThreadPoolExecutor
 
 
 # create a project directory
@@ -55,7 +57,7 @@ def create_data_files(  project_name:str,
     """
 
     queue_dict={'Project':project_name,'url_base':base_url,'url':[base_url]}
-    crawled_dict={'Project':project_name,'url_base':base_url,'url':list(),'html_string':list(),'html_lang':list()}
+    crawled_dict={'Project':project_name,'url_base':base_url,'url':list(),'html_string':list(),'html_lang':list(),'linkedin_profile':list()}
     
     crawled_df=pd.DataFrame(crawled_dict)
 
@@ -92,8 +94,9 @@ def file_to_list(file_name:Path,dict_key:str) -> List[str]:
 
 
 def file_to_df(file_name:Path) -> pd.DataFrame:
-  
-    return pd.read_parquet(file_name)
+        
+        return pd.read_parquet(file_name)
+   
 
 
 
@@ -182,3 +185,119 @@ def check_url(url_list):
             new_list.append(url)
 
     return new_list
+
+def remove_special_characters(input_string):
+    # Use regular expression to remove special characters, excluding spaces
+    cleaned_string = re.sub(r'[^a-zA-Z\s]', '', input_string)
+    cleaned_string = cleaned_string.strip()
+    cleaned_string = cleaned_string.encode('utf-8')
+    cleaned_string = cleaned_string.decode('utf-8', 'ignore')
+    return cleaned_string
+
+def add_protocol(url:str,
+                 preferred_protocols=['https', 'http']):
+
+    if not urlparse(url).scheme:
+        url = 'http://' + url
+
+    # Parse the URL
+    parsed_url = urlparse(url)
+
+    for protocol in preferred_protocols:
+        try:
+            # Create a new URL with the specified protocol
+            updated_url = check_url_access(urlunparse(parsed_url._replace(scheme=protocol)))
+            return updated_url
+        except ValueError as e:
+            pass    
+        
+    # If none of the preferred protocols work, return the original URL
+    return url
+
+def check_url_access(url):
+    try:
+        response = requests.head(url, timeout=5)
+        response.raise_for_status()
+        return url
+    except requests.RequestException as e:
+        raise ValueError(f"Invalid URL: {url}") from e
+    
+
+def apply_add_protocol(row):
+    return add_protocol(row[2])
+
+
+def protocol_handler(df:pd.DataFrame) -> pd.DataFrame:
+    with ThreadPoolExecutor(max_workers=50) as executor:
+        df['WebSite_full'] = list(tqdm(executor.map(apply_add_protocol, df.itertuples(), chunksize=10), total=len(df)))
+    return df
+
+ 
+    
+def df_combiner(output_path:Path) -> pd.DataFrame:
+    
+    full_df = pd.DataFrame()
+    with tqdm(total=len(list(output_path.iterdir()))) as pbar:
+        for company_dir in output_path.iterdir():
+            if company_dir.is_dir():
+                crawled_file = company_dir / "crawled_df.parquet"
+                if crawled_file.is_file():
+                    try:
+                        df=pd.read_parquet(crawled_file)
+                        full_df = pd.concat([full_df, df], ignore_index=True)
+                        pbar.update(1)
+                    except Exception as e:
+                        print(f'Error: {e}')
+    
+    full_df.dropna(subset=['html_string'],inplace=True)
+    
+    return full_df
+
+# Function to count occurrences of target words in a list
+def count_words_in_list(sentence, target_words):
+    sentence_lower = sentence.lower()
+    word_counts = {word: sentence_lower.count(word.lower()) for word in target_words}
+    return word_counts
+    
+
+def multi_count_words_in_list(row, target_df:pd.DataFrame):
+    
+    language=row['html_lang']
+    sentence=row['text']
+    
+    if isinstance(target_df, pd.DataFrame):
+        target_words=target_df[target_df['Language']==language]['Keyword Original'].tolist()
+    else:
+        print(f'{target_df} is not a dataframe')
+    
+    sentence_lower = sentence.lower()
+    word_counts = {f'{language}-{word}': sentence_lower.count(word.lower()) for word in target_words}
+    
+    return word_counts
+
+
+
+def html_to_text(html: str,logger:Callable):
+    try:
+        soup = BeautifulSoup(html, 'html.parser')
+        text = soup.get_text()
+        list_of_string = text.split("\n")   
+        final_text = [part_of_text.strip(" ") for part_of_text in list_of_string if part_of_text]   
+        plain_text = ' '.join(final_text)
+        
+
+        return plain_text
+    
+    except Exception as e:
+        logger(f"Error: {str(e)} with html: ", html)
+        pass
+    
+def neo_html_to_text(html_strings: str, logger: Callable):
+    for html in tqdm(html_strings):
+        try:
+            soup = BeautifulSoup(html, 'html.parser')
+            text = soup.get_text(separator=' ', strip=True)
+            yield text
+        except (AttributeError, TypeError) as e:
+            logger(f"Error: {str(e)} with html: {html}")
+            pass

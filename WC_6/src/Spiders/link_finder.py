@@ -34,6 +34,7 @@ class LinkFinder(HTMLParser):
         self._links = list()
         self._max_links = max_links
         self._links_extracted = 0
+        self._linkedin_profile = None # will contain the linkedin profile links
     
 
     def error(self,message):
@@ -48,12 +49,17 @@ class LinkFinder(HTMLParser):
                     if value != '':
                         url = urljoin(self._base_url,value)
                         # add here a sort logic
-                        list_add(value=url,my_list=self._links)
-            
-                   
-
+                        list_add(value=url,
+                                 my_list=self._links)
+                        
+                        if 'linkedin.com/company' in value:
+                            self._linkedin_profile = value
+    @property
     def page_links(self):   
         return self._links
+    @property
+    def linkedin_profile(self):
+        return self._linkedin_profile
 
 
 
