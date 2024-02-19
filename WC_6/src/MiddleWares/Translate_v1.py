@@ -36,7 +36,7 @@ class Translator:
 
     @staticmethod
     def translate_text_short(sentence):
-        time.sleep(random.random()*1.5)
+        
         if len(sentence) > 4500:
             sentence = sentence[:4500]
         translated_text = Translator.translate_model.translate(sentence)
