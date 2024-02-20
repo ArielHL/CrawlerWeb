@@ -18,7 +18,7 @@ tqdm.pandas()
 
 
 output_path=Path(__file__).parents[2].joinpath('Output','Companies')
-results_path=Path(__file__).parents[2].joinpath('Output','Results_3')
+results_path=Path(__file__).parents[2].joinpath('Output','Results')
 results_path.mkdir(parents=True, exist_ok=True)
 
 logger_path = Path(__file__).parents[0].joinpath('Logs')
