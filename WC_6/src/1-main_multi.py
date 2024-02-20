@@ -19,7 +19,7 @@ from MiddleWares.CustomLogger import CustomLogger
 
 output_path = Path(__file__).parents[2].joinpath('Output')
 logger_path = Path(__file__).parents[0].joinpath('Logs')
-results_path = Path(__file__).parents[2].joinpath('Output','Results_3')
+results_path = Path(__file__).parents[2].joinpath('Output','Results')
 logger_path.mkdir(parents=True, exist_ok=True)
 output_path.mkdir(parents=True, exist_ok=True)
 results_path.mkdir(parents=True, exist_ok=True)
@@ -34,7 +34,7 @@ logger = CustomLogger(name=__name__,
 
 # **************************************************** SETTINGS ****************************************************
 
-SOURCE_FILE_NAME='url_cata_3.xlsx'
+SOURCE_FILE_NAME='url_base.xlsx'
 RUN_PROTOCOL_CHECK = False
 SORT_WORDS_LIST = []
 NUMBER_OF_THREADS = 10
